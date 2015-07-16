@@ -1,0 +1,58 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: LRPThesis.aux
+A level-1 auxiliary file: chapter1/chapter1.aux
+A level-1 auxiliary file: chapter2/chapter2.aux
+A level-1 auxiliary file: appendix1/appendix1.aux
+The style file: mn2e.bst
+Database file #1: journals.bib
+Warning--I didn't find a database entry for "Conway2000"
+Warning--I didn't find a database entry for "Davies-prep"
+Warning--I didn't find a database entry for "Przybilla02"
+Warning--I didn't find a database entry for "1998ApJ...501..153M"
+Warning--I didn't find a database entry for "2008SPIE.7019E..0TW"
+Warning--I didn't find a database entry for "molecfit"
+Warning--I didn't find a database entry for "abramowitz+stegun"
+Warning--empty publisher in 1988mcts.book.....H
+You've used 54 entries,
+            2938 wiz_defined-function locations,
+            967 strings with 18957 characters,
+and the built_in function-call counts, 33974 in all, are:
+= -- 2441
+> -- 3787
+< -- 0
++ -- 1218
+- -- 1182
+* -- 2955
+:= -- 6468
+add.period$ -- 0
+call.type$ -- 54
+change.case$ -- 595
+chr.to.int$ -- 52
+cite$ -- 55
+duplicate$ -- 914
+empty$ -- 1405
+format.name$ -- 1284
+if$ -- 6550
+int.to.chr$ -- 3
+int.to.str$ -- 1
+missing$ -- 54
+newline$ -- 166
+num.names$ -- 216
+pop$ -- 530
+preamble$ -- 1
+purify$ -- 595
+quote$ -- 0
+skip$ -- 1020
+stack$ -- 0
+substring$ -- 1109
+swap$ -- 58
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 483
+warning$ -- 1
+while$ -- 235
+width$ -- 0
+write$ -- 542
+(There were 8 warnings)

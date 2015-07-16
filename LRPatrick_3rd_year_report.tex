@@ -1,0 +1,115 @@
+% Remove the oneside option below for double sided printing (e.g. for final (post-viva) submission)
+\documentclass[a4paper,12pt,oneside,openright]{book}
+
+% Preamble commands go here
+\usepackage{customisations}
+
+%% Some of the below packages may be useful to thesis writers in Physics
+%% Googling `latex <packagename>' will usually give you some documentation
+% \usepackage[load-configurations=abbreviations]{siunitx} % siunitx typesets physical units in a consistent manner
+\usepackage{booktabs} % booktabs provides professional formatting commands for tables
+\usepackage{amsmath} % amsmath provides extra maths symbols
+\usepackage{textcomp} % textcomp provides extra text symbols (like a degrees celsius symbol)
+% \usepackage{tikz} % tikz is a package for drawing diagrams and adding annotations to figures
+% \usepackage{threeparttable} % threeparttable allows for adding notes to tables
+% \usepackage{eps2pdf} % eps2pdf allows background transformation of eps files to pdfs so they
+%                       work seamlessly with pdflatex. If using this with the LaTeX editor Kile,
+%                       you need to add --shell-escape before '%source', in
+%                       Settings -> Configure Kile... -> Tools -> Build -> build_pdflatex
+
+% End preamble
+
+% REPLACE THESE with your thesis title, your name and the date of submission of the thesis
+\title{Red Supergiant stars as cosmic abundance probes}
+% \title{Near-IR observations of Red Supergiant stars in the Local Group of galaxies}
+% \title{Red Supergiant stars seen in a new light:
+% Infrared properties of RSGs as probes of their chemical and stellar properties}
+% \title{Red Supergiant stars seen in a new light:\\
+% Infrared properties of RSGs as probes of their chemical and stellar properties}
+% \title{Near-IR observations as probes of stellar structure for Red Supergiant
+% stars in the Local Group of galaxies}
+\author{Lee. R. Patrick}
+\date{May 2015} % of submission
+
+\begin{document}
+
+% Thesis front matter - title page, abstract, acknowledgements, declaration and table of contents
+% See customisations.sty to modify the title page or declaration
+\singlespacing
+\maketitlepage
+\frontmatter
+\eighteenptleading
+\input{thesis-frontmatter/abstract}
+
+% \singlespacing
+% % Uncomment this line if you need to declare published work which forms part of the thesis
+% \declarationpublications{Patrick et al. 2015}
+% \makedeclaration
+
+% \input{thesis-frontmatter/acknowledgements}
+
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{\contentsname}
+\setcounter{tocdepth}{2}
+\tableofcontents
+
+% \cleardoublepage
+% \phantomsection
+% \addcontentsline{toc}{chapter}{\listfigurename}
+% \listoffigures
+
+% \cleardoublepage
+% \phantomsection
+% \addcontentsline{toc}{chapter}{\listtablename}
+% \listoftables
+% John's hack for the MNRAS biblography
+\setlength{\bibhang}{2.0em}
+\setlength\labelwidth{0.0em}
+
+% Other commands & definitions:
+\newcommand{\mdot}{\ensuremath{\dot{M}}}
+\newcommand{\msun}{\ensuremath{M_{\odot}}}
+\newcommand{\vsini}{\ensuremath{v_{\rm R} \sin i}}
+\newcommand{\vrot}{\ensuremath{v_{\rm R}}}
+\def\5{\footnotesize V\normalsize}
+\def\4{\footnotesize IV\normalsize}
+\def\3{\footnotesize III\normalsize}
+\def\2{\footnotesize II\normalsize}
+\def\1{\footnotesize I\normalsize}
+\def\lam{$\lambda$}
+\def\kms{$\mbox{km s}^{-1}$}
+\def\p{$\phantom{:}$}
+\def\a{$\phantom{^\ast}$}
+\def\v{$\phantom{^{l}}$}
+\def\pp{$\phantom{-}$}
+\def\o{$\phantom{0}$}
+\def\vr{$v_{\rm r}$}
+
+% Include main matter here
+\mainmatter
+\eighteenptleading
+\include{intro/introsum}
+\include{nearIRsel/nearIRsel}
+\include{JAnal/janalsum}
+\include{ngc6822/ngc6822sum}
+\include{ngc55/ngc55}
+
+
+
+\appendix
+\addtocontents{toc}{\protect\tocappendix}
+% \include{appendix1/appendix1}
+
+\backmatter
+
+\singlespace
+
+% \phantomsection
+% \addcontentsline{toc}{chapter}{\bibname}
+% Choose a bibliography style to suit your taste here
+% This one was downloaded from http://web.reed.edu/cis/help/latex/bibtexstyles.html (June 2012)
+% \bibliographystyle{mn2e}
+% \bibliography{journals}
+
+\end{document}

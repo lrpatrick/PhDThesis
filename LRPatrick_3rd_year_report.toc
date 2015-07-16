@@ -1,0 +1,8 @@
+\contentsline {chapter}{Abstract}{i}{chapter*.2}
+\contentsline {chapter}{Contents}{iii}{section*.3}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Near-IR selection of Red Supergiants}{2}{chapter.2}
+\contentsline {chapter}{\numberline {3}J-band Sythentic Spectral Fitting}{3}{chapter.3}
+\contentsline {chapter}{\numberline {4}KMOS Observations in NGC\tmspace +\thinmuskip {.1667em}6822}{4}{chapter.4}
+\contentsline {chapter}{\numberline {5}Red Supergiants in NGC\tmspace +\thinmuskip {.1667em}55}{5}{chapter.5}
+\contentsfinish 
