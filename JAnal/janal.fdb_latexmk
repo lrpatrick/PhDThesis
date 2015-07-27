@@ -1,12 +1,13 @@
 # Fdb version 3
-["bibtex janal"] 1436954737 "janal.aux" "janal.bbl" "janal" 1436959068
-  "../journals.bib" 1421234948 95549 12f8307037b443958c15b2092bcf7615 ""
-  "janal.aux" 1436959067 2413 f9853c7dabe868ab3942879fb754a492 ""
+["bibtex janal"] 1438010920 "janal.aux" "janal.bbl" "janal" 1438010921
+  "/usr/share/texlive/texmf-dist/bibtex/bst/base/apalike.bst" 1292289607 24635 604dafcc79f521a11ea73e506e1fbd98 ""
+  "janal.aux" 1438010921 5607 208da44db713af38aef2424c8d351419 ""
   "janal.bcf" 0 -1 0 ""
+  "journals.bib" 1437400928 95549 12f8307037b443958c15b2092bcf7615 ""
   (generated)
-  "janal.bbl"
   "janal.blg"
-["pdflatex"] 1436959064 "janal.tex" "janal.pdf" "janal" 1436959068
+  "janal.bbl"
+["pdflatex"] 1438010920 "janal.tex" "janal.pdf" "janal" 1438010921
   "../customisations.sty" 1421229619 5985 482e5cf416cd293e5cafbd32929cda64 ""
   "/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii" 1337017135 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty" 1284331290 1458 43ab4710dc82f3edeabecd0d099626b2 ""
@@ -64,14 +65,16 @@
   "/usr/share/texlive/texmf-dist/tex/latex/titlesec/titletoc.sty" 1324083561 18361 ab84fe8d7245fa5be72cbd85454a0031 ""
   "/usr/share/texlive/texmf-dist/tex/latex/units/nicefrac.sty" 1137111039 4029 0462ee5ab265cf59dc15a41a3b883101 ""
   "/usr/share/texlive/texmf-dist/tex/latex/url/url.sty" 1388531844 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
+  "Diag-lines.png" 1437152123 96839 286f358b0f8d980204736ea157af54d9 ""
   "Resolution.png" 1423136052 75879 efbc8bc52794536d1db3c6a32dd9c167 ""
   "cw.png" 1423216747 59637 6a7ca5422eddd3e612fec0d6e37743ff ""
-  "janal.aux" 1436959067 2413 f9853c7dabe868ab3942879fb754a492 ""
-  "janal.bbl" 1436954737 0 d41d8cd98f00b204e9800998ecf8427e "bibtex janal"
-  "janal.out" 1436959067 116 b0f063cf090e16c1c07c5c735c7978b6 ""
-  "janal.tex" 1436959060 8542 7c7f0372716ec64f58fa03d556e8fadd ""
+  "janal.aux" 1438010921 5607 208da44db713af38aef2424c8d351419 ""
+  "janal.bbl" 1438010920 3086 37bf67b2f714f4bec661bcbf2a113535 "bibtex janal"
+  "janal.out" 1438010921 264 cc44b32743c817ae841939a077888a83 ""
+  "janal.tex" 1438010918 16154 a12dd5912e2b7e675a43a8b9949e6b9f ""
+  "varyZ.png" 1437668394 231463 75acd6b7d769f77b2c345768df4f2820 ""
   (generated)
+  "janal.pdf"
   "janal.aux"
   "janal.log"
   "janal.out"
-  "janal.pdf"
