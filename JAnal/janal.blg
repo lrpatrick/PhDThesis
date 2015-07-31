@@ -3,47 +3,46 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: janal.aux
 The style file: apalike.bst
 Database file #1: ../journals.bib
-Warning--I didn't find a database entry for "..."
 Warning--empty title in 1999PhDT.........3R
-You've used 18 entries,
+You've used 19 entries,
             1935 wiz_defined-function locations,
-            597 strings with 7823 characters,
-and the built_in function-call counts, 8361 in all, are:
-= -- 754
-> -- 515
+            602 strings with 8153 characters,
+and the built_in function-call counts, 9015 in all, are:
+= -- 807
+> -- 578
 < -- 8
-+ -- 185
-- -- 184
-* -- 773
-:= -- 1510
-add.period$ -- 53
-call.type$ -- 18
-change.case$ -- 178
-chr.to.int$ -- 17
-cite$ -- 19
-duplicate$ -- 273
-empty$ -- 487
-format.name$ -- 204
-if$ -- 1587
++ -- 209
+- -- 208
+* -- 842
+:= -- 1633
+add.period$ -- 56
+call.type$ -- 19
+change.case$ -- 195
+chr.to.int$ -- 18
+cite$ -- 20
+duplicate$ -- 287
+empty$ -- 512
+format.name$ -- 229
+if$ -- 1703
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 16
-newline$ -- 92
-num.names$ -- 56
-pop$ -- 159
+missing$ -- 17
+newline$ -- 97
+num.names$ -- 59
+pop$ -- 174
 preamble$ -- 1
-purify$ -- 180
+purify$ -- 197
 quote$ -- 0
-skip$ -- 198
+skip$ -- 208
 stack$ -- 0
-substring$ -- 454
-swap$ -- 37
+substring$ -- 475
+swap$ -- 38
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 108
+type$ -- 114
 warning$ -- 1
-while$ -- 53
+while$ -- 56
 width$ -- 0
-write$ -- 235
-(There were 2 warnings)
+write$ -- 248
+(There was 1 warning)
