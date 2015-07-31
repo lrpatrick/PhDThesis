@@ -34,6 +34,19 @@
   at low spectral resolution}.
 \newblock {\em MNRAS}, 407:1203--1211.
 
+\bibitem[{Davies} et~al., 2015]{2015ApJ...806...21D}
+{Davies}, B., {Kudritzki}, R.-P., {Gazak}, Z., {Plez}, B., {Bergemann}, M.,
+  {Evans}, C., and {Patrick}, L. (2015).
+\newblock {Red Supergiants as Cosmic Abundance Probes: The Magellanic Clouds}.
+\newblock {\em \apj}, 806:21.
+
+\bibitem[{Davies} et~al., 2013]{Davies13b}
+{Davies}, B., {Kudritzki}, R.-P., {Plez}, B., {Bergemann}, M., {Gazak}, Z., and
+  {Evans}, C. (2013).
+\newblock {Red Supergiants as Cosmic Abundance Probes}.
+\newblock In {\em EAS Publications Series}, volume~60 of {\em EAS Publications
+  Series}, pages 287--292.
+
 \bibitem[{Davies} et~al., 2009a]{Davies09a}
 {Davies}, B., {Origlia}, L., {Kudritzki}, R.-P., {Figer}, D.~F., {Rich}, R.~M.,
   and {Najarro}, F. (2009a).
@@ -56,6 +69,18 @@
   J-band spectroscopy with extremely large telescopes}.
 \newblock {\em A\&A}, 527:A50.
 
+\bibitem[{Freytag} et~al., 2002]{2002AN....323..213F}
+{Freytag}, B., {Steffen}, M., and {Dorch}, B. (2002).
+\newblock {Spots on the surface of Betelgeuse -- Results from new 3D stellar
+  convection models}.
+\newblock {\em Astronomische Nachrichten}, 323:213--219.
+
+\bibitem[{Gazak}, 2014]{2014PhDT.........G}
+{Gazak}, J.~K. (2014).
+\newblock {\em {Red Supergiants as Luminous Beacons of Cosmic Chemical
+  Abundances: The Infrared J–Band Spectroscopic Technique}}.
+\newblock PhD thesis, University of Hawaii.
+
 \bibitem[{Gazak} et~al., 2014]{2014ApJ...788...58G}
 {Gazak}, J.~Z., {Davies}, B., {Kudritzki}, R., {Bergemann}, M., and {Plez}, B.
   (2014).
@@ -69,5 +94,30 @@
 \newblock {A grid of MARCS model atmospheres for late-type stars. I. Methods
   and general properties}.
 \newblock {\em A\&A}, 486:951--970.
+
+\bibitem[{Patrick} et~al., 2015]{2015ApJ...803...14P}
+{Patrick}, L.~R., {Evans}, C.~J., {Davies}, B., {Kudritzki}, R.-P., {Gazak},
+  J.~Z., {Bergemann}, M., {Plez}, B., and {Ferguson}, A.~M.~N. (2015).
+\newblock {Red Supergiant Stars as Cosmic Abundance Probes: KMOS Observations
+  in NGC 6822}.
+\newblock {\em \apj}, 803:14.
+
+\bibitem[{Plez}, 2010]{2010ASPC..425..124P}
+{Plez}, B. (2010).
+\newblock {Model Atmospheres for Cool Massive Stars}.
+\newblock In {Leitherer}, C., {Bennett}, P.~D., {Morris}, P.~W., and {Van
+  Loon}, J.~T., editors, {\em Hot and Cool: Bridging Gaps in Massive Star
+  Evolution}, volume 425 of {\em Astronomical Society of the Pacific Conference
+  Series}, page 124.
+
+\bibitem[{Reetz}, 1999]{1999PhDT.........3R}
+{Reetz}, J. (1999).
+\newblock PhD thesis, LMU, Munich.
+
+\bibitem[{V{\'{\i}}lchez} and {Iglesias-P{\'a}ramo}, 1998]{1998ApJ...508..248V}
+{V{\'{\i}}lchez}, J.~M. and {Iglesias-P{\'a}ramo}, J. (1998).
+\newblock {Bidimensional Spectroscopic Mapping and Chemical Abundances of the
+  Star-forming Dwarf Galaxy I ZW 18}.
+\newblock {\em \apj}, 508:248--261.
 
 \end{thebibliography}
