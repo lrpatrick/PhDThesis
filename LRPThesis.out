@@ -14,30 +14,29 @@
 \BOOKMARK [2][-]{subsection.1.2.2}{Galactic and Extragalactic RSGs}{section.1.2}% 14
 \BOOKMARK [1][-]{section.1.3}{Chemical Evolution of Galaxies}{chapter.1}% 15
 \BOOKMARK [0][-]{chapter.2}{J-band Sythentic Spectral Fitting}{}% 16
-\BOOKMARK [1][-]{subsection.2.0.1}{Continuum Fitting}{chapter.2}% 17
-\BOOKMARK [2][-]{subsection.2.0.2}{Best Fit Parameters}{subsection.2.0.1}% 18
-\BOOKMARK [0][-]{chapter.3}{Near-IR selection of Red Supergiants}{}% 19
-\BOOKMARK [0][-]{chapter.4}{KMOS Observations in NGC6822}{}% 20
-\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 21
-\BOOKMARK [1][-]{section.4.2}{Observations}{chapter.4}% 22
-\BOOKMARK [2][-]{subsection.4.2.1}{Target Selection}{section.4.2}% 23
-\BOOKMARK [2][-]{subsection.4.2.2}{KMOS Observations}{section.4.2}% 24
-\BOOKMARK [1][-]{section.4.3}{Data Reduction}{chapter.4}% 25
-\BOOKMARK [2][-]{subsection.4.3.1}{KMOS/esorex pipeline}{section.4.3}% 26
-\BOOKMARK [2][-]{subsection.4.3.2}{Sky Subtraction}{section.4.3}% 27
-\BOOKMARK [2][-]{subsection.4.3.3}{Telluric Correction}{section.4.3}% 28
-\BOOKMARK [2][-]{subsection.4.3.4}{Three-arm vs 24-arm Telluric Correction}{section.4.3}% 29
-\BOOKMARK [2][-]{subsection.4.3.5}{Telluric Correction Implementation}{section.4.3}% 30
-\BOOKMARK [2][-]{subsection.4.3.6}{MOLECFIT}{section.4.3}% 31
-\BOOKMARK [2][-]{subsection.4.3.7}{Stellar Radial Velocities}{section.4.3}% 32
-\BOOKMARK [1][-]{section.4.4}{Results}{chapter.4}% 33
-\BOOKMARK [2][-]{subsection.4.4.1}{Telluric Comparison}{section.4.4}% 34
-\BOOKMARK [2][-]{subsection.4.4.2}{Stellar Parameters and Metallicity}{section.4.4}% 35
-\BOOKMARK [1][-]{section.4.5}{Discussion}{chapter.4}% 36
-\BOOKMARK [2][-]{subsection.4.5.1}{Metallicity Measurements}{section.4.5}% 37
-\BOOKMARK [2][-]{subsection.4.5.2}{Temperatures of RSGs}{section.4.5}% 38
-\BOOKMARK [2][-]{subsection.4.5.3}{AGB Contamination}{section.4.5}% 39
-\BOOKMARK [1][-]{section.4.6}{Conclusions}{chapter.4}% 40
-\BOOKMARK [0][-]{chapter.5}{Red Supergiants in NGC55}{}% 41
-\BOOKMARK [0][-]{appendix.A}{The First Appendix}{}% 42
-\BOOKMARK [0][-]{section*.36}{Bibliography}{}% 43
+\BOOKMARK [0][-]{chapter.3}{Red Supergiants in NGC2100}{}% 17
+\BOOKMARK [0][-]{chapter.4}{KMOS Observations in NGC6822}{}% 18
+\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 19
+\BOOKMARK [1][-]{section.4.2}{Observations}{chapter.4}% 20
+\BOOKMARK [2][-]{subsection.4.2.1}{Target Selection}{section.4.2}% 21
+\BOOKMARK [2][-]{subsection.4.2.2}{KMOS Observations}{section.4.2}% 22
+\BOOKMARK [1][-]{section.4.3}{Data Reduction}{chapter.4}% 23
+\BOOKMARK [2][-]{subsection.4.3.1}{KMOS/esorex pipeline}{section.4.3}% 24
+\BOOKMARK [2][-]{subsection.4.3.2}{Sky Subtraction}{section.4.3}% 25
+\BOOKMARK [2][-]{subsection.4.3.3}{Telluric Correction}{section.4.3}% 26
+\BOOKMARK [2][-]{subsection.4.3.4}{Three-arm vs 24-arm Telluric Correction}{section.4.3}% 27
+\BOOKMARK [2][-]{subsection.4.3.5}{Telluric Correction Implementation}{section.4.3}% 28
+\BOOKMARK [2][-]{subsection.4.3.6}{MOLECFIT}{section.4.3}% 29
+\BOOKMARK [2][-]{subsection.4.3.7}{Stellar Radial Velocities}{section.4.3}% 30
+\BOOKMARK [1][-]{section.4.4}{Results}{chapter.4}% 31
+\BOOKMARK [2][-]{subsection.4.4.1}{Telluric Comparison}{section.4.4}% 32
+\BOOKMARK [2][-]{subsection.4.4.2}{Stellar Parameters and Metallicity}{section.4.4}% 33
+\BOOKMARK [1][-]{section.4.5}{Discussion}{chapter.4}% 34
+\BOOKMARK [2][-]{subsection.4.5.1}{Metallicity Measurements}{section.4.5}% 35
+\BOOKMARK [2][-]{subsection.4.5.2}{Temperatures of RSGs}{section.4.5}% 36
+\BOOKMARK [2][-]{subsection.4.5.3}{AGB Contamination}{section.4.5}% 37
+\BOOKMARK [1][-]{section.4.6}{Conclusions}{chapter.4}% 38
+\BOOKMARK [0][-]{chapter.5}{Red Supergiants in NGC55}{}% 39
+\BOOKMARK [0][-]{chapter.6}{Calibrating the Mass-metallicity relation with RSGs}{}% 40
+\BOOKMARK [0][-]{appendix.A}{The First Appendix}{}% 41
+\BOOKMARK [0][-]{section*.32}{Bibliography}{}% 42

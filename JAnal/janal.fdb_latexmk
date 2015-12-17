@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex janal"] 1438351196 "janal.aux" "janal.bbl" "janal" 1438351198
+["bibtex janal"] 1438588548 "janal.aux" "janal.bbl" "janal" 1438588996
   "../journals.bib" 1438351191 100068 1666287c9da235c0c689e686c116459d ""
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/apalike.bst" 1292289607 24635 604dafcc79f521a11ea73e506e1fbd98 ""
-  "janal.aux" 1438351198 9426 9a1f1f1eedc898588d2c13c5a1386d18 ""
+  "janal.aux" 1438588996 9426 90d37768ab43b28902faed5555573dc7 ""
   "janal.bcf" 0 -1 0 ""
   (generated)
-  "janal.bbl"
   "janal.blg"
-["pdflatex"] 1438351196 "janal.tex" "janal.pdf" "janal" 1438351198
+  "janal.bbl"
+["pdflatex"] 1438588994 "janal.tex" "janal.pdf" "janal" 1438588996
   "../customisations.sty" 1421229619 5985 482e5cf416cd293e5cafbd32929cda64 ""
   "/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii" 1337017135 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty" 1284331290 1458 43ab4710dc82f3edeabecd0d099626b2 ""
@@ -70,10 +70,10 @@
   "cftaction.png" 1438255405 76784 bc94a7b0802ca76670296864ee7b94ea ""
   "compare-DFK10.png" 1438272683 131508 c346d94ce30b98cdee7a61d296d70ead ""
   "cw.png" 1438254899 61381 167ef560d90d3d006a07a2693c1cef26 ""
-  "janal.aux" 1438351198 9426 9a1f1f1eedc898588d2c13c5a1386d18 ""
-  "janal.bbl" 1438351196 5646 0cef1ee8aa43326b0cd9ff7686a70e4f "bibtex janal"
-  "janal.out" 1438351198 405 a5669245cc2640080d4543a036cdad8d ""
-  "janal.tex" 1438351187 33213 38a6706ee659036f4852cc75a9e844f1 ""
+  "janal.aux" 1438588996 9426 90d37768ab43b28902faed5555573dc7 ""
+  "janal.bbl" 1438588548 5646 0cef1ee8aa43326b0cd9ff7686a70e4f "bibtex janal"
+  "janal.out" 1438588996 405 a5669245cc2640080d4543a036cdad8d ""
+  "janal.tex" 1438588994 33314 65046d6376d74eb6ea368e9e952a8706 ""
   "lineonly-test2v22.png" 1438343056 129982 f4bc1a2023af7b60ca55e0129ec98969 ""
   "varyTv2.png" 1438096068 107401 45b1b1f82b84c1873e7728564eca9386 ""
   "varyZ.png" 1437668394 231463 75acd6b7d769f77b2c345768df4f2820 ""
@@ -83,5 +83,5 @@
   (generated)
   "janal.aux"
   "janal.log"
-  "janal.out"
   "janal.pdf"
+  "janal.out"

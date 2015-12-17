@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.8)  31 JUL 2015 14:59
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.8)  3 AUG 2015 09:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -696,15 +696,15 @@ Package pdftex.def Info: compare-DFK10.png used on input line 497.
 [15] [16 <./compare-DFK10.png>]
 File: compare-DFK10.png Graphic file (type png)
  <use compare-DFK10.png>
-Package pdftex.def Info: compare-DFK10.png used on input line 542.
+Package pdftex.def Info: compare-DFK10.png used on input line 545.
 (pdftex.def)             Requested size: 412.56497pt x 309.414pt.
 
-Underfull \hbox (badness 3449) in paragraph at lines 552--552
+Underfull \hbox (badness 3449) in paragraph at lines 555--555
 [][]|\OT1/cmr/m/it/10.95 Av-er-age pa-ram-e-ters for 27 RSGs in NGC300 us-ing t
 he G14
  []
 
-[17] (./janal.bbl
+(./janal.bbl [17] [18]
 ! Undefined control sequence.
 l.15 \newblock {\em \apj
                         }, 751:156.
@@ -732,11 +732,9 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[18]
 Missing character: There is no â in font cmti12!
 Missing character: There is no € in font cmti12!
 Missing character: There is no “ in font cmti12!
-
 ! Undefined control sequence.
 l.89 \newblock {\em \apj
                         }, 788:58.
@@ -746,6 +744,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+[19]
 ! Undefined control sequence.
 l.97 \newblock {\em \apj
                         }, 805:182.
@@ -773,16 +772,16 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[19])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 584.
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 587.
  [20]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 584.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 587.
  (./janal.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 584.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 584.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 587.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 587.
 Package rerunfilecheck Info: File `janal.out' has not changed.
 (rerunfilecheck)             Checksum: A5669245CC2640080D4543A036CDAD8D;405.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 584.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 587.
  ) 
 Here is how much of TeX's memory you used:
  10295 strings out of 495028
@@ -791,7 +790,7 @@ Here is how much of TeX's memory you used:
  13308 multiletter control sequences out of 15000+600000
  14112 words of font info for 50 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 43i,12n,45p,502b,467s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,12n,45p,502b,455s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/lee/.texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/tex
@@ -811,7 +810,7 @@ ist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmti12.pfb>
-Output written on janal.pdf (20 pages, 1302259 bytes).
+Output written on janal.pdf (20 pages, 1303136 bytes).
 PDF statistics:
  393 PDF objects out of 1000 (max. 8388607)
  318 compressed objects within 4 object streams

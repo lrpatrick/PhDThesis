@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.8)  22 MAY 2015 15:59
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.8)  17 DEC 2015 09:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**LRPThesis.tex -recorder
+**LRPThesis.tex
 (./LRPThesis.tex
 LaTeX2e <2011/06/27>
 Babel <3.9h> and hyphenation patterns for 2 languages loaded.
@@ -478,334 +478,9 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 ) (./LRPThesis.aux
-(./intro/intro.aux) (./JAnal/janal.aux) (./nearIRsel/nearIRsel.aux)
-(./ngc6822/ngc6822.aux
-
-Package natbib Warning: Citation `2009ARA&A..47..481A' multiply defined.
-
-
-Package natbib Warning: Citation `2006A&A...451...99B' multiply defined.
-
-
-Package natbib Warning: Citation `2012ApJ...751..156B' multiply defined.
-
-
-Package natbib Warning: Citation `2013ApJ...764..115B' multiply defined.
-
-
-Package natbib Warning: Citation `2013ApJ...779..115B' multiply defined.
-
-
-Package natbib Warning: Citation `2014A&A...562A..32C' multiply defined.
-
-
-Package natbib Warning: Citation `2010MNRAS.407.1203D' multiply defined.
-
-
-Package natbib Warning: Citation `2013ApJ...767....3D' multiply defined.
-
-
-Package natbib Warning: Citation `2013A&A...558A..56D' multiply defined.
-
-
-Package natbib Warning: Citation `2000ApJ...537L..95D' multiply defined.
-
-
-Package natbib Warning: Citation `2003MNRAS.341L..39D' multiply defined.
-
-
-Package natbib Warning: Citation `2006AJ....131..343D' multiply defined.
-
-
-Package natbib Warning: Citation `2006ApJ...636L..85D' multiply defined.
-
-
-Package natbib Warning: Citation `2010MNRAS.401.1453D' multiply defined.
-
-
-Package natbib Warning: Citation `2011ApJ...730...88E' multiply defined.
-
-
-Package natbib Warning: Citation `2012A&A...537A.146E' multiply defined.
-
-
-Package natbib Warning: Citation `2011A&A...527A..50E' multiply defined.
-
-
-Package natbib Warning: Citation `2013MNRAS.430L..35G' multiply defined.
-
-
-Package natbib Warning: Citation `2014ApJ...787..142G' multiply defined.
-
-
-Package natbib Warning: Citation `2014ApJ...788...58G' multiply defined.
-
-
-Package natbib Warning: Citation `2013A&A...558A.103G' multiply defined.
-
-
-Package natbib Warning: Citation `2010A&A...512A..68G' multiply defined.
-
-
-Package natbib Warning: Citation `2008A&A...486..951G' multiply defined.
-
-
-Package natbib Warning: Citation `2009A&A...505.1027H' multiply defined.
-
-
-Package natbib Warning: Citation `2005ARA&A..43..435H' multiply defined.
-
-
-Package natbib Warning: Citation `1988mcts.book.....H' multiply defined.
-
-
-Package natbib Warning: Citation `1979ApJ...231..384H' multiply defined.
-
-
-Package natbib Warning: Citation `2013MNRAS.429.1039H' multiply defined.
-
-
-Package natbib Warning: Citation `2011ApJ...738...58H' multiply defined.
-
-
-Package natbib Warning: Citation `2014ApJ...783...49H' multiply defined.
-
-
-Package natbib Warning: Citation `2013ApJ...779..102K' multiply defined.
-
-
-Package natbib Warning: Citation `2003ApJ...590L..17K' multiply defined.
-
-
-Package natbib Warning: Citation `2004AJ....128...16K' multiply defined.
-
-
-Package natbib Warning: Citation `2015ApJ...798...23L' multiply defined.
-
-
-Package natbib Warning: Citation `2006ApJ...642..813L' multiply defined.
-
-
-Package natbib Warning: Citation `2002AJ....123..832L' multiply defined.
-
-
-Package natbib Warning: Citation `2012AJ....144....2L' multiply defined.
-
-
-Package natbib Warning: Citation `2007AJ....134.2474M' multiply defined.
-
-
-Package natbib Warning: Citation `2012AJ....144....4M' multiply defined.
-
-
-Package natbib Warning: Citation `1999A&A...352L..40M' multiply defined.
-
-
-Package natbib Warning: Citation `2012A&A...539A.143N' multiply defined.
-
-
-Package natbib Warning: Citation `2000ApJ...542..804N' multiply defined.
-
-
-Package natbib Warning: Citation `1980MNRAS.193..219P' multiply defined.
-
-
-Package natbib Warning: Citation `1995ApJ...445..642R' multiply defined.
-
-
-Package natbib Warning: Citation `1992A&AS...96..269S' multiply defined.
-
-
-Package natbib Warning: Citation `1998ApJ...500..525S' multiply defined.
-
-
-Package natbib Warning: Citation `2013Msngr.151...21S' multiply defined.
-
-
-Package natbib Warning: Citation `2012A&A...540A.135S' multiply defined.
-
-
-Package natbib Warning: Citation `2001MNRAS.327..918T' multiply defined.
-
-
-Package natbib Warning: Citation `2001ApJ...547..765V' multiply defined.
-
-
-Package natbib Warning: Citation `2014ApJ...789..147W' multiply defined.
-
-
-Package natbib Warning: Citation `2003ApJ...587..278W' multiply defined.
-
-
-Package natbib Warning: Citation `2008MNRAS.390.1453W' multiply defined.
-
-
-Package natbib Warning: Citation `1983ApJ...272...99W' multiply defined.
-
-) (./ngc55/ngc55.aux) (./appendix1/appendix1.aux)
-
-Package natbib Warning: Citation `2009ARA&A..47..481A' multiply defined.
-
-
-Package natbib Warning: Citation `2006A&A...451...99B' multiply defined.
-
-
-Package natbib Warning: Citation `2012ApJ...751..156B' multiply defined.
-
-
-Package natbib Warning: Citation `2013ApJ...764..115B' multiply defined.
-
-
-Package natbib Warning: Citation `2013ApJ...779..115B' multiply defined.
-
-
-Package natbib Warning: Citation `2014A&A...562A..32C' multiply defined.
-
-
-Package natbib Warning: Citation `2010MNRAS.407.1203D' multiply defined.
-
-
-Package natbib Warning: Citation `2013ApJ...767....3D' multiply defined.
-
-
-Package natbib Warning: Citation `2013A&A...558A..56D' multiply defined.
-
-
-Package natbib Warning: Citation `2000ApJ...537L..95D' multiply defined.
-
-
-Package natbib Warning: Citation `2003MNRAS.341L..39D' multiply defined.
-
-
-Package natbib Warning: Citation `2006AJ....131..343D' multiply defined.
-
-
-Package natbib Warning: Citation `2006ApJ...636L..85D' multiply defined.
-
-
-Package natbib Warning: Citation `2010MNRAS.401.1453D' multiply defined.
-
-
-Package natbib Warning: Citation `2011ApJ...730...88E' multiply defined.
-
-
-Package natbib Warning: Citation `2012A&A...537A.146E' multiply defined.
-
-
-Package natbib Warning: Citation `2011A&A...527A..50E' multiply defined.
-
-
-Package natbib Warning: Citation `2013MNRAS.430L..35G' multiply defined.
-
-
-Package natbib Warning: Citation `2014ApJ...787..142G' multiply defined.
-
-
-Package natbib Warning: Citation `2014ApJ...788...58G' multiply defined.
-
-
-Package natbib Warning: Citation `2013A&A...558A.103G' multiply defined.
-
-
-Package natbib Warning: Citation `2010A&A...512A..68G' multiply defined.
-
-
-Package natbib Warning: Citation `2008A&A...486..951G' multiply defined.
-
-
-Package natbib Warning: Citation `2009A&A...505.1027H' multiply defined.
-
-
-Package natbib Warning: Citation `2005ARA&A..43..435H' multiply defined.
-
-
-Package natbib Warning: Citation `1988mcts.book.....H' multiply defined.
-
-
-Package natbib Warning: Citation `1979ApJ...231..384H' multiply defined.
-
-
-Package natbib Warning: Citation `2013MNRAS.429.1039H' multiply defined.
-
-
-Package natbib Warning: Citation `2011ApJ...738...58H' multiply defined.
-
-
-Package natbib Warning: Citation `2014ApJ...783...49H' multiply defined.
-
-
-Package natbib Warning: Citation `2013ApJ...779..102K' multiply defined.
-
-
-Package natbib Warning: Citation `2003ApJ...590L..17K' multiply defined.
-
-
-Package natbib Warning: Citation `2004AJ....128...16K' multiply defined.
-
-
-Package natbib Warning: Citation `2015ApJ...798...23L' multiply defined.
-
-
-Package natbib Warning: Citation `2006ApJ...642..813L' multiply defined.
-
-
-Package natbib Warning: Citation `2002AJ....123..832L' multiply defined.
-
-
-Package natbib Warning: Citation `2012AJ....144....2L' multiply defined.
-
-
-Package natbib Warning: Citation `2007AJ....134.2474M' multiply defined.
-
-
-Package natbib Warning: Citation `2012AJ....144....4M' multiply defined.
-
-
-Package natbib Warning: Citation `1999A&A...352L..40M' multiply defined.
-
-
-Package natbib Warning: Citation `2012A&A...539A.143N' multiply defined.
-
-
-Package natbib Warning: Citation `2000ApJ...542..804N' multiply defined.
-
-
-Package natbib Warning: Citation `1980MNRAS.193..219P' multiply defined.
-
-
-Package natbib Warning: Citation `1995ApJ...445..642R' multiply defined.
-
-
-Package natbib Warning: Citation `1992A&AS...96..269S' multiply defined.
-
-
-Package natbib Warning: Citation `1998ApJ...500..525S' multiply defined.
-
-
-Package natbib Warning: Citation `2013Msngr.151...21S' multiply defined.
-
-
-Package natbib Warning: Citation `2012A&A...540A.135S' multiply defined.
-
-
-Package natbib Warning: Citation `2001MNRAS.327..918T' multiply defined.
-
-
-Package natbib Warning: Citation `2001ApJ...547..765V' multiply defined.
-
-
-Package natbib Warning: Citation `2014ApJ...789..147W' multiply defined.
-
-
-Package natbib Warning: Citation `2003ApJ...587..278W' multiply defined.
-
-
-Package natbib Warning: Citation `2008MNRAS.390.1453W' multiply defined.
-
-
-Package natbib Warning: Citation `1983ApJ...272...99W' multiply defined.
-
-)
+(./intro/intro.aux) (./JAnal/janalsum.aux) (./ngc2100/ngc2100.aux)
+(./ngc6822/ngc6822.aux) (./ngc55/ngc55.aux) (./mzr/mzr.aux)
+(./appendix1/appendix1.aux))
 \openout1 = `LRPThesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
@@ -824,7 +499,8 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 27.
- (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 27.
@@ -917,71 +593,68 @@ LaTeX Info: Redefining \nameref on input line 27.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \c@lstlisting=\count145
-<thesis-frontmatter/crest.pdf, id=176, 614.295pt x 794.97pt>
+<thesis-frontmatter/crest.pdf, id=172, 614.295pt x 794.97pt>
 File: thesis-frontmatter/crest.pdf Graphic file (type pdf)
 
 <use thesis-frontmatter/crest.pdf>
-Package pdftex.def Info: thesis-frontmatter/crest.pdf used on input line 32.
+Package pdftex.def Info: thesis-frontmatter/crest.pdf used on input line 33.
 (pdftex.def)             Requested size: 206.28249pt x 266.95041pt.
  [1
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./thesis-frontmatter/crest
-.pdf>] (./thesis-frontmatter/abstract.tex) [1
+.pdf>] (./thesis-frontmatter/abstract.tex
+[1
+
+
+]) [2]
+
+Package natbib Warning: Citation `Conway2000' on page iii undefined on input li
+ne 41.
+
+(./thesis-frontmatter/acknowledgements.tex [3
+
+]) [4
+
+] (./LRPThesis.toc [5
 
 
 ]
-
-Package natbib Warning: Citation `Conway2000' on page ii undefined on input lin
-e 40.
-
-(./thesis-frontmatter/acknowledgements.tex [2
-
-]) [3
-
-] (./LRPThesis.toc [4
-
-
-]
-[5])
+[6])
 \tf@toc=\write4
 \openout4 = `LRPThesis.toc'.
 
- [6] (./LRPThesis.lof
+ [7] (./LRPThesis.lof
 
-Package natbib Warning: Citation `Ekstrom12' on page vii undefined on input lin
-e 5.
+Package natbib Warning: Citation `Ekstrom12' on page viii undefined on input li
+ne 5.
 
-
-Package natbib Warning: Citation `Smartt09' on page vii undefined on input line
- 6.
-
-[7
+[8
 
 
 ]
-Overfull \hbox (23.67444pt too wide) in paragraph at lines 19--19
+Overfull \hbox (23.67444pt too wide) in paragraph at lines 17--17
  \OT1/cmr/m/n/12 1.197305, SiI$\OML/cmm/m/it/12 ^^U^^U$\OT1/cmr/m/n/12 1.198419
 , 1.199157, 1.203151, 1.210353, TiI$\OML/cmm/m/it/12 ^^U^^U$\OT1/cmr/m/n/12 1.1
 89289, 
  []
 
-[8]
-Overfull \hbox (3.00272pt too wide) detected at line 23
+[9]
+Overfull \hbox (3.00272pt too wide) detected at line 21
 \OT1/cmr/m/n/12 (4.10) 
  []
 
 
-Overfull \hbox (3.00272pt too wide) detected at line 24
+Overfull \hbox (3.00272pt too wide) detected at line 22
 \OT1/cmr/m/n/12 (4.11) 
  []
 
 
-Package natbib Warning: Citation `Davies-prep' on page ix undefined on input li
-ne 24.
+Package natbib Warning: Citation `Davies-prep' on page x undefined on input lin
+e 22.
 
 
-Overfull \hbox (3.00272pt too wide) detected at line 25
+Overfull \hbox (3.00272pt too wide) detected at line 23
 \OT1/cmr/m/n/12 (4.12) 
  []
 
@@ -989,11 +662,11 @@ Overfull \hbox (3.00272pt too wide) detected at line 25
 \tf@lof=\write5
 \openout5 = `LRPThesis.lof'.
 
- [9] (./LRPThesis.lot)
+ [10] (./LRPThesis.lot)
 \tf@lot=\write6
 \openout6 = `LRPThesis.lot'.
 
- [10
+ [11
 
 
 ]
@@ -1001,30 +674,6 @@ Overfull \hbox (3.00272pt too wide) detected at line 25
 
  (./intro/intro.tex
 Chapter 1.
-
-Package natbib Warning: Citation `Massey03' on page 1 undefined on input line 8
-.
-
-
-Package natbib Warning: Citation `Crowther07' on page 1 undefined on input line
- 8.
-
-
-Package natbib Warning: Citation `Meynet11' on page 1 undefined on input line 8
-.
-
-
-Package natbib Warning: Citation `Cunha07' on page 1 undefined on input line 16
-.
-
-
-Package natbib Warning: Citation `Davies09a' on page 1 undefined on input line 
-16.
-
-
-Package natbib Warning: Citation `Davies09b' on page 1 undefined on input line 
-16.
-
 
 Package natbib Warning: Citation `Davies10' on page 1 undefined on input line 1
 7.
@@ -1042,14 +691,6 @@ l.24
 
 Package natbib Warning: Citation `Davies10' on page 2 undefined on input line 2
 8.
-
-
-Package natbib Warning: Citation `Danchi94' on page 2 undefined on input line 3
-1.
-
-
-Package natbib Warning: Citation `Kudritzki10' on page 2 undefined on input lin
-e 45.
 
 [2]
 
@@ -1074,89 +715,7 @@ LaTeX Warning: Reference `stellar evolution' on page 3 undefined on input line
 
 LaTeX Warning: Reference `fate' on page 3 undefined on input line 91.
 
-[3]
-
-Package natbib Warning: Citation `Fukui10' on page 4 undefined on input line 97
-.
-
-
-Package natbib Warning: Citation `Fukui10' on page 4 undefined on input line 99
-.
-
-
-Package natbib Warning: Citation `Weidner10' on page 4 undefined on input line 
-99.
-
-
-Package natbib Warning: Citation `Bressert12' on page 4 undefined on input line
- 99.
-
-
-Package natbib Warning: Citation `Zinnecker07' on page 4 undefined on input lin
-e 103.
-
-[4]
-
-Package natbib Warning: Citation `McKee07' on page 5 undefined on input line 11
-8.
-
-
-Package natbib Warning: Citation `Zinnecker07' on page 5 undefined on input lin
-e 123.
-
-
-Package natbib Warning: Citation `Crowther12' on page 5 undefined on input line
- 123.
-
-
-Package natbib Warning: Citation `Zinnecker07' on page 5 undefined on input lin
-e 126.
-
-
-Package natbib Warning: Citation `Luhman12' on page 5 undefined on input line 1
-27.
-
-
-Package natbib Warning: Citation `Bonnell08' on page 5 undefined on input line 
-129.
-
-
-Package natbib Warning: Citation `Kraus10' on page 5 undefined on input line 12
-9.
-
-
-Package natbib Warning: Citation `Bonnell01' on page 5 undefined on input line 
-133.
-
-
-Package natbib Warning: Citation `Zinnecker07' on page 5 undefined on input lin
-e 138.
-
-[5]
-
-Package natbib Warning: Citation `Yorke02' on page 6 undefined on input line 14
-1.
-
-
-Package natbib Warning: Citation `Zinnecker07' on page 6 undefined on input lin
-e 142.
-
-
-Package natbib Warning: Citation `Zinnecker07' on page 6 undefined on input lin
-e 143.
-
-
-Package natbib Warning: Citation `Sana12' on page 6 undefined on input line 143
-.
-
-
-Package natbib Warning: Citation `Kennicutt12' on page 6 undefined on input lin
-e 143.
-
-
-Package natbib Warning: Citation `Fujii13' on page 6 undefined on input line 14
-6.
-
+[3] [4] [5]
 
 Package natbib Warning: Citation `b:KippenhahnWeigert' on page 6 undefined on i
 nput line 158.
@@ -1240,18 +799,6 @@ Package natbib Warning: Citation `b:KippenhahnWeigert' on page 7 undefined on i
 nput line 187.
 
 
-Package natbib Warning: Citation `Schroder97' on page 7 undefined on input line
- 189.
-
-
-Package natbib Warning: Citation `Brott11' on page 7 undefined on input line 18
-9.
-
-
-Package natbib Warning: Citation `Brott11' on page 7 undefined on input line 19
-0.
-
-
 Package natbib Warning: Citation `b:Bohm-vitense92.v3' on page 7 undefined on i
 nput line 195.
 
@@ -1276,44 +823,12 @@ Package natbib Warning: Citation `b:KippenhahnWeigert' on page 8 undefined on i
 nput line 219.
 
 
-Package natbib Warning: Citation `Meynet11' on page 8 undefined on input line 2
-23.
-
-
 Package natbib Warning: Citation `Ekstrom12' on page 8 undefined on input line 
 223.
 
 
-Package natbib Warning: Citation `Langer12' on page 8 undefined on input line 2
-23.
-
-
-Package natbib Warning: Citation `Saio13' on page 8 undefined on input line 223
-.
-
-
-Package natbib Warning: Citation `Meynet11' on page 8 undefined on input line 2
-24.
-
-
-Package natbib Warning: Citation `Massey03' on page 8 undefined on input line 2
-25.
-
-
-Package natbib Warning: Citation `Meynet11' on page 8 undefined on input line 2
-25.
-
-
 Package natbib Warning: Citation `Ekstrom12' on page 8 undefined on input line 
 225.
-
-
-Package natbib Warning: Citation `Crowther07' on page 8 undefined on input line
- 227.
-
-
-Package natbib Warning: Citation `Vink09' on page 8 undefined on input line 227
-.
 
 
 Package caption Warning: \label without proper \caption on input line 172.
@@ -1322,85 +837,20 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: Reference `HRD' on page 8 undefined on input line 227.
 
+[8]
 
-Package natbib Warning: Citation `b:SalarisCassisi05' on page 8 undefined on in
+Package natbib Warning: Citation `b:SalarisCassisi05' on page 9 undefined on in
 put line 229.
 
 
-Package natbib Warning: Citation `Ekstrom12' on page 8 undefined on input line 
+Package natbib Warning: Citation `Ekstrom12' on page 9 undefined on input line 
 233.
-
-[8]
-
-Package natbib Warning: Citation `Saio13' on page 9 undefined on input line 238
-.
 
 
 Package natbib Warning: Citation `b:KippenhahnWeigert' on page 9 undefined on i
 nput line 249.
 
-
-Package natbib Warning: Citation `Saio13' on page 9 undefined on input line 250
-.
-
-[9]
-
-Package natbib Warning: Citation `Woosley02' on page 10 undefined on input line
- 280.
-
-
-Package natbib Warning: Citation `Meynet11' on page 10 undefined on input line 
-287.
-
-
-Package natbib Warning: Citation `Eldridge13' on page 10 undefined on input lin
-e 327.
-
-
-Package natbib Warning: Citation `Janka12' on page 10 undefined on input line 3
-31.
-
-
-Package natbib Warning: Citation `Smartt09' on page 10 undefined on input line 
-335.
-
-
-Package natbib Warning: Citation `Janka12' on page 10 undefined on input line 3
-35.
-
-
-Package natbib Warning: Citation `Eldridge13' on page 10 undefined on input lin
-e 335.
-
-
-Package natbib Warning: Citation `Poelarends08' on page 10 undefined on input l
-ine 336.
-
-
-Package natbib Warning: Citation `Janka12' on page 10 undefined on input line 3
-41.
-
-[10]
-
-Package natbib Warning: Citation `Janka12' on page 11 undefined on input line 3
-45.
-
-
-Package natbib Warning: Citation `Burrows13' on page 11 undefined on input line
- 345.
-
-
-Package natbib Warning: Citation `Smartt09' on page 11 undefined on input line 
-348.
-
-
-Package natbib Warning: Citation `Smartt09' on page 11 undefined on input line 
-351.
-
-
-Package natbib Warning: Citation `Groh13' on page 11 undefined on input line 35
-1.
-
+[9] [10]
 ! Undefined control sequence.
 l.355   \epsfxsize
                   =150mm         % Horizontal size YOU want
@@ -1420,103 +870,37 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Package natbib Warning: Citation `Smartt09' on page 11 undefined on input line 
-357.
+Underfull \hbox (badness 4556) in paragraph at lines 357--357
+\OT1/cmr/m/it/10.95 BSG, blue su-per-giant; LBV, lu-mi-nous blue vari-able; WR,
 
-
-Package natbib Warning: Citation `Smartt09' on page 11 undefined on input line 
-357.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 368.
+ []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 368.
 
 
-Package natbib Warning: Citation `Elias85' on page 11 undefined on input line 3
-78.
-
-
-Package natbib Warning: Citation `Humphreys86' on page 11 undefined on input li
-ne 378.
-
-
-Package natbib Warning: Citation `Massey06' on page 11 undefined on input line 
-378.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 368.
 
 
 Package natbib Warning: Citation `Massey07' on page 11 undefined on input line 
 378.
 
 
-Package natbib Warning: Citation `Groenewegen09' on page 11 undefined on input 
-line 378.
-
-
-Package natbib Warning: Citation `Massey13' on page 11 undefined on input line 
-378.
-
-
 LaTeX Warning: Reference `evolution' on page 11 undefined on input line 381.
 
-[11]
-
-Package natbib Warning: Citation `Harper08' on page 12 undefined on input line 
-385.
-
-
-Package natbib Warning: Citation `Wittowski12' on page 12 undefined on input li
-ne 385.
-
-
-Package natbib Warning: Citation `Levesque05' on page 12 undefined on input lin
-e 385.
-
-
-Package natbib Warning: Citation `Negueruela13' on page 12 undefined on input l
-ine 385.
-
-
-Package natbib Warning: Citation `Danchi94' on page 12 undefined on input line 
-389.
-
-
-Package natbib Warning: Citation `Richards13' on page 12 undefined on input lin
-e 389.
-
-
-Package natbib Warning: Citation `Smith01' on page 12 undefined on input line 3
-89.
-
-
-Package natbib Warning: Citation `Schuster06' on page 12 undefined on input lin
-e 389.
-
-
+[11] [12]
 Overfull \hbox (46.1745pt too wide) in paragraph at lines 389--393
 []\OT1/cmr/m/n/12 Observations of Galac-tic RSGs re-veal that they have large m
 ass-loss rates (10$[]$M$[]$yr$[]$;
  []
 
-[12]
 
-Package natbib Warning: Citation `Humphreys78' on page 13 undefined on input li
-ne 395.
-
-
-Package natbib Warning: Citation `Mel'Nik95' on page 13 undefined on input line
- 395.
-
-
-Package natbib Warning: Citation `Levesque05' on page 13 undefined on input lin
-e 398.
-
-
-Package natbib Warning: Citation `Levesque06' on page 13 undefined on input lin
-e 398.
+Overfull \hbox (12.58063pt too wide) in paragraph at lines 389--393
+[]\OT1/cmr/m/n/12 Danchi et al[][], []1994[]; []Richards[], []2013[]) and ex-te
+nded cir-cum-stel-lar en-vi-ron-ments ([]Smith
+ []
 
 
 Package natbib Warning: Citation `Davies10' on page 13 undefined on input line 
@@ -1527,54 +911,26 @@ Package natbib Warning: Citation `Davies13a' on page 13 undefined on input line
  398.
 
 
-Package natbib Warning: Citation `Elias85' on page 13 undefined on input line 4
-06.
-
-
-Package natbib Warning: Citation `MasseyOlsen03' on page 13 undefined on input 
-line 406.
-
-
 Package natbib Warning: Citation `Levesque12' on page 13 undefined on input lin
 e 406.
-
-
-Package natbib Warning: Citation `Cunha07' on page 13 undefined on input line 4
-10.
-
-
-Package natbib Warning: Citation `Davies09a' on page 13 undefined on input line
- 410.
-
-
-Package natbib Warning: Citation `Davies09b' on page 13 undefined on input line
- 410.
 
 
 Package natbib Warning: Citation `Davies10' on page 13 undefined on input line 
 411.
 
+[13]
 
-Package natbib Warning: Citation `Kudritzki08' on page 13 undefined on input li
-ne 411.
-
-
-Package natbib Warning: Citation `Kudritzki10' on page 13 undefined on input li
-ne 411.
-
-
-Package natbib Warning: Citation `Gustafsson08' on page 13 undefined on input l
+Package natbib Warning: Citation `Gustafsson08' on page 14 undefined on input l
 ine 416.
 
 
-Package natbib Warning: Citation `Davies13a' on page 13 undefined on input line
+Package natbib Warning: Citation `Davies13a' on page 14 undefined on input line
  417.
 
 
-Package natbib Warning: Citation `Davies13a' on page 13 undefined on input line
+Package natbib Warning: Citation `Davies13a' on page 14 undefined on input line
  420.
 
-[13]
 
 Package caption Warning: \label without proper \caption on input line 474.
 See the caption package documentation for explanation.
@@ -1642,6 +998,7 @@ Underfull \hbox (badness 1789) in paragraph at lines 473--473
 \OT1/cmr/m/it/10.95 V colour. This fig-ure
  []
 
+[14]
 ! Undefined control sequence.
 l.480   \epsfxsize
                   =150mm         % Horizontal size YOU want
@@ -1697,15 +1054,11 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Package natbib Warning: Citation `Massey98' on page 14 undefined on input line 
-489.
-
-
 Package caption Warning: \label without proper \caption on input line 483.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `CCD' on page 14 undefined on input line 491.
+LaTeX Warning: Reference `CCD' on page 15 undefined on input line 491.
 
 
 Overfull \hbox (13.69322pt too wide) in paragraph at lines 487--492
@@ -1713,7 +1066,7 @@ Overfull \hbox (13.69322pt too wide) in paragraph at lines 487--492
 ce, one can use colour$\OMS/cmsy/m/n/12 ^^@$\OT1/cmr/m/n/12 colour
  []
 
-[14] [15]
+[15]
 
 Package natbib Warning: Citation `Nikolaev00' on page 16 undefined on input lin
 e 501.
@@ -1723,269 +1076,34 @@ Package natbib Warning: Citation `Cioni06' on page 16 undefined on input line 5
 01.
 
 
-Package natbib Warning: Citation `Neugent12' on page 16 undefined on input line
- 501.
-
-
 Package natbib Warning: Citation `Cioni06' on page 16 undefined on input line 5
 01.
-
-
-Package natbib Warning: Citation `Lequeux79' on page 16 undefined on input line
- 527.
-
-
-Package natbib Warning: Citation `Tremonti04' on page 16 undefined on input lin
-e 529.
-
-
-Package natbib Warning: Citation `Maiolino08' on page 16 undefined on input lin
-e 529.
-
-
-Package natbib Warning: Citation `Kewley08' on page 16 undefined on input line 
-529.
-
-
-Package natbib Warning: Citation `Tremonti04' on page 16 undefined on input lin
-e 531.
-
-
-Package natbib Warning: Citation `Maiolino08' on page 16 undefined on input lin
-e 533.
 
 [16]
 
 Package natbib Warning: Citation `Charlot01' on page 17 undefined on input line
  537.
 
+[17]) [18]
+\openout2 = `JAnal/janalsum.aux'.
 
-Package natbib Warning: Citation `Maiolino08' on page 17 undefined on input lin
-e 537.
-
-
-Package natbib Warning: Citation `Kewley08' on page 17 undefined on input line 
-538.
-
-
-Package natbib Warning: Citation `Kudritzki08' on page 17 undefined on input li
-ne 538.
-
-
-Package natbib Warning: Citation `Bresolin09' on page 17 undefined on input lin
-e 538.
-
-
-Package natbib Warning: Citation `Kudritzki12' on page 17 undefined on input li
-ne 539.
-
-
-Package natbib Warning: Citation `Davies13b' on page 17 undefined on input line
- 540.
-
-) [17]
-\openout2 = `JAnal/janal.aux'.
-
- (./JAnal/janal.tex
+ (./JAnal/janalsum.tex
 Chapter 2.
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 27.
-
-
-LaTeX Warning: Reference `fig:mod-z' on page 18 undefined on input line 36.
-
-[18
+) [19
 
 
 
 ]
+\openout2 = `ngc2100/ngc2100.aux'.
 
-! LaTeX Error: File `Resolution' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.53 ...ludegraphics[width=\textwidth]{Resolution}
-                                                  
-I could not locate the file with any of these extensions:
-.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `cw' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.80 \includegraphics[width=\textwidth]{cw}
-                                           
-I could not locate the file with any of these extensions:
-.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[19] (./LRPThesis.bbl [20] [21
-
-]
-! Incomplete \iffalse; all text was ignored after line 105.
-<inserted text> 
-                \fi 
-l.105 ...rdlund}, \& {Plez}}]{2008A&A...486..951G}
-                                                  
-A forbidden control sequence occurred in skipped text.
-This kind of error happens when you say `\if...' and forget
-the matching `\fi'. I've inserted a `\fi'; this might work.
-
-! Incomplete \iffalse; all text was ignored after line 105.
-<inserted text> 
-                \fi 
-l.105 ...rdlund}, \& {Plez}}]{2008A&A...486..951G}
-                                                  
-A forbidden control sequence occurred in skipped text.
-This kind of error happens when you say `\if...' and forget
-the matching `\fi'. I've inserted a `\fi'; this might work.
-
-Runaway text?
-\bibcite{2008A&A...486..951G}{{23}{2008}{{{Gustafsson} {et~al}\unhbox \ETC.
-! Forbidden control sequence found while scanning text of \write.
-<inserted text> 
-                }
-l.105 ...rdlund}, \& {Plez}}]{2008A&A...486..951G}
-                                                  
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
-Runaway text?
-\bibcite{2008A&A...486..951G}{{23}{2008}{{{Gustafsson} {et~al}\unhbox \ETC.
-! Forbidden control sequence found while scanning text of \write.
-<inserted text> 
-                }
-l.105 ...rdlund}, \& {Plez}}]{2008A&A...486..951G}
-                                                  
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
-Runaway text?
-\bibcite{2008A&A...486..951G}{{23}{2008}{{{Gustafsson} {et~al}\unhbox \ETC.
-! Forbidden control sequence found while scanning text of \write.
-<inserted text> 
-                }
-l.105 ...rdlund}, \& {Plez}}]{2008A&A...486..951G}
-                                                  
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
-Runaway text?
-\bibcite{2008A&A...486..951G}{{23}{2008}{{{Gustafsson} {et~al}\unhbox \ETC.
-! Forbidden control sequence found while scanning text of \write.
-<inserted text> 
-                }
-l.105 ...rdlund}, \& {Plez}}]{2008A&A...486..951G}
-                                                  
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
-Runaway text?
-\bibcite{2008A&A...486..951G}{{23}{2008}{{{Gustafsson} {et~al}\unhbox \ETC.
-! Forbidden control sequence found while scanning text of \write.
-<inserted text> 
-                }
-l.105 ...rdlund}, \& {Plez}}]{2008A&A...486..951G}
-                                                  
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
-Runaway text?
-\bibcite{2008A&A...486..951G}{{23}{2008}{{{Gustafsson} {et~al}\unhbox \ETC.
-! Forbidden control sequence found while scanning text of \write.
-<inserted text> 
-                }
-l.105 ...rdlund}, \& {Plez}}]{2008A&A...486..951G}
-                                                  
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.120 ...HD Stars. Volume 4, Declinations -26{\deg
-                                                  }.0 to
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<recently read> }
-                 
-l.120 ...D Stars. Volume 4, Declinations -26{\deg}
-                                                  .0 to
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-l.121   -12{\deg}.0.}
-                     
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.122 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.122 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-[22]
-! Missing } inserted.
-<inserted text> 
-                }
-l.255 \end{thebibliography}
-                           
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-)) [23]
-\openout2 = `nearIRsel/nearIRsel.aux'.
-
- (./nearIRsel/nearIRsel.tex
+ (./ngc2100/ngc2100.tex
 Chapter 3.
-) [24
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                \kern 1.95872pt
+(hyperref)                removed on input line 1.
+
+) [20
 
 
 
@@ -2000,41 +1118,41 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removed on input line 1.
 
 
-Package natbib Warning: Citation `Davies-prep' on page 25 undefined on input li
+Package natbib Warning: Citation `Davies-prep' on page 21 undefined on input li
 ne 39.
 
-[25
+[21
 
 
 
 ]
 
-Package natbib Warning: Citation `Przybilla02' on page 26 undefined on input li
+Package natbib Warning: Citation `Przybilla02' on page 22 undefined on input li
 ne 71.
 
-[26]
+[22]
 
-Package natbib Warning: Citation `1998ApJ...501..153M' on page 27 undefined on 
+Package natbib Warning: Citation `1998ApJ...501..153M' on page 23 undefined on 
 input line 120.
 
 
-Package natbib Warning: Citation `2008SPIE.7019E..0TW' on page 27 undefined on 
+Package natbib Warning: Citation `2008SPIE.7019E..0TW' on page 23 undefined on 
 input line 140.
 
-[27] <ngc6822/N6822_bvr.png, id=785, 578.16pt x 433.62pt>
+[23] <ngc6822/N6822_bvr.png, id=980, 578.16pt x 433.62pt>
 File: ngc6822/N6822_bvr.png Graphic file (type png)
 
 <use ngc6822/N6822_bvr.png>
 Package pdftex.def Info: ngc6822/N6822_bvr.png used on input line 149.
 (pdftex.def)             Requested size: 268.1647pt x 201.12173pt.
 
-<ngc6822/N6822_jk.png, id=795, 578.16pt x 433.62pt>
+<ngc6822/N6822_jk.png, id=990, 578.16pt x 433.62pt>
 File: ngc6822/N6822_jk.png Graphic file (type png)
  <use ngc6822/N6822_jk.png>
 Package pdftex.def Info: ngc6822/N6822_jk.png used on input line 165.
 (pdftex.def)             Requested size: 268.1647pt x 201.12173pt.
 
-<ngc6822/N6822_RSGs_paper.png, id=802, 722.7pt x 650.43pt>
+<ngc6822/N6822_RSGs_paper.png, id=997, 722.7pt x 650.43pt>
 File: ngc6822/N6822_RSGs_paper.png Graphic file (type png)
 
 <use ngc6822/N6822_RSGs_paper.png>
@@ -2077,7 +1195,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[28 <./ngc6822/N6822_bvr.png>] [29 <./ngc6822/N6822_jk.png> <./ngc6822/N6822_RS
+[24 <./ngc6822/N6822_bvr.png>] [25 <./ngc6822/N6822_jk.png> <./ngc6822/N6822_RS
 Gs_paper.png>]
 ! Undefined control sequence.
 <recently read> \gtrsim 
@@ -2104,27 +1222,27 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[30]
+[26]
 
-Package natbib Warning: Citation `Davies-prep' on page 31 undefined on input li
+Package natbib Warning: Citation `Davies-prep' on page 27 undefined on input li
 ne 331.
 
-[31] <ngc6822/N6822_RSG17-snapshot.png, id=851, 787.94376pt x 786.94pt>
+[27] <ngc6822/N6822_RSG17-snapshot.png, id=1049, 787.94376pt x 786.94pt>
 File: ngc6822/N6822_RSG17-snapshot.png Graphic file (type png)
 
 <use ngc6822/N6822_RSG17-snapshot.png>
 Package pdftex.def Info: ngc6822/N6822_RSG17-snapshot.png used on input line 36
 1.
 (pdftex.def)             Requested size: 226.91199pt x 226.62173pt.
- [32] [33 <./ngc6822/N6822_RSG17-snapshot.png>] <ngc6822/N6822_t_compare.png, i
-d=868, 578.16pt x 621.522pt>
+ [28] [29 <./ngc6822/N6822_RSG17-snapshot.png>] <ngc6822/N6822_t_compare.png, i
+d=1066, 578.16pt x 621.522pt>
 File: ngc6822/N6822_t_compare.png Graphic file (type png)
 
 <use ngc6822/N6822_t_compare.png>
 Package pdftex.def Info: ngc6822/N6822_t_compare.png used on input line 426.
 (pdftex.def)             Requested size: 341.43306pt x 367.03622pt.
- [34] [35 <./ngc6822/N6822_t_compare.png>]
-<ngc6822/N6822_mod_fit.pdf, id=881, 722.7pt x 1011.78pt>
+ [30] [31 <./ngc6822/N6822_t_compare.png>]
+<ngc6822/N6822_mod_fit.pdf, id=1080, 722.7pt x 1011.78pt>
 File: ngc6822/N6822_mod_fit.pdf Graphic file (type pdf)
 
 <use ngc6822/N6822_mod_fit.pdf>
@@ -2157,32 +1275,32 @@ Underfull \hbox (badness 1057) in paragraph at lines 502--502
 
 LaTeX Warning: Float too large for page by 68.61728pt on input line 505.
 
-[36] [37 <./ngc6822/N6822_mod_fit.pdf>] [38]
+[32] [33 <./ngc6822/N6822_mod_fit.pdf>] [34]
 Underfull \hbox (badness 2744) in paragraph at lines 574--574
 [][]\OT1/cmr/m/n/10 Retrieved from http://www.eso.org/sci/facilities/paranal/ d
 e-com-mis-sioned/isaac/-tool-
  []
 
-<ngc6822/N6822_RvsRV.png, id=960, 578.16pt x 433.62pt>
+<ngc6822/N6822_RvsRV.png, id=1158, 578.16pt x 433.62pt>
 File: ngc6822/N6822_RvsRV.png Graphic file (type png)
 
 <use ngc6822/N6822_RvsRV.png>
 Package pdftex.def Info: ngc6822/N6822_RvsRV.png used on input line 595.
 (pdftex.def)             Requested size: 268.1647pt x 201.12173pt.
- [39]
+ [35]
 
-Package natbib Warning: Citation `Davies-prep' on page 40 undefined on input li
+Package natbib Warning: Citation `Davies-prep' on page 36 undefined on input li
 ne 619.
 
-[40 <./ngc6822/N6822_RvsRV.png>]
-<ngc6822/N6822_24vs3AT_Z.png, id=994, 578.16pt x 433.62pt>
+[36 <./ngc6822/N6822_RvsRV.png>]
+<ngc6822/N6822_24vs3AT_Z.png, id=1195, 578.16pt x 433.62pt>
 File: ngc6822/N6822_24vs3AT_Z.png Graphic file (type png)
 
 <use ngc6822/N6822_24vs3AT_Z.png>
 Package pdftex.def Info: ngc6822/N6822_24vs3AT_Z.png used on input line 672.
 (pdftex.def)             Requested size: 268.1647pt x 201.12173pt.
 
-<ngc6822/N6822_24vs3AT_Teff.png, id=995, 578.16pt x 433.62pt>
+<ngc6822/N6822_24vs3AT_Teff.png, id=1196, 578.16pt x 433.62pt>
 File: ngc6822/N6822_24vs3AT_Teff.png Graphic file (type png)
 
 <use ngc6822/N6822_24vs3AT_Teff.png>
@@ -2190,7 +1308,7 @@ Package pdftex.def Info: ngc6822/N6822_24vs3AT_Teff.png used on input line 673.
 
 (pdftex.def)             Requested size: 268.1647pt x 201.12173pt.
 
-<ngc6822/N6822_24vs3AT_logg.png, id=996, 578.16pt x 433.62pt>
+<ngc6822/N6822_24vs3AT_logg.png, id=1197, 578.16pt x 433.62pt>
 File: ngc6822/N6822_24vs3AT_logg.png Graphic file (type png)
 
 <use ngc6822/N6822_24vs3AT_logg.png>
@@ -2198,7 +1316,7 @@ Package pdftex.def Info: ngc6822/N6822_24vs3AT_logg.png used on input line 674.
 
 (pdftex.def)             Requested size: 268.1647pt x 201.12173pt.
 
-<ngc6822/N6822_24vs3AT_Xi.png, id=997, 578.16pt x 433.62pt>
+<ngc6822/N6822_24vs3AT_Xi.png, id=1198, 578.16pt x 433.62pt>
 File: ngc6822/N6822_24vs3AT_Xi.png Graphic file (type png)
 
 <use ngc6822/N6822_24vs3AT_Xi.png>
@@ -2214,9 +1332,9 @@ Overfull \hbox (145.44899pt too wide) in paragraph at lines 704--735
  [] 
  []
 
-[41] [42 <./ngc6822/N6822_24vs3AT_Z.png> <./ngc6822/N6822_24vs3AT_Teff.png> <./
+[37] [38 <./ngc6822/N6822_24vs3AT_Z.png> <./ngc6822/N6822_24vs3AT_Teff.png> <./
 ngc6822/N6822_24vs3AT_logg.png> <./ngc6822/N6822_24vs3AT_Xi.png>]
-<ngc6822/N6822_ZvsR_BSG.png, id=1025, 578.16pt x 433.62pt>
+<ngc6822/N6822_ZvsR_BSG.png, id=1227, 578.16pt x 433.62pt>
 File: ngc6822/N6822_ZvsR_BSG.png Graphic file (type png)
 
 <use ngc6822/N6822_ZvsR_BSG.png>
@@ -2256,7 +1374,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<ngc6822/N6822_HRD.png, id=1044, 578.16pt x 433.62pt>
+<ngc6822/N6822_HRD.png, id=1246, 578.16pt x 433.62pt>
 File: ngc6822/N6822_HRD.png Graphic file (type png)
 
 <use ngc6822/N6822_HRD.png>
@@ -2264,21 +1382,21 @@ Package pdftex.def Info: ngc6822/N6822_HRD.png used on input line 807.
 (pdftex.def)             Requested size: 268.1647pt x 201.12173pt.
 
 
-Package natbib Warning: Citation `Przybilla02' on page 43 undefined on input li
+Package natbib Warning: Citation `Przybilla02' on page 39 undefined on input li
 ne 835.
 
-[43] [44 <./ngc6822/N6822_ZvsR_BSG.png> <./ngc6822/N6822_HRD.png>] [45]
+[39] [40 <./ngc6822/N6822_ZvsR_BSG.png> <./ngc6822/N6822_HRD.png>] [41]
 
 Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 892.
 
-[46]
+[42]
 
-Package natbib Warning: Citation `Davies-prep' on page 47 undefined on input li
+Package natbib Warning: Citation `Davies-prep' on page 43 undefined on input li
 ne 937.
 
-<ngc6822/N6822_TeffvsZ_all.png, id=1137, 578.16pt x 433.62pt>
+<ngc6822/N6822_TeffvsZ_all.png, id=1346, 578.16pt x 433.62pt>
 File: ngc6822/N6822_TeffvsZ_all.png Graphic file (type png)
 
 <use ngc6822/N6822_TeffvsZ_all.png>
@@ -2286,494 +1404,21 @@ Package pdftex.def Info: ngc6822/N6822_TeffvsZ_all.png used on input line 949.
 (pdftex.def)             Requested size: 268.1647pt x 201.12173pt.
 
 
-Package natbib Warning: Citation `Davies-prep' on page 47 undefined on input li
+Package natbib Warning: Citation `Davies-prep' on page 43 undefined on input li
 ne 958.
 
 
-Package natbib Warning: Citation `Davies-prep' on page 47 undefined on input li
+Package natbib Warning: Citation `Davies-prep' on page 43 undefined on input li
 ne 958.
 
-<ngc6822/N6822_HRD_all.png, id=1144, 578.16pt x 433.62pt>
+<ngc6822/N6822_HRD_all.png, id=1353, 578.16pt x 433.62pt>
 File: ngc6822/N6822_HRD_all.png Graphic file (type png)
 
 <use ngc6822/N6822_HRD_all.png>
 Package pdftex.def Info: ngc6822/N6822_HRD_all.png used on input line 963.
 (pdftex.def)             Requested size: 268.1647pt x 201.12173pt.
- [47] [48 <./ngc6822/N6822_TeffvsZ_all.png> <./ngc6822/N6822_HRD_all.png>] [49]
- (./LRPThesis.bbl [50]pdfTeX warning (ext4): destination with the same identifi
-er (name{cite.2009ARA&A..47..481A}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.5   {Scott}}]{2009ARA&A..47..481A}
-                                    pdfTeX warning (ext4): destination with the
- same identifier (name{cite.2006A&A...451...99B}) has been already used, duplic
-ate ignored
-<to be read again> 
-                   \relax 
-l.9   {Kunkel}}]{2006A&A...451...99B}
-                                     pdfTeX warning (ext4): destination with th
-e same identifier (name{cite.2012ApJ...751..156B}) has been already used, dupli
-cate ignored
-<to be read again> 
-                   \relax 
-l.13 ... {Lind}, \& {Gazak}}]{2012ApJ...751..156B}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2013ApJ...764..115B}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.18 ...Davies}, \& {Gazak}}]{2013ApJ...764..115B}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2013ApJ...779..115B}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.22 ...ovy} \& {Rix}(2013)}]{2013ApJ...779..115B}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2014A&A...562A..32C}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.27   {van Loon}}]{2014A&A...562A..32C}
-                                        pdfTeX warning (ext4): destination with
- the same identifier (name{cite.2010MNRAS.407.1203D}) has been already used, du
-plicate ignored
-<to be read again> 
-                   \relax 
-l.31   {Figer}}]{2010MNRAS.407.1203D}
-                                     pdfTeX warning (ext4): destination with th
-e same identifier (name{cite.2013ApJ...767....3D}) has been already used, dupli
-cate ignored
-<to be read again> 
-                   \relax 
-l.36   {Chiavassa}}]{2013ApJ...767....3D}
-                                         pdfTeX warning (ext4): destination wit
-h the same identifier (name{cite.2013A&A...558A..56D}) has been already used, d
-uplicate ignored
-<to be read again> 
-                   \relax 
-l.41 ...rples}, \& {Wegner}}]{2013A&A...558A..56D}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2000ApJ...537L..95D}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.44 ...} \& {Walter}(2000)}]{2000ApJ...537L..95D}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2003MNRAS.341L..39D}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.47 ...} \& {Walter}(2003)}]{2003MNRAS.341L..39D}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2006AJ....131..343D}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.50 ...} \& {Walter}(2006)}]{2006AJ....131..343D}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2006ApJ...636L..85D}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.54   {Kunkel}}]{2006ApJ...636L..85D}
-                                      pdfTeX warning (ext4): destination with t
-he same identifier (name{cite.2010MNRAS.401.1453D}) has been already used, dupl
-icate ignored
-<to be read again> 
-                   \relax 
-l.58   {Gil-Pons}}]{2010MNRAS.401.1453D}
-                                        pdfTeX warning (ext4): destination with
- the same identifier (name{cite.2011ApJ...730...88E}) has been already used, du
-plicate ignored
-<to be read again> 
-                   \relax 
-l.65 ...eibert}, \& {Small}}]{2011ApJ...730...88E}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2012A&A...537A.146E}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.70 ...onnel}, \& {Maeder}}]{2012A&A...537A.146E}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2011A&A...527A..50E}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.75   {Rousset}}]{2011A&A...527A..50E}
-                                       pdfTeX warning (ext4): destination with 
-the same identifier (name{cite.2013MNRAS.430L..35G}) has been already used, dup
-licate ignored
-<to be read again> 
-                   \relax 
-l.79 ...lez}, \& {Urbaneja}}]{2013MNRAS.430L..35G}
-                                                   [51
-
-]pdfTeX warning (ext4): destination with the same identifier (name{cite.2014ApJ
-...787..142G}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.85   \& {Schinnerer}}]{2014ApJ...787..142G}
-                                             pdfTeX warning (ext4): destination
- with the same identifier (name{cite.2014ApJ...788...58G}) has been already use
-d, duplicate ignored
-<to be read again> 
-                   \relax 
-l.89 ...rgemann}, \& {Plez}}]{2014ApJ...788...58G}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2013A&A...558A.103G}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.95 ...ssin}, \& {Barblan}}]{2013A&A...558A.103G}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2010A&A...512A..68G}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.100   {Gardan}}]{2010A&A...512A..68G}
-                                       pdfTeX warning (ext4): destination with 
-the same identifier (name{cite.2008A&A...486..951G}) has been already used, dup
-licate ignored
-<to be read again> 
-                   \relax 
-l.105 ...rdlund}, \& {Plez}}]{2008A&A...486..951G}
-                                                  
-! Incomplete \iffalse; all text was ignored after line 105.
-<inserted text> 
-                \fi 
-l.105 ...rdlund}, \& {Plez}}]{2008A&A...486..951G}
-                                                  
-A forbidden control sequence occurred in skipped text.
-This kind of error happens when you say `\if...' and forget
-the matching `\fi'. I've inserted a `\fi'; this might work.
-
-! Incomplete \iffalse; all text was ignored after line 105.
-<inserted text> 
-                \fi 
-l.105 ...rdlund}, \& {Plez}}]{2008A&A...486..951G}
-                                                  
-A forbidden control sequence occurred in skipped text.
-This kind of error happens when you say `\if...' and forget
-the matching `\fi'. I've inserted a `\fi'; this might work.
-
-Runaway text?
-\bibcite{2008A&A...486..951G}{{23}{2008}{{{Gustafsson} {et~al}\unhbox \ETC.
-! Forbidden control sequence found while scanning text of \write.
-<inserted text> 
-                }
-l.105 ...rdlund}, \& {Plez}}]{2008A&A...486..951G}
-                                                  
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
-Runaway text?
-\bibcite{2008A&A...486..951G}{{23}{2008}{{{Gustafsson} {et~al}\unhbox \ETC.
-! Forbidden control sequence found while scanning text of \write.
-<inserted text> 
-                }
-l.105 ...rdlund}, \& {Plez}}]{2008A&A...486..951G}
-                                                  
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
-Runaway text?
-\bibcite{2008A&A...486..951G}{{23}{2008}{{{Gustafsson} {et~al}\unhbox \ETC.
-! Forbidden control sequence found while scanning text of \write.
-<inserted text> 
-                }
-l.105 ...rdlund}, \& {Plez}}]{2008A&A...486..951G}
-                                                  
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
-Runaway text?
-\bibcite{2008A&A...486..951G}{{23}{2008}{{{Gustafsson} {et~al}\unhbox \ETC.
-! Forbidden control sequence found while scanning text of \write.
-<inserted text> 
-                }
-l.105 ...rdlund}, \& {Plez}}]{2008A&A...486..951G}
-                                                  
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
-Runaway text?
-\bibcite{2008A&A...486..951G}{{23}{2008}{{{Gustafsson} {et~al}\unhbox \ETC.
-! Forbidden control sequence found while scanning text of \write.
-<inserted text> 
-                }
-l.105 ...rdlund}, \& {Plez}}]{2008A&A...486..951G}
-                                                  
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
-Runaway text?
-\bibcite{2008A&A...486..951G}{{23}{2008}{{{Gustafsson} {et~al}\unhbox \ETC.
-! Forbidden control sequence found while scanning text of \write.
-<inserted text> 
-                }
-l.105 ...rdlund}, \& {Plez}}]{2008A&A...486..951G}
-                                                  
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
-pdfTeX warning (ext4): destination with the same identifier (name{cite.2009A&A.
-..505.1027H}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.111 ...rc{\'{\i}}a-Rojas}}]{2009A&A...505.1027H}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2005ARA&A..43..435H}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.115 ...em[{{Herwig}(2005)}]{2005ARA&A..43..435H}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.1988mcts.book.....H}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.118 ...Smith-Moore}(1988)}]{1988mcts.book.....H}
-                                                  
-! Missing $ inserted.
-<inserted text> 
-                $
-l.120 ...HD Stars. Volume 4, Declinations -26{\deg
-                                                  }.0 to
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<recently read> }
-                 
-l.120 ...D Stars. Volume 4, Declinations -26{\deg}
-                                                  .0 to
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-l.121   -12{\deg}.0.}
-                     
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.122 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.122 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-pdfTeX warning (ext4): destination with the same identifier (name{cite.1979ApJ.
-..231..384H}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.123 ...{{Humphreys}(1979)}]{1979ApJ...231..384H}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2013MNRAS.429.1039H}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.127 ...ckey}, \& {Tanvir}}]{2013MNRAS.429.1039H}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2011ApJ...738...58H}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.132   {Kim}, \& {Park}}]{2011ApJ...738...58H}
-                                               pdfTeX warning (ext4): destinati
-on with the same identifier (name{cite.2014ApJ...783...49H}) has been already u
-sed, duplicate ignored
-<to be read again> 
-                   \relax 
-l.137 ...iller}, \& {Weisz}}]{2014ApJ...783...49H}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2013ApJ...779..102K}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.142 ...ck}, \& {Gallazzi}}]{2013ApJ...779..102K}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2003ApJ...590L..17K}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.149   {Ikuta}}]{2003ApJ...590L..17K}
-                                      pdfTeX warning (ext4): destination with t
-he same identifier (name{cite.2004AJ....128...16K}) has been already used, dupl
-icate ignored
-<to be read again> 
-                   \relax 
-l.158 ...ster}, \& {Wright}}]{2004AJ....128...16K}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2015ApJ...798...23L}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.163   {Cirasuolo}}]{2015ApJ...798...23L}
-                                          pdfTeX warning (ext4): destination wi
-th the same identifier (name{cite.2006ApJ...642..813L}) has been already used, 
-duplicate ignored
-<to be read again> 
-                   \relax 
-l.168   {Venn}}]{2006ApJ...642..813L}
-                                     pdfTeX warning (ext4): destination with th
-e same identifier (name{cite.2002AJ....123..832L}) has been already used, dupli
-cate ignored
-<to be read again> 
-                   \relax 
-l.172   {Kunkel}}]{2002AJ....123..832L}
-                                        [52]pdfTeX warning (ext4): destination 
-with the same identifier (name{cite.2012AJ....144....2L}) has been already used
-, duplicate ignored
-<to be read again> 
-                   \relax 
-l.175 ... \& {Massey}(2012)}]{2012AJ....144....2L}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2007AJ....134.2474M}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.179 ...mith}, \& {Strong}}]{2007AJ....134.2474M}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2012AJ....144....4M}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.183 ...McConnachie}(2012)}]{2012AJ....144....4M}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.1999A&A...352L..40M}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.189   {Tarantik}}]{1999A&A...352L..40M}
-                                         pdfTeX warning (ext4): destination wit
-h the same identifier (name{cite.2012A&A...539A.143N}) has been already used, d
-uplicate ignored
-<to be read again> 
-                   \relax 
-l.192 ... {Przybilla}(2012)}]{2012A&A...539A.143N}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2000ApJ...542..804N}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.195 ...& {Weinberg}(2000)}]{2000ApJ...542..804N}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.1980MNRAS.193..219P}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.199   {Smith}}]{1980MNRAS.193..219P}
-                                      pdfTeX warning (ext4): destination with t
-he same identifier (name{cite.1995ApJ...445..642R}) has been already used, dupl
-icate ignored
-<to be read again> 
-                   \relax 
-l.202 ... \& {McCall}(1995)}]{1995ApJ...445..642R}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.1992A&AS...96..269S}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.206   {Maeder}}]{1992A&AS...96..269S}
-                                       pdfTeX warning (ext4): destination with 
-the same identifier (name{cite.1998ApJ...500..525S}) has been already used, dup
-licate ignored
-<to be read again> 
-                   \relax 
-l.210   {Davis}}]{1998ApJ...500..525S}
-                                      pdfTeX warning (ext4): destination with t
-he same identifier (name{cite.2013Msngr.151...21S}) has been already used, dupl
-icate ignored
-<to be read again> 
-                   \relax 
-l.219   \& {Wiezorrek}}]{2013Msngr.151...21S}
-                                             pdfTeX warning (ext4): destination
- with the same identifier (name{cite.2012A&A...540A.135S}) has been already use
-d, duplicate ignored
-<to be read again> 
-                   \relax 
-l.223   \& {Napiwotzki}}]{2012A&A...540A.135S}
-                                              pdfTeX warning (ext4): destinatio
-n with the same identifier (name{cite.2001MNRAS.327..918T}) has been already us
-ed, duplicate ignored
-<to be read again> 
-                   \relax 
-l.228 ...i}, \& {Gallagher}}]{2001MNRAS.327..918T}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2001ApJ...547..765V}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.234   {Smartt}}]{2001ApJ...547..765V}
-                                       pdfTeX warning (ext4): destination with 
-the same identifier (name{cite.2014ApJ...789..147W}) has been already used, dup
-licate ignored
-<to be read again> 
-                   \relax 
-l.238 ...on}, \& {Williams}}]{2014ApJ...789..147W}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2003ApJ...587..278W}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.243   {Tielens}}]{2003ApJ...587..278W}
-                                        pdfTeX warning (ext4): destination with
- the same identifier (name{cite.2008MNRAS.390.1453W}) has been already used, du
-plicate ignored
-<to be read again> 
-                   \relax 
-l.248   {Dekel}}]{2008MNRAS.390.1453W}
-                                      pdfTeX warning (ext4): destination with t
-he same identifier (name{cite.1983ApJ...272...99W}) has been already used, dupl
-icate ignored
-<to be read again> 
-                   \relax 
-l.252   {Fox}}]{1983ApJ...272...99W}
-                                    
-! Missing } inserted.
-<inserted text> 
-                }
-l.255 \end{thebibliography}
-                           
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-)) [53]
+ [43] [44 <./ngc6822/N6822_TeffvsZ_all.png> <./ngc6822/N6822_HRD_all.png>] [45]
+) [46]
 \openout2 = `ngc55/ngc55.aux'.
 
  (./ngc55/ngc55.tex
@@ -2783,7 +1428,16 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern 1.95872pt
 (hyperref)                removed on input line 1.
 
-) [54
+) [47
+
+
+
+]
+\openout2 = `mzr/mzr.aux'.
+
+ (./mzr/mzr.tex
+Chapter 6.
+) [48
 
 
 
@@ -2792,175 +1446,39 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
  (./appendix1/appendix1.tex
 Appendix A.
-[55
+[49
 
 
 
-]) [56] (./LRPThesis.bblpdfTeX warning (ext4): destination with the same identi
-fier (name{cite.2009ARA&A..47..481A}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.5   {Scott}}]{2009ARA&A..47..481A}
-                                    pdfTeX warning (ext4): destination with the
- same identifier (name{cite.2006A&A...451...99B}) has been already used, duplic
-ate ignored
-<to be read again> 
-                   \relax 
-l.9   {Kunkel}}]{2006A&A...451...99B}
-                                     pdfTeX warning (ext4): destination with th
-e same identifier (name{cite.2012ApJ...751..156B}) has been already used, dupli
-cate ignored
-<to be read again> 
-                   \relax 
-l.13 ... {Lind}, \& {Gazak}}]{2012ApJ...751..156B}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2013ApJ...764..115B}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.18 ...Davies}, \& {Gazak}}]{2013ApJ...764..115B}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2013ApJ...779..115B}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.22 ...ovy} \& {Rix}(2013)}]{2013ApJ...779..115B}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2014A&A...562A..32C}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.27   {van Loon}}]{2014A&A...562A..32C}
-                                        pdfTeX warning (ext4): destination with
- the same identifier (name{cite.2010MNRAS.407.1203D}) has been already used, du
-plicate ignored
-<to be read again> 
-                   \relax 
-l.31   {Figer}}]{2010MNRAS.407.1203D}
-                                     pdfTeX warning (ext4): destination with th
-e same identifier (name{cite.2013ApJ...767....3D}) has been already used, dupli
-cate ignored
-<to be read again> 
-                   \relax 
-l.36   {Chiavassa}}]{2013ApJ...767....3D}
-                                         pdfTeX warning (ext4): destination wit
-h the same identifier (name{cite.2013A&A...558A..56D}) has been already used, d
-uplicate ignored
-<to be read again> 
-                   \relax 
-l.41 ...rples}, \& {Wegner}}]{2013A&A...558A..56D}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2000ApJ...537L..95D}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.44 ...} \& {Walter}(2000)}]{2000ApJ...537L..95D}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2003MNRAS.341L..39D}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.47 ...} \& {Walter}(2003)}]{2003MNRAS.341L..39D}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2006AJ....131..343D}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.50 ...} \& {Walter}(2006)}]{2006AJ....131..343D}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2006ApJ...636L..85D}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.54   {Kunkel}}]{2006ApJ...636L..85D}
-                                      pdfTeX warning (ext4): destination with t
-he same identifier (name{cite.2010MNRAS.401.1453D}) has been already used, dupl
-icate ignored
-<to be read again> 
-                   \relax 
-l.58   {Gil-Pons}}]{2010MNRAS.401.1453D}
-                                        pdfTeX warning (ext4): destination with
- the same identifier (name{cite.2011ApJ...730...88E}) has been already used, du
-plicate ignored
-<to be read again> 
-                   \relax 
-l.65 ...eibert}, \& {Small}}]{2011ApJ...730...88E}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2012A&A...537A.146E}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.70 ...onnel}, \& {Maeder}}]{2012A&A...537A.146E}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2011A&A...527A..50E}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.75   {Rousset}}]{2011A&A...527A..50E}
-                                       pdfTeX warning (ext4): destination with 
-the same identifier (name{cite.2013MNRAS.430L..35G}) has been already used, dup
-licate ignored
-<to be read again> 
-                   \relax 
-l.79 ...lez}, \& {Urbaneja}}]{2013MNRAS.430L..35G}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2014ApJ...787..142G}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.85   \& {Schinnerer}}]{2014ApJ...787..142G}
-                                             pdfTeX warning (ext4): destination
- with the same identifier (name{cite.2014ApJ...788...58G}) has been already use
-d, duplicate ignored
-<to be read again> 
-                   \relax 
-l.89 ...rgemann}, \& {Plez}}]{2014ApJ...788...58G}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2013A&A...558A.103G}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.95 ...ssin}, \& {Barblan}}]{2013A&A...558A.103G}
-                                                   [57
+]) [50] (./LRPThesis.bbl [51
 
 
 
-]pdfTeX warning (ext4): destination with the same identifier (name{cite.2010A&A
-...512A..68G}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.100   {Gardan}}]{2010A&A...512A..68G}
-                                       pdfTeX warning (ext4): destination with 
-the same identifier (name{cite.2008A&A...486..951G}) has been already used, dup
-licate ignored
-<to be read again> 
-                   \relax 
-l.105 ...rdlund}, \& {Plez}}]{2008A&A...486..951G}
-                                                  
-! Incomplete \iffalse; all text was ignored after line 105.
+]
+! Incomplete \iffalse; all text was ignored after line 190.
 <inserted text> 
                 \fi 
-l.105 ...rdlund}, \& {Plez}}]{2008A&A...486..951G}
+l.190 ...rdlund}, \& {Plez}}]{2008A&A...486..951G}
                                                   
 A forbidden control sequence occurred in skipped text.
 This kind of error happens when you say `\if...' and forget
 the matching `\fi'. I've inserted a `\fi'; this might work.
 
-! Incomplete \iffalse; all text was ignored after line 105.
+! Incomplete \iffalse; all text was ignored after line 190.
 <inserted text> 
                 \fi 
-l.105 ...rdlund}, \& {Plez}}]{2008A&A...486..951G}
+l.190 ...rdlund}, \& {Plez}}]{2008A&A...486..951G}
                                                   
 A forbidden control sequence occurred in skipped text.
 This kind of error happens when you say `\if...' and forget
 the matching `\fi'. I've inserted a `\fi'; this might work.
 
 Runaway text?
-\bibcite{2008A&A...486..951G}{{23}{2008}{{{Gustafsson} {et~al}\unhbox \ETC.
+\bibcite{2008A&A...486..951G}{{42}{2008}{{{Gustafsson} {et~al}\unhbox \ETC.
 ! Forbidden control sequence found while scanning text of \write.
 <inserted text> 
                 }
-l.105 ...rdlund}, \& {Plez}}]{2008A&A...486..951G}
+l.190 ...rdlund}, \& {Plez}}]{2008A&A...486..951G}
                                                   
 I suspect you have forgotten a `}', causing me
 to read past where you wanted me to stop.
@@ -2968,11 +1486,11 @@ I'll try to recover; but if the error is serious,
 you'd better type `E' or `X' now and fix your file.
 
 Runaway text?
-\bibcite{2008A&A...486..951G}{{23}{2008}{{{Gustafsson} {et~al}\unhbox \ETC.
+\bibcite{2008A&A...486..951G}{{42}{2008}{{{Gustafsson} {et~al}\unhbox \ETC.
 ! Forbidden control sequence found while scanning text of \write.
 <inserted text> 
                 }
-l.105 ...rdlund}, \& {Plez}}]{2008A&A...486..951G}
+l.190 ...rdlund}, \& {Plez}}]{2008A&A...486..951G}
                                                   
 I suspect you have forgotten a `}', causing me
 to read past where you wanted me to stop.
@@ -2980,11 +1498,11 @@ I'll try to recover; but if the error is serious,
 you'd better type `E' or `X' now and fix your file.
 
 Runaway text?
-\bibcite{2008A&A...486..951G}{{23}{2008}{{{Gustafsson} {et~al}\unhbox \ETC.
+\bibcite{2008A&A...486..951G}{{42}{2008}{{{Gustafsson} {et~al}\unhbox \ETC.
 ! Forbidden control sequence found while scanning text of \write.
 <inserted text> 
                 }
-l.105 ...rdlund}, \& {Plez}}]{2008A&A...486..951G}
+l.190 ...rdlund}, \& {Plez}}]{2008A&A...486..951G}
                                                   
 I suspect you have forgotten a `}', causing me
 to read past where you wanted me to stop.
@@ -2992,11 +1510,11 @@ I'll try to recover; but if the error is serious,
 you'd better type `E' or `X' now and fix your file.
 
 Runaway text?
-\bibcite{2008A&A...486..951G}{{23}{2008}{{{Gustafsson} {et~al}\unhbox \ETC.
+\bibcite{2008A&A...486..951G}{{42}{2008}{{{Gustafsson} {et~al}\unhbox \ETC.
 ! Forbidden control sequence found while scanning text of \write.
 <inserted text> 
                 }
-l.105 ...rdlund}, \& {Plez}}]{2008A&A...486..951G}
+l.190 ...rdlund}, \& {Plez}}]{2008A&A...486..951G}
                                                   
 I suspect you have forgotten a `}', causing me
 to read past where you wanted me to stop.
@@ -3004,11 +1522,11 @@ I'll try to recover; but if the error is serious,
 you'd better type `E' or `X' now and fix your file.
 
 Runaway text?
-\bibcite{2008A&A...486..951G}{{23}{2008}{{{Gustafsson} {et~al}\unhbox \ETC.
+\bibcite{2008A&A...486..951G}{{42}{2008}{{{Gustafsson} {et~al}\unhbox \ETC.
 ! Forbidden control sequence found while scanning text of \write.
 <inserted text> 
                 }
-l.105 ...rdlund}, \& {Plez}}]{2008A&A...486..951G}
+l.190 ...rdlund}, \& {Plez}}]{2008A&A...486..951G}
                                                   
 I suspect you have forgotten a `}', causing me
 to read past where you wanted me to stop.
@@ -3016,39 +1534,22 @@ I'll try to recover; but if the error is serious,
 you'd better type `E' or `X' now and fix your file.
 
 Runaway text?
-\bibcite{2008A&A...486..951G}{{23}{2008}{{{Gustafsson} {et~al}\unhbox \ETC.
+\bibcite{2008A&A...486..951G}{{42}{2008}{{{Gustafsson} {et~al}\unhbox \ETC.
 ! Forbidden control sequence found while scanning text of \write.
 <inserted text> 
                 }
-l.105 ...rdlund}, \& {Plez}}]{2008A&A...486..951G}
+l.190 ...rdlund}, \& {Plez}}]{2008A&A...486..951G}
                                                   
 I suspect you have forgotten a `}', causing me
 to read past where you wanted me to stop.
 I'll try to recover; but if the error is serious,
 you'd better type `E' or `X' now and fix your file.
 
-pdfTeX warning (ext4): destination with the same identifier (name{cite.2009A&A.
-..505.1027H}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.111 ...rc{\'{\i}}a-Rojas}}]{2009A&A...505.1027H}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2005ARA&A..43..435H}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.115 ...em[{{Herwig}(2005)}]{2005ARA&A..43..435H}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.1988mcts.book.....H}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.118 ...Smith-Moore}(1988)}]{1988mcts.book.....H}
-                                                  
+[52]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.120 ...HD Stars. Volume 4, Declinations -26{\deg
+l.209 ...HD Stars. Volume 4, Declinations -26{\deg
                                                   }.0 to
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -3056,7 +1557,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <recently read> }
                  
-l.120 ...D Stars. Volume 4, Declinations -26{\deg}
+l.209 ...D Stars. Volume 4, Declinations -26{\deg}
                                                   .0 to
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -3065,7 +1566,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Extra }, or forgotten $.
-l.121   -12{\deg}.0.}
+l.210   -12{\deg}.0.}
                      
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -3076,7 +1577,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.122 
+l.211 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -3084,7 +1585,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.122 
+l.211 
       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3092,178 +1593,17 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-pdfTeX warning (ext4): destination with the same identifier (name{cite.1979ApJ.
-..231..384H}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.123 ...{{Humphreys}(1979)}]{1979ApJ...231..384H}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2013MNRAS.429.1039H}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.127 ...ckey}, \& {Tanvir}}]{2013MNRAS.429.1039H}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2011ApJ...738...58H}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.132   {Kim}, \& {Park}}]{2011ApJ...738...58H}
-                                               pdfTeX warning (ext4): destinati
-on with the same identifier (name{cite.2014ApJ...783...49H}) has been already u
-sed, duplicate ignored
-<to be read again> 
-                   \relax 
-l.137 ...iller}, \& {Weisz}}]{2014ApJ...783...49H}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2013ApJ...779..102K}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.142 ...ck}, \& {Gallazzi}}]{2013ApJ...779..102K}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2003ApJ...590L..17K}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.149   {Ikuta}}]{2003ApJ...590L..17K}
-                                      pdfTeX warning (ext4): destination with t
-he same identifier (name{cite.2004AJ....128...16K}) has been already used, dupl
-icate ignored
-<to be read again> 
-                   \relax 
-l.158 ...ster}, \& {Wright}}]{2004AJ....128...16K}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2015ApJ...798...23L}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.163   {Cirasuolo}}]{2015ApJ...798...23L}
-                                          pdfTeX warning (ext4): destination wi
-th the same identifier (name{cite.2006ApJ...642..813L}) has been already used, 
-duplicate ignored
-<to be read again> 
-                   \relax 
-l.168   {Venn}}]{2006ApJ...642..813L}
-                                     pdfTeX warning (ext4): destination with th
-e same identifier (name{cite.2002AJ....123..832L}) has been already used, dupli
-cate ignored
-<to be read again> 
-                   \relax 
-l.172   {Kunkel}}]{2002AJ....123..832L}
-                                       pdfTeX warning (ext4): destination with 
-the same identifier (name{cite.2012AJ....144....2L}) has been already used, dup
-licate ignored
-<to be read again> 
-                   \relax 
-l.175 ... \& {Massey}(2012)}]{2012AJ....144....2L}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2007AJ....134.2474M}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.179 ...mith}, \& {Strong}}]{2007AJ....134.2474M}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2012AJ....144....4M}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.183 ...McConnachie}(2012)}]{2012AJ....144....4M}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.1999A&A...352L..40M}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.189   {Tarantik}}]{1999A&A...352L..40M}
-                                         pdfTeX warning (ext4): destination wit
-h the same identifier (name{cite.2012A&A...539A.143N}) has been already used, d
-uplicate ignored
-<to be read again> 
-                   \relax 
-l.192 ... {Przybilla}(2012)}]{2012A&A...539A.143N}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2000ApJ...542..804N}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.195 ...& {Weinberg}(2000)}]{2000ApJ...542..804N}
-                                                   [58]pdfTeX warning (ext4): d
-estination with the same identifier (name{cite.1980MNRAS.193..219P}) has been a
-lready used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.199   {Smith}}]{1980MNRAS.193..219P}
-                                      pdfTeX warning (ext4): destination with t
-he same identifier (name{cite.1995ApJ...445..642R}) has been already used, dupl
-icate ignored
-<to be read again> 
-                   \relax 
-l.202 ... \& {McCall}(1995)}]{1995ApJ...445..642R}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.1992A&AS...96..269S}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.206   {Maeder}}]{1992A&AS...96..269S}
-                                       pdfTeX warning (ext4): destination with 
-the same identifier (name{cite.1998ApJ...500..525S}) has been already used, dup
-licate ignored
-<to be read again> 
-                   \relax 
-l.210   {Davis}}]{1998ApJ...500..525S}
-                                      pdfTeX warning (ext4): destination with t
-he same identifier (name{cite.2013Msngr.151...21S}) has been already used, dupl
-icate ignored
-<to be read again> 
-                   \relax 
-l.219   \& {Wiezorrek}}]{2013Msngr.151...21S}
-                                             pdfTeX warning (ext4): destination
- with the same identifier (name{cite.2012A&A...540A.135S}) has been already use
-d, duplicate ignored
-<to be read again> 
-                   \relax 
-l.223   \& {Napiwotzki}}]{2012A&A...540A.135S}
-                                              pdfTeX warning (ext4): destinatio
-n with the same identifier (name{cite.2001MNRAS.327..918T}) has been already us
-ed, duplicate ignored
-<to be read again> 
-                   \relax 
-l.228 ...i}, \& {Gallagher}}]{2001MNRAS.327..918T}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2001ApJ...547..765V}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.234   {Smartt}}]{2001ApJ...547..765V}
-                                       pdfTeX warning (ext4): destination with 
-the same identifier (name{cite.2014ApJ...789..147W}) has been already used, dup
-licate ignored
-<to be read again> 
-                   \relax 
-l.238 ...on}, \& {Williams}}]{2014ApJ...789..147W}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2003ApJ...587..278W}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.243   {Tielens}}]{2003ApJ...587..278W}
-                                        pdfTeX warning (ext4): destination with
- the same identifier (name{cite.2008MNRAS.390.1453W}) has been already used, du
-plicate ignored
-<to be read again> 
-                   \relax 
-l.248   {Dekel}}]{2008MNRAS.390.1453W}
-                                      pdfTeX warning (ext4): destination with t
-he same identifier (name{cite.1983ApJ...272...99W}) has been already used, dupl
-icate ignored
-<to be read again> 
-                   \relax 
-l.252   {Fox}}]{1983ApJ...272...99W}
-                                    
+
+Underfull \hbox (badness 1127) in paragraph at lines 275--277
+[]\OT1/cmr/m/n/12 Kudritzki R.-P., Ur-baneja M. A., Bresolin F., Przy-billa N.,
+ Gieren W.,
+ []
+
+[53] [54] [55]
 ! Missing } inserted.
 <inserted text> 
                 }
-l.255 \end{thebibliography}
+l.504 \end{thebibliography}
                            
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3275,33 +1615,30 @@ my insertion and my current dilemma will both disappear.
 
 Package natbib Warning: There were undefined citations.
 
-
-Package natbib Warning: There were multiply defined citations.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 157.
-[59]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 157.
- (./LRPThesis.aux (./intro/intro.aux) (./JAnal/janal.aux)
-(./nearIRsel/nearIRsel.aux) (./ngc6822/ngc6822.aux) (./ngc55/ngc55.aux)
-(./appendix1/appendix1.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 157.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 157.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 160.
+[56]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 160.
+ (./LRPThesis.aux (./intro/intro.aux) (./JAnal/janalsum.aux)
+(./ngc2100/ngc2100.aux) (./ngc6822/ngc6822.aux) (./ngc55/ngc55.aux)
+(./mzr/mzr.aux) (./appendix1/appendix1.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 160.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 160.
 Package rerunfilecheck Info: File `LRPThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 682B5AE7A686BE5FD08A90CD4F6563A1;2852.
+(rerunfilecheck)             Checksum: EA6E02704E4C55FC3262BF43F0AB7C1F;2782.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 157.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 160.
  ) 
 Here is how much of TeX's memory you used:
- 10874 strings out of 495028
- 164267 string characters out of 6181497
- 284744 words of memory out of 5000000
- 13683 multiletter control sequences out of 15000+600000
- 14146 words of font info for 50 fonts, out of 8000000 for 9000
+ 11042 strings out of 495028
+ 167269 string characters out of 6181497
+ 289389 words of memory out of 5000000
+ 13797 multiletter control sequences out of 15000+600000
+ 13479 words of font info for 48 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 43i,13n,55p,1026b,529s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,13n,55p,1016b,669s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -3316,28 +1653,27 @@ pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmti12.pfb>
-Output written on LRPThesis.pdf (70 pages, 1610560 bytes).
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmti12.pfb>
+Output written on LRPThesis.pdf (68 pages, 1599164 bytes).
 PDF statistics:
- 1357 PDF objects out of 1440 (max. 8388607)
- 1104 compressed objects within 12 object streams
- 205 named destinations out of 1000 (max. 500000)
- 425 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1587 PDF objects out of 1728 (max. 8388607)
+ 1335 compressed objects within 14 object streams
+ 256 named destinations out of 1000 (max. 500000)
+ 417 words of extra memory for PDF output out of 10000 (max. 10000000)
 
