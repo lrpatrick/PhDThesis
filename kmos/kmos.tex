@@ -1,0 +1,145 @@
+\chapter{Spectroscopy with the {\it K}-band Multi-Object Spectrograph}
+
+\section{Introduction to Spectroscopic Techniques} % (fold)
+\label{sec:introduction_to_spectroscopic_techniques}
+
+Spectroscopy is the study of the dispersion of light into its constituents and has been at the forefront of astronomy for roughly the last 200 years.
+Sir Isaac Newton demonstrated the principles of spectroscopy (and coined the term ``spectrum'') using light from The Sun in his seminal ``Opticks'' work~\citep{Newton16xx}.
+By using the groove spacings on a diffraction grating, Thomas Young first quantified the wavelengths of different colours of light~\citep{Young1801}.
+The simple set-up of a spectrograph, which has - more or less - been used since the early spectroscopic experiements, consists of five basic elements:
+
+\begin{enumerate}
+    \item Slit
+    \item Collimator
+    \item Dispersive element
+    \item Camera
+    \item Detector
+\end{enumerate}
+
+In Newton's demonstration he used a small hole in his window blinds as a slit and a screem as a detector.
+The slit in modern spectroscopic observations can take various forms.
+The most widely used type of slit, in modern observations, is long-slit spectroscopy.
+Using a long slit, a spectrum is taken for each spatial pixel along the length of the slit.
+This is demonstrated in Figure~\ref{fig:long-slit}, where the final panel shows that each pixel illuminated by the slit produces a spectrum.
+This can be thought of a 2-dimensional spectroscopy, which is particualrly useful when attempting to take a spectrum of an extended object
+(rather than a point source).
+
+\begin{figure}
+ \centering
+ \includegraphics[width=0.65\textwidth]{kmos/xxx}
+ \caption[Long-slit Spectrscopy]{Three panels demonstrating long-slit spectrscopy
+ \label{fig:long-slit}}
+\end{figure}
+
+As an alternative to using a long-slit to remove contamination from other sources, is to use a small hole or fibre to select the target flux.
+By precisely drilling a hole in a metal plate, a slit is created which can be used to select the target flux.
+One of the advantages of using this method is that more than one object can be selected for a single exposure.
+By creating multiple slits within a single plate, spectroscopy from multiple objects can be obtained where contamination from other sources is minimised.
+An improvement to this method was to use optical-fibres positioned within the holes.
+The fibres could then be led to an instrument which was not directly attached to the telescope, which has the advantage that the instrument will not suffer from the changing gravitational force as the telescope moves.
+In addition, the conditions within the instrument room can be controled.
+This is particularly important for near-IR spectrographs and detectors.
+
+However, using a plate with several holes drilled into it has some drawbacks.
+These include the time in which it takes to create the slit mask, the lack of flexibility while observing and the operational costs of creating a new mask each time a different field is to be observed~\citep{1986SPIE..627..118P}.
+These reasons, in addition to improved computing power, led to the development of instruments which were able to automatically position fibres~\citep{1982SPIE..331..289T}.
+Most modern fibre-fed spectrographs have automatic fibre positioning technology which is broadly split up into two approaches.
+
+\begin{enumerate}
+    \item Each fibre has a magnetic button attached and a single robot is charged with moving each fibre sequentially.
+    This is an effective method to place large numbers of fibres, but does however, take a significant length of time for each configuration.
+    \item Each fibre is mounted upon a computer controlled arm.
+    This method is generally less time consuming.
+\end{enumerate}
+
+As a variant on the five basic elements of a spectrograph, slitless spectroscopy is also a feasible option which is not discussed in detail here.
+For more information on slitless spectroscopy see Fergus' thesis!
+
+\begin{figure}
+ \centering
+ \includegraphics[width=0.65\textwidth]{kmos/xxx}
+ \caption[Long-slit Spectrscopy]{Three panels demonstrating long-slit spectrscopy
+ \label{fig:long-slit}}
+\end{figure}
+
+
+Dispersive elements ...
+\begin{itemize}
+    \item Compare prims and diffraction gratings ()
+    \item Describe diffraction gratings in detail and how they are made
+    \item Why do different gratings select different wavelengths?
+\end{itemize}
+
+Camera ...
+\begin{itemize}
+     \item Brief mention, if at all.
+     \item Focuses the light again
+ \end{itemize}
+
+Detector ...
+\begin{itemize}
+    \item Brief comments on specialisations for near-IR
+    \item i.e. Cooled etc.
+\end{itemize}
+
+
+Young, T., Phil. Trans. R. Soc. 92, 12 (1802)
+
+% The resulting spectrum, which the detector records, is typically of the form of an intensity Vs. wavelength diagram for the target source.
+% The features which are recorded are referred to as absorption or emission features.
+% Fundamentally, these features are so useful for astronomical observations as they arise owing to the properties of the chemical elements.
+% Each atom, and in turn molecule, has a unique spectrum which allows astronomers to identify atmos and molecules present in the observed target.
+% By comparing the shape and strength of different spectral features (against laboratory measurements) one can estimate the physical parameters of the target (see Chapter~\ref).
+
+
+
+
+% A spectrum of a star can be obtained by passing the light the telescope collects from the star through a prism or, more commonly used at modern observatories, a grism.
+% These instruments disperse light by exploting the properties of light as a wave.
+% A prism disperses light using the refractive properties of light as a wave through a triangular shaped chunk of glass (i.e. prism shaped).
+% JWST NIRSpec will have a prism
+
+% A diffraction grating was used to disperse light by Thomas Young
+% A diffraction grating improves spectral resolution and allows wavelength to be quantified
+% A grism disperses light using a highly posished reflective surface with ridges at defined intervals.
+% Stuff on prisms and grisms (figures showing two examples -- do I have any photos of grisms from la Palma?)
+% \begin{itemize}
+%     \item Why do we use grisms rather than prisms?
+%     \item Did astronomers ever use prisms?
+% \end{itemize}
+
+
+% The idea that one exposure from a telescope can lead to multiple spectra, so called multi-object spectroscopy, is a more recent addition to the arsenal of the astronomer.
+% Talk about some previous multi-object spectrographs. AAOmega? AF2? FORS2? etc.
+
+
+\section{Integral field spectroscopy} % (fold)
+\label{sec:integral_field_spectroscopy}
+
+% section integral_field_spectroscopy (end)
+How exactly does IFU spectrosocpy work again \ldots?
+
+\begin{itemize}
+    \item Image slicer!
+\end{itemize}
+
+% section introduction_to_spectroscopic_techniques (end)
+
+\section{Instrument} % (fold)
+\label{instrument}
+
+% section the_instrument (end)
+
+\section{Data} % (fold)
+\label{data}
+
+% section data (end)
+\section{Data Reduction} % (fold)
+\label{data_reduction}
+
+% section data_reduction (end)
+
+\section{Conclusions} % (fold)
+\label{sec:conclusions}
+
+% section conclusions (end)

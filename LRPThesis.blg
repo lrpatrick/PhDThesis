@@ -1,73 +1,51 @@
 This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: LRPThesis.aux
-A level-1 auxiliary file: intro/intro.aux
-A level-1 auxiliary file: JAnal/janalsum.aux
-A level-1 auxiliary file: ngc2100/ngc2100.aux
-A level-1 auxiliary file: ngc6822/ngc6822.aux
-A level-1 auxiliary file: ngc55/ngc55.aux
-A level-1 auxiliary file: mzr/mzr.aux
-A level-1 auxiliary file: appendix1/appendix1.aux
+A level-1 auxiliary file: kmos/kmos.aux
 The style file: mn2e.bst
 Database file #1: journals.bib
-Warning--I didn't find a database entry for "Conway2000"
-Warning--I didn't find a database entry for "Ekstrom12"
-Warning--I didn't find a database entry for "Davies-prep"
-Warning--I didn't find a database entry for "Davies10"
-Warning--I didn't find a database entry for "b:GrayCorbally"
-Warning--I didn't find a database entry for "b:KippenhahnWeigert"
-Warning--I didn't find a database entry for "b:Bohm-vitense92.v3"
-Warning--I didn't find a database entry for "b:SalarisCassisi05"
-Warning--I didn't find a database entry for "Massey07"
-Warning--I didn't find a database entry for "Davies13a"
-Warning--I didn't find a database entry for "Levesque12"
-Warning--I didn't find a database entry for "Gustafsson08"
-Warning--I didn't find a database entry for "Nikolaev00"
-Warning--I didn't find a database entry for "Cioni06"
-Warning--I didn't find a database entry for "Charlot01"
-Warning--I didn't find a database entry for "Przybilla02"
-Warning--I didn't find a database entry for "1998ApJ...501..153M"
-Warning--I didn't find a database entry for "2008SPIE.7019E..0TW"
-Warning--empty publisher in 1988mcts.book.....H
-You've used 114 entries,
+Database file #2: books.bib
+Warning--I didn't find a database entry for "Newton16xx"
+Warning--I didn't find a database entry for "Young1801"
+You've used 2 entries,
             2938 wiz_defined-function locations,
-            1345 strings with 30392 characters,
-and the built_in function-call counts, 64442 in all, are:
-= -- 4850
-> -- 6393
-< -- 6
-+ -- 2085
-- -- 2020
-* -- 5540
-:= -- 12231
+            628 strings with 4611 characters,
+and the built_in function-call counts, 1143 in all, are:
+= -- 98
+> -- 60
+< -- 4
++ -- 21
+- -- 21
+* -- 93
+:= -- 189
 add.period$ -- 0
-call.type$ -- 114
-change.case$ -- 1094
-chr.to.int$ -- 110
-cite$ -- 115
-duplicate$ -- 1951
-empty$ -- 3003
-format.name$ -- 2214
-if$ -- 12461
-int.to.chr$ -- 5
+call.type$ -- 2
+change.case$ -- 13
+chr.to.int$ -- 2
+cite$ -- 2
+duplicate$ -- 56
+empty$ -- 81
+format.name$ -- 25
+if$ -- 236
+int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 111
-newline$ -- 346
-num.names$ -- 456
-pop$ -- 982
+missing$ -- 0
+newline$ -- 10
+num.names$ -- 10
+pop$ -- 17
 preamble$ -- 1
-purify$ -- 1094
+purify$ -- 13
 quote$ -- 0
-skip$ -- 2032
+skip$ -- 52
 stack$ -- 0
-substring$ -- 2400
-swap$ -- 154
-text.length$ -- 6
+substring$ -- 56
+swap$ -- 22
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1023
-warning$ -- 1
-while$ -- 506
+type$ -- 18
+warning$ -- 0
+while$ -- 12
 width$ -- 0
-write$ -- 1137
-(There were 19 warnings)
+write$ -- 23
+(There were 2 warnings)

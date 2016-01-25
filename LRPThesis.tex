@@ -2,14 +2,18 @@
 \documentclass[a4paper,12pt,oneside,openright]{book}
 
 % Preamble commands go here
+\renewcommand{\labelenumi}{\theenumi}
 \usepackage{customisations}
+\usepackage{rotating}
 
 %% Some of the below packages may be useful to thesis writers in Physics
 %% Googling `latex <packagename>' will usually give you some documentation
 % \usepackage[load-configurations=abbreviations]{siunitx} % siunitx typesets physical units in a consistent manner
 \usepackage{booktabs} % booktabs provides professional formatting commands for tables
 \usepackage{amsmath} % amsmath provides extra maths symbols
+
 \usepackage{textcomp} % textcomp provides extra text symbols (like a degrees celsius symbol)
+\usepackage[flushleft]{threeparttable}
 % \usepackage{tikz} % tikz is a package for drawing diagrams and adding annotations to figures
 % \usepackage{threeparttable} % threeparttable allows for adding notes to tables
 % \usepackage{eps2pdf} % eps2pdf allows background transformation of eps files to pdfs so they
@@ -20,9 +24,9 @@
 % End preamble
 
 % REPLACE THESE with your thesis title, your name and the date of submission of the thesis
-\title{Title}
+\title{Red Supergiant Stars within the Local Group}
 \author{Lee. R. Patrick}
-\date{Month Year} % of submission
+\date{March 2016} % of submission
 
 \begin{document}
 
@@ -33,30 +37,34 @@
 \maketitlepage
 \frontmatter
 \eighteenptleading
-\input{thesis-frontmatter/abstract}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \input{thesis-frontmatter/abstract}
 
 \singlespacing
 % Uncomment this line if you need to declare published work which forms part of the thesis
-\declarationpublications{\cite{Conway2000}}
-\makedeclaration
+% \declarationpublications{\cite{Conway2000}}
+% \makedeclaration
 
-\input{thesis-frontmatter/acknowledgements}
+% \input{thesis-frontmatter/acknowledgements}
 
-\cleardoublepage
-\phantomsection
-\addcontentsline{toc}{chapter}{\contentsname}
-\setcounter{tocdepth}{2}
-\tableofcontents
+% Re include for the final thing!
 
-\cleardoublepage
-\phantomsection
-\addcontentsline{toc}{chapter}{\listfigurename}
-\listoffigures
+% \cleardoublepage
+% \phantomsection
+% \addcontentsline{toc}{chapter}{\contentsname}
+% \setcounter{tocdepth}{2}
+% \tableofcontents
 
-\cleardoublepage
-\phantomsection
-\addcontentsline{toc}{chapter}{\listtablename}
-\listoftables
+% \cleardoublepage
+% \phantomsection
+% \addcontentsline{toc}{chapter}{\listfigurename}
+% \listoffigures
+
+% \cleardoublepage
+% \phantomsection
+% \addcontentsline{toc}{chapter}{\listtablename}
+% \listoftables
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % John's hack for the MNRAS biblography
 \setlength{\bibhang}{2.0em}
 \setlength\labelwidth{0.0em}
@@ -112,6 +120,19 @@
 \newcommand{\planss}{Planet.~Space~Sci.}   % Planetary Space Science
 \newcommand{\procspie}{Proc.~SPIE}   % Proceedings of the SPIE
 
+%
+\newcommand{\farcm}{\mbox{\ensuremath{.\mkern-4mu^\prime}}}%    % fractional arcminute symbol: 0.'0
+\newcommand{\farcs}{\mbox{\ensuremath{.\!\!^{\prime\prime}}}}%  % fractional arcsecond symbol: 0.''0
+\newcommand{\fdg}{\mbox{\ensuremath{.\!\!^\circ}}}%             % fractional degree symbol:     0.°0
+\newcommand{\arcdeg}{\ensuremath{^{\circ}}}%                    % degree symbol:  °
+\newcommand{\sun}{\ensuremath{\odot}}%                          % sun symbol
+\newcommand{\Teff}{\ensuremath{T_{\mathrm{eff}}}}%              % T_eff
+\newcommand{\logg}{\ensuremath{\log g}}%                        % log g
+\newcommand{\bv}{\ensuremath{B\!-\!V}}%                         % B-V
+\newcommand{\ub}{\ensuremath{U\!-\!B}}%                         % U-B
+\newcommand{\vr}{\ensuremath{V\!-\!R}}%                         % V-R
+\newcommand{\ur}{\ensuremath{U\!-\!R}}%                         % U-R
+\newcommand\ion[2]{#1$\;${\scshape{#2}}}%                       % ion, i.e., CII = \ion{C}{ii}
 % Other commands & definitions:
 \newcommand{\mdot}{\ensuremath{\dot{M}}}
 \newcommand{\msun}{\ensuremath{M_{\odot}}}
@@ -131,20 +152,23 @@
 \def\o{$\phantom{0}$}
 \def\vr{$v_{\rm r}$}
 
+\renewcommand{\theenumi}{\roman{enumi}}
 % Include main matter here
 \mainmatter
 \eighteenptleading
-\include{intro/intro}
-\include{JAnal/janalsum}
+% \include{intro/intro}
+% \include{JAnal/janal}
+\include{kmos/kmos}
 % \include{nearIRsel/nearIRsel}
-\include{ngc2100/ngc2100}
-\include{ngc6822/ngc6822}
-\include{ngc55/ngc55}
-\include{mzr/mzr}
+% \include{ngc2100/ngc2100}
+% \include{ngc6822/ngc6822}
+% \include{ngc55/ngc55}
+% \include{mzr/mzr}
+% \include{conclusions/conclusions}
 
 \appendix
 \addtocontents{toc}{\protect\tocappendix}
-\include{appendix1/appendix1}
+% \include{appendix1/appendix1}hrd_ekstrom
 
 \backmatter
 
@@ -155,6 +179,6 @@
 % Choose a bibliography style to suit your taste here
 % This one was downloaded from http://web.reed.edu/cis/help/latex/bibtexstyles.html (June 2012)
 \bibliographystyle{mn2e}
-\bibliography{journals}
+\bibliography{journals,books}
 
 \end{document}

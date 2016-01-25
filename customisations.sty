@@ -203,6 +203,11 @@
 \hyphenpenalty=5000
 \tolerance=1000
 
+% Fergus' fix for the figure labels:
+\makeatletter
+     \renewcommand*\l@figure{\@dottedtocline{1}{1em}{3.2em}}
+\makeatother
+
 \setlength{\parindent}{0pt}
 
 \endinput

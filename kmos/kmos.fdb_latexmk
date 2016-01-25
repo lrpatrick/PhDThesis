@@ -1,0 +1,13 @@
+# Fdb version 3
+["pdflatex"] 1453657114 "kmos.tex" "kmos.pdf" "kmos" 1453657115
+  "/etc/texmf/web2c/texmf.cnf" 1412757199 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1392645748 31083 1dfd8bf685ce0009c40532fedf8a7c53 ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1392645748 31083 1dfd8bf685ce0009c40532fedf8a7c53 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1412757211 722335 73369eb762ec09b39cc3d0344b706328 ""
+  "kmos.aux" 1453650298 2627 6ade12ccc0895bbe7baf9d8cd06018c3 ""
+  "kmos.tex" 1453657013 7036 a77afb884d308ee8a8d36471ddc1cbc7 ""
+  (generated)
+  "kmos.pdf"
+  "kmos.log"
