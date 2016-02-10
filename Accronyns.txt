@@ -1,1 +1,23 @@
-BSG Blue Supergiant
+
+BSG Blue supergiant
+
+ESO European southern observatory
+
+FoV Field of view
+
+IFS Integral field spectroscopy
+
+IFU Integral field unit
+
+IR Infrared
+
+KMOS {\it K}-band multi-object spectrograph (see chapter ~\ref{kmos})
+
+
+OSIRIS Optical system for imaging and low-intermediate-resolution integrated spectroscopy
+
+PSF Point spread function
+
+SV Science verification
+
+VLT very large telescope

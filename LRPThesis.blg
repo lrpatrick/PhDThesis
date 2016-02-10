@@ -4,48 +4,60 @@ The top-level auxiliary file: LRPThesis.aux
 A level-1 auxiliary file: kmos/kmos.aux
 The style file: mn2e.bst
 Database file #1: journals.bib
+I was expecting an "="---line 201 of file journals.bib
+ : `    
+ :      pages = {115},
+I'm skipping whatever remains of this entry
+Warning--string name "june" is undefined
+--line 487 of file journals.bib
 Database file #2: books.bib
-Warning--I didn't find a database entry for "Newton16xx"
-Warning--I didn't find a database entry for "Young1801"
-You've used 2 entries,
+Name 1 in "{Davies, R.~I.}, and {Agudo Berbel}, A. and {Wiezorrek}, E. and {Cirasuolo}, M. and {F{\"o}rster Schreiber}, N.~M. and {Jung}, Y. and {Muschielok}, B. and {Ott}, T. and {Ramsay}, S. and {Schlichter}, J. and {Sharples}, R. and {Wegner}, M." has a comma at the end for entry 2013A&A...558A..56D
+while executing---line 1492 of file mn2e.bst
+Name 1 in "{Davies, R.~I.}, and {Agudo Berbel}, A. and {Wiezorrek}, E. and {Cirasuolo}, M. and {F{\"o}rster Schreiber}, N.~M. and {Jung}, Y. and {Muschielok}, B. and {Ott}, T. and {Ramsay}, S. and {Schlichter}, J. and {Sharples}, R. and {Wegner}, M." has a comma at the end for entry 2013A&A...558A..56D
+while executing---line 1492 of file mn2e.bst
+Name 1 in "{Davies, R.~I.}, and {Agudo Berbel}, A. and {Wiezorrek}, E. and {Cirasuolo}, M. and {F{\"o}rster Schreiber}, N.~M. and {Jung}, Y. and {Muschielok}, B. and {Ott}, T. and {Ramsay}, S. and {Schlichter}, J. and {Sharples}, R. and {Wegner}, M." has a comma at the end for entry 2013A&A...558A..56D
+while executing---line 1575 of file mn2e.bst
+Name 1 in "{Davies, R.~I.}, and {Agudo Berbel}, A. and {Wiezorrek}, E. and {Cirasuolo}, M. and {F{\"o}rster Schreiber}, N.~M. and {Jung}, Y. and {Muschielok}, B. and {Ott}, T. and {Ramsay}, S. and {Schlichter}, J. and {Sharples}, R. and {Wegner}, M." has a comma at the end for entry 2013A&A...558A..56D
+while executing---line 1575 of file mn2e.bst
+You've used 20 entries,
             2938 wiz_defined-function locations,
-            628 strings with 4611 characters,
-and the built_in function-call counts, 1143 in all, are:
-= -- 98
-> -- 60
-< -- 4
-+ -- 21
-- -- 21
-* -- 93
-:= -- 189
-add.period$ -- 0
-call.type$ -- 2
-change.case$ -- 13
-chr.to.int$ -- 2
-cite$ -- 2
-duplicate$ -- 56
-empty$ -- 81
-format.name$ -- 25
-if$ -- 236
+            753 strings with 9665 characters,
+and the built_in function-call counts, 13009 in all, are:
+= -- 923
+> -- 1411
+< -- 8
++ -- 446
+- -- 435
+* -- 1064
+:= -- 2433
+add.period$ -- 1
+call.type$ -- 20
+change.case$ -- 219
+chr.to.int$ -- 20
+cite$ -- 20
+duplicate$ -- 377
+empty$ -- 589
+format.name$ -- 462
+if$ -- 2550
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 0
-newline$ -- 10
-num.names$ -- 10
-pop$ -- 17
-preamble$ -- 1
-purify$ -- 13
+missing$ -- 15
+newline$ -- 65
+num.names$ -- 86
+pop$ -- 205
+preamble$ -- 2
+purify$ -- 219
 quote$ -- 0
-skip$ -- 52
+skip$ -- 440
 stack$ -- 0
-substring$ -- 56
-swap$ -- 22
-text.length$ -- 4
+substring$ -- 453
+swap$ -- 62
+text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 18
+type$ -- 177
 warning$ -- 0
-while$ -- 12
+while$ -- 93
 width$ -- 0
-write$ -- 23
-(There were 2 warnings)
+write$ -- 204
+(There were 5 error messages)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.8)  25 JAN 2016 09:29
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.8)  9 FEB 2016 15:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -608,7 +608,7 @@ LaTeX Info: Redefining \nameref on input line 31.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \c@lstlisting=\count146
-<thesis-frontmatter/crest.pdf, id=36, 614.295pt x 794.97pt>
+<thesis-frontmatter/crest.pdf, id=44, 614.295pt x 794.97pt>
 File: thesis-frontmatter/crest.pdf Graphic file (type pdf)
 
 <use thesis-frontmatter/crest.pdf>
@@ -623,25 +623,24 @@ Package pdftex.def Info: thesis-frontmatter/crest.pdf used on input line 37.
 
  (./kmos/kmos.tex
 Chapter 1.
-
-Package natbib Warning: Citation `Newton16xx' on page 1 undefined on input line
- 7.
-
-
-Package natbib Warning: Citation `Young1801' on page 1 undefined on input line 
-8.
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.26 
-      [1
+l.25     \item C
+                ollimator [1
 
 
 
 
 ]
+<kmos/spectrograph-test.png, id=76, 282.05376pt x 186.6975pt>
+File: kmos/spectrograph-test.png Graphic file (type png)
+
+<use kmos/spectrograph-test.png>
+Package pdftex.def Info: kmos/spectrograph-test.png used on input line 42.
+(pdftex.def)             Requested size: 268.1647pt x 177.51544pt.
+
 
 ! LaTeX Error: File `kmos/xxx' not found.
 
@@ -649,14 +648,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.29 ...degraphics[width=0.65\textwidth]{kmos/xxx}
+l.50 ...degraphics[width=0.65\textwidth]{kmos/xxx}
                                                   
 I could not locate the file with any of these extensions:
 .png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[2]
+[2 <./kmos/spectrograph-test.png (PNG copy)>]
 
 ! LaTeX Error: File `kmos/xxx' not found.
 
@@ -664,35 +663,106 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.60 ...degraphics[width=0.65\textwidth]{kmos/xxx}
+l.81 ...degraphics[width=0.65\textwidth]{kmos/xxx}
                                                   
 I could not locate the file with any of these extensions:
 .png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-) [3] [4] (./LRPThesis.bbl
-Underfull \hbox (badness 1997) in paragraph at lines 11--14
+[3] <kmos/youngslits.jpg, id=108, 453.695pt x 230.8625pt>
+File: kmos/youngslits.jpg Graphic file (type jpg)
+
+<use kmos/youngslits.jpg>
+Package pdftex.def Info: kmos/youngslits.jpg used on input line 101.
+(pdftex.def)             Requested size: 268.1647pt x 136.45427pt.
+ [4 <./kmos/youngslits.jpg>]
+! Undefined control sequence.
+l.136 \noident
+               which does not depend upon the fringe order.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[5] [6] [7]
+
+! LaTeX Error: File `kmos/xxx' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.225 ...egraphics[width=0.65\textwidth]{kmos/xxx}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<kmos/kmos-image-slicer.png, id=164, 376.40625pt x 265.99374pt>
+File: kmos/kmos-image-slicer.png Graphic file (type png)
+
+<use kmos/kmos-image-slicer.png>
+Package pdftex.def Info: kmos/kmos-image-slicer.png used on input line 232.
+(pdftex.def)             Requested size: 268.1647pt x 189.51439pt.
+ [8 <./kmos/kmos-image-slicer.png>]
+<kmos/kmos-spectrograph.png, id=176, 585.97298pt x 363.30324pt>
+File: kmos/kmos-spectrograph.png Graphic file (type png)
+
+<use kmos/kmos-spectrograph.png>
+Package pdftex.def Info: kmos/kmos-spectrograph.png used on input line 268.
+(pdftex.def)             Requested size: 268.1647pt x 166.26225pt.
+ [9 <./kmos/kmos-spectrograph.png>]
+
+LaTeX Warning: Reference `ch:janal' on page 10 undefined on input line 282.
+
+<kmos/kmos-data-Davies13.png, id=202, 988.69376pt x 593.21625pt>
+File: kmos/kmos-data-Davies13.png Graphic file (type png)
+
+<use kmos/kmos-data-Davies13.png>
+Package pdftex.def Info: kmos/kmos-data-Davies13.png used on input line 304.
+(pdftex.def)             Requested size: 268.1647pt x 160.89467pt.
+ [10] [11 <./kmos/kmos-data-Davies13.png>]
+<kmos/kmos-ifu.png, id=232, 367.3725pt x 357.335pt>
+File: kmos/kmos-ifu.png Graphic file (type png)
+ <use kmos/kmos-ifu.png>
+Package pdftex.def Info: kmos/kmos-ifu.png used on input line 342.
+(pdftex.def)             Requested size: 268.1647pt x 260.85237pt.
+
+[12] [13 <./kmos/kmos-ifu.png>] [14] [15]) [16] (./LRPThesis.bbl [17
+
+
+
+]
+! Undefined control sequence.
+l.93 {Sharples} R. {et~al.}, 2006, \nar
+                                       , 50, 370
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 1997) in paragraph at lines 97--100
 []\OT1/cmr/m/n/12 Tubbs E. F., Goss W. C., Co-hen J. G., 1982, in So-ci-ety of 
 Photo-
  []
 
 )
-
-Package natbib Warning: There were undefined citations.
-
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 184.
-[5
-
-
-
-]
+ [18]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 184.
  (./LRPThesis.aux (./kmos/kmos.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 184.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 184.
 Package rerunfilecheck Info: File `LRPThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 5FCE85AB3F461B85F6CF99DE62B9F353;519.
+(rerunfilecheck)             Checksum: B08277A147C7E79A88B0F3F96D51EC3D;755.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -700,24 +770,30 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 184.
  ) 
 Here is how much of TeX's memory you used:
- 10319 strings out of 495028
- 153018 string characters out of 6181497
- 257372 words of memory out of 5000000
- 13369 multiletter control sequences out of 15000+600000
- 8275 words of font info for 29 fonts, out of 8000000 for 9000
+ 10504 strings out of 495028
+ 156559 string characters out of 6181497
+ 259372 words of memory out of 5000000
+ 13489 multiletter control sequences out of 15000+600000
+ 13536 words of font info for 47 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 43i,11n,45p,287b,498s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/lee/.texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmti12.pfb>
-Output written on LRPThesis.pdf (6 pages, 89949 bytes).
+ 43i,12n,45p,419b,498s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
+i10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pf
+b>
+Output written on LRPThesis.pdf (19 pages, 1031083 bytes).
 PDF statistics:
- 124 PDF objects out of 1000 (max. 8388607)
- 105 compressed objects within 2 object streams
- 27 named destinations out of 1000 (max. 500000)
- 70 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 332 PDF objects out of 1000 (max. 8388607)
+ 286 compressed objects within 3 object streams
+ 83 named destinations out of 1000 (max. 500000)
+ 116 words of extra memory for PDF output out of 10000 (max. 10000000)
 
