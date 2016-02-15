@@ -1,10 +1,11 @@
-\BOOKMARK [0][-]{chapter.1}{Spectroscopy and the K-band Multi-Object Spectrograph}{}% 1
+\BOOKMARK [0][-]{chapter.1}{J-band Sythentic Spectral Fitting}{}% 1
 \BOOKMARK [1][-]{section.1.1}{Opening Remarks}{chapter.1}% 2
-\BOOKMARK [1][-]{section.1.2}{Introduction to Spectroscopic Techniques}{chapter.1}% 3
-\BOOKMARK [1][-]{section.1.3}{Integral field spectroscopy}{chapter.1}% 4
-\BOOKMARK [2][-]{subsection.1.3.1}{Techniques of integral field spectroscopy}{section.1.3}% 5
-\BOOKMARK [1][-]{section.1.4}{The K-band Multi Object Spectrograph}{chapter.1}% 6
-\BOOKMARK [1][-]{section.1.5}{Three Dimensional Data Cubes and the reduction thereof}{chapter.1}% 7
-\BOOKMARK [2][-]{subsection.1.5.1}{Calibration}{section.1.5}% 8
-\BOOKMARK [1][-]{section.1.6}{Conclusions}{chapter.1}% 9
-\BOOKMARK [0][-]{section*.11}{Bibliography}{}% 10
+\BOOKMARK [1][-]{section.1.2}{Introduction to Model Atmospheres}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{Measuring Stellar Parameters with Synthetic Spectra}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.4}{Continuum Fitting}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.5}{Best Fit Parameters}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.6}{Comparisons With Previous Implementations}{chapter.1}% 7
+\BOOKMARK [2][-]{subsection.1.6.1}{DFK10}{section.1.6}% 8
+\BOOKMARK [1][-]{section.1.7}{G14}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.8}{Conclusions}{chapter.1}% 10
+\BOOKMARK [0][-]{section*.18}{Bibliography}{}% 11

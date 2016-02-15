@@ -1,75 +1,76 @@
 \providecommand{\noopsort}[1]{}
-\begin{thebibliography}{20}
+\begin{thebibliography}{18}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
-\bibitem[{{Allington-Smith}(2006)}]{2006NewAR..50..244A}
-{Allington-Smith} J., 2006, New Astronomy Reviews, 50, 244
+\bibitem[{{Bergemann} {et~al}\mbox{.}(2012){Bergemann}, {Kudritzki}, {Plez},
+  {Davies}, {Lind}, \& {Gazak}}]{2012ApJ...751..156B}
+{Bergemann} M., {Kudritzki} R.-P., {Plez} B., {Davies} B., {Lind} K., {Gazak}
+  Z., 2012, \apj, 751, 156
 
-\bibitem[{{Bacon} {et~al}\mbox{.}(1995){Bacon}, {Adam}, {Baranne}, {Courtes},
-  {Dubet}, {Dubois}, {Emsellem}, {Ferruit}, {Georgelin}, {Monnet}, {Pecontal},
-  {Rousset}, \& {Say}}]{1995A&AS..113..347B}
-{Bacon} R. {et~al.}, 1995, \aaps, 113, 347
+\bibitem[{{Bergemann} {et~al}\mbox{.}(2013){Bergemann}, {Kudritzki},
+  {W{\"u}rl}, {Plez}, {Davies}, \& {Gazak}}]{2013ApJ...764..115B}
+{Bergemann} M., {Kudritzki} R.-P., {W{\"u}rl} M., {Plez} B., {Davies} B.,
+  {Gazak} Z., 2013, \apj, 764, 115
 
-\bibitem[{{Content}(1997)}]{1997SPIE.2871.1295C}
-{Content} R., 1997, in Society of Photo-Optical Instrumentation Engineers
-  (SPIE) Conference Series, Vol. 2871, Optical Telescopes of Today and
-  Tomorrow, {Ardeberg} A.~L., ed., pp. 1295--1305
+\bibitem[{{Cunha} {et~al}\mbox{.}(2007){Cunha}, {Sellgren}, {Smith}, {Ramirez},
+  {Blum}, \& {Terndrup}}]{Cunha07}
+{Cunha} K., {Sellgren} K., {Smith} V.~V., {Ramirez} S.~V., {Blum} R.~D.,
+  {Terndrup} D.~M., 2007, ApJ, 669, 1011
 
-\bibitem[{{Cullen}(2014)}]{2014PhDT.........C}
-{Cullen} F., 2014, PhD thesis, Institute for Astronomy, University of Edinburgh
+\bibitem[{{Davies}, {Kudritzki} \& {Figer}(2010){Davies}, {Kudritzki}, \&
+  {Figer}}]{2010MNRAS.407.1203D}
+{Davies} B., {Kudritzki} R.-P., {Figer} D.~F., 2010, MNRAS, 407, 1203
 
-\bibitem[{{Davies, R.~I.} {et~al}\mbox{.}(2013a){Davies, R.~I.}, {Agudo
-  Berbel}, {Wiezorrek}, {Cirasuolo}, {F{\"o}rster Schreiber}, {Jung},
-  {Muschielok}, {Ott}, {Ramsay}, {Schlichter}, {Sharples}, \&
-  {Wegner}}]{2013A&A...558A..56D}
-{Davies, R.~I.} {et~al.}, 2013a, \aap, 558, A56
+\bibitem[{{Davies} {et~al}\mbox{.}(2015){Davies}, {Kudritzki}, {Gazak}, {Plez},
+  {Bergemann}, {Evans}, \& {Patrick}}]{2015ApJ...806...21D}
+{Davies} B., {Kudritzki} R.-P., {Gazak} Z., {Plez} B., {Bergemann} M., {Evans}
+  C., {Patrick} L., 2015, \apj, 806, 21
 
-\bibitem[{{Feldmeier-Krause} {et~al}\mbox{.}(2015){Feldmeier-Krause},
-  {Neumayer}, {Sch{\"o}del}, {Seth}, {Hilker}, {de Zeeuw}, {Kuntschner},
-  {Walcher}, {L{\"u}tzgendorf}, \& {Kissler-Patig}}]{2015A&A...584A...2F}
-{Feldmeier-Krause} A. {et~al.}, 2015, \aap, 584, A2
+\bibitem[{{Davies} {et~al}\mbox{.}(2013){Davies}, {Kudritzki}, {Plez},
+  {Bergemann}, {Gazak}, \& {Evans}}]{Davies13b}
+{Davies} B., {Kudritzki} R.-P., {Plez} B., {Bergemann} M., {Gazak} Z., {Evans}
+  C., 2013, in EAS Publications Series, Vol.~60, EAS Publications Series, pp.
+  287--292
+
+\bibitem[{{Davies} {et~al}\mbox{.}(2009{\natexlab{a}}){Davies}, {Origlia},
+  {Kudritzki}, {Figer}, {Rich}, \& {Najarro}}]{Davies09a}
+{Davies} B., {Origlia} L., {Kudritzki} R.-P., {Figer} D.~F., {Rich} R.~M.,
+  {Najarro} F., 2009{\natexlab{a}}, ApJ, 694, 46
+
+\bibitem[{{Davies} {et~al}\mbox{.}(2009{\natexlab{b}}){Davies}, {Origlia},
+  {Kudritzki}, {Figer}, {Rich}, {Najarro}, {Negueruela}, \&
+  {Clark}}]{Davies09b}
+{Davies} B., {Origlia} L., {Kudritzki} R.-P., {Figer} D.~F., {Rich} R.~M.,
+  {Najarro} F., {Negueruela} I., {Clark} J.~S., 2009{\natexlab{b}}, ApJ, 696,
+  2014
+
+\bibitem[{{Evans} {et~al}\mbox{.}(2011){Evans}, {Davies}, {Kudritzki}, {Puech},
+  {Yang}, {Cuby}, {Figer}, {Lehnert}, {Morris}, \&
+  {Rousset}}]{2011A&A...527A..50E}
+{Evans} C.~J. {et~al.}, 2011, A\&A, 527, A50
+
+\bibitem[{{Freytag}, {Steffen} \& {Dorch}(2002){Freytag}, {Steffen}, \&
+  {Dorch}}]{2002AN....323..213F}
+{Freytag} B., {Steffen} M., {Dorch} B., 2002, Astronomische Nachrichten, 323,
+  213
+
+\bibitem[{{Gazak}(2014)}]{2014PhDT.........G}
+{Gazak} J.~K., 2014, PhD thesis, University of Hawaii
+
+\bibitem[{{Gazak} {et~al}\mbox{.}(2014){Gazak}, {Davies}, {Kudritzki},
+  {Bergemann}, \& {Plez}}]{2014ApJ...788...58G}
+{Gazak} J.~Z., {Davies} B., {Kudritzki} R., {Bergemann} M., {Plez} B., 2014,
+  \apj, 788, 58
 
 \bibitem[{{Gazak} {et~al}\mbox{.}(2015){Gazak}, {Kudritzki}, {Evans},
   {Patrick}, {Davies}, {Bergemann}, {Plez}, {Bresolin}, {Bender}, {Wegner},
   {Bonanos}, \& {Williams}}]{2015ApJ...805..182G}
 {Gazak} J.~Z. {et~al.}, 2015, \apj, 805, 182
 
-\bibitem[{{Harrison} {et~al}\mbox{.}(2016){Harrison}, {Alexander}, {Mullaney},
-  {Stott}, {Swinbank}, {Arumugam}, {Bauer}, {Bower}, {Bunker}, \&
-  {Sharples}}]{2016MNRAS.456.1195H}
-{Harrison} C.~M. {et~al.}, 2016, \mnras, 456, 1195
-
-\bibitem[{{Lardo} {et~al}\mbox{.}(2015){Lardo}, {Davies}, {Kudritzki}, {Gazak},
-  {Evans}, {Patrick}, {Bergemann}, \& {Plez}}]{2015ApJ...812..160L}
-{Lardo} C., {Davies} B., {Kudritzki} R.-P., {Gazak} J.~Z., {Evans} C.~J.,
-  {Patrick} L.~R., {Bergemann} M., {Plez} B., 2015, \apj, 812, 160
-
-\bibitem[{{Magdis} {et~al}\mbox{.}(2016){Magdis}, {Bureau}, {Stott}, {Tiley},
-  {Swinbank}, {Bower}, {Bunker}, {Jarvis}, {Johnson}, \&
-  {Sharples}}]{2016MNRAS.456.4533M}
-{Magdis} G.~E. {et~al.}, 2016, \mnras, 456, 4533
-
-\bibitem[{{M{\'e}ndez-Abreu} {et~al}\mbox{.}(2011){M{\'e}ndez-Abreu},
-  {S{\'a}nchez Almeida}, {Mu{\~n}oz-Tu{\~n}{\'o}n},
-  {Rodr{\'{\i}}guez-Espinosa}, {Aguerri}, {Rosa Gonz{\'a}lez}, {Mayya}, {Vega},
-  {Terlevich}, {Terlevich}, {Bertone}, \&
-  {Rodr{\'{\i}}guez-Merino}}]{2011PASP..123.1107M}
-{M{\'e}ndez-Abreu} J. {et~al.}, 2011, \pasp, 123, 1107
-
-\bibitem[{{Newton}(1704)}]{b:Newton}
-{Newton} I., 1704, {Opticks: or, a Treatise of the reflexions, refractions,
-  inflexions and colours of light. Also two treatises of the species and
-  magnitude of curvilinear figures}. London
-
-\bibitem[{{Parry} \& {Gray}(1986)}]{1986SPIE..627..118P}
-{Parry} I.~R., {Gray} P.~M., 1986, in Society of Photo-Optical Instrumentation
-  Engineers (SPIE) Conference Series, Vol. 627, Instrumentation in astronomy
-  VI, {Crawford} D.~L., ed., pp. 118--124
-
-\bibitem[{{Parviainen} {et~al}\mbox{.}(2015){Parviainen}, {Aigrain}, {Thatte},
-  {Barstow}, {Evans}, \& {Gibson}}]{2015MNRAS.453.3875P}
-{Parviainen} H., {Aigrain} S., {Thatte} N., {Barstow} J.~K., {Evans} T.~M.,
-  {Gibson} N., 2015, \mnras, 453, 3875
+\bibitem[{{Gustafsson} {et~al}\mbox{.}(2008){Gustafsson}, {Edvardsson},
+  {Eriksson}, {J{\o}rgensen}, {Nordlund}, \& {Plez}}]{2008A&A...486..951G}
+{Gustafsson} B., {Edvardsson} B., {Eriksson} K., {J{\o}rgensen} U.~G.,
+  {Nordlund} {\AA}., {Plez} B., 2008, \aap, 486, 951
 
 \bibitem[{{Patrick} {et~al}\mbox{.}(2015){Patrick}, {Evans}, {Davies},
   {Kudritzki}, {Gazak}, {Bergemann}, {Plez}, \&
@@ -77,28 +78,16 @@
 {Patrick} L.~R., {Evans} C.~J., {Davies} B., {Kudritzki} R.-P., {Gazak} J.~Z.,
   {Bergemann} M., {Plez} B., {Ferguson} A.~M.~N., 2015, \apj, 803, 14
 
-\bibitem[{{Rayleigh}(1880)}]{1880MNRAS..40..254R}
-{Rayleigh} L., 1880, \mnras, 40, 254
+\bibitem[{{Plez}(2010)}]{2010ASPC..425..124P}
+{Plez} B., 2010, in Astronomical Society of the Pacific Conference Series, Vol.
+  425, Hot and Cool: Bridging Gaps in Massive Star Evolution, {Leitherer} C.,
+  {Bennett} P.~D., {Morris} P.~W., {Van Loon} J.~T., eds., p. 124
 
-\bibitem[{{Sharples}(2015)}]{2015IAUS..309...11S}
-{Sharples} R., 2015, in IAU Symposium, Vol. 309, Galaxies in 3D across the
-  Universe, {Ziegler} B.~L., {Combes} F., {Dannerbauer} H., {Verdugo} M., eds.,
-  pp. 11--16
+\bibitem[{{Reetz}(1999)}]{1999PhDT.........3R}
+{Reetz} J., 1999, PhD thesis, LMU, Munich
 
-\bibitem[{{Sharples} {et~al}\mbox{.}(2006){Sharples}, {Bender}, {Bennett},
-  {Burch}, {Carter}, {Clark}, {Content}, {Davies}, {Davies}, {Dubbeldam},
-  {Genzel}, {Hess}, {Laidlaw}, {Lehnert}, {Lewis}, {Muschielok},
-  {Ramsey-Howat}, {Rees}, {Robertson}, {Robson}, {Saglia}, {Tecza}, {Thatte},
-  {Todd}, {Wall}, \& {Wegner}}]{2006NewAR..50..370S}
-{Sharples} R. {et~al.}, 2006, \nar, 50, 370
-
-\bibitem[{{Tubbs}, {Goss} \& {Cohen}(1982){Tubbs}, {Goss}, \&
-  {Cohen}}]{1982SPIE..331..289T}
-{Tubbs} E.~F., {Goss} W.~C., {Cohen} J.~G., 1982, in Society of Photo-Optical
-  Instrumentation Engineers (SPIE) Conference Series, Vol. 331, Instrumentation
-  in Astronomy IV, p. 289
-
-\bibitem[{{Young}(1802)}]{1802PTRSL.92.12Y}
-{Young} T., 1802, Phil. Trans. R. Soc. Lond., 92, 12
+\bibitem[{{V{\'{\i}}lchez} \&
+  {Iglesias-P{\'a}ramo}(1998)}]{1998ApJ...508..248V}
+{V{\'{\i}}lchez} J.~M., {Iglesias-P{\'a}ramo} J., 1998, \apj, 508, 248
 
 \end{thebibliography}

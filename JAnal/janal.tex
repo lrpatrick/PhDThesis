@@ -19,12 +19,54 @@
 % To be included when added into thesis
 \chapter{J-band Sythentic Spectral Fitting}
 
+
+\section{Opening Remarks} % (fold)
+\label{sec:opening}
+
 In this chapter I describe in detail the process by which I implement an analysis
-routine to fit RSG synthetic spectra to observed data to estimate stellar parameters.
+routine to fit synthetic spectra to observed data with the aim of estimating stellar parameters.
+This analysis builds on existing methods while providing a fresh approach to various aspects of the routine.
+I have developed this implementation in the public domain and the source code for this project is made publicly available
+via an online repository.\footnotemark
+
+\footnotetext{Souce code available from: https://github.com/lrpatrick/rsg-janal
+although the interested reader should be aware that these routines are, at the time of writing, in development mode
+in the sense that they are highly specialised to one machine and (particularly) one set of model grids}
+
+In this chapter I first outline the principles of model atmospheres~\ref{sub:model_atmospheres}.
+Where I discus the physics which is included in these models, some of their strengths and their limitations.
+I then focus the discussion on the grid of synthetic stellar spectra which forms the base of this analysis routine in~\ref{sub:model_grid}.
+In~\ref{sub:continuum_fitting} I detail the procedure of matching the continuum level of the observations with that of the models,
+which leads on to~\ref{sub:best_fit_parameters} where the method by which the best fit parameters are selected is described.
+
+Having described the analysis routine thoroughly I then test this routine and compare the results of this method to different implementations in~\ref{sub:compare}.
+Finally, I conclude the chapter in~\ref{sub:conclusions}.
+
+% section opening (end)
+\section{Introduction to Model Atmospheres} % (fold)
+\label{sub:model_atmospheres}
+
+\begin{itemize}
+    \item Background on model atmospheres
+    \item Focus on cool stars
+    \item What physics goes into these models?
+    \item What are their strengths and limitations?
+\end{itemize}
+% section model_atmospheres (end)
+
+\section{Measuring Stellar Parameters with Synthetic Spectra} % (fold)
+\label{sub:model_grid}
+
+\begin{itemize}
+    \item What are Synthetic Spectra?
+    \item Why are they useful?
+    \item Background to the J-band method
+\end{itemize}
+
 The spectra cover the $J$-band, specifically the $1.16-1.22\mu$m region, where there are various prominent spectral features.
 These spectral features, arising from elemental absorption, are compared in the observed and model spectra,
 where the $\chi^{2}$-statistic is calculated to asses the goodness of fit for each model.
-The stellar parameters which are fit for in this analysis are global metallicity ($log (Z/Z_{\odot}$~=~[Z]), effective temperature (T$_{eff}$), microturblence ($\xi$) and surface gravity ($log\,g$).
+The stellar parameters which are fit for in this analysis are global metallicity ($log (Z/Z_{\odot})$~=~[Z]), effective temperature (T$_{eff}$), microturblence ($\xi$) and surface gravity ($log\,g$).
 % In addition to these parameters, in the future I also hope to further develop this implementation to include the $\alpha$-to-iron ratio as a free parameter.
 The observed spectra are fit with models from a set of MARCS model atmospheres
 \citep{2008A&A...486..951G}.
@@ -44,26 +86,11 @@ Combining this with the fact that dust attenuation is significantly lower in the
 Previous implemenations of this analysis include that of
 \cite{2010MNRAS.407.1203D} and Gazak (2014).
 This implemenation includes aspects of both of these previous implementations and could be described as a hybrid of the two.
-% I approach the implementation in a Bayesian manner which relies on good prior assumptions.
-Eventually this analysis routine will be made publicly available which should encourage the community to engage with these routines.
+Eventually this analysis routine will be made publicly available will should encourage the community to engage with these routines.
 
-In the remainder of this chapter I first describe the model grids and how they are used in~\ref{sub:model_grid}.
-I then describe the continuum fitting procedure in~\ref{sub:continuum_fitting},
-and go on to detail the method for estimating the best fit parameters in
-~\ref{sub:best_fit_parameters}.
-All previous analyses using a similar method are described in~\ref{sub:compare}
-and results using the method detailed here are compared to results from these previous implementations.
-% A comparison between the results of these methods with the method described in this chapter are detailed.
-Finally, I conclude the chapter in~\ref{sub:conclusions}.
 
-\subsection{Model Atmospheres} % (fold)
-\label{sub:model_atmospheres}
 
-% subsection model_atmospheres (end)
-
-\subsection{Model Grid} % (fold)
-\label{sub:model_grid}
-The model grids used in this analysis is based on model atmospheres computed from the
+The synthetic spectra used in this analysis is based on model atmospheres computed from the
 MARCS model atmospheres project~\citep{2008A&A...486..951G}.
 These model atmospheres are one-dimensional models (i.e. spherically symmetric)
 computed within local thermodynamic equilibrium (LTE).
@@ -71,7 +98,7 @@ computed within local thermodynamic equilibrium (LTE).
 The MARCS models are particularly general and widely applicable to many different types of stars and as such are well used and tested.
 However, for the atmospheres of RSGs the assumptions which go into these models are known to break down
 \citep{2002AN....323..213F,2010ASPC..425..124P},
-therefore, in order to accurately analyse the spectra of RSGs additional corrections must be made.
+therefore, in order to accurately analyse the spectra of RSGs additional corrections must be applied.
 
 The MARCS model atmospheres used for this analysis are computed with a mass of $15M_{\odot}$.
 The typical mass range of a RSG is $8~\textendash~40M_{\odot}$, however,
@@ -120,8 +147,6 @@ whereas at $\xi~=~5.0$, the iron line in the right panel is the stronger of the 
 
 \begin{table}
 \caption{Model grid parameter space\label{tb:grid}}
- \note{This is the grid which I currently have.
-       What does the most modern grid we have look like?}
 \scriptsize
 \begin{center}
 \begin{tabular}{lccc}
@@ -141,7 +166,7 @@ Microturblence & $\xi$ & $1.0~ \textendash~5.0$ & 0.2\,$km\,s^{-1}$ \\
 
 \begin{figure}
  \centering
-\includegraphics[width=\textwidth]{JAnal/varyZv2}
+\includegraphics[width=0.65\textwidth]{JAnal/varyZv2}
 \caption{
 Three models where only the metallicitiy is varied.
 Five diagnostic lines are shown in two panels.
@@ -152,7 +177,7 @@ Right: Fe\,I $\lambda$ and Si\,I $\lambda\lambda$ 1.198419, 1.199157.\label{fig:
 
 \begin{figure}
  \centering
-\includegraphics[width=\textwidth]{JAnal/varygv2}
+\includegraphics[width=0.65\textwidth]{JAnal/varygv2}
 \caption{
 As in Figure~\ref{fig:mod-z} where however surface gravity is varied.\label{fig:mod-g}
          }
@@ -160,7 +185,7 @@ As in Figure~\ref{fig:mod-z} where however surface gravity is varied.\label{fig:
 
 \begin{figure}
  \centering
-\includegraphics[width=\textwidth]{JAnal/varyTv2}
+\includegraphics[width=0.65\textwidth]{JAnal/varyTv2}
 \caption{
 As in Figure~\ref{fig:mod-z} where however effective temperature is varied.\label{fig:mod-t}
          }
@@ -168,7 +193,7 @@ As in Figure~\ref{fig:mod-z} where however effective temperature is varied.\labe
 
 \begin{figure}
  \centering
-\includegraphics[width=\textwidth]{JAnal/varymicrov2}
+\includegraphics[width=0.65\textwidth]{JAnal/varymicrov2}
 \caption{
 As in Figure~\ref{fig:mod-z} where however microturblence is varied.\label{fig:mod-micro}
          }
@@ -189,8 +214,8 @@ This is applicable as young stars are known to have solar-like $\alpha$-to-iron 
 %     \item What do the current grids look like?
 %     \item How could they be improved?
 % \end{itemize}
-% subsection model_grid (end)
-\subsection{Continuum Fitting} % (fold)
+% section model_grid (end)
+\section{Continuum Fitting} % (fold)
 \label{sub:continuum_fitting}
 
 Accurately matching the continuum levels in the observed
@@ -216,7 +241,7 @@ It can also be seen in figures~\ref{fig:mod-z}---\ref{fig:mod-micro} that each o
 
 \begin{figure}
  \centering
-\includegraphics[width=\textwidth]{JAnal/Resolution}
+\includegraphics[width=0.65\textwidth]{JAnal/Resolution}
 \caption{
 One model degraded to four different resolution values.
 This figure demonstrates the how the continuum level changes depending upon
@@ -227,7 +252,7 @@ We see at around 1.191$\mu$m at $R=3000$ the continuum level is perturbed by ble
 
 \begin{figure}
  \centering
-\includegraphics[width=\textwidth]{JAnal/varyZ}
+\includegraphics[width=0.65\textwidth]{JAnal/varyZ}
 \caption{
 Three models where only the metallicitiy is varied.
 Each panel shows one or more diagnostic line.
@@ -290,7 +315,7 @@ In this figure blue points represent the boundaries between the slices of width 
 
 \begin{figure}
  \centering
-\includegraphics[width=\textwidth]{JAnal/cw}
+\includegraphics[width=0.65\textwidth]{JAnal/cw}
 \caption[Illustration of continuum width slices and maxima]{
 Illustration of the continuum width ($cw$) and slicing the model spectrum into regions of $cw\mu$m is able to remove structure in order to fit the continuum.
 The solid black line shows an example of a model spectrum degraded to a resolution of 3000,
@@ -320,7 +345,7 @@ It can be seen that the continuum placement of the example observed spectrum and
 
 \begin{figure}
  \centering
-\includegraphics[width=\textwidth]{JAnal/cftaction}
+\includegraphics[width=0.65\textwidth]{JAnal/cftaction}
 \caption[Example of continuum fitting]{
 An example of how the continuum fitting procedure works using a model spectrum as
 an example observed spectrum (black solid line)
@@ -340,8 +365,8 @@ These methods select pseduo-continuum pixels in the models based on ranking the 
 Providing the pixels from the model are selected in this manner and not those in the observations, this is a reliable method with which to derive the continuum level as demonstrated by~\cite{2015ApJ...806...21D}.
 % \textbf{What advantage (if any) does the method applied here have over the one used in Davies et al. (2015 in prep.)?}
 
-% subsection continuum_fitting (end)
-\subsection{Best Fit Parameters} % (fold)
+% section continuum_fitting (end)
+\section{Best Fit Parameters} % (fold)
 \label{sub:best_fit_parameters}
 
 Best fit parameters are calculated using a chi-squared minimisation approach.
@@ -373,7 +398,7 @@ This ensures that an individual pixel is not counted multiple times and provides
 
 \begin{figure}
  \centering
- \includegraphics[width=\textwidth]{JAnal/Diag-lines}
+ \includegraphics[width=0.65\textwidth]{JAnal/Diag-lines}
  \caption[Diagnostic lines]{
 An example of a model spectrum, degraded and resampled to that of a typical observed spectrum (in this case NGC6822-RSG01), where the regions used to compute the $\chi^{2}$ calculation is highlighted in red.\label{fig:lines}
          }
@@ -456,7 +481,7 @@ Note, all of these tests assume that the luminosity of the model is known
 
 \begin{figure}
  \centering
- \includegraphics[width=\textwidth]{JAnal/lineonly-test2v22}
+ \includegraphics[width=0.65\textwidth]{JAnal/lineonly-test2v22}
  \caption[Test ]{
 Results of the analysis routine using 21 fake RSG spectra as input.
 The spectra span a wide range of stellar parameters and are degraded to $R~=~3000$ and resampled onto a typical sampling for the real data with random Gaussian noise added of S/N~=~100.
@@ -464,7 +489,7 @@ The spectra span a wide range of stellar parameters and are degraded to $R~=~300
          }
 \end{figure}
 
-\subsection{Comparisons With Previous Implementations} % (fold)
+\section{Comparisons With Previous Implementations} % (fold)
 \label{sub:compare}
 To increase confidence in the accuracy and reliability of this implementation of the $J$-band synthetic spectral fitting methods,
 where applicable, these routines have been compared to the results based on previous implementations of this analysis.
@@ -485,7 +510,7 @@ The line list which builds these spectra are known to be incomplete and the effe
 
 2. Using the full line profile of the diagnostic lines provides information on the shape of the lines which using the line strength does not.
 
-\subsubsection{DFK10} % (fold)
+\subsection{DFK10} % (fold)
 \label{sub:dfk10}
 To date there have been several published articles using the DFK10 implementation
 ~\citep{2010MNRAS.407.1203D,2015ApJ...803...14P,2015ApJ...806...21D}.
@@ -498,7 +523,7 @@ The mean of each of the parmeters is calculated in Table~\ref{tb:DFK10} and is s
 
 \begin{figure}
  \centering
- \includegraphics[width=\textwidth]{JAnal/compare-DFK10}
+ \includegraphics[width=0.65\textwidth]{JAnal/compare-DFK10}
  \caption[NGC\,6822 DFK10]{
 A comparison between the parameters derived for 11 RSGs in NGC\,6822.
 DFK10 results are those published in~\cite{2015ApJ...803...14P}.
@@ -523,9 +548,9 @@ $\xi$     & $3.9~\pm~0.5$ &  \\
 \end{tabular}
 \end{center}
 \end{table}
-% subsection dfk10 (end)
+% section dfk10 (end)
 
-\subsection{G14} % (fold)
+\section{G14} % (fold)
 \label{sub:g14}
 The second implementation of the $J$-band analysis technique using $J$-band spectra of RSGs was that presented and rigorously tested in~\cite{2014PhDT.........G}.
 This implementation was set up to be complementary to that of DFK10 and was tested on high resolution spectra of RSGs in the Perseus OB-1 cluster.
@@ -544,7 +569,7 @@ The resolution for each spectrum is compared to that of the values quoted in the
 
 \begin{figure}
  \centering
- \includegraphics[width=\textwidth]{JAnal/compare-DFK10}
+ \includegraphics[width=0.65\textwidth]{JAnal/compare-DFK10}
  \caption[NGC\,300 G14]{
 A comparison between the parameters derived for 27 RSGs in NGC\,300.
 DFK10 results are those published in~\cite{2015ApJ...805..182G}.
@@ -570,10 +595,10 @@ $\xi$     & $3.9~\pm~0.5$ &  \\
 \end{tabular}
 \end{center}
 \end{table}
-% subsection g14 (end)
-% subsection compare (end)
+% section g14 (end)
+% section compare (end)
 
-\subsection{Conclusions} % (fold)
+\section{Conclusions} % (fold)
 \label{sub:conclusions}
 In this chapter I present an analysis to derive stellar parameters from RSGs using medium resolution $J$-band spectroscopy.
 I detail the important aspects of this analysis including a recipe for fitting the continuum of an observed spectrum.
@@ -581,10 +606,3 @@ I describe in detail the process by which the best fit parameters and their asso
 I then go on to compare the results of this analysis with that of all known implementations of this analysis method and (hopefully) show that results derived between the implementations are consistent.
 
 % subsection conclusions (end)
-% subsection best_fit_parameters (end)
-% \bibliography{../journals}{}
-% \bibliographystyle{apalike}
-%%%%%%%%%%%%%%%%%%%%%%%%%
-% To be removed when added into thesis
-% \end{document}
-%%%%%%%%%%%%%%%%%%%%%%%%%

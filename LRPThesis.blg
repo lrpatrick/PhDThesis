@@ -1,7 +1,7 @@
 This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: LRPThesis.aux
-A level-1 auxiliary file: kmos/kmos.aux
+A level-1 auxiliary file: JAnal/janal.aux
 The style file: mn2e.bst
 Database file #1: journals.bib
 I was expecting an "="---line 201 of file journals.bib
@@ -9,55 +9,48 @@ I was expecting an "="---line 201 of file journals.bib
  :      pages = {115},
 I'm skipping whatever remains of this entry
 Warning--string name "june" is undefined
---line 487 of file journals.bib
+--line 1056 of file journals.bib
 Database file #2: books.bib
-Name 1 in "{Davies, R.~I.}, and {Agudo Berbel}, A. and {Wiezorrek}, E. and {Cirasuolo}, M. and {F{\"o}rster Schreiber}, N.~M. and {Jung}, Y. and {Muschielok}, B. and {Ott}, T. and {Ramsay}, S. and {Schlichter}, J. and {Sharples}, R. and {Wegner}, M." has a comma at the end for entry 2013A&A...558A..56D
-while executing---line 1492 of file mn2e.bst
-Name 1 in "{Davies, R.~I.}, and {Agudo Berbel}, A. and {Wiezorrek}, E. and {Cirasuolo}, M. and {F{\"o}rster Schreiber}, N.~M. and {Jung}, Y. and {Muschielok}, B. and {Ott}, T. and {Ramsay}, S. and {Schlichter}, J. and {Sharples}, R. and {Wegner}, M." has a comma at the end for entry 2013A&A...558A..56D
-while executing---line 1492 of file mn2e.bst
-Name 1 in "{Davies, R.~I.}, and {Agudo Berbel}, A. and {Wiezorrek}, E. and {Cirasuolo}, M. and {F{\"o}rster Schreiber}, N.~M. and {Jung}, Y. and {Muschielok}, B. and {Ott}, T. and {Ramsay}, S. and {Schlichter}, J. and {Sharples}, R. and {Wegner}, M." has a comma at the end for entry 2013A&A...558A..56D
-while executing---line 1575 of file mn2e.bst
-Name 1 in "{Davies, R.~I.}, and {Agudo Berbel}, A. and {Wiezorrek}, E. and {Cirasuolo}, M. and {F{\"o}rster Schreiber}, N.~M. and {Jung}, Y. and {Muschielok}, B. and {Ott}, T. and {Ramsay}, S. and {Schlichter}, J. and {Sharples}, R. and {Wegner}, M." has a comma at the end for entry 2013A&A...558A..56D
-while executing---line 1575 of file mn2e.bst
-You've used 20 entries,
+Warning--I didn't find a database entry for "2014arXiv1412.6527B"
+You've used 18 entries,
             2938 wiz_defined-function locations,
-            753 strings with 9665 characters,
-and the built_in function-call counts, 13009 in all, are:
-= -- 923
-> -- 1411
-< -- 8
-+ -- 446
-- -- 435
-* -- 1064
-:= -- 2433
-add.period$ -- 1
-call.type$ -- 20
-change.case$ -- 219
-chr.to.int$ -- 20
-cite$ -- 20
-duplicate$ -- 377
-empty$ -- 589
-format.name$ -- 462
-if$ -- 2550
-int.to.chr$ -- 1
+            736 strings with 8407 characters,
+and the built_in function-call counts, 10099 in all, are:
+= -- 763
+> -- 961
+< -- 4
++ -- 319
+- -- 306
+* -- 916
+:= -- 1909
+add.period$ -- 0
+call.type$ -- 18
+change.case$ -- 169
+chr.to.int$ -- 17
+cite$ -- 18
+duplicate$ -- 322
+empty$ -- 484
+format.name$ -- 337
+if$ -- 1941
+int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 15
-newline$ -- 65
-num.names$ -- 86
-pop$ -- 205
+missing$ -- 14
+newline$ -- 59
+num.names$ -- 74
+pop$ -- 153
 preamble$ -- 2
-purify$ -- 219
+purify$ -- 169
 quote$ -- 0
-skip$ -- 440
+skip$ -- 304
 stack$ -- 0
-substring$ -- 453
-swap$ -- 62
-text.length$ -- 8
+substring$ -- 369
+swap$ -- 40
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 177
+type$ -- 162
 warning$ -- 0
-while$ -- 93
+while$ -- 78
 width$ -- 0
-write$ -- 204
-(There were 5 error messages)
+write$ -- 184
+(There was 1 error message)
