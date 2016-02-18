@@ -4,53 +4,55 @@ The top-level auxiliary file: LRPThesis.aux
 A level-1 auxiliary file: JAnal/janal.aux
 The style file: mn2e.bst
 Database file #1: journals.bib
-I was expecting an "="---line 201 of file journals.bib
+I was expecting an "="---line 210 of file journals.bib
  : `    
  :      pages = {115},
 I'm skipping whatever remains of this entry
 Warning--string name "june" is undefined
---line 1056 of file journals.bib
+--line 1065 of file journals.bib
 Database file #2: books.bib
 Warning--I didn't find a database entry for "2014arXiv1412.6527B"
-You've used 18 entries,
+Warning--empty publisher in 1989isa2.book.....B
+Warning--empty publisher in 2012sse..book.....K
+You've used 24 entries,
             2938 wiz_defined-function locations,
-            736 strings with 8407 characters,
-and the built_in function-call counts, 10099 in all, are:
-= -- 763
-> -- 961
+            772 strings with 9696 characters,
+and the built_in function-call counts, 12576 in all, are:
+= -- 972
+> -- 1115
 < -- 4
-+ -- 319
-- -- 306
-* -- 916
-:= -- 1909
++ -- 375
+- -- 362
+* -- 1115
+:= -- 2382
 add.period$ -- 0
-call.type$ -- 18
-change.case$ -- 169
-chr.to.int$ -- 17
-cite$ -- 18
-duplicate$ -- 322
-empty$ -- 484
-format.name$ -- 337
-if$ -- 1941
+call.type$ -- 24
+change.case$ -- 207
+chr.to.int$ -- 23
+cite$ -- 26
+duplicate$ -- 420
+empty$ -- 651
+format.name$ -- 401
+if$ -- 2420
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 14
-newline$ -- 59
-num.names$ -- 74
-pop$ -- 153
-preamble$ -- 2
-purify$ -- 169
+missing$ -- 20
+newline$ -- 76
+num.names$ -- 98
+pop$ -- 187
+preamble$ -- 1
+purify$ -- 207
 quote$ -- 0
-skip$ -- 304
+skip$ -- 400
 stack$ -- 0
-substring$ -- 369
-swap$ -- 40
+substring$ -- 478
+swap$ -- 46
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 162
-warning$ -- 0
-while$ -- 78
+type$ -- 210
+warning$ -- 2
+while$ -- 106
 width$ -- 0
-write$ -- 184
+write$ -- 241
 (There was 1 error message)

@@ -11,12 +11,15 @@ IFU Integral field unit
 
 IR Infrared
 
-KMOS {\it K}-band multi-object spectrograph (see chapter ~\ref{kmos})
+KMOS {\it K}-band multi-object spectrograph (see chapter~\ref{ch:kmos})
 
+LTE Local thermodynamic equilibrium (see Chapter~\ref{ch:janal})
 
 OSIRIS Optical system for imaging and low-intermediate-resolution integrated spectroscopy
 
 PSF Point spread function
+
+RSG Red supergiant
 
 SV Science verification
 

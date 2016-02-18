@@ -18,7 +18,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%
 % To be included when added into thesis
 \chapter{J-band Sythentic Spectral Fitting}
-
+\label{ch:janal}
 
 \section{Opening Remarks} % (fold)
 \label{sec:opening}
@@ -43,15 +43,184 @@ Having described the analysis routine thoroughly I then test this routine and co
 Finally, I conclude the chapter in~\ref{sub:conclusions}.
 
 % section opening (end)
-\section{Introduction to Model Atmospheres} % (fold)
+\section{Introduction to Stellar Model Atmospheres} % (fold)
 \label{sub:model_atmospheres}
 
-\begin{itemize}
-    \item Background on model atmospheres
-    \item Focus on cool stars
-    \item What physics goes into these models?
-    \item What are their strengths and limitations?
-\end{itemize}
+A stellar atmosphere is defined as the outer layers within a star which emitt radiation.
+Therefore, by definition, the photons which we observe from a star have originated in the atmosphere.
+Photons which have originated from deeper layers within the star have been absorbed and re-emitted by particles within the stellar atmosphere.
+Stellar atmospheres are therefore vitally important in observational studies of stars, even though the fraction of the total mass of the star contained within the atmosphere is tiny ($\sim$~10$^{-10}$).
+A nice analogy for visualising this layer and its thickness comes from the preface of~\cite{1989isa2.book.....B}, where these authors compared the skin of an apple to a hypothetical star which has been shrunk to the same scale and note that the skin of the apple is far thicker than the stellar atmosphere.
+
+
+Even though stellar atmospheres contain a tiny fraction of the total stellar mass, these layers can have an enormous impact on the evolution of a star via stellar winds.
+For example, in evolved massive stars, winds arising from the atmosphere can strip off the outer layers of the star to leave an exposed hydrogen and helium dominated core or push the star in a completed different evolutionary direction to become a RSG (see Chapter~\ref{ch:intro}).
+In addition to having an impact on the evolution of the star, winds also help distribute material throughout their host galaxy and feed subsequent generations of star formation~\citep[e.g.][]{2011MNRAS.417..950H,2012MNRAS.421.3522H} thereby not only affecting the evolution of the star which the wind is produced, but by acting as part of a larger stellar population, affecting the evolution of their host galaxy.
+
+By modelling stellar atmospheres, one can estimate fundamental stellar parameters by a comparison with observations.
+The background theory and underlying physical assumptions of these models is the subject of the current section.
+This is important to detail as without this background it is impossible to asses the effectiveness of the models and their limitations.
+
+Two of the most fundamental equations which govern the properties of stellar atmospheres are,
+
+\begin{equation}
+    g = \frac{GM}{R^2},\label{eq:grav}
+\end{equation}
+
+\noindent and,
+
+\begin{equation}
+    T_{\rm eff} = \frac{F}{\sigma_{SB}} = \left(\frac{L}{4\pi \sigma_{SB}R^2}\right)^\frac{1}{4},\label{eq:Teff}
+\end{equation}
+
+\noindent where $g$ is the acceleration due to gravity, $M$ is the total mass of the star of radius $R$, $T_{\rm eff}$ is the effective temperature of the star, $F$ is the total flux per unit area, $L$ is the total luminosity of the star, $\sigma_{SB}$ is the Stefan-Boltzmann constant,  and $G$ is Newton's gravitational constant.
+
+These equations define some fundamental observational properties of the model stellar atmospheres, using fundamental parameters of the models.
+Equation~\ref{eq:grav} is defined by the density stratification of the model and equation~\ref{eq:Teff} is defined through the total flux emitted from the model.
+
+In the following sections I detail three of the principle assumptions which are used to create a ``classical'' one dimensional stellar model atmosphere.
+These assumptions underpin some of the most widely used model atmospheres.
+
+
+\subsection{Hydrostatic Equilibrium} % (fold)
+\label{sub:hydrostatic_equilibrium}
+
+Any model of a star consists of a balance bewteen gravity and pressure in a gaseous material (or plasma considering the typical temperatures and densities within a star).
+If a model is assumed to be static (i.e. not varying with time) the equation of hydrostatic equilibrium can be derived by considering the balance between the forces acting upon a small element of stellar material,
+
+\begin{equation}
+    \frac{dP(r)}{dr} = -\frac{\rho GM(r)}{r^2},\label{eq:hydro}
+\end{equation}
+
+\noindent where $P$ is the total pressure exerted within a radius $r$, $M$ is the total mass within a radius $r$, $\rho$ is the matter density~\citep[see Chapter 9 of ][for a simple derivation of this equation]{1989isa2.book.....B}.
+As stated above, the mass contained within the atmosphere of a star is a negliable fraction of the total mass, therefore $M(r) = M_{tot}$ when considering this equation in the outer layers of the star.
+
+The force exerted by pressure acting on an element of stellar material ($dP/dr$) can be considered as the sum of the forces acting upon it from gas pressure ($P_{g}$), radiation pressure ($P_{rad}$) and turbulent pressure ($P_{turb}$),
+
+\begin{equation}
+    \frac{dP_{tot}}{dr} = \frac{dP_{g}}{dr} + \frac{dP_{rad}}{dr} + \frac{dP_{turb}}{dr}.\label{eq:pressure}
+\end{equation}
+
+Equation~\ref{eq:pressure} illustrates that even though we have assumed the model is static, small scale turbulent motions must still be taken into account to accurately model stellar atmospheres.
+
+
+% subsection hydrostatic_equilibrium (end)
+
+\subsection{Mixing Length Convection} % (fold)
+\label{sub:mlt}
+
+Mixing length theory describes how convection is treated within the stellar atmosphere.
+Typically, within a star, radiation is the main source of energy transport as the coefficient of diffusion is far smaller for particles (conduction) than for photons (radiation).
+Only in degenerate cores does energy transport via conduction become important.
+
+Convection is a very efficient form of energy transport where a macroscopic element of higher temperature rises an average distance into a region of lower temperature where it dissipates the excess energy being carried and mixes.
+However, in order for convection to be effective, a driving mechanism must be established.
+The atmosphere is unstable to convection if the Schwarzschild certerion is met,
+
+\begin{equation}
+    \nabla_{rad} > \nabla_{ad}
+\end{equation}
+
+\noindent where $\nabla_{rad} = (d~{\rm ln}\,T/d~{\rm ln}\,P)_{rad}$ is the radiative temperature gradient and $\nabla_{ad}$ is the adiabatic temperature gradient.
+The driving mechamism for convection is usually a large temperature gradient within a particularly part of the star.
+This can occur at various stages within the lifetime of a star, for example, most main sequence stars have a convective core which is a result of the temperature sensitivity of the CNO cycle which establishes a steep temperature profile.
+
+The theory of convection is very difficult to to treat thoroughly.
+The ``simple'' theory of mixing length convection~\cite{1958ZA.....46..108B,1965ApJ...142..841H} is widely used to implement convection within stellar atmospheres which assumes that the shapes and sizes of the elements which transport energy is fixed and that, on average, an element rises a characteristic length ($l_m$) before it dissipates energy.
+
+If the Schwarzschild criterio is satisfied, the total flux ($F$) for a star is given by,
+
+\begin{equation}
+    F(r) = F_{conv} + F_{rad} = \sigma T_{eff}^4,\label{eq:flux}
+\end{equation}
+
+\noindent where $F_{conv}$ and $F_{rad}$ are the convective and radiative flux respectively.
+An expression for the convective flux can be obtained by considering the excess energy dissipated by a rising element moving a distance
+($\Delta r = l_m/2$) with an average velocity ($v_{conv}$).
+The convective flux can therefore be expressed as,
+
+\begin{equation}
+    F_{conv} = \rho C_pv_{conv}\Delta T
+\end{equation}
+
+\noindent where $C_p$ is the specific heat at constant pressure and $\Delta T$ is the temperature difference between the element and surroundings, which can be expressed in terms of the different in temperature gradients.
+Here the pressure scale height can be introduced using the assumption of hydrostatic equilibrium $H_p = dr / d{\rm ln} P = p/\rho g$ and an expression for the convective velocity can be estimated by assuming that half the work done by bouyancy is converted into kinetic energy,
+
+\begin{equation}
+    \frac{1}{2}\langle w\rangle \approx \frac{1}{2}\rho v_{conv}^2.
+\end{equation}
+
+The parameter $\alpha = l_m/H_p$ is introduced which typically takes the value $\alpha = 1.5--2.0$.
+As a side note, in stellar evolutionary models, the value of $\alpha$ used can have a significant effect on the temperature of the models at the end of the RSG phase of evolution.
+
+
+% subsection mlt (end)
+
+\subsection{Local Thermodynamic Equilibrium} % (fold)
+\label{sub:local_thermodynamic_equilibrium}
+
+The assumption of thermodynamic equilibrium is where the temperature and density of a material can be considered constant (i.e. there are no net flows of energy).
+Which is equivalent to assuming that the emitting source is a perfect black body.
+Local thermodynamic equilibrium (LTE) is an approximation whereby the {\it local} properties of material can be assumed to be in thermodynamic equilibrium.
+Stellar atmospheres can be approxmiated to be in LTE as their densities are sufficiently high that and density gradients are sufficiently low that their local properties are closely related to thermal equilibrium.
+
+The three fundamental equations which can be defined assuming LTE are:
+
+\begin{enumerate}
+    \item The Boltzmann equation,
+    \begin{equation}
+        \frac{n_i}{N_I} = \frac{g_i}{U_I}e^{-E_i/kT},
+    \end{equation}
+    \item The Saha equation,
+    \begin{equation}
+        \frac{N_I}{N_{I+1}} = n_e\frac{U_I}{U_{I+1}}\left(\frac{h^2}{2\pi m_ekT}\right)^\frac{3}{2} e^{\chi/kT},
+    \end{equation}
+    \item The Maxwellian distribution of particles,
+    \begin{equation}
+        f(v)dv = \left(\frac{m}{2\pi kT}\right)^\frac{3}{2} \exp\left(\frac{-mv^2}{2kT}\right)4\pi v^2dv,
+    \end{equation}
+\end{enumerate}
+
+\noindent where $n_i$, $g_i$ and $E_i$ are the population, statistical weight and energy of level $i$ respectively,
+$N_I$, $U_I$ and $\chi_I$ are the total number density, partition function and ionisation potential of ionisation state $I$ (to which $i$ belongs),
+$m$ is the mass of the particle, $v$ is the velocity of the particle, $T$ is the temperature of the particle and $k$ is the Boltzmann constant.
+
+% These three equations describe the
+
+
+% In addition the radiation source function (in the MARCS models -- not always the case) is assumed be be
+
+% \begin{equation}
+%     S_\lambda = \frac{\kappa_\lambda}{\kappa_\lambda + \sigma\lambda}B_\lambda(T) + \frac{\sigma_\lambda}{\kappa_\lambda + \sigma\lambda}J_\lambda
+% \end{equation}
+
+% More generally, in thermodynamic equilibrium $S_\lambda = B_\lambda$.
+% In LTE
+
+% subsection local_thermodynamic_equilibrium (end)
+
+\subsection{Analysis of Assumptions and Summary} % (fold)
+\label{sub:assumptions_summary}
+
+The assumptions listed above allow one to obtain to create a ``standard'' stellar model atmosphere.
+The assumptions listed above are known to be simplifications of the true picutre witih a stellar atmosphere.
+For example, the assumption of LTE definitely breaks down in the atmospheres of stars as they are observed, and by definition emitt radiation.
+However, using the above assumptions one can build a consistent model that, in general, agrees reasonably well with observations.
+
+The treatment of convection is knowingly a large simplification as the shape and size assumed for the convective elements is constant whereas in reality the shapes of these elements could be described as funnel-like.
+Full two- and three-dimensional hydrodynamical simulations are required to asses the assumption of mixing length convection which generally show that convective fluxes are smaller than those in more sophisticated prescriptions
+\citep{2012sse..book.....K}.
+
+The assumption of LTE typically holds in dense low levels of a star, however, in the atmosphere, where radiation is emitted, this is known to be a poor approximation.
+This is particularly true in evolved stars where departures from LTE are expected owing to the low densities and surface gravities of their atmospheres.
+
+Full non-LTE stellar model atmospheres are expensive to produce and as of yet, there exists no homogenous grid of model atmospheres which include these effects.
+As a first step, one can use a homogeneous set of model grids computed in LTE and select particular elements with which to compute non-LTE deviations.
+This is far less time expensive and produces reliable results over a large range of stellar parameters.
+
+
+% subsection analysis_of_assumptions_and_summary (end)
+
 % section model_atmospheres (end)
 
 \section{Measuring Stellar Parameters with Synthetic Spectra} % (fold)
@@ -66,7 +235,7 @@ Finally, I conclude the chapter in~\ref{sub:conclusions}.
 The spectra cover the $J$-band, specifically the $1.16-1.22\mu$m region, where there are various prominent spectral features.
 These spectral features, arising from elemental absorption, are compared in the observed and model spectra,
 where the $\chi^{2}$-statistic is calculated to asses the goodness of fit for each model.
-The stellar parameters which are fit for in this analysis are global metallicity ($log (Z/Z_{\odot})$~=~[Z]), effective temperature (T$_{eff}$), microturblence ($\xi$) and surface gravity ($log\,g$).
+The stellar parameters which are fit for in this analysis are global metallicity ($log (Z/Z_{\odot})$~=~[Z]), effective temperature (T$_{\rm eff}$), microturblence ($\xi$) and surface gravity ($log\,g$).
 % In addition to these parameters, in the future I also hope to further develop this implementation to include the $\alpha$-to-iron ratio as a free parameter.
 The observed spectra are fit with models from a set of MARCS model atmospheres
 \citep{2008A&A...486..951G}.
@@ -155,7 +324,7 @@ whereas at $\xi~=~5.0$, the iron line in the right panel is the stronger of the 
 Parameter & Abbreviation & Range & Increment \\
  \hline
 Global Metallicitiy & $[Z]$ & $+1.0~\textendash~-1.0$ & 0.1\,$dex$ \\
-Effective Temperature & $T_{eff}$ & $3400 ~ \textendash~4400$ & 100\,$K$ \\
+Effective Temperature & $T_{\rm eff}$ & $3400 ~ \textendash~4400$ & 100\,$K$ \\
 Log gravity & $log g$ & $+1.0~ \textendash~-1.0$ & 0.25\,$dex$ \\
 Microturblence & $\xi$ & $1.0~ \textendash~5.0$ & 0.2\,$km\,s^{-1}$ \\
  \hline
@@ -456,13 +625,13 @@ To help break this degeneracy, I implement an additional gravity restraint.
 This works by calcualting the luminosity of the observed star using near-IR photometry and the bolometric correction given in~\cite{Davies13b}.
 Having calculated the luminosity, the relationship,
 \begin{equation}
-    \frac{g}{T^{4}_{eff}}~\propto~\frac{M}{L},
+    \frac{g}{T^{4}_{\rm eff}}~\propto~\frac{M}{L},
 \end{equation}
-can be used to restrict the $log\,g$-T$_{eff}$
+can be used to restrict the $log\,g$-T$_{\rm eff}$
 parameter space using sensible limits for the mass of a RSG
 ($8~\leq~M/M_{\odot}~\leq~40$).
 Where $M$ is the mass of the star,
-$T_{eff}$ is the effective temperature and $g$ is the surface gravity of the star.
+$T_{\rm eff}$ is the effective temperature and $g$ is the surface gravity of the star.
 These regions of parameter space are rejected from the analysis as unphyiscal.
 
 To test the accuracy of the analysis routine, I begin with the most simple test I can imagine:
@@ -541,7 +710,7 @@ DFK10 results are those published in~\cite{2015ApJ...803...14P}.
 Parameter & DFK10 Average & Patrick Average \\
  \hline
 [Z]       & $-0.52~\pm~0.16$ &  \\
-T$_{eff}$ & $3887~\pm~55$ &  \\
+T$_{\rm eff}$ & $3887~\pm~55$ &  \\
 $log\,g$  & $0.1~\pm~0.3$ &  \\
 $\xi$     & $3.9~\pm~0.5$ &  \\
  \hline
@@ -588,7 +757,7 @@ DFK10 results are those published in~\cite{2015ApJ...805..182G}.
 Parameter & G14 Average & Patrick Average \\
  \hline
 [Z]       & $-0.52~\pm~0.16$ &  \\
-T$_{eff}$ & $3887~\pm~55$ &  \\
+T$_{\rm eff}$ & $3887~\pm~55$ &  \\
 $log\,g$  & $0.1~\pm~0.3$ &  \\
 $\xi$     & $3.9~\pm~0.5$ &  \\
  \hline

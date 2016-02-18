@@ -1,5 +1,4 @@
-\providecommand{\noopsort}[1]{}
-\begin{thebibliography}{18}
+\begin{thebibliography}{24}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Bergemann} {et~al}\mbox{.}(2012){Bergemann}, {Kudritzki}, {Plez},
@@ -11,6 +10,13 @@
   {W{\"u}rl}, {Plez}, {Davies}, \& {Gazak}}]{2013ApJ...764..115B}
 {Bergemann} M., {Kudritzki} R.-P., {W{\"u}rl} M., {Plez} B., {Davies} B.,
   {Gazak} Z., 2013, \apj, 764, 115
+
+\bibitem[{{B{\"o}hm-Vitense}(1958)}]{1958ZA.....46..108B}
+{B{\"o}hm-Vitense} E., 1958, \zap, 46, 108
+
+\bibitem[{{B{\"o}hm-Vitense}(1989)}]{1989isa2.book.....B}
+{B{\"o}hm-Vitense} E., 1989, {Introduction to stellar astrophysics. Vol. 2.
+  Stellar atmospheres.}
 
 \bibitem[{{Cunha} {et~al}\mbox{.}(2007){Cunha}, {Sellgren}, {Smith}, {Ramirez},
   {Blum}, \& {Terndrup}}]{Cunha07}
@@ -71,6 +77,23 @@
   {Eriksson}, {J{\o}rgensen}, {Nordlund}, \& {Plez}}]{2008A&A...486..951G}
 {Gustafsson} B., {Edvardsson} B., {Eriksson} K., {J{\o}rgensen} U.~G.,
   {Nordlund} {\AA}., {Plez} B., 2008, \aap, 486, 951
+
+\bibitem[{{Henyey}, {Vardya} \& {Bodenheimer}(1965){Henyey}, {Vardya}, \&
+  {Bodenheimer}}]{1965ApJ...142..841H}
+{Henyey} L., {Vardya} M.~S., {Bodenheimer} P., 1965, \apj, 142, 841
+
+\bibitem[{{Hopkins}, {Quataert} \& {Murray}(2011){Hopkins}, {Quataert}, \&
+  {Murray}}]{2011MNRAS.417..950H}
+{Hopkins} P.~F., {Quataert} E., {Murray} N., 2011, \mnras, 417, 950
+
+\bibitem[{{Hopkins}, {Quataert} \& {Murray}(2012){Hopkins}, {Quataert}, \&
+  {Murray}}]{2012MNRAS.421.3522H}
+{Hopkins} P.~F., {Quataert} E., {Murray} N., 2012, \mnras, 421, 3522
+
+\bibitem[{{Kippenhahn}, {Weigert} \& {Weiss}(2012){Kippenhahn}, {Weigert}, \&
+  {Weiss}}]{2012sse..book.....K}
+{Kippenhahn} R., {Weigert} A., {Weiss} A., 2012, {Stellar Structure and
+  Evolution}
 
 \bibitem[{{Patrick} {et~al}\mbox{.}(2015){Patrick}, {Evans}, {Davies},
   {Kudritzki}, {Gazak}, {Bergemann}, {Plez}, \&

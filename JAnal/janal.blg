@@ -1,48 +1,47 @@
 This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: janal.aux
-The style file: apalike.bst
-Database file #1: ../journals.bib
-Warning--empty title in 1999PhDT.........3R
+I found no \bibdata command---while reading file janal.aux
+I found no \bibstyle command---while reading file janal.aux
 You've used 19 entries,
-            1935 wiz_defined-function locations,
-            602 strings with 8153 characters,
-and the built_in function-call counts, 9015 in all, are:
-= -- 807
-> -- 578
-< -- 8
-+ -- 209
-- -- 208
-* -- 842
-:= -- 1633
-add.period$ -- 56
-call.type$ -- 19
-change.case$ -- 195
-chr.to.int$ -- 18
-cite$ -- 20
-duplicate$ -- 287
-empty$ -- 512
-format.name$ -- 229
-if$ -- 1703
-int.to.chr$ -- 2
+            0 wiz_defined-function locations,
+            121 strings with 1120 characters,
+and the built_in function-call counts, 0 in all, are:
+= -- 0
+> -- 0
+< -- 0
++ -- 0
+- -- 0
+* -- 0
+:= -- 0
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 0
+format.name$ -- 0
+if$ -- 0
+int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 17
-newline$ -- 97
-num.names$ -- 59
-pop$ -- 174
-preamble$ -- 1
-purify$ -- 197
+missing$ -- 0
+newline$ -- 0
+num.names$ -- 0
+pop$ -- 0
+preamble$ -- 0
+purify$ -- 0
 quote$ -- 0
-skip$ -- 208
+skip$ -- 0
 stack$ -- 0
-substring$ -- 475
-swap$ -- 38
-text.length$ -- 4
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 114
-warning$ -- 1
-while$ -- 56
+type$ -- 0
+warning$ -- 0
+while$ -- 0
 width$ -- 0
-write$ -- 248
-(There was 1 warning)
+write$ -- 0
+(There were 2 error messages)
