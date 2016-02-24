@@ -1,5 +1,10 @@
-\begin{thebibliography}{24}
+\begin{thebibliography}{28}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{{Bergemann} {et~al}\mbox{.}(2015){Bergemann}, {Kudritzki}, {Gazak},
+  {Davies}, \& {Plez}}]{2015ApJ...804..113B}
+{Bergemann} M., {Kudritzki} R.-P., {Gazak} Z., {Davies} B., {Plez} B., 2015,
+  \apj, 804, 113
 
 \bibitem[{{Bergemann} {et~al}\mbox{.}(2012){Bergemann}, {Kudritzki}, {Plez},
   {Davies}, {Lind}, \& {Gazak}}]{2012ApJ...751..156B}
@@ -32,12 +37,6 @@
 {Davies} B., {Kudritzki} R.-P., {Gazak} Z., {Plez} B., {Bergemann} M., {Evans}
   C., {Patrick} L., 2015, \apj, 806, 21
 
-\bibitem[{{Davies} {et~al}\mbox{.}(2013){Davies}, {Kudritzki}, {Plez},
-  {Bergemann}, {Gazak}, \& {Evans}}]{Davies13b}
-{Davies} B., {Kudritzki} R.-P., {Plez} B., {Bergemann} M., {Gazak} Z., {Evans}
-  C., 2013, in EAS Publications Series, Vol.~60, EAS Publications Series, pp.
-  287--292
-
 \bibitem[{{Davies} {et~al}\mbox{.}(2009{\natexlab{a}}){Davies}, {Origlia},
   {Kudritzki}, {Figer}, {Rich}, \& {Najarro}}]{Davies09a}
 {Davies} B., {Origlia} L., {Kudritzki} R.-P., {Figer} D.~F., {Rich} R.~M.,
@@ -50,10 +49,20 @@
   {Najarro} F., {Negueruela} I., {Clark} J.~S., 2009{\natexlab{b}}, ApJ, 696,
   2014
 
+\bibitem[{{Davies, B.} {et~al}\mbox{.}(2013b){Davies, B.},
+  {\noopsort{b}}{Kudritzki}, {Plez}, {Trager}, {Lan{\c c}on}, {Gazak},
+  {Bergemann}, {Evans}, \& {Chiavassa}}]{2013ApJ...767....3D}
+{Davies, B.} {et~al.}, 2013b, ApJ, 767, 3
+
 \bibitem[{{Evans} {et~al}\mbox{.}(2011){Evans}, {Davies}, {Kudritzki}, {Puech},
   {Yang}, {Cuby}, {Figer}, {Lehnert}, {Morris}, \&
   {Rousset}}]{2011A&A...527A..50E}
 {Evans} C.~J. {et~al.}, 2011, A\&A, 527, A50
+
+\bibitem[{{Foreman-Mackey} {et~al}\mbox{.}(2013){Foreman-Mackey}, {Hogg},
+  {Lang}, \& {Goodman}}]{2013PASP..125..306F}
+{Foreman-Mackey} D., {Hogg} D.~W., {Lang} D., {Goodman} J., 2013, \pasp, 125,
+  306
 
 \bibitem[{{Freytag}, {Steffen} \& {Dorch}(2002){Freytag}, {Steffen}, \&
   {Dorch}}]{2002AN....323..213F}
@@ -68,10 +77,13 @@
 {Gazak} J.~Z., {Davies} B., {Kudritzki} R., {Bergemann} M., {Plez} B., 2014,
   \apj, 788, 58
 
-\bibitem[{{Gazak} {et~al}\mbox{.}(2015){Gazak}, {Kudritzki}, {Evans},
-  {Patrick}, {Davies}, {Bergemann}, {Plez}, {Bresolin}, {Bender}, {Wegner},
-  {Bonanos}, \& {Williams}}]{2015ApJ...805..182G}
-{Gazak} J.~Z. {et~al.}, 2015, \apj, 805, 182
+\bibitem[{{Goodman} \& {Weare}(2010)}]{2010CAMCS.5..65G}
+{Goodman} J., {Weare} J., 2010, Comm. App. Math. Comp. Sci., 1, 65
+
+\bibitem[{{Gustafsson} {et~al}\mbox{.}(1975){Gustafsson}, {Bell}, {Eriksson},
+  \& {Nordlund}}]{1975A&A....42..407G}
+{Gustafsson} B., {Bell} R.~A., {Eriksson} K., {Nordlund} A., 1975, \aap, 42,
+  407
 
 \bibitem[{{Gustafsson} {et~al}\mbox{.}(2008){Gustafsson}, {Edvardsson},
   {Eriksson}, {J{\o}rgensen}, {Nordlund}, \& {Plez}}]{2008A&A...486..951G}
@@ -94,6 +106,13 @@
   {Weiss}}]{2012sse..book.....K}
 {Kippenhahn} R., {Weigert} A., {Weiss} A., 2012, {Stellar Structure and
   Evolution}
+
+\bibitem[{{Patrick} {et~al}\mbox{.}(2016){Patrick}, {Evans}, {Davies},
+  {Kudritzki}, {H{\'e}nault-Brunet}, {Bastian}, {Lapenna}, \&
+  {Bergemann}}]{2016arXiv160202702P}
+{Patrick} L.~R., {Evans} C.~J., {Davies} B., {Kudritzki} R.,
+  {H{\'e}nault-Brunet} V., {Bastian} N., {Lapenna} E., {Bergemann} M., 2016,
+  ArXiv e-prints
 
 \bibitem[{{Patrick} {et~al}\mbox{.}(2015){Patrick}, {Evans}, {Davies},
   {Kudritzki}, {Gazak}, {Bergemann}, {Plez}, \&

@@ -11,48 +11,47 @@ I'm skipping whatever remains of this entry
 Warning--string name "june" is undefined
 --line 1065 of file journals.bib
 Database file #2: books.bib
-Warning--I didn't find a database entry for "2014arXiv1412.6527B"
 Warning--empty publisher in 1989isa2.book.....B
 Warning--empty publisher in 2012sse..book.....K
-You've used 24 entries,
+You've used 28 entries,
             2938 wiz_defined-function locations,
-            772 strings with 9696 characters,
-and the built_in function-call counts, 12576 in all, are:
-= -- 972
-> -- 1115
-< -- 4
-+ -- 375
-- -- 362
-* -- 1115
-:= -- 2382
+            795 strings with 10382 characters,
+and the built_in function-call counts, 14191 in all, are:
+= -- 1102
+> -- 1252
+< -- 2
++ -- 422
+- -- 406
+* -- 1264
+:= -- 2715
 add.period$ -- 0
-call.type$ -- 24
-change.case$ -- 207
-chr.to.int$ -- 23
-cite$ -- 26
-duplicate$ -- 420
-empty$ -- 651
-format.name$ -- 401
-if$ -- 2420
+call.type$ -- 28
+change.case$ -- 237
+chr.to.int$ -- 27
+cite$ -- 30
+duplicate$ -- 475
+empty$ -- 729
+format.name$ -- 453
+if$ -- 2713
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 20
-newline$ -- 76
-num.names$ -- 98
-pop$ -- 187
+missing$ -- 25
+newline$ -- 88
+num.names$ -- 114
+pop$ -- 212
 preamble$ -- 1
-purify$ -- 207
+purify$ -- 237
 quote$ -- 0
-skip$ -- 400
+skip$ -- 441
 stack$ -- 0
-substring$ -- 478
-swap$ -- 46
-text.length$ -- 4
+substring$ -- 525
+swap$ -- 39
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 210
+type$ -- 246
 warning$ -- 2
-while$ -- 106
+while$ -- 121
 width$ -- 0
-write$ -- 241
+write$ -- 280
 (There was 1 error message)

@@ -15,6 +15,8 @@ KMOS {\it K}-band multi-object spectrograph (see chapter~\ref{ch:kmos})
 
 LTE Local thermodynamic equilibrium (see Chapter~\ref{ch:janal})
 
+MOSFIRE Multi-object spectrometer for infra-red exploration
+
 OSIRIS Optical system for imaging and low-intermediate-resolution integrated spectroscopy
 
 PSF Point spread function

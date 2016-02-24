@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.8)  17 FEB 2016 16:34
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.8)  23 FEB 2016 17:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -605,7 +605,7 @@ LaTeX Info: Redefining \nameref on input line 31.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \c@lstlisting=\count146
-<thesis-frontmatter/crest.pdf, id=64, 614.295pt x 794.97pt>
+<thesis-frontmatter/crest.pdf, id=56, 614.295pt x 794.97pt>
 File: thesis-frontmatter/crest.pdf Graphic file (type pdf)
 
 <use thesis-frontmatter/crest.pdf>
@@ -620,6 +620,9 @@ Package pdftex.def Info: thesis-frontmatter/crest.pdf used on input line 37.
 
  (./JAnal/janal.tex
 Chapter 1.
+
+LaTeX Warning: Reference `sub:compare' on page 1 undefined on input line 42.
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
@@ -636,140 +639,168 @@ LaTeX Warning: Reference `ch:intro' on page 2 undefined on input line 57.
 
 [2] [3] [4] [5] [6] [7]
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 273.
+LaTeX Warning: Reference `ch:kmos' on page 8 undefined on input line 255.
 
 
-Package natbib Warning: Citation `2014arXiv1412.6527B' on page 8 undefined on i
-nput line 280.
+LaTeX Warning: Reference `ch:6822' on page 8 undefined on input line 255.
 
-[8]
+<JAnal/tell-correction.png, id=166, 722.7pt x 722.7pt>
+File: JAnal/tell-correction.png Graphic file (type png)
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 326.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 327.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 328.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 329.
-
-<JAnal/varyZv2.png, id=211, 867.24pt x 433.62pt>
+<use JAnal/tell-correction.png>
+Package pdftex.def Info: JAnal/tell-correction.png used on input line 265.
+(pdftex.def)             Requested size: 268.1647pt x 268.16673pt.
+ [8] [9 <./JAnal/tell-correction.png>] [10]
+<JAnal/varyZv2.png, id=227, 867.24pt x 433.62pt>
 File: JAnal/varyZv2.png Graphic file (type png)
  <use JAnal/varyZv2.png>
-Package pdftex.def Info: JAnal/varyZv2.png used on input line 338.
+Package pdftex.def Info: JAnal/varyZv2.png used on input line 357.
 (pdftex.def)             Requested size: 268.1647pt x 134.08336pt.
 
-<JAnal/varygv2.png, id=213, 867.24pt x 433.62pt>
+<JAnal/varygv2.png, id=228, 867.24pt x 433.62pt>
 File: JAnal/varygv2.png Graphic file (type png)
  <use JAnal/varygv2.png>
-Package pdftex.def Info: JAnal/varygv2.png used on input line 349.
+Package pdftex.def Info: JAnal/varygv2.png used on input line 368.
 (pdftex.def)             Requested size: 268.1647pt x 134.08336pt.
 
-<JAnal/varyTv2.png, id=216, 867.24pt x 433.62pt>
+<JAnal/varyTv2.png, id=231, 867.24pt x 433.62pt>
 File: JAnal/varyTv2.png Graphic file (type png)
  <use JAnal/varyTv2.png>
-Package pdftex.def Info: JAnal/varyTv2.png used on input line 357.
+Package pdftex.def Info: JAnal/varyTv2.png used on input line 376.
 (pdftex.def)             Requested size: 268.1647pt x 134.08336pt.
 
-<JAnal/varymicrov2.png, id=219, 867.24pt x 433.62pt>
+<JAnal/varymicrov2.png, id=234, 867.24pt x 433.62pt>
 File: JAnal/varymicrov2.png Graphic file (type png)
 
 <use JAnal/varymicrov2.png>
-Package pdftex.def Info: JAnal/varymicrov2.png used on input line 365.
+Package pdftex.def Info: JAnal/varymicrov2.png used on input line 384.
 (pdftex.def)             Requested size: 268.1647pt x 134.08336pt.
- [9] [10 <./JAnal/varyZv2.png> <./JAnal/varygv2.png> <./JAnal/varyTv2.png>] <JA
-nal/Resolution.png, id=254, 578.16pt x 433.62pt>
+ [11 <./JAnal/varyZv2.png> <./JAnal/varygv2.png>]
+[12 <./JAnal/varyTv2.png> <./JAnal/varymicrov2.png>]
+<JAnal/Resolution.png, id=260, 578.16pt x 433.62pt>
 File: JAnal/Resolution.png Graphic file (type png)
-
-<use JAnal/Resolution.png>
-Package pdftex.def Info: JAnal/Resolution.png used on input line 413.
+ <use JAnal/Resolution.png>
+Package pdftex.def Info: JAnal/Resolution.png used on input line 425.
 (pdftex.def)             Requested size: 268.1647pt x 201.12173pt.
- <JAnal/varyZ.png, id=255, 867.24pt x 867.24pt>
-File: JAnal/varyZ.png Graphic file (type png)
 
-<use JAnal/varyZ.png>
-Package pdftex.def Info: JAnal/varyZ.png used on input line 424.
-(pdftex.def)             Requested size: 268.1647pt x 268.16675pt.
- [11 <./JAnal/varymicrov2.png>] [12 <./JAnal/Resolution.png> <./JAnal/varyZ.png
->] [13] <JAnal/cw.png, id=280, 578.16pt x 433.62pt>
+[13 <./JAnal/Resolution.png>] <JAnal/cw.png, id=271, 578.16pt x 433.62pt>
 File: JAnal/cw.png Graphic file (type png)
 
 <use JAnal/cw.png>
-Package pdftex.def Info: JAnal/cw.png used on input line 487.
+Package pdftex.def Info: JAnal/cw.png used on input line 489.
 (pdftex.def)             Requested size: 268.1647pt x 201.12173pt.
- [14 <./JAnal/cw.png>]
-<JAnal/cftaction.png, id=290, 578.16pt x 433.62pt>
+ [14] <JAnal/cftaction.png, id=280, 578.16pt x 433.62pt>
 File: JAnal/cftaction.png Graphic file (type png)
- <use JAnal/cftaction.png>
-Package pdftex.def Info: JAnal/cftaction.png used on input line 517.
-(pdftex.def)             Requested size: 268.1647pt x 201.12173pt.
 
-[15 <./JAnal/cftaction.png>]
-<JAnal/Diag-lines.png, id=311, 1176.5556pt x 433.62pt>
+<use JAnal/cftaction.png>
+Package pdftex.def Info: JAnal/cftaction.png used on input line 519.
+(pdftex.def)             Requested size: 268.1647pt x 201.12173pt.
+ [15 <./JAnal/cw.png>] [16 <./JAnal/cftaction.png>]
+<JAnal/Diag-lines.png, id=309, 1176.5556pt x 433.62pt>
 File: JAnal/Diag-lines.png Graphic file (type png)
 
 <use JAnal/Diag-lines.png>
-Package pdftex.def Info: JAnal/Diag-lines.png used on input line 570.
+Package pdftex.def Info: JAnal/Diag-lines.png used on input line 582.
 (pdftex.def)             Requested size: 268.1647pt x 98.83066pt.
- [16 <./JAnal/Diag-lines.png>] [17]
-<JAnal/lineonly-test2v22.png, id=336, 1156.32pt x 867.24pt>
-File: JAnal/lineonly-test2v22.png Graphic file (type png)
-
-<use JAnal/lineonly-test2v22.png>
-Package pdftex.def Info: JAnal/lineonly-test2v22.png used on input line 653.
-(pdftex.def)             Requested size: 268.1647pt x 201.11513pt.
- [18] [19 <./JAnal/lineonly-test2v22.png>]
-<JAnal/compare-DFK10.png, id=365, 1156.32pt x 867.24pt>
-File: JAnal/compare-DFK10.png Graphic file (type png)
-
-<use JAnal/compare-DFK10.png>
-Package pdftex.def Info: JAnal/compare-DFK10.png used on input line 695.
-(pdftex.def)             Requested size: 268.1647pt x 201.11513pt.
- [20 <./JAnal/compare-DFK10.png>]
-File: JAnal/compare-DFK10.png Graphic file (type png)
-
-<use JAnal/compare-DFK10.png>
-Package pdftex.def Info: JAnal/compare-DFK10.png used on input line 741.
-(pdftex.def)             Requested size: 268.1647pt x 201.11513pt.
-
-Underfull \hbox (badness 1776) in paragraph at lines 751--751
-[][]|\OT1/cmr/m/it/10.95 Av-er-age pa-ram-e-ters for 27 RSGs in NGC300 us-ing t
-he G14
- []
+ [17 <./JAnal/Diag-lines.png>]
+! Undefined control sequence.
+l.621 \noinent
+               where the data ($D$) consists of the observed spectra and $\c...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 3536) in paragraph at lines 751--751
-\OT1/cmr/m/it/10.95 im-ple-men-ta-tion and the im-ple-men-ta-tion de-scribed he
-re \OT1/cmr/bx/it/10.95 Place
- []
+LaTeX Warning: Reference `ch:2100' on page 18 undefined on input line 624.
 
-[21]) [22] (./LRPThesis.bbl
-! Incomplete \iffalse; all text was ignored after line 77.
+[18] [19] <JAnal/Fakespec-t1-v1.png, id=351, 1156.32pt x 867.24pt>
+File: JAnal/Fakespec-t1-v1.png Graphic file (type png)
+
+<use JAnal/Fakespec-t1-v1.png>
+Package pdftex.def Info: JAnal/Fakespec-t1-v1.png used on input line 702.
+(pdftex.def)             Requested size: 330.05322pt x 247.5365pt.
+ [20 <./JAnal/Fakespec-t1-v1.png>]
+<JAnal/Fakespec-t2-v1.png, id=359, 1156.32pt x 867.24pt>
+File: JAnal/Fakespec-t2-v1.png Graphic file (type png)
+
+<use JAnal/Fakespec-t2-v1.png>
+Package pdftex.def Info: JAnal/Fakespec-t2-v1.png used on input line 717.
+(pdftex.def)             Requested size: 330.05322pt x 247.5365pt.
+
+<JAnal/Fakespec-tres-v1.png, id=361, 1156.32pt x 867.24pt>
+File: JAnal/Fakespec-tres-v1.png Graphic file (type png)
+
+<use JAnal/Fakespec-tres-v1.png>
+Package pdftex.def Info: JAnal/Fakespec-tres-v1.png used on input line 733.
+(pdftex.def)             Requested size: 330.05322pt x 247.5365pt.
+ [21 <./JAnal/Fakespec-t2-v1.png>] [22 <./JAnal/Fakespec-tres-v1.png>]
+
+LaTeX Warning: Reference `ch:6822' on page 23 undefined on input line 766.
+
+
+LaTeX Warning: Reference `ch:6822' on page 23 undefined on input line 771.
+
+
+LaTeX Warning: Reference `ch:n55' on page 23 undefined on input line 774.
+
+File: JAnal/Fakespec-t2-v1.png Graphic file (type png)
+<use JAnal/Fakespec-t2-v1.png>
+Package pdftex.def Info: JAnal/Fakespec-t2-v1.png used on input line 785.
+(pdftex.def)             Requested size: 330.05322pt x 247.5365pt.
+File: JAnal/Fakespec-t2-v1.png Graphic file (type png)
+ <use JAnal/Fakespec-t2-v1.png>
+Package pdftex.def Info: JAnal/Fakespec-t2-v1.png used on input line 795.
+(pdftex.def)             Requested size: 330.05322pt x 247.5365pt.
+File: JAnal/Fakespec-t2-v1.png Graphic file (type png)
+
+<use JAnal/Fakespec-t2-v1.png>
+Package pdftex.def Info: JAnal/Fakespec-t2-v1.png used on input line 806.
+(pdftex.def)             Requested size: 330.05322pt x 247.5365pt.
+
+
+LaTeX Warning: Reference `ch:n55' on page 23 undefined on input line 812.
+
+
+LaTeX Warning: Reference `ch:n55' on page 23 undefined on input line 812.
+
+[23] [24] [25]) [26] (./LRPThesis.bbl
+! Undefined control sequence.
+<write> ...}\mbox {.}}}{{{Davies, B.}, {\noopsort 
+                                                  {b}}{Kudritzki}, {Plez}, {...
+l.54 ...ns}, \& {Chiavassa}}]{2013ApJ...767....3D}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Incomplete \iffalse; all text was ignored after line 89.
 <inserted text> 
                 \fi 
-l.77 ...ordlund}, \& {Plez}}]{2008A&A...486..951G}
+l.89 ...ordlund}, \& {Plez}}]{2008A&A...486..951G}
                                                   
 A forbidden control sequence occurred in skipped text.
 This kind of error happens when you say `\if...' and forget
 the matching `\fi'. I've inserted a `\fi'; this might work.
 
-! Incomplete \iffalse; all text was ignored after line 77.
+! Incomplete \iffalse; all text was ignored after line 89.
 <inserted text> 
                 \fi 
-l.77 ...ordlund}, \& {Plez}}]{2008A&A...486..951G}
+l.89 ...ordlund}, \& {Plez}}]{2008A&A...486..951G}
                                                   
 A forbidden control sequence occurred in skipped text.
 This kind of error happens when you say `\if...' and forget
 the matching `\fi'. I've inserted a `\fi'; this might work.
 
 Runaway text?
-\bibcite{2008A&A...486..951G}{{16}{2008}{{{Gustafsson} {et~al}\unhbox \ETC.
+\bibcite{2008A&A...486..951G}{{19}{2008}{{{Gustafsson} {et~al}\unhbox \ETC.
 ! Forbidden control sequence found while scanning text of \write.
 <inserted text> 
                 }
-l.77 ...ordlund}, \& {Plez}}]{2008A&A...486..951G}
+l.89 ...ordlund}, \& {Plez}}]{2008A&A...486..951G}
                                                   
 I suspect you have forgotten a `}', causing me
 to read past where you wanted me to stop.
@@ -777,11 +808,11 @@ I'll try to recover; but if the error is serious,
 you'd better type `E' or `X' now and fix your file.
 
 Runaway text?
-\bibcite{2008A&A...486..951G}{{16}{2008}{{{Gustafsson} {et~al}\unhbox \ETC.
+\bibcite{2008A&A...486..951G}{{19}{2008}{{{Gustafsson} {et~al}\unhbox \ETC.
 ! Forbidden control sequence found while scanning text of \write.
 <inserted text> 
                 }
-l.77 ...ordlund}, \& {Plez}}]{2008A&A...486..951G}
+l.89 ...ordlund}, \& {Plez}}]{2008A&A...486..951G}
                                                   
 I suspect you have forgotten a `}', causing me
 to read past where you wanted me to stop.
@@ -789,11 +820,11 @@ I'll try to recover; but if the error is serious,
 you'd better type `E' or `X' now and fix your file.
 
 Runaway text?
-\bibcite{2008A&A...486..951G}{{16}{2008}{{{Gustafsson} {et~al}\unhbox \ETC.
+\bibcite{2008A&A...486..951G}{{19}{2008}{{{Gustafsson} {et~al}\unhbox \ETC.
 ! Forbidden control sequence found while scanning text of \write.
 <inserted text> 
                 }
-l.77 ...ordlund}, \& {Plez}}]{2008A&A...486..951G}
+l.89 ...ordlund}, \& {Plez}}]{2008A&A...486..951G}
                                                   
 I suspect you have forgotten a `}', causing me
 to read past where you wanted me to stop.
@@ -801,11 +832,11 @@ I'll try to recover; but if the error is serious,
 you'd better type `E' or `X' now and fix your file.
 
 Runaway text?
-\bibcite{2008A&A...486..951G}{{16}{2008}{{{Gustafsson} {et~al}\unhbox \ETC.
+\bibcite{2008A&A...486..951G}{{19}{2008}{{{Gustafsson} {et~al}\unhbox \ETC.
 ! Forbidden control sequence found while scanning text of \write.
 <inserted text> 
                 }
-l.77 ...ordlund}, \& {Plez}}]{2008A&A...486..951G}
+l.89 ...ordlund}, \& {Plez}}]{2008A&A...486..951G}
                                                   
 I suspect you have forgotten a `}', causing me
 to read past where you wanted me to stop.
@@ -813,11 +844,11 @@ I'll try to recover; but if the error is serious,
 you'd better type `E' or `X' now and fix your file.
 
 Runaway text?
-\bibcite{2008A&A...486..951G}{{16}{2008}{{{Gustafsson} {et~al}\unhbox \ETC.
+\bibcite{2008A&A...486..951G}{{19}{2008}{{{Gustafsson} {et~al}\unhbox \ETC.
 ! Forbidden control sequence found while scanning text of \write.
 <inserted text> 
                 }
-l.77 ...ordlund}, \& {Plez}}]{2008A&A...486..951G}
+l.89 ...ordlund}, \& {Plez}}]{2008A&A...486..951G}
                                                   
 I suspect you have forgotten a `}', causing me
 to read past where you wanted me to stop.
@@ -825,33 +856,30 @@ I'll try to recover; but if the error is serious,
 you'd better type `E' or `X' now and fix your file.
 
 Runaway text?
-\bibcite{2008A&A...486..951G}{{16}{2008}{{{Gustafsson} {et~al}\unhbox \ETC.
+\bibcite{2008A&A...486..951G}{{19}{2008}{{{Gustafsson} {et~al}\unhbox \ETC.
 ! Forbidden control sequence found while scanning text of \write.
 <inserted text> 
                 }
-l.77 ...ordlund}, \& {Plez}}]{2008A&A...486..951G}
+l.89 ...ordlund}, \& {Plez}}]{2008A&A...486..951G}
                                                   
 I suspect you have forgotten a `}', causing me
 to read past where you wanted me to stop.
 I'll try to recover; but if the error is serious,
 you'd better type `E' or `X' now and fix your file.
 
-[23
+[27
 
 
 
 ])
-
-Package natbib Warning: There were undefined citations.
-
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 184.
-[24]
+ [28]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 184.
  (./LRPThesis.aux (./JAnal/janal.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 184.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 184.
 Package rerunfilecheck Info: File `LRPThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 9411E403F7C85D89C2EAD130BB3884D1;1072.
+(rerunfilecheck)             Checksum: 303BBC96DC6D2B52AFF19A92F2B996FF;933.
 
 
 LaTeX Warning: There were undefined references.
@@ -859,39 +887,38 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 184.
  ) 
 Here is how much of TeX's memory you used:
- 10577 strings out of 495028
- 157871 string characters out of 6181497
- 262372 words of memory out of 5000000
- 13542 multiletter control sequences out of 15000+600000
- 13035 words of font info for 46 fonts, out of 8000000 for 9000
+ 10610 strings out of 495028
+ 158555 string characters out of 6181497
+ 263372 words of memory out of 5000000
+ 13563 multiletter control sequences out of 15000+600000
+ 12698 words of font info for 45 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 43i,12n,45p,524b,498s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,13n,45p,848b,498s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
 st, replaced by a fixed one
 
- </home/lee/.texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmti12.pfb>
-Output written on LRPThesis.pdf (25 pages, 1331723 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmti12.pfb>
+Output written on LRPThesis.pdf (29 pages, 1394476 bytes).
 PDF statistics:
- 501 PDF objects out of 1000 (max. 8388607)
- 418 compressed objects within 5 object streams
- 102 named destinations out of 1000 (max. 500000)
- 181 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 531 PDF objects out of 1000 (max. 8388607)
+ 443 compressed objects within 5 object streams
+ 115 named destinations out of 1000 (max. 500000)
+ 170 words of extra memory for PDF output out of 10000 (max. 10000000)
 
