@@ -1,0 +1,23 @@
+Query Results from the ADS Database
+
+
+Retrieved 1 abstracts, starting with number 1.  Total number selected: 1.
+
+@ARTICLE{2012A&ARv..20...50G,
+   author = {{Gratton}, R.~G. and {Carretta}, E. and {Bragaglia}, A.},
+    title = "{Multiple populations in globular clusters. Lessons learned from the Milky Way globular clusters}",
+  journal = {\aapr},
+archivePrefix = "arXiv",
+   eprint = {1201.6526},
+ primaryClass = "astro-ph.SR",
+ keywords = {Galaxy: general, Globular Clusters, Halo, Stars: abundances, Hertzsprung{\ndash}Russell and C{\ndash}M diagrams, Hertzsprung-Russell and C-M diagrams},
+     year = 2012,
+    month = feb,
+   volume = 20,
+      eid = {50},
+    pages = {50},
+      doi = {10.1007/s00159-012-0050-3},
+   adsurl = {http://adsabs.harvard.edu/abs/2012A%26ARv..20...50G},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+

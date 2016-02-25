@@ -1,57 +1,55 @@
 This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: LRPThesis.aux
-A level-1 auxiliary file: JAnal/janal.aux
+A level-1 auxiliary file: ngc55/ngc55.aux
 The style file: mn2e.bst
 Database file #1: journals.bib
 I was expecting an "="---line 210 of file journals.bib
  : `    
  :      pages = {115},
 I'm skipping whatever remains of this entry
-Warning--string name "june" is undefined
---line 1065 of file journals.bib
 Database file #2: books.bib
-Warning--empty publisher in 1989isa2.book.....B
-Warning--empty publisher in 2012sse..book.....K
-You've used 28 entries,
+Warning--empty publisher in 1978mcts.book.....H
+Warning--empty publisher in 1988mcts.book.....H
+You've used 3 entries,
             2938 wiz_defined-function locations,
-            795 strings with 10382 characters,
-and the built_in function-call counts, 14191 in all, are:
-= -- 1102
-> -- 1252
-< -- 2
-+ -- 422
-- -- 406
-* -- 1264
-:= -- 2715
+            626 strings with 5155 characters,
+and the built_in function-call counts, 1564 in all, are:
+= -- 109
+> -- 154
+< -- 0
++ -- 49
+- -- 48
+* -- 115
+:= -- 302
 add.period$ -- 0
-call.type$ -- 28
-change.case$ -- 237
-chr.to.int$ -- 27
-cite$ -- 30
-duplicate$ -- 475
-empty$ -- 729
-format.name$ -- 453
-if$ -- 2713
-int.to.chr$ -- 2
+call.type$ -- 3
+change.case$ -- 27
+chr.to.int$ -- 3
+cite$ -- 5
+duplicate$ -- 48
+empty$ -- 89
+format.name$ -- 52
+if$ -- 302
+int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 25
-newline$ -- 88
-num.names$ -- 114
-pop$ -- 212
+missing$ -- 3
+newline$ -- 13
+num.names$ -- 12
+pop$ -- 28
 preamble$ -- 1
-purify$ -- 237
+purify$ -- 27
 quote$ -- 0
-skip$ -- 441
+skip$ -- 60
 stack$ -- 0
-substring$ -- 525
-swap$ -- 39
-text.length$ -- 2
+substring$ -- 43
+swap$ -- 3
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 246
+type$ -- 21
 warning$ -- 2
-while$ -- 121
+while$ -- 12
 width$ -- 0
-write$ -- 280
+write$ -- 31
 (There was 1 error message)

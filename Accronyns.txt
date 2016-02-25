@@ -5,6 +5,8 @@ ESO European southern observatory
 
 FoV Field of view
 
+GTO Guaranteed time observations
+
 IFS Integral field spectroscopy
 
 IFU Integral field unit
@@ -16,6 +18,8 @@ KMOS {\it K}-band multi-object spectrograph (see chapter~\ref{ch:kmos})
 LTE Local thermodynamic equilibrium (see Chapter~\ref{ch:janal})
 
 MOSFIRE Multi-object spectrometer for infra-red exploration
+
+OB Observing block
 
 OSIRIS Optical system for imaging and low-intermediate-resolution integrated spectroscopy
 

@@ -1,15 +1,536 @@
-\chapter{Red Supergiants in NGC\,2100}
+\chapter{Chemistry and Kinematics of NGC\,2100}\label{ch:n2100}
 
-\textbf{Completeness:} \textbf{60\%} \\
-The observations and data reduction for this section are complete.
-I am currently polishing the analysis for this chapter and a have a draft of a paper almost ready.
+\section{Opening Remarks} % (fold)
+\label{sec:opening_remarks}
 
-\textbf{Description:} \\
-This chapter will describe KMOS observations of 14 RSGs in NGC\,2100.
+Part of this work is submitted for publication in~\cite{2016arXiv160202702P}.
+% section opening_remarks (end)
 
-I will describe the cluster and outline the connection between YMCs and GCs and the potential
-for constraints on GC properties by studying YMCs.
+\section{Introduction} % (fold)
+\label{sec:introduction}
 
-I will estimate the dynamical and chemical properties of NGC\,2100 and comment on the
-evolution of young clusters in general.
+Young massive clusters (YMCs\footnotemark) are important probes of the early evolution of star clusters and have increasingly been used as tracers of star formation in galaxies~\citep[e.g.][]{1995AJ....109..960W,1997AJ....114.2381M,1999AJ....118..752Z}.
+Known to contain large populations of massive stars, YMCs are also important tracers of massive star formation, which is heavily clustered~\citep{2003ARA&A..41...57L,2005A&A...437..247D,2007MNRAS.380.1271P}.
+In addition to being the birthplace of most of the massive stars in the Local Universe~\citep[$>200\,$M$_{\odot}$ stars in R136;][]{2010MNRAS.408..731C}, owing to the density of stars, YMCs are thought to be the birthplace of some of the rich stellar exotica
+(e.g. blue stragglers, X-ray binaries and radio pulsars) found in the old population of globular clusters~\citep[GCs;][]{2010ARA&A..48..431P}.
 
+\footnotetext{A YMC is defined as having an age of $<100\,$Myr and a stellar mass of $>10^{4}\,$M$_{\odot}$~\citep{2010ARA&A..48..431P}.}
+
+Recently, the idea that GCs are simple stellar populations has been called into question based on chemical anomalies of light elements~\citep[C, N, O, Na and Al; e.g.][]{2012A&ARv..20...50G}.
+These anomalies are considered by most authors to be the signature of multiple stellar populations within GCs.
+Studying YMCs could therefore potentially help to constrain some of the proposed models for creating multiple stellar populations within GCs~\citep[e.g.][]{2014MNRAS.441.2754C}.
+
+Investigating the link between YMCs and older GCs is an important, uncertain, factor in the evolution of young clusters.
+As most stellar systems are thought to dissolve shortly after formation~\citep{2003ARA&A..41...57L}, determining how long bound systems can remain so is an important question to answer.
+Studying the dynamical properties of YMCs is, therefore, an important tool to evaluate the likelihood that young clusters will survive.
+In addition, the study of YMCs in different environments can help bridge the gap between the understanding of star formation in the Solar neighbourhood and that in the high-redshift Universe.
+
+
+% Over the last few years, medium resolution ($R~\geq~3000$) near-IR spectroscopy has been shown to be a powerful tool to estimate stellar parameters for red supergiant stars~\citep[RSGs;][]{2010MNRAS.407.1203D}.
+% RSGs are the final evolutionary stage of a massive star and, owing to their cool atmospheres~\citep[T$_{\rm eff}\sim$~4000\,K;][]{2013ApJ...767....3D}, are brightest at $\sim1.1\,\mu$m.
+% In star-forming galaxies, RSGs are the most luminous near-IR sources, therefore, they can be observed out to large distances at these wavelengths.
+% Given that dust extinction is intrinsically lower at near-IR wavelengths and that the next generation of ground-/space-based telescopes will be optimised for observations at these wavelengths, RSGs are likely to become increasingly attractive targets by which to study distant star-forming galaxies.
+
+% The $J$-band analysis technique for estimating metallicities and stellar parameters of RSGs has been rigorously tested by~\cite{2014ApJ...788...58G} and~\cite{2015ApJ...806...21D}.
+% These authors show that metallicities can be estimated in extragalactic systems to a high level of accuracy and to a precision of $<0.15$\,dex.
+
+% The availability of the $K$-band multi-object spectrograph~\citep[KMOS;][]{2013Msngr.151...21S} at the Very Large Telescope (VLT), has presented new opportunities for efficient observations of samples of RSGs in external galaxies to study their distribution and build-up of metals.
+% \cite{2015ApJ...803...14P} used KMOS observations to investigate the present-day metallicity of NGC\,6822 ($d$~=~0.5\,Mpc) and~\cite{2015ApJ...805..182G} determined the metallicity gradient of NGC\,300, a grand design spiral galaxy outside the Local Group ($d$~=~1.9\,Mpc), finding striking agreement with previous measurements from stars and H\,\2 regions.
+
+
+\citet{2013MNRAS.430L..35G} demonstrated that, after the appearance of the first RSGs within a YMC, the overall near-IR flux from the cluster is dominated by the RSGs (F$_{J, RSG}/$F$_{J}>0.90$).
+Using this result, these authors showed that the spectrum from an unresolved star cluster can be used to estimate the average properties of the RSG population of the cluster using exactly the same analysis method as for single stars.
+\citet{2015ApJ...812..160L} demonstrated this with KMOS spectroscopy of three unresolved YMCs in NGC\,4038 in the Antennae ($d$~=~20\,Mpc), at Solar-like metallicity, finding good agreement with previous studies.
+With a multi-object spectrograph operating on the European Extremely Large Telescope, this technique could be used to measure metallicities of individual RSGs at distances of $>10\,$Mpc and from YMCs out to potentially $>100\,$Mpc~\citep{2011A&A...527A..50E}.
+
+NGC\,2100 is a YMC in the Large Magellanic Cloud (LMC), located near the large star-forming 30 Doradus region.
+With an age of $\sim$\,20\,Myr~\citep{1991ApJS...76..185E,2015A&A...575A..62N}, and a photometric mass of $4.6~\times~10^4M_{\odot}$~\citep[assuming~\cite{1966AJ.....71...64K} profiles]{2005ApJS..161..304M}, NGC\,2100 falls within the mass and age range where the near-IR cluster light is dominated by RSGs~\citep{2013MNRAS.430L..35G}.
+This is supported by the large number of RSGs identified within this cluster (see Figure~\ref{fig:targets}).
+
+NGC\,2100 is not a cluster in isolation.
+It is located in one of the most actively star-forming regions within the Local Group of galaxies.
+At $\sim$\,20\,Myr old, the most massive members of this star cluster will have already exploded as supernovae.
+This should have had a profound effect on the surrounding gas and dust, and has potentially shaped the surrounding LMC\,2 supershell~\citep[see][]{1999ApJ...518..298P}.
+
+In this study we estimate stellar parameters from KMOS spectroscopy for 14 RSGs which appear to be associated with NGC\,2100.
+Section~\ref{sec:observations} describes the observations and data reduction, and in Section~\ref{sec:results} we detail our results, focusing on radial velocities of the target stars where we derive the line-of-sight velocity dispersion,
+the dynamical mass of NGC\,2100 and stellar parameters.
+Our results are discussed in Section~\ref{sec:discussion} and conclusions are presented in Section~\ref{sec:conclusions}.
+
+% section introduction (end)
+
+\section{Observations and Data Reduction} % (fold)
+\label{sec:observations}
+These observations were obtained as part of the KMOS Guaranteed Time Observations (PI: Evans 095.B-0022) in March 2015.
+The observations consisted of $8\times10$\,s exposures (seeing conditions $\sim$1\farcs0) taken with the $YJ$ grating with sky offset exposures (S) interleaved between the object exposures (O) in an O,~S,~O observing pattern.
+In addition, a standard set of KMOS calibration frames were obtained as well as observations of HD\,51506 (B5) as the telluric standard star.
+Figure~\ref{fig:targets} shows the observed RSGs overlaid on a {\it J}-band VISTA image of the surrounding region~\citep{2011A&A...527A.116C}.
+
+\begin{figure}
+\centering
+ \includegraphics[width=0.65\textwidth]{ngc2100/NGC2100-targets}
+ \caption[NGC\,2100 Targets]{Positions of the KMOS targets in NGC\,2100 overlaid on a VISTA $J$-band image~\citep{2011A&A...527A.116C}.
+          Green circles indicate KMOS targets.
+          The adopted cluster centre has been marked by a blue cross.\label{fig:targets}
+          }
+\end{figure}
+
+The standard KMOS/esorex routines~\citep[SPARK;][]{2013A&A...558A..56D} were used to calibrate and reconstruct the data cubes.
+Telluric correction was performed using the 24-arm telluric-correction routine using the methodology described in detail by
+\citet{2015ApJ...803...14P}.
+Briefly, corrections are made to the standard telluric recipe to account for slight differences in wavelength calibration between the telluric and science spectra.
+This is implemented using an iterative cross-correlation approach.
+Additionally, differences in the strength of the telluric features are corrected by applying a simple scaling using the equation:
+
+\begin{equation}
+  T_{2} = (T_{1} + c) / (1 + c)
+\end{equation}
+
+\noindent where $T_{2}$ is the scaled telluric-standard spectrum, $T_{1}$ is the uncorrected telluric-standard spectrum and {\it c} is the scaling parameter which is varied from {\it c}~=~$-$0.5 to {\it c}~=~0.5 in increments of 0.02.
+The best value of {\it c} is chosen based on the overall standard deviation of the spectrum, i.e. the {\it c} value producing the smallest $\sigma$ is selected.
+Once these corrections are accounted for, the science spectra are divided by the appropriate telluric spectrum for that particular KMOS integral field unit (IFU).
+
+
+\begin{table*}
+\caption{
+        Observed properties of VLT-KMOS targets in NGC\,2100.\label{tb:obs-params}
+        }
+\scriptsize
+\begin{center}
+\begin{threeparttable}
+\begin{tabular}{lrccccl }
+ \hline
+ \hline
+ID & S/N & $J$\tnote{a} & $H$\tnote{a} & $K_{\rm s}$\tnote{a} & RV (\kms) & Notes\tnote{b} \\
+ \hline
+ % Note: The table is now sorted by RA
+J054147.86$-$691205.9 & 320 &\o9.525 &\o8.603 & 8.200 &  250.3 $\pm$ 4.7 & D15\\
+J054152.51$-$691230.8 & 200 & 10.413 &\o9.526 & 9.155 &  249.3 $\pm$ 2.6 & D16\\
+J054157.44$-$691218.1 & 200 &\o9.811 &\o9.036 & 8.738 &  245.6 $\pm$ 3.5 & C2\\ % 2" off in DEC
+J054200.74$-$691137.0 & 260 &\o9.900 &\o9.017 & 8.683 &  248.8 $\pm$ 2.7 & C8\\
+J054203.90$-$691307.4 & 250 &\o9.839 &\o8.996 & 8.740 &  251.1 $\pm$ 2.8 & B4\\
+J054204.78$-$691058.8 & 210 & 10.319 &\o9.427 & 9.159 &  256.1 $\pm$ 4.0 & \ldots\\
+J054206.36$-$691220.2 & 200 & 10.371 &\o9.480 & 9.159 &  255.7 $\pm$ 4.9 & B17\\
+J054206.77$-$691231.1 & 250 &\o9.977 &\o9.150 & 8.807 &  250.6 $\pm$ 3.4 & A127\\
+J054207.45$-$691143.8 & 200 & 10.482 &\o9.610 & 9.351 &  252.5 $\pm$ 3.0 & C12\\
+J054209.66$-$691311.2 & 240 &\o9.976 &\o9.136 & 8.841 &  254.3 $\pm$ 4.1 & B47\\
+J054209.98$-$691328.8 & 250 & 10.021 &\o9.150 & 8.823 &  250.2 $\pm$ 3.0 & C32\\
+J054211.56$-$691248.7 & 300 &\o9.557 &\o8.617 & 8.264 &  255.5 $\pm$ 4.3 & B40\\
+J054211.61$-$691309.2 & 150 & 10.943 & 10.090 & 9.788 &  256.6 $\pm$ 6.1 & B46\\
+J054212.20$-$691213.3 & 200 & 10.440 &\o9.622 & 9.335 &  260.0 $\pm$ 4.8 & B22\\
+
+% J054147.86-691205.9 0207-0134568 & 05:41:47.873 & -69:12:05.959
+% J054152.51-691230.8 0207-0134683 & 05:41:52.430 & -69:12:30.410
+% J054157.44-691218.1 0207-0134811 & 05:41:57.286 & -69:12:16.480 % 2" off in DEC
+% J054200.74-691137.0 0208-0135292 & 05:42:00.722 & -69:11:36.925
+% J054203.90-691307.4 0207-0134979 & 05:42:03.877 & -69:13:07.410
+% J054204.78-691058.8 0208-0135383 & 05:42:04.762 & -69:10:58.816
+% J054206.36-691220.2 0207-0135059 & 05:42:06.348 & -69:12:20.150
+% J054206.77-691231.1 0207-0135069 & 05:42:06.764 & -69:12:31.245
+% J054207.45-691143.8 0208-0135446 & 05:42:07.435 & -69:11:43.692
+% J054209.66-691311.2 0207-0135150 & 05:42:09.647 & -69:13:11.263
+% J054209.98-691328.8 0207-0135162 & 05:42:10.001 & -69:13:28.210
+% J054211.56-691248.7 0207-0135205 & 05:42:11.574 & -69:12:48.770
+% J054211.61-691309.2 0207-0135206 & 05:42:11.592 & -69:13:09.257
+% J054212.20-691213.3 0207-0135220 & 05:42:12.182 & -69:12:13.144
+\hline
+\end{tabular}
+\begin{tablenotes}
+\item [a] Photometric data from 2MASS, with typical errors on $J$, $H$, and $K_{\rm s}$ of 0.024, 0.026 and 0.022\,mag respectively.
+\item [b] Cross-identifications in final column from~\cite{1974A&AS...15..261R}.
+\end{tablenotes}
+\end{threeparttable}
+\end{center}
+\end{table*}
+
+% section observations (end)
+
+\section{Results} % (fold)
+\label{sec:results}
+
+% section results (end)
+
+\subsection{Radial velocities and velocity dispersion} % (fold)
+\label{sub:radial_velocities}
+Radial velocities are estimated using an iterative cross-correlation method.
+To ensure systematic shifts are removed, the observed spectra are first cross-correlated against a spectrum of the Earth's atmosphere, taken from the European Southern Observatory web pages\footnotemark, at a much higher spectral resolution than that of KMOS.
+This spectrum is then degraded to the resolution of the observations using a simple Gaussian filter.
+The cross-correlation is performed within the 1.140--1.155\,$\mu$m region, as a strong set of reliable telluric features dominates this region, with minimal contamination from stellar features.
+The shift arising from this comparison is typically 0--10\,\kms~and is then applied to the science spectra so that they are on a consistent wavelength solution.
+
+\footnotetext{Retrieved from http://www.eso.org/sci/facilities/paranal/\\
+decommissioned/isaac/tools/spectroscopic\_standards.html}
+
+Stellar radial velocities are estimated following a similar approach to the methods used by~\citet{2015ApJ...798...23L} and~\citet{2015ApJ...803...14P}. An initial radial-velocity estimate is found for each star from cross-correlation of the KMOS spectra with an appropriate model spectrum in the 1.16--1.22\,$\mu$m region
+(selected owing to the dominance of atomic features in RSG spectra at these wavelengths).
+We improved on this initial estimate via independent cross-correlation of the observed and model spectra for seven strong absorption lines in this region.
+
+The quoted radial velocity for each star is the mean of these estimates, where the quoted uncertainty is the standard error of the mean
+(i.e. $\sigma$/$\sqrt{n_{\rm lines}}$).
+Obvious outliers (with $\delta$RVs of tens of \kms) were excluded in calculating the mean estimates; such outliers arise occasionally from spurious peaks in the cross-correlation functions from noise/systematics in the spectra.
+
+Figure~\ref{fig:rvs} shows our stellar radial velocity estimates as a function of distance from the centre of the cluster, compared with the systemic radial velocity of the LMC (green dashed line).
+Given the low dispersion of the radial velocity measurements for the KMOS targets, we confirm that all of the target RSGs within this sample have velocities consistent with membership of NGC\,2100.
+
+In order to sample from the posterior probability distribution for the intrinsic velocity dispersion and mean cluster velocity (given the observed radial velocity estimates and their uncertainties), we use emcee~\citep{2013PASP..125..306F},
+an implementation of the affine-invariant ensemble sampler for Markov chain Monte Carlo (MCMC) of \cite{2010CAMCS.5..65G}. Our likelihood function is given by
+
+\begin{equation}
+p(D|\{\sigma_{1D}, v_0\}) = \prod_i \frac{1}{\sqrt{2 \pi (\sigma_{1D}^2+ \sigma_{v, i}^2)}}  \exp{\left(\frac{-(v_i - v_0)^2}{2 (\sigma_{1D}^2+ \sigma_{v, i}^2)}\right)},
+\label{eq:like}
+\end{equation}
+
+\noindent where $\sigma_{1D}$ is the intrinsic velocity dispersion of the cluster, $v_0$ is the mean cluster velocity, and the data consists of our set of radial velocity measurements $v_i$ and their uncertainties $\sigma_{v, i}$. We therefore assume that the intrinsic cluster dispersion is Gaussian with no variations in the dispersion across the sample.
+The systemic radial velocity ($v_0$) of the sample is estimated to be $251.6\pm1.1$\,\kms.
+This value is in reasonable agreement with previous measurements for two OB-type stars in the cluster
+\citep{2015A&A...584A...5E} as well as the results from four RSGs in NGC\,2100
+\citep[henceforth JT94; three of which were observed in the current study]{1994A&A...282..717J}.
+Table~\ref{tb:rvs} contains the details of previous radial velocity measurements within NGC\,2100.
+We conclude that there exists no significant difference between our measurements and previous estimates within NGC\,2100.
+This is an additional confirmation that absolute radial velocities can be precisely measured with KMOS spectra.
+
+\begin{figure}
+\centering
+ \includegraphics[width=0.65\textwidth]{ngc2100/NGC2100-rv-v8}
+ \caption{Radial velocities of KMOS targets (black points) shown as a function of distance from the cluster centre.
+ The green dashed line shows the LMC systemic velocity with the uncertainty highlighted by the blue shaded region
+ {\citep[$262.2\pm3.4$\,\kms;][]{2012AJ....144....4M}}.
+ The solid black line shows the mean of the sample ($251.5\pm3.4\,$\kms).
+ The blue triangles show estimates for two OB-type stars~\protect\citep{2015A&A...584A...5E} and the red squares show previous estimates for three of our targets
+ {\citep{1994A&A...282..717J}}.
+ The distance modulus used to produce this figure is 18.5~\citep{2013Natur.495...76P,2014AJ....147..122D}.
+ \label{fig:rvs}}
+\end{figure}
+
+\begin{table*}
+\begin{center}
+\caption{
+        Literature stellar radial-velocity measurements within NGC\,2100.\label{tb:rvs}
+        }
+\scriptsize
+\begin{threeparttable}
+\begin{tabular}{lcccll}
+ \hline
+ \hline
+\multicolumn{2}{c}{ID} & \multicolumn{2}{c}{RV (\kms)}  & Reference & Notes \\
+Lit. & current study & Lit. & current study\\
+ \hline
+AA$\Omega$\,30\,Dor\,407 & ---         & $258.5\pm3.4$     & \ldots        & {\cite{2015A&A...584A...5E}} &  O9.5\,II  \\
+AA$\Omega$\,30\,Dor\,408 & ---         & $250.6\pm1.3$     & \ldots        & {\cite{2015A&A...584A...5E}} &  B3\,Ia    \\
+R74\,B17 & J054206.36-691220.2 & $255\pm8$ & $255.7\pm4.9$ & {\cite{1994A&A...282..717J}} \\
+R74\,C2  & J054157.44-691218.1 & $270\pm8$ & $245.6\pm3.5$ & {\cite{1994A&A...282..717J}} \\
+R74\,C32 & J054209.98-691328.8 & $260\pm8$ & $250.2\pm3.0$ & {\cite{1994A&A...282..717J}} \\
+R74\,C34 & ---         & $265\pm8$         & \ldots        & {\cite{1994A&A...282..717J}} & \\
+% NGC\,2100 & ---   & $280\pm10(16)$    & \ldots        & {\cite{1972MNRAS.159..445A}} & Whole cluster\\
+% NGC\,2100 & --- & $282.2\pm2.5$       & \ldots        & {\cite{1971ApJ...169..271S}} & Gas\\
+% NGC\,2100 & --- & $253\pm17$          & \ldots        & {\cite{1970PhD...........F}} & \\
+
+\hline
+\end{tabular}
+
+\begin{tablenotes}
+\item ID and RV columns: the first value is from the literature and the second is from the current study.
+\end{tablenotes}
+\end{threeparttable}
+\end{center}
+\end{table*}
+
+As shown in Figure~\ref{fig:sig1d}, the line-of-sight velocity dispersion ($\sigma_{1D}$) of NGC\,2100 is unresolved given the current data.
+We can therefore place an upper limit on $\sigma_{1D} <$~3.9\,\kms~at the 95\% confidence level.
+In Figure~\ref{fig:sig1dbins} we demonstrate that we find no evidence for spatial variations in the measured $\sigma_{1D}$ and we note that in each radial bin (which contain 5, 4 and 5 stars respectively), the measured dispersion is unresolved.
+
+
+\begin{figure}
+\centering
+ \includegraphics[width=0.65\textwidth]{ngc2100/NGC2100-sigRV-triangle}
+ \caption{One- and two-dimensional projections of the posterior probability distributions of the line-of-sight velocity dispersion ($\sigma_{1D}$) and systemic velocity ($v_{0}$) for NGC\,2100 assuming the dispersion is Gaussian and constant over the range measured using.
+ Using this method the velocity of NGC\,2100 is 251.6\,$\pm$\,1.1\,\kms.
+ This figure also demonstrates that the velocity dispersion for the sample is unresolved, we can therefore place an upper limit on $\sigma_{1D} <$~3.9\,\kms~at the 95\% confidence level.
+\label{fig:sig1d}
+          }
+\end{figure}
+
+\begin{figure}
+\centering
+ \includegraphics[width=0.65\textwidth]{ngc2100/NGC2100-sig1d-bins}
+ \caption{Upper limits to the line-of-sight velocity dispersion for the NGC\,2100 RSGs in three radial bins as a function of the distance from the centre of NGC\,2100.
+ This figure demonstrates that we find no evidence for spatial variations in $\sigma_{1D}$.
+ However, we note that in each radial bin the underlying dispersion is unresolved (see Figure~\ref{fig:sig1d}).
+\label{fig:sig1dbins}
+          }
+\end{figure}
+
+% section radial_velocities (end)
+
+\subsection{Dynamical mass} % (fold)
+\label{sub:dynamical_mass}
+Using $\sigma_{1D}$ as an upper limit on the velocity distribution, one can calculate an upper limit on dynamical mass of the cluster using the virial equation:
+
+\begin{equation}
+  M_{dyn} = \frac{\eta\sigma_{1D}^{2}r_{\rm eff}}{G}
+  \label{eq:vir}
+\end{equation}
+
+\noindent where $M_{dyn}$ is the dynamical mass and $\eta$~=~6$r_{vir}/r_{\rm eff}$~=~9.75 -- providing the density profile of the cluster is sufficiently steep~\citep{2010ARA&A..48..431P} --
+where $r_{\rm eff}$~=~4.41\,pc for NGC\,2100~\citep{2005ApJS..161..304M}.
+However, NGC\,2100 has a relatively shallow density profile~\citep[$\gamma$~=~$2.44\pm0.14$;][]{2003MNRAS.338...85M}
+which means $\eta$~$<$~9.75.
+Using $\sigma_{1D}$~=~$3.9$\,\kms~and equation~\ref{eq:vir}, an upper limit on the dynamical mass of NGC\,2100 is $M_{dyn}$~=~$15.2\times 10^{4}M_{\odot}$.
+Comparing this to the photometric mass $M_{phot}$~=~$(2.3\pm1.0)\times 10^{4}M_{\odot}$~\citep{2005ApJS..161..304M},
+we see that the upper limit on the dynamical mass is larger.
+
+As discussed by~\citet{2010MNRAS.402.1750G}, binary motions can increase the measured velocity dispersion profile~\citep[e.g. see][]{2012A&A...546A..73H}.
+However, as~\citet{2010MNRAS.402.1750G} note, the mean lifetime for RSGs in binary systems is significantly decreased and, where mass transfer occurs, their number decrease dramatically~\citep{2008MNRAS.384.1109E}.
+We therefore expect that the number of RSGs in close binaries is small~\citep{1979MNRAS.186..831F,2009ApJ...696.2014D}.
+The fraction of RSGs in longer-period systems is less certain, but these would contribute substantially less to the line-of-sight velocity distribution.
+
+These arguments suggest that our estimate for the velocity dispersion in NGC\,2100 is not significantly increased by binary motions as our target stars are expected to be (predominantly) single objects. As the true dispersion of the cluster appears to be unresolved (Figure~\ref{fig:sig1d}), we conclude therefore that the upper limit of the dynamical mass is consistent with the published photometric mass.
+
+Evidence in the literature suggests that J054211.61$-$691309.2 is an eclipsing binary system VV Cep~\citep{1979MNRAS.186..831F}.
+However, the radial velocity of this star (256.6\,$\pm$\,6.1\,\kms) does not appear to be increased as a result of binary motions, with respect to the sample studied here.
+
+% subsection dynamical_mass (end)
+
+\subsection{Stellar parameters} % (fold)
+\label{sub:stellar_parameters}
+
+% Stellar parameters are estimated for each target using the $J$-band analysis technique described initially by~\cite{2010MNRAS.407.1203D}
+% and tested rigorously by~\cite{2014ApJ...788...58G} and~\cite{2015ApJ...806...21D}.
+% These studies show that by using a narrow spectral window within the $J$-band one can accurately derive overall metallicities ([Z]) to better than
+% $\pm$\,0.15\,dex at the resolution of KMOS observations with S/N~$\ge~100$.
+% \cite{2015ApJ...803...14P} built on this by demonstrating the feasibility of this technique using KMOS spectra.
+
+% The analysis uses synthetic RSG spectra, extracted from {\sc marcs} model atmospheres~\citep{2008A&A...486..951G},
+% computed with corrections for non-local thermodynamic equilibrium for lines from titanium, iron, silicon and magnesium
+% \citep{2012ApJ...751..156B,2013ApJ...764..115B,2015ApJ...804..113B}.
+% The parameter ranges for the grid of synthetic RSG spectra are listed in Table~\ref{tb:mod_range}.
+% The synthetic spectra are compared with observations using the $\chi$-squared statistic and the synthetic spectra are degraded to the resolution and sampling of the observations.
+
+Stellar parameters are estimated for each target using the $J$-band analysis technique which is described in detail in Chapter~\ref{ch:janal}.
+Estimated stellar parameters are listed in Table~\ref{tb:stellar-params}.
+Figure~\ref{fig:model_fits} shows the observed KMOS spectra (black) compared to their best-fitting models (red).
+The average metallicity for the 14 RSGs is [Z]~=~$-$0.38\,$\pm$\,0.20\,dex where the large scatter is a result of the contribution from (J054211.61$-$691309.2).
+Excluding this apparent outlier yields an average metallicity of [Z]~=~$-$0.43\,$\pm$\,0.10\,dex, which reduces the scatter and does not alter the result significantly.
+We choose to include J054211.61$-$691309.2 in our analysis as it is not obvious from an investigation into the spectrum of this star why reliable parameters could not be estimated.
+Although the likelihood of a 1.7~$\times$~Solar metallicity star surrounded by LMC-like metallicity stars, with consistent radial velocity measurements, is surely very low.
+In addition, we note that that this star has been flagged as a potential eclipsing binary~\citep{1979MNRAS.186..831F}.
+
+The average metallicity in NGC\,2100 estimated here is in good agreement with estimates of the cluster metallicity using isochrone fitting to the optical colour-magnitude diagram~\citep[$-$0.34\,dex;][]{2015A&A...575A..62N}.
+The only other estimate of stellar metallicity within this cluster is from JT94
+who estimated metallicities using optical spectroscopy of four RSGs.
+These authors found an average metallicity for NGC\,2100 of [Fe/H]~=~$-$0.32\,$\pm$\,0.03\,dex, which is in reasonable agreement with our estimate.
+We find that there are three targets in common with our study: B17, C2 and C32
+\citep[using the][nomenclature]{1974A&AS...15..261R}.
+Comparing results, we find B17 (J054206.36-691220.2) in good agreement with the estimates presented in this study.
+However, we note that the microturbulence value differs significantly and the surface gravity reported here agrees well with the estimated photometric surface gravity where the spectroscopic surface gravity quoted in JT94 is significantly different.
+
+The results for C2 (J054157.44-691218.1) are consistent with what is reported in JT94, although again, we note that the surface gravity reported here agrees with the estimated photometric surface gravity, and the spectroscopic surface gravity in JT94 is significantly lower.
+In addition, we note that the microturbulence value quoted in the current study is on the edge of the allowed model grid.
+The results for C32 (J054209.98-691328.8) are consistent with what is reported in JT94, although we note that the best fit microturbulence value is also at the edge of the model grid.
+
+
+Using the same analysis technique as in this study,
+\cite{2015ApJ...806...21D} estimate metallicities for nine RSGs within the LMC,
+finding an average value of [Z]~=~$-$0.37\,$\pm$\,0.14\,dex, which our estimate agrees well with.
+In Figure~\ref{fig:TeffvsZ}, we compare the effective temperatures and metallicities from NGC\,2100 with those estimated for RSGs elsewhere in the LMC.
+We find good agreement in the distribution of temperatures from the two studies, with the average agreeing well.
+The range in [Z] from the LMC population is slightly larger than that of the NGC\,2100 RSGs, which is expected when comparing a star cluster with an entire galaxy; however, the averages for the two studies agree very well.
+
+
+\begin{figure*}
+ %\vspace{302pt}
+ \begin{center}
+ \centering
+\includegraphics[width=0.75\textwidth]{ngc2100/NGC2100-model-fits}
+\caption{KMOS spectra of RSGs in NGC\,2100 and their associated best-fit models
+(black and red lines, respectively).
+The upper panel shows the simulated integrated-light cluster spectrum;
+the lower panel shows spectra for the individual RSGs.
+The lines used for the analysis, from left-to-right by species, are
+Fe\,{\scriptsize I}$\,\lambda\lambda$1.188285,
+1.197305;
+Mg\,{\scriptsize I}$\,\lambda\lambda$1.182819,
+1.208335;
+Si\,{\scriptsize I}$\,\lambda\lambda$1.198419,
+1.199157,
+1.203151,
+1.210353;
+Ti\,{\scriptsize I}$\,\lambda\lambda$1.189289,
+1.194954.\label{fig:model_fits}}
+\end{center}
+\end{figure*}
+
+\begin{figure}
+\centering
+ \includegraphics[width=0.65\textwidth]{ngc2100/NGC2100-TeffvsZ-2100-LMC}
+ \caption{Estimated metallicities for NGC\,2100 RSGs in this study shown against effective temperature (black points).
+        For comparison we show the distribution of LMC RSGs from~\citet[][blue triangles]{2015ApJ...806...21D} with good agreement between the means of the two samples.
+\label{fig:TeffvsZ}
+          }
+\end{figure}
+
+\begin{table}
+\caption{
+Model grid used for the spectroscopic analysis.\label{tb:mod_range}
+         }
+\scriptsize
+\begin{center}
+\begin{tabular}{lccc}
+ \hline
+ \hline
+  Model Parameter & Min. & Max. & Step size \\
+ \hline
+T$_{\rm eff}$ (K)       & 3400 & 4400 & 100 \\
+$[$Z$]$ (dex)   & $-$1.0\o & 1.0\o  & 0.1\o\\
+log\,$g$ (cgs)  & $-$1.00 & 1.00 & 0.25\\
+ $\xi$ (\kms)  & \pp1.0\o & 5.0\o & 0.2\o\\
+ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{table*}
+\begin{center}
+\caption{
+Physical parameters determined for the KMOS targets in NGC\,2100.
+\label{tb:stellar-params}
+         }
+\scriptsize
+\begin{threeparttable}
+\begin{tabular}{lc ccccl}
+ \hline
+ \hline
+  Target  & IFU & $\xi$ (\kms) & [Z] & log\,$g$ & T$_{\rm eff}$ (K) & Notes\tnote{a}\\
+  \hline
+J054147.86$-$691205.9 & 7  & 3.6\,$\pm$\,0.2 & $-$0.45\,$\pm$\,0.10 & 0.10\,$\pm$\,0.16 & 4030\,$\pm$\, 90 & D15\\
+J054152.51$-$691230.8 & 9  & 3.6\,$\pm$\,0.2 & $-$0.51\,$\pm$\,0.09 & 0.43\,$\pm$\,0.18 & 4000\,$\pm$\, 40 & D16\\
+J054157.44$-$691218.1 & 6  & 4.9\,$\pm$\,0.1 & $-$0.44\,$\pm$\,0.08 & 0.15\,$\pm$\,0.20 & 3950\,$\pm$\, 70 & C2\\ % 2" off in DEC
+J054200.74$-$691137.0 & 4  & 4.2\,$\pm$\,0.2 & $-$0.55\,$\pm$\,0.08 & 0.23\,$\pm$\,0.10 & 3790\,$\pm$\, 40 & C8\\
+J054203.90$-$691307.4 & 12 & 4.5\,$\pm$\,0.2 & $-$0.49\,$\pm$\,0.06 & 0.23\,$\pm$\,0.09 & 3890\,$\pm$\, 40 & B4\\
+J054204.78$-$691058.8 & 3  & 4.2\,$\pm$\,0.2 & $-$0.54\,$\pm$\,0.09 & 0.46\,$\pm$\,0.15 & 3870\,$\pm$\, 70 & \ldots\\
+J054206.36$-$691220.2 & 24 & 2.8\,$\pm$\,0.4 & $-$0.20\,$\pm$\,0.18 & 0.42\,$\pm$\,0.18 & 3790\,$\pm$\, 80 & B17\\
+J054206.77$-$691231.1 & 10 & 4.9\,$\pm$\,0.2 & $-$0.50\,$\pm$\,0.04 & 0.25\,$\pm$\,0.09 & 3900\,$\pm$\, 30 & A127\\
+J054207.45$-$691143.8 & 2  & 4.0\,$\pm$\,0.2 & $-$0.43\,$\pm$\,0.09 & 0.45\,$\pm$\,0.17 & 3820\,$\pm$\, 70 & C12\\
+J054209.66$-$691311.2 & 14 & 3.8\,$\pm$\,0.2 & $-$0.41\,$\pm$\,0.12 & 0.06\,$\pm$\,0.20 & 3760\,$\pm$\, 70 & B47\\
+J054209.98$-$691328.8 & 11 & 4.8\,$\pm$\,0.1 & $-$0.48\,$\pm$\,0.08 & 0.17\,$\pm$\,0.22 & 3920\,$\pm$\, 60 & C32\\
+J054211.56$-$691248.7 & 20 & 3.8\,$\pm$\,0.2 & $-$0.28\,$\pm$\,0.08 & 0.01\,$\pm$\,0.16 & 3900\,$\pm$\, 60 & B40\\
+J054211.61$-$691309.2 & 18 & 2.2\,$\pm$\,0.4 & \pp0.23\,$\pm$\,0.23 & 0.65\,$\pm$\,0.19 & 3800\,$\pm$\,100 & B46\\
+J054212.20$-$691213.3 & 22 & 3.3\,$\pm$\,0.2 & $-$0.30\,$\pm$\,0.12 & 0.33\,$\pm$\,0.31 & 4020\,$\pm$\, 70 & B22\\
+\\
+NGC\,2100 average & & 3.9\,$\pm$\,0.8 & $-$0.38\,$\pm$\,0.20 &  0.28\,$\pm$\,0.18 & 3890\,$\pm$\,85 &\\
+
+  \hline
+  \end{tabular}
+\begin{tablenotes}
+    \item [a] ID in final column from{~\cite{1974A&AS...15..261R}}.
+\end{tablenotes}
+  \end{threeparttable}
+  \end{center}
+\end{table*}
+
+% section stellar_parameters (end)
+
+\section{Discussion} % (fold)
+\label{sec:discussion}
+
+\subsection{Stellar parameters} % (fold)
+\label{sub:stellar_parameters_disc}
+
+Luminosities have been estimated for our sample from {\it K}-band photometry (see Table~\ref{tb:obs-params}) using the bolometric correction from~\cite{2013ApJ...767....3D} with a small contribution from interstellar extinction using E(B$-$V)~=~0.17~\citep{2015A&A...575A..62N} assuming $R_V$~=~3.5~\citep{2013A&A...558A.134D} and $A_K/A_V$~=~0.112~\citep{1985ApJ...288..618R}.
+The H--R diagram for the cluster is presented in Figure~\ref{fig:HRD}.
+Overlaid on this H--R diagram are {\sc syclist} stellar isochrones for SMC-like~\citep[solid lines;][]{2013A&A...558A.103G} and Solar-like~\citep[dashed lines;][]{2012A&A...537A.146E} models, where stellar rotation is 40\% of break-up velocity.
+Even though the temperatures covered by the SMC-like models do not represent the distribution of temperatures observed in this study, they remain useful to constrain the age of NGC\,2100.
+The Solar-like models (dashed) demonstrate that, when compared with the SMC-like models, increasing the metallicity of the sample
+(a) decreases the average temperature of the RSGs~\citep[something which is not observed by][]{2015ApJ...803...14P},
+(b) induces so called `blue loop' behaviour for the youngest models and
+(c) decreases the luminosity for the youngest models.
+
+\begin{figure}
+\centering
+ \includegraphics[width=0.65\textwidth]{ngc2100/NGC2100-HRD-perOB1}
+ \caption{H--R diagram for 14 RSGs in NGC\,2100 (black points).
+  % Bolometric corrections computed using~\citet{2013ApJ...767....3D}.
+  Isochrones for solar~\citep[dashed grey lines;][]{2012A&A...537A.146E} and SMC-like~\citep[solid black lines;][]{2013A&A...558A.103G} metal abundances,
+  in which stellar rotation is 40\% of the break-up velocity, are shown for ages of 10-32\,Myr. For comparison, 11 RSGs from the Galactic YMC Perseus OB-1 are overlaid with cyan stars~\citep{2014ApJ...788...58G}.
+  The best-fit isochrone to the observed data has an age of 20\,$\pm$\,5\,Myr for both SMC- and solar-like metallicities.
+  \label{fig:HRD}
+          }
+\end{figure}
+
+In addition, results for 11 RSGs from the Galactic star cluster Perseus OB-1~\citep[PerOB1;][]{2014ApJ...787..142G} are overlaid in Figure~\ref{fig:HRD} (blue stars) for which stellar parameters were estimated using the same analysis technique as in this study.
+PerOB1 is a cluster with a similar mass and age~\citep[$2\times10^{4}\,$M$_{\odot}$ and 14\,Myr respectively;][]{2010ApJS..186..191C}
+as NGC\,2100, and a comparison between the stellar components of these two clusters using a consistent analysis technique is useful to highlight differences in stellar evolution within clusters at this range of metallicities.
+
+We can see from Figure~\ref{fig:HRD} that, generally, the estimated temperatures are in good agreement between the two clusters.
+The median luminosity for the PerOB1 targets ($10^{4.93\pm0.15}\,$L$_{\odot}$) is slightly above that of NGC\,2100 ($10^{4.77\pm0.15}\,$L$_{\odot}$) which could represent the slight difference in the ages of the two clusters.
+As PerOB1 is younger, the average mass for a RSG in the cluster will be larger than the average in NGC\,2100.
+Therefore, we would expect to see higher luminosity RSGs in PerOB1.
+However, the difference between the two samples is barely significant and is consistent with a constant luminosity.
+The average effective temperatures for the two data sets (NGC\,2100: 3910\,$\pm$\,15\,K, PerOB1: 3940\,$\pm$\,10\,K) are in reasonable agreement, where the spread in temperatures is slightly larger for PerOB1
+($\sigma_{\rm PerOB1}$~=~120\,K, $\sigma_{\rm NGC\,2100}$~=~90),
+particularly so for the highest luminosity targets within the PerOB1 sample.
+Overall, by comparing these two star clusters with a similar mass, age and stellar population, we conclude that there exists no significant difference in appearance on the H--R diagram of RSGs within star clusters of different metallicities.
+
+% subsection stellar_parameters (end)
+
+\subsection{Simulated cluster spectrum analysis} % (fold)
+\label{sub:integrated_light_cluster_analysis}
+
+We can use the individual stars in NGC\,2100 to simulate the analysis of a YMC in the more distant Universe, using the assumption that RSGs dominate the near-IR flux from such a cluster~\citep{2013MNRAS.430L..35G}.
+\cite{2014ApJ...788...58G} use this assumption to create a simulated integrated-light cluster spectrum for PerOB1 and show that, by analysing the combined spectrum from their 11 RSGs, the resulting parameters are consistent with the average parameters estimated using the individual stars.
+% By reconstructing the test performed by these authors we can test how metallicity affects this analysis.
+NGC\,2100 has a similar mass and age to PerOB1 and~\cite{2014ApJ...788...58G} study a similar number of RSGs to this study,
+therefore, a direct comparison between the two clusters is useful to investigate potential metallicity dependencies.
+
+To create a simulated integrated-light cluster spectrum we sum all the individual RSG spectra weighted by their $J$-band luminosities.
+The resulting spectrum is then degraded to the lowest resolution spectrum of the sample using a simple Gaussian filter.
+The top panel of Figure~\ref{fig:model_fits} shows the resulting integrated-light cluster spectrum.
+This spectrum is then analysed in the same way described in Section~\ref{sub:stellar_parameters} for a single RSG.
+The results of this analysis are what one would expect from KMOS observations of more distant YMCs where individual stars cannot be resolved.
+We find a metallicity of $-$0.35\,$\pm$\,0.07\,dex, an effective temperature of $3960\pm70\,$K,
+a surface gravity of 0.64\,$\pm$\,0.19\,dex and a microturbulent velocity of $4.6\pm0.2\,$\kms~which agree well with the averages of the individual RSG parameters.
+
+% subsection integrated_light_cluster_analysis (end)
+
+\subsection{Velocity dispersion and dynamical mass} % (fold)
+\label{sub:velocity_dispersion_Mdyn}
+
+This study represents the first estimate of an upper limit to the line-of-sight velocity dispersion profile for NGC\,2100.
+Comparing this estimate with that of other YMCs in the Local Universe is useful to ascertain if this cluster shares similar properties with other YMCs.
+We find the properties NGC\,2100 are well matched by other clusters with similar masses and ages, particularly so with RSGC01, a Galactic YMC~\citep{2007ApJ...671..781D}.
+
+Owing to the non-negligible contribution from measurement errors, the $\sigma_{1D}$ adopted here is an upper limit to the true dispersion within the cluster which is likely to be significantly smaller.
+Using the data available, we can rule out an $\sigma_{1D}$ value significantly larger than 3.9\,\kms, however,
+the true dispersion of the cluster is unresolved.
+
+By extension, the dynamical mass estimated here is therefore also an upper limit to the true mass of the cluster.
+There are several factors that could alter the value of the dynamical mass estimate.
+The likely value of the $\eta$ parameter is discussed in Section~\ref{sub:dynamical_mass} and any change in this value will act to decrease the estimated dynamical mass.
+
+% subsection velocity_dispersion (end)
+% section discussion (end)
+
+\section{Conclusions} % (fold)
+\label{sec:conclusions}
+
+Using KMOS spectra of 14 RSGs in NGC\,2100 we have for the first time estimated the dynamical properties of this YMC.
+Radial velocities have been estimated using KMOS, to a precision of $<~5$\,\kms, demonstrating that this instrument can be used to study the dynamical properties of star clusters in external galaxies.
+
+An upper limit to the average line-of-sight velocity dispersion of $\sigma_{1D}$~=~3.9\,\kms
+has been estimated, at the 95\% confidence level, and we find no evidence for spatial variations.
+Using the average velocity dispersion within NGC\,2100 allows an upper limit on the dynamical mass to be calculated
+(assuming virial equilibrium) as $M_{dyn}$~=~$15.2\times 10^{4}M_{\odot}$.
+This measurement is consistent with the literature measurement of the photometric mass~\citep{2005ApJS..161..304M} as the true dispersion is unresolved.
+
+In addition to estimating the dynamical properties of NGC\,2100, we have also %reliably
+estimated stellar parameters for 14 RSGs in NGC\,2100 using the new $J$-band analysis technique~\citep{2010MNRAS.407.1203D}.
+We find the average metallicity for RSGs in NGC\,2100 is [Z]~=~$-$0.38\,$\pm$\,0.20\,dex, which agrees well with previous studies within this cluster and with studies of the young stellar population of the LMC.
+
+The H--R diagram of NGC\,2100 is compared with that of PerOB1: a Galactic YMC with a similar age, mass and stellar population.
+Using stellar parameters estimated from RSGs using the same analysis technique as in this study, we demonstrate that there exists no significant difference in the appearance of the H--R diagram of YMCs between Solar- and LMC-like metallicities.
+
+By combining the individual RSG spectra within NGC\,2100, we have simulated an integrated-light cluster spectrum and proceeded to analyse this spectrum using the same techniques for that of the individual RSGs, as RSGs dominate the cluster light in the $J$-band~\citep{2013MNRAS.430L..35G}.
+The results of this technique demonstrate the potential of this analysis for integrated light spectra of more distant YMCs in low-metallicity environments.
+We find good agreement using the integrated-light cluster spectrum with the average results of the individual RSGs.
+
+% section conclusions (end)

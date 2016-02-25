@@ -1,135 +1,18 @@
-\begin{thebibliography}{28}
+\begin{thebibliography}{3}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
-\bibitem[{{Bergemann} {et~al}\mbox{.}(2015){Bergemann}, {Kudritzki}, {Gazak},
-  {Davies}, \& {Plez}}]{2015ApJ...804..113B}
-{Bergemann} M., {Kudritzki} R.-P., {Gazak} Z., {Davies} B., {Plez} B., 2015,
-  \apj, 804, 113
+\bibitem[{{Gazak} {et~al}\mbox{.}(2015){Gazak}, {Kudritzki}, {Evans},
+  {Patrick}, {Davies}, {Bergemann}, {Plez}, {Bresolin}, {Bender}, {Wegner},
+  {Bonanos}, \& {Williams}}]{2015ApJ...805..182G}
+{Gazak} J.~Z. {et~al.}, 2015, \apj, 805, 182
 
-\bibitem[{{Bergemann} {et~al}\mbox{.}(2012){Bergemann}, {Kudritzki}, {Plez},
-  {Davies}, {Lind}, \& {Gazak}}]{2012ApJ...751..156B}
-{Bergemann} M., {Kudritzki} R.-P., {Plez} B., {Davies} B., {Lind} K., {Gazak}
-  Z., 2012, \apj, 751, 156
+\bibitem[{{Houk}(1978)}]{1978mcts.book.....H}
+{Houk} N., 1978, {Michigan catalogue of two-dimensional spectral types for the
+  HD stars}
 
-\bibitem[{{Bergemann} {et~al}\mbox{.}(2013){Bergemann}, {Kudritzki},
-  {W{\"u}rl}, {Plez}, {Davies}, \& {Gazak}}]{2013ApJ...764..115B}
-{Bergemann} M., {Kudritzki} R.-P., {W{\"u}rl} M., {Plez} B., {Davies} B.,
-  {Gazak} Z., 2013, \apj, 764, 115
-
-\bibitem[{{B{\"o}hm-Vitense}(1958)}]{1958ZA.....46..108B}
-{B{\"o}hm-Vitense} E., 1958, \zap, 46, 108
-
-\bibitem[{{B{\"o}hm-Vitense}(1989)}]{1989isa2.book.....B}
-{B{\"o}hm-Vitense} E., 1989, {Introduction to stellar astrophysics. Vol. 2.
-  Stellar atmospheres.}
-
-\bibitem[{{Cunha} {et~al}\mbox{.}(2007){Cunha}, {Sellgren}, {Smith}, {Ramirez},
-  {Blum}, \& {Terndrup}}]{Cunha07}
-{Cunha} K., {Sellgren} K., {Smith} V.~V., {Ramirez} S.~V., {Blum} R.~D.,
-  {Terndrup} D.~M., 2007, ApJ, 669, 1011
-
-\bibitem[{{Davies}, {Kudritzki} \& {Figer}(2010){Davies}, {Kudritzki}, \&
-  {Figer}}]{2010MNRAS.407.1203D}
-{Davies} B., {Kudritzki} R.-P., {Figer} D.~F., 2010, MNRAS, 407, 1203
-
-\bibitem[{{Davies} {et~al}\mbox{.}(2015){Davies}, {Kudritzki}, {Gazak}, {Plez},
-  {Bergemann}, {Evans}, \& {Patrick}}]{2015ApJ...806...21D}
-{Davies} B., {Kudritzki} R.-P., {Gazak} Z., {Plez} B., {Bergemann} M., {Evans}
-  C., {Patrick} L., 2015, \apj, 806, 21
-
-\bibitem[{{Davies} {et~al}\mbox{.}(2009{\natexlab{a}}){Davies}, {Origlia},
-  {Kudritzki}, {Figer}, {Rich}, \& {Najarro}}]{Davies09a}
-{Davies} B., {Origlia} L., {Kudritzki} R.-P., {Figer} D.~F., {Rich} R.~M.,
-  {Najarro} F., 2009{\natexlab{a}}, ApJ, 694, 46
-
-\bibitem[{{Davies} {et~al}\mbox{.}(2009{\natexlab{b}}){Davies}, {Origlia},
-  {Kudritzki}, {Figer}, {Rich}, {Najarro}, {Negueruela}, \&
-  {Clark}}]{Davies09b}
-{Davies} B., {Origlia} L., {Kudritzki} R.-P., {Figer} D.~F., {Rich} R.~M.,
-  {Najarro} F., {Negueruela} I., {Clark} J.~S., 2009{\natexlab{b}}, ApJ, 696,
-  2014
-
-\bibitem[{{Davies, B.} {et~al}\mbox{.}(2013b){Davies, B.},
-  {\noopsort{b}}{Kudritzki}, {Plez}, {Trager}, {Lan{\c c}on}, {Gazak},
-  {Bergemann}, {Evans}, \& {Chiavassa}}]{2013ApJ...767....3D}
-{Davies, B.} {et~al.}, 2013b, ApJ, 767, 3
-
-\bibitem[{{Evans} {et~al}\mbox{.}(2011){Evans}, {Davies}, {Kudritzki}, {Puech},
-  {Yang}, {Cuby}, {Figer}, {Lehnert}, {Morris}, \&
-  {Rousset}}]{2011A&A...527A..50E}
-{Evans} C.~J. {et~al.}, 2011, A\&A, 527, A50
-
-\bibitem[{{Foreman-Mackey} {et~al}\mbox{.}(2013){Foreman-Mackey}, {Hogg},
-  {Lang}, \& {Goodman}}]{2013PASP..125..306F}
-{Foreman-Mackey} D., {Hogg} D.~W., {Lang} D., {Goodman} J., 2013, \pasp, 125,
-  306
-
-\bibitem[{{Freytag}, {Steffen} \& {Dorch}(2002){Freytag}, {Steffen}, \&
-  {Dorch}}]{2002AN....323..213F}
-{Freytag} B., {Steffen} M., {Dorch} B., 2002, Astronomische Nachrichten, 323,
-  213
-
-\bibitem[{{Gazak}(2014)}]{2014PhDT.........G}
-{Gazak} J.~K., 2014, PhD thesis, University of Hawaii
-
-\bibitem[{{Gazak} {et~al}\mbox{.}(2014){Gazak}, {Davies}, {Kudritzki},
-  {Bergemann}, \& {Plez}}]{2014ApJ...788...58G}
-{Gazak} J.~Z., {Davies} B., {Kudritzki} R., {Bergemann} M., {Plez} B., 2014,
-  \apj, 788, 58
-
-\bibitem[{{Goodman} \& {Weare}(2010)}]{2010CAMCS.5..65G}
-{Goodman} J., {Weare} J., 2010, Comm. App. Math. Comp. Sci., 1, 65
-
-\bibitem[{{Gustafsson} {et~al}\mbox{.}(1975){Gustafsson}, {Bell}, {Eriksson},
-  \& {Nordlund}}]{1975A&A....42..407G}
-{Gustafsson} B., {Bell} R.~A., {Eriksson} K., {Nordlund} A., 1975, \aap, 42,
-  407
-
-\bibitem[{{Gustafsson} {et~al}\mbox{.}(2008){Gustafsson}, {Edvardsson},
-  {Eriksson}, {J{\o}rgensen}, {Nordlund}, \& {Plez}}]{2008A&A...486..951G}
-{Gustafsson} B., {Edvardsson} B., {Eriksson} K., {J{\o}rgensen} U.~G.,
-  {Nordlund} {\AA}., {Plez} B., 2008, \aap, 486, 951
-
-\bibitem[{{Henyey}, {Vardya} \& {Bodenheimer}(1965){Henyey}, {Vardya}, \&
-  {Bodenheimer}}]{1965ApJ...142..841H}
-{Henyey} L., {Vardya} M.~S., {Bodenheimer} P., 1965, \apj, 142, 841
-
-\bibitem[{{Hopkins}, {Quataert} \& {Murray}(2011){Hopkins}, {Quataert}, \&
-  {Murray}}]{2011MNRAS.417..950H}
-{Hopkins} P.~F., {Quataert} E., {Murray} N., 2011, \mnras, 417, 950
-
-\bibitem[{{Hopkins}, {Quataert} \& {Murray}(2012){Hopkins}, {Quataert}, \&
-  {Murray}}]{2012MNRAS.421.3522H}
-{Hopkins} P.~F., {Quataert} E., {Murray} N., 2012, \mnras, 421, 3522
-
-\bibitem[{{Kippenhahn}, {Weigert} \& {Weiss}(2012){Kippenhahn}, {Weigert}, \&
-  {Weiss}}]{2012sse..book.....K}
-{Kippenhahn} R., {Weigert} A., {Weiss} A., 2012, {Stellar Structure and
-  Evolution}
-
-\bibitem[{{Patrick} {et~al}\mbox{.}(2016){Patrick}, {Evans}, {Davies},
-  {Kudritzki}, {H{\'e}nault-Brunet}, {Bastian}, {Lapenna}, \&
-  {Bergemann}}]{2016arXiv160202702P}
-{Patrick} L.~R., {Evans} C.~J., {Davies} B., {Kudritzki} R.,
-  {H{\'e}nault-Brunet} V., {Bastian} N., {Lapenna} E., {Bergemann} M., 2016,
-  ArXiv e-prints
-
-\bibitem[{{Patrick} {et~al}\mbox{.}(2015){Patrick}, {Evans}, {Davies},
-  {Kudritzki}, {Gazak}, {Bergemann}, {Plez}, \&
-  {Ferguson}}]{2015ApJ...803...14P}
-{Patrick} L.~R., {Evans} C.~J., {Davies} B., {Kudritzki} R.-P., {Gazak} J.~Z.,
-  {Bergemann} M., {Plez} B., {Ferguson} A.~M.~N., 2015, \apj, 803, 14
-
-\bibitem[{{Plez}(2010)}]{2010ASPC..425..124P}
-{Plez} B., 2010, in Astronomical Society of the Pacific Conference Series, Vol.
-  425, Hot and Cool: Bridging Gaps in Massive Star Evolution, {Leitherer} C.,
-  {Bennett} P.~D., {Morris} P.~W., {Van Loon} J.~T., eds., p. 124
-
-\bibitem[{{Reetz}(1999)}]{1999PhDT.........3R}
-{Reetz} J., 1999, PhD thesis, LMU, Munich
-
-\bibitem[{{V{\'{\i}}lchez} \&
-  {Iglesias-P{\'a}ramo}(1998)}]{1998ApJ...508..248V}
-{V{\'{\i}}lchez} J.~M., {Iglesias-P{\'a}ramo} J., 1998, \apj, 508, 248
+\bibitem[{{Houk} \& {Smith-Moore}(1988)}]{1988mcts.book.....H}
+{Houk} N., {Smith-Moore} M., 1988, {Michigan Catalogue of Two-dimensional
+  Spectral Types for the HD Stars. Volume 4, Declinations -26{\deg}.0 to
+  -12{\deg}.0.}
 
 \end{thebibliography}

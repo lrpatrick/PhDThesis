@@ -1,0 +1,20 @@
+Query Results from the ADS Database
+
+
+Retrieved 1 abstracts, starting with number 1.  Total number selected: 1.
+
+@ARTICLE{2003MNRAS.338...85M,
+   author = {{Mackey}, A.~D. and {Gilmore}, G.~F.},
+    title = "{Surface brightness profiles and structural parameters for 53 rich stellar clusters in the Large Magellanic Cloud}",
+  journal = {\mnras},
+   eprint = {astro-ph/0209031},
+ keywords = {stars: statistics, globular clusters: general, Magellanic Clouds, galaxies: star clusters},
+     year = 2003,
+    month = jan,
+   volume = 338,
+    pages = {85-119},
+      doi = {10.1046/j.1365-8711.2003.06021.x},
+   adsurl = {http://adsabs.harvard.edu/abs/2003MNRAS.338...85M},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+

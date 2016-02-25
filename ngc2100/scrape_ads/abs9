@@ -1,0 +1,21 @@
+Query Results from the ADS Database
+
+
+Retrieved 1 abstracts, starting with number 1.  Total number selected: 1.
+
+@ARTICLE{2010ARA&A..48..431P,
+   author = {{Portegies Zwart}, S.~F. and {McMillan}, S.~L.~W. and {Gieles}, M.
+	},
+    title = "{Young Massive Star Clusters}",
+  journal = {\araa},
+archivePrefix = "arXiv",
+   eprint = {1002.1961},
+     year = 2010,
+    month = sep,
+   volume = 48,
+    pages = {431-493},
+      doi = {10.1146/annurev-astro-081309-130834},
+   adsurl = {http://adsabs.harvard.edu/abs/2010ARA%26A..48..431P},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+

@@ -1,0 +1,22 @@
+Query Results from the ADS Database
+
+
+Retrieved 1 abstracts, starting with number 1.  Total number selected: 1.
+
+@ARTICLE{2007ApJ...671..781D,
+   author = {{Davies}, B. and {Figer}, D.~F. and {Kudritzki}, R.-P. and {MacKenty}, J. and 
+	{Najarro}, F. and {Herrero}, A.},
+    title = "{A Massive Cluster of Red Supergiants at the Base of the Scutum-Crux Arm}",
+  journal = {\apj},
+archivePrefix = "arXiv",
+   eprint = {0708.0821},
+ keywords = {Galaxy: Open Clusters and Associations: General, Stars: Evolution, Stars: Late-Type, Stars: Supergiants},
+     year = 2007,
+    month = dec,
+   volume = 671,
+    pages = {781-801},
+      doi = {10.1086/522224},
+   adsurl = {http://adsabs.harvard.edu/abs/2007ApJ...671..781D},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+

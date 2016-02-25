@@ -29,7 +29,7 @@ This analysis builds on existing methods while providing a fresh approach to var
 I have developed this implementation in the public domain and the source code for this project is made publicly available
 via an online repository.\footnotemark
 
-\footnotetext{Souce code available from: https://github.com/lrpatrick/rsg-janal
+\footnotetext{Source code available from: https://github.com/lrpatrick/rsg-janal
 although the interested reader should be aware that these routines are, at the time of writing, in development mode
 in the sense that they are highly specialised to one machine and (particularly) one set of model grids}
 
@@ -46,7 +46,7 @@ Finally, I conclude the chapter in~\ref{sub:conclusions}.
 \section{Introduction to Stellar Model Atmospheres} % (fold)
 \label{sub:model_atmospheres}
 
-A stellar atmosphere is defined as the outer layers within a star which emitt radiation.
+A stellar atmosphere is defined as the outer layers within a star which emit radiation.
 Therefore, by definition, the photons which we observe from a star have originated in the atmosphere.
 Photons which have originated from deeper layers within the star have been absorbed and re-emitted by particles within the stellar atmosphere.
 Stellar atmospheres are therefore vitally important in observational studies of stars, even though the fraction of the total mass of the star contained within the atmosphere is tiny ($\sim$~10$^{-10}$).
@@ -85,7 +85,7 @@ These assumptions underpin some of the most widely used model atmospheres.
 \subsection{Hydrostatic Equilibrium} % (fold)
 \label{sub:hydrostatic_equilibrium}
 
-Any model of a star consists of a balance bewteen gravity and pressure in a gaseous material (or plasma considering the typical temperatures and densities within a star).
+Any model of a star consists of a balance between gravity and pressure in a gaseous material (or plasma considering the typical temperatures and densities within a star).
 If a model is assumed to be static (i.e. not varying with time) the equation of hydrostatic equilibrium can be derived by considering the balance between the forces acting upon a small element of stellar material,
 
 \begin{equation}
@@ -93,7 +93,7 @@ If a model is assumed to be static (i.e. not varying with time) the equation of 
 \end{equation}
 
 \noindent where $P$ is the total pressure exerted within a radius $r$, $M$ is the total mass within a radius $r$, $\rho$ is the matter density~\citep[see Chapter 9 of ][for a simple derivation of this equation]{1989isa2.book.....B}.
-As stated above, the mass contained within the atmosphere of a star is a negliable fraction of the total mass, therefore $M(r) = M_{tot}$ when considering this equation in the outer layers of the star.
+As stated above, the mass contained within the atmosphere of a star is a negligible fraction of the total mass, therefore $M(r) = M_{tot}$ when considering this equation in the outer layers of the star.
 
 The force exerted by pressure acting on an element of stellar material ($dP/dr$) can be considered as the sum of the forces acting upon it from gas pressure ($P_{g}$), radiation pressure ($P_{rad}$) and turbulent pressure ($P_{turb}$),
 
@@ -115,20 +115,20 @@ Only in degenerate cores does energy transport via conduction become important.
 
 Convection is a very efficient form of energy transport where a macroscopic element of higher temperature rises an average distance into a region of lower temperature where it dissipates the excess energy being carried and mixes.
 However, in order for convection to be effective, a driving mechanism must be established.
-The atmosphere is unstable to convection if the Schwarzschild certerion is met,
+The atmosphere is unstable to convection if the Schwarzschild criterion is met,
 
 \begin{equation}
     \nabla_{rad} > \nabla_{ad}
 \end{equation}
 
 \noindent where $\nabla_{rad} = (d~{\rm ln}\,T/d~{\rm ln}\,P)_{rad}$ is the radiative temperature gradient and $\nabla_{ad}$ is the adiabatic temperature gradient.
-The driving mechamism for convection is usually a large temperature gradient within a particularly part of the star.
+The driving mechanism for convection is usually a large temperature gradient within a particularly part of the star.
 This can occur at various stages within the lifetime of a star, for example, most main sequence stars have a convective core which is a result of the temperature sensitivity of the CNO cycle which establishes a steep temperature profile.
 
 The theory of convection is very difficult to to treat thoroughly.
 The ``simple'' theory of mixing length convection~\cite{1958ZA.....46..108B,1965ApJ...142..841H} is widely used to implement convection within stellar atmospheres which assumes that the shapes and sizes of the elements which transport energy is fixed and that, on average, an element rises a characteristic length ($l_m$) before it dissipates energy.
 
-If the Schwarzschild criterio is satisfied, the total flux ($F$) for a star is given by,
+If the Schwarzschild criterion is satisfied, the total flux ($F$) for a star is given by,
 
 \begin{equation}
     F(r) = F_{conv} + F_{rad} = \sigma T_{eff}^4,\label{eq:flux}
@@ -144,7 +144,7 @@ The convective flux can therefore be expressed as,
 \end{equation}
 
 \noindent where $C_p$ is the specific heat at constant pressure and $\Delta T$ is the temperature difference between the element and surroundings, which can be expressed in terms of the different in temperature gradients.
-Here the pressure scale height can be introduced using the assumption of hydrostatic equilibrium $H_p = dr / d{\rm ln} P = p/\rho g$ and an expression for the convective velocity can be estimated by assuming that half the work done by bouyancy is converted into kinetic energy,
+Here the pressure scale height can be introduced using the assumption of hydrostatic equilibrium $H_p = dr / d{\rm ln} P = p/\rho g$ and an expression for the convective velocity can be estimated by assuming that half the work done by buoyancy is converted into kinetic energy,
 
 \begin{equation}
     \frac{1}{2}\langle w\rangle \approx \frac{1}{2}\rho v_{conv}^2.
@@ -162,7 +162,7 @@ As a side note, in stellar evolutionary models, the value of $\alpha$ used can h
 The assumption of thermodynamic equilibrium is where the temperature and density of a material can be considered constant (i.e. there are no net flows of energy).
 Which is equivalent to assuming that the emitting source is a perfect black body.
 Local thermodynamic equilibrium (LTE) is an approximation whereby the {\it local} properties of material can be assumed to be in thermodynamic equilibrium.
-Stellar atmospheres can be approxmiated to be in LTE as their densities are sufficiently high that and density gradients are sufficiently low that their local properties are closely related to thermal equilibrium.
+Stellar atmospheres can be approximated to be in LTE as their densities are sufficiently high that and density gradients are sufficiently low that their local properties are closely related to thermal equilibrium.
 
 The three fundamental equations which can be defined assuming LTE are:
 
@@ -203,8 +203,8 @@ $m$ is the mass of the particle, $v$ is the velocity of the particle, $T$ is the
 \label{sub:assumptions_summary}
 
 The assumptions listed above allow one to obtain to create a ``standard'' stellar model atmosphere.
-The assumptions listed above are known to be simplifications of the true picutre witih a stellar atmosphere.
-For example, the assumption of LTE definitely breaks down in the atmospheres of stars as they are observed, and by definition emitt radiation.
+The assumptions listed above are known to be simplifications of the true picture with a stellar atmosphere.
+For example, the assumption of LTE definitely breaks down in the atmospheres of stars as they are observed, and by definition emit radiation.
 However, using the above assumptions one can build a consistent model that, in general, agrees reasonably well with observations.
 
 The treatment of convection is knowingly a large simplification as the shape and size assumed for the convective elements is constant whereas in reality the shapes of these elements could be described as funnel-like.
@@ -214,7 +214,7 @@ Full two- and three-dimensional hydrodynamical simulations are required to asses
 The assumption of LTE typically holds in dense low levels of a star, however, in the atmosphere, where radiation is emitted, this is known to be a poor approximation.
 This is particularly true in evolved stars where departures from LTE are expected owing to the low densities and surface gravities of their atmospheres.
 
-Full non-LTE stellar model atmospheres are expensive to produce and as of yet, there exists no homogenous grid of model atmospheres which include these effects.
+Full non-LTE stellar model atmospheres are expensive to produce and as of yet, there exists no homogeneous grid of model atmospheres which include these effects.
 As a first step, one can use a homogeneous set of model grids computed in LTE and select particular elements with which to compute non-LTE deviations.
 This is far less time expensive and produces reliable results over a large range of stellar parameters.
 
@@ -226,10 +226,10 @@ This is far less time expensive and produces reliable results over a large range
 \section{Measuring Stellar Parameters with Synthetic Spectra} % (fold)
 \label{sub:model_grid}
 
-Synthetic spectra extracted from stellar model atmospheres to provide synthetic spectorscopic observations with which to compare models against.
+Synthetic spectra extracted from stellar model atmospheres to provide synthetic spectroscopic observations with which to compare models against.
 By extracting synthetic spectra from a grid of stellar models one can then estimate which combination of model stellar parameters best represents the observed dataset.
 
-The snythetic spectra used in this thesis cover the $J$-band, specifically the $1.16-1.22\mu$m region.
+The synthetic spectra used in this thesis cover the $J$-band, specifically the $1.16-1.22\mu$m region.
 These spectra, extracted from a grid of model atmospheres, are compared with observations to estimate four fundamental parameters of stars:
 global metallicity ($\log (Z/Z_{\odot})$~=~[Z]), effective temperature (\Teff), microturblence ($\xi$) and surface gravity ($\log\,g$).
 
@@ -242,10 +242,10 @@ global metallicity ($\log (Z/Z_{\odot})$~=~[Z]), effective temperature (\Teff), 
 
 The wavelength range, over which to perform this analysis,
 is chosen based on the spectral appearance of the region.
-Typically, in the spectra of cool stars, dense molecular absorption fetuares dominate the spectrum which require high-resolution spectroscopy to distinguish individual features and estimate stellar parameters~\citep{Cunha07, Davies09a, Davies09b}.
-However, in this small wavelength range the absorption is dominated by well separaeted elemental absorption features from iron, magnesium, silicon and titanium.
-Therefore, the spectral resolution required in order to derive stellar paramters is significantly reduced.
-This means that this analyis, unlike others in the optical at higher resolution, can be preformed with a relatively small amount of telescope time using near-IR multi-object spectrographs like KMOS
+Typically, in the spectra of cool stars, dense molecular absorption features dominate the spectrum which require high-resolution spectroscopy to distinguish individual features and estimate stellar parameters~\citep{Cunha07, Davies09a, Davies09b}.
+However, in this small wavelength range the absorption is dominated by well separated elemental absorption features from iron, magnesium, silicon and titanium.
+Therefore, the spectral resolution required in order to derive stellar parameters is significantly reduced.
+This means that this analysis, unlike others in the optical at higher resolution, can be preformed with a relatively small amount of telescope time using near-IR multi-object spectrographs like KMOS
 or the multi-object spectrometer for infra-red exploration (MOSFIRE) and is therefore feasible for studies of large populations of RSGs in external galaxies.
 
 In addition to this, given the cool temperature of the outer layers of RSGs,
@@ -253,11 +253,11 @@ the peak brightness of a typical RSG is $\sim\,1.1\mu$m.
 Combining this with the fact that dust attenuation is significantly lower in the near-IR, compared to the optical regime, RSGs are ideal candidates to be studied at large distances.
 
 At near-IR wavelengths, the effects of absorption and emission from the Earth's atmosphere is a considerable complication (see Chapters~\ref{ch:kmos} and~\ref{ch:6822}).
-Although an absorption line may be strong and well separated from other stellar features, it may be contaiminated by features arising from the Earth's atmosphere.
+Although an absorption line may be strong and well separated from other stellar features, it may be contaminated by features arising from the Earth's atmosphere.
 If a stellar feature is contaminated with strong absorption or emission arising from the Earth's atmosphere (telluric or sky line respectively), the correction required to divide or subtract the non-stellar feature may well leave behind residuals which perturb the line strength or shape.
-For example, Figure~\ref{fig:Felines} there are two strong iron lines around 1.60\,$\mu$m which are when viewed in the synthetic spectrum (top panel of~\ref{fig:Felines}) are well separated and would be suitable for the estiamtion of stellar parameters.
+For example, Figure~\ref{fig:Felines} there are two strong iron lines around 1.60\,$\mu$m which are when viewed in the synthetic spectrum (top panel of~\ref{fig:Felines}) are well separated and would be suitable for the estimation of stellar parameters.
 However, when telluric contamination is taken into account, we can see that the size of the telluric absorption around these lines is comparable to the strength of the lines (middle panel).
-By correcting for the effects of the Earth's atmosphere we introduce a significant uncertainity in the strength and shape of these lines.
+By correcting for the effects of the Earth's atmosphere we introduce a significant uncertainty in the strength and shape of these lines.
 Therefore, these lines are unsuitable to be used to measure stellar parameters. (However, if one observes above the Earth's atmosphere, these lines - and many others - could be used to estimate stellar parameters.)
 
 \begin{figure}
@@ -265,11 +265,11 @@ Therefore, these lines are unsuitable to be used to measure stellar parameters. 
 \includegraphics[width=0.65\textwidth]{JAnal/tell-correction}
 \caption{
 Three panels showing the effect of atmospheric absorption on spectral lines.
-The top panel shows a sythetic RSG spectrum within the wavelength of interest.
+The top panel shows a synthetic RSG spectrum within the wavelength of interest.
 The middle panel shows a spectrum of the Earth's atmosphere and
 the bottom panel shows an observed KMOS spectrum (without telluric correction).
 To illustrate that the lines used in the analysis must come from regions where there is little telluric contamination, I draw the readers attention to the two iron lines at 1.16\,$\mu$m.
-Eventhough these lines are well separated in the model spectra, telluric contamination renders these lines unsuitable for the estimation of  stellar parameters.
+Even though these lines are well separated in the model spectra, telluric contamination renders these lines unsuitable for the estimation of  stellar parameters.
 \label{fig:Felines}
          }
 \end{figure}
@@ -342,7 +342,7 @@ whereas at $\xi~=~5.0$, the iron line in the right panel is the stronger of the 
  \hline
 Parameter & Abbreviation & Range & Increment \\
  \hline
-Global Metallicitiy & $[Z]$ & +1.0~--~-1.0 & 0.1\,dex \\
+Global metallicity & $[Z]$ & +1.0~--~-1.0 & 0.1\,dex \\
 Effective Temperature & $T_{\rm eff}$ & 3400~--~4400 & 100\,$K$ \\
 Surface gravity & $\log g$ & +1.0~--~-1.0 & 0.25\,dex \\
 Microturblence & $\xi$ & 1.0~--~5.0 & 0.2\,$km\,s^{-1}$ \\
@@ -356,7 +356,7 @@ Microturblence & $\xi$ & 1.0~--~5.0 & 0.2\,$km\,s^{-1}$ \\
  \centering
 \includegraphics[width=0.65\textwidth]{JAnal/varyZv2}
 \caption{
-Three models where only the metallicitiy is varied.
+Three models where only the metallicity is varied.
 Five diagnostic lines are shown in two panels.
 Left: Fe\,I $\lambda$1.188285 and Ti\,I $\lambda$ 1.189289.
 Right: Fe\,I $\lambda$ and Si\,I $\lambda\lambda$ 1.198419, 1.199157.\label{fig:mod-z}
@@ -416,7 +416,7 @@ consistently and accurately.
 Intrinsically, when studying RSGs at medium resolution --- owing  to their cool atmospheres ---
 there are many instances of blended spectral features.
 At this resolution the density of blended spectral features creates a pseudo-continuum which, in practice,
-is never at the ture continnum level.
+is never at the true continuum level.
 Figure~\ref{fig:mod-res} illustrates the varying continuum levels for models where the resolution is varied and
 Figures~\ref{fig:mod-z}--\ref{fig:mod-micro} show that varying each of the stellar parameters effect the continuum in a subtly different manner.
 
@@ -460,7 +460,7 @@ convolution with a Gaussian filter where the width of the Gaussian is defined by
 The spectral resolving power of the KMOS observations is estimated using the KMOS/esorex pipeline from arc lamp exposures at the appropriate rotator angle for the observations.
 This is measured for each spectrographs and is assumed to be constant (to within $\pm$\,100) across individual IFU's as well as across the detector.
 
-To ensure the spectra are on the same wavelength scale, the observed specturm is cross-correlated with the model spectrum;
+To ensure the spectra are on the same wavelength scale, the observed spectrum is cross-correlated with the model spectrum;
 a shift is then applied to the model spectrum in order to minimise the cross-correlation matrix.
 This procedure is repeated until the shift between the observed and model spectra is less than 0.1\,$pix$.
 Over this small wavelength range, one would not expect significant variations in the spectral resolution of the observations to perturb the cross-correlation.
@@ -532,7 +532,7 @@ For these models, the true continuum level is at 1.00.\label{fig:cftaction}
 % The green dashed line shows a third order polynomial fit to the ratio of the model spectrum to a simulated observed spectrum at only the red points ($~=~\frac{F_{mod}(cf_{init})}{F_{obs}(cf_{init})}$).
 
 Alternative methods of continuum fitting are discussed in~\cite{2010MNRAS.407.1203D} and~\cite{2011A&A...527A..50E}.
-These methods select pseduo-continuum pixels in the models based on ranking the model pixels and selecting a percentage of the pixels with the largest flux.
+These methods select pseudo-continuum pixels in the models based on ranking the model pixels and selecting a percentage of the pixels with the largest flux.
 Providing the pixels from the model are selected in this manner and not those in the observations, this is a reliable method with which to derive the continuum level as demonstrated by~\cite{2015ApJ...806...21D}.
 % \textbf{What advantage (if any) does the method applied here have over the one used in Davies et al. (2015 in prep.)?}
 
@@ -563,7 +563,7 @@ The regions which are used in the calculation of the $\chi^{2}$-statistic are hi
 Figure~\ref{fig:lines}.
 From a careful analysis of the individual spectra, the exact regions over which to compute the $\chi^{2}$-statistic are tweaked slightly depending upon the quality of the reduction and the appearance of reduction residuals near any lines of interest.
 
-As a conservative estiate, for testing purposes, I use 10 regions corresponding to the cores of the individual lines.
+As a conservative estimate, for testing purposes, I use 10 regions corresponding to the cores of the individual lines.
 In practise however, given that there are several lines which are sufficiently
 close together that, at R~$\sim$~3000,
 the lines are not clearly separated.
@@ -620,14 +620,15 @@ The likelihood function used is
 
 \noinent where the data ($D$) consists of the observed spectra and $\chi^{2}$ is calculated as given by Equation~\ref{eq:chisq}.
 
-The initial guesses for the MCMC sampler is based on some prior assumptions about the stars in question depending upon their location and distribution.
+The initial guess for each run of the MCMC sampler is based on some prior assumptions about the stars in question depending upon their location and distribution.
 For example, in Chapter~\ref{ch:2100}, where the RSGs in question are in a star cluster in the LMC, the initial guesses are: [Z]~=~$-$0.3\,dex (i.e. LMC-like), $\log g$~=~0.0, \Teff~=~4000\,K and $\xi$=3.0.
-The guesses are varied assuming a Gaussian distribution with a mean value centred on the inital guess and the standard deviation is chosen such that, for each parameter, the guesses sample a majority of the available parameter space (defined by Table~\ref{tb:grid}).
+The guesses are varied assuming a Gaussian distribution with a mean value centred on the initial guess and the standard deviation is chosen such that, for each parameter, the guesses sample a majority of the available parameter space (defined by Table~\ref{tb:grid}).
 In the absence of prior information on the metallicity parameter, as is the case with the other parameters, the mid-point of the grid is chosen.
+However, the best fit parameters and error estimation does not dependent upon the initial guesses.
 
-In addition, to aid the a prior assumptions, if broad-band photometry is available for the objects in question (which is nearly always the case given that the most common way to select RSGs in based on the optical or near-IR colours) this information is used to restrict the available range in parameter space.
-To do this, the luminostiy of the star is calculated using the Bolometric corrections of~\citet{2013ApJ...767....3D} where the photometric band used is preferably the $K$-band to minimise the effects of interstellar extinction.
-
+To aid the a prior assumptions, if broad-band photometry is available for the objects in question
+(which is nearly always the case given that the most common way to select RSGs in based on the optical or near-IR colours) this information is used to restrict the available range in parameter space.
+To do this, the luminosity of the star is calculated using the Bolometric corrections of~\citet{2013ApJ...767....3D} where the photometric band used is preferably the $K$-band to minimise the effects of interstellar extinction.
 This is done by combining the two equations which were previously described as two of the fundamental equations for stellar atmospheres (equations~\ref{eq:grav} and~\ref{eq:Teff}) to arrive at the expression,
 
 \begin{equation}
@@ -635,10 +636,11 @@ This is done by combining the two equations which were previously described as t
 \end{equation}
 
 By assuming sensible limits on the masses of RSGs, which are thought to be in the range 8~$\leq$~M/M$_{\odot}$~$\leq$~40, one can restrict the available range of the $\log g$ parameter by calculating an upper and lower estimate at every $T_{\rm eff}$ grid space.
-The models which have $\log g$ values outside of this allowed range are rejected as unphysical.
+The models which have $\log g$ values outside of this allowed range are rejected as not physical.
 This helps to minimise the number of $\chi$-squared calculations performed and also helps to break the $\log g$-[Z] degeneracy within the models.
 
-The best fit parameters and erros are calculated for each model parameter by computing the 16$^{\rm th}$, 50$^{\rm th}$ and 84$^{\rm th}$ percentile as defined by the MCMC sampler.
+The best fit parameters and errors are calculated by drawing at least 200\,000 independent samples from the probability density function (rejecting the first half as burn-in) and computing the
+16$^{\rm th}$, 50$^{\rm th}$ and 84$^{\rm th}$ percentile as defined of these samples.
 The quoted value for each parameter is then,
 
 \begin{equation}
@@ -690,34 +692,50 @@ Idealised, in the sense that this method assumes no reduction residuals are pres
 By comparing the parameters used to create the spectra (input) with the results of the analysis routine described above (ouput) one can asses the effectiveness and limitations of this analysis.
 
 Figure~\ref{fig:t1} shows the results of test i using 18 fake RSG spectra, which show that in the simplest of tests this method is able to recover input parameters well.
-The average difference between the input and output parameters for this test are xx.xx xx.xx xx.xx xx.xx which are dominated by the uncertainties on the fit parameters.
-Within this simple test one would expect that the errors obtained would be significantly smaller than those quoted in Figure~\ref{fig:t1}.
-When calculating the $\chi$-squared statistic for each model (equation~\ref{eq:chisq}), $\sigma$~=~1/(S/N).
-However, in the limiting case of high S/N the errors in the models would dominate the unertainties.
-Therefore, in order to prevent errors in the models producing spurious results, $\sigma$ used in equation~\ref{eq:chisq} is never allowed to be smaller than $\sigma$~=~1/150.
-This cut on $\sigma$ for particularly high S/N spectra is the dominant factor when determining the uncertaintities on the fit parameters in test i.
+The average difference between the input and output parameters for this test are
+$\Delta\Teff$~=~$-$9.3\,$\pm$\,13.7,
+$\Delta\log g$~=~$-$0.03\,$\pm$\,0.04,
+$\Delta\xi$~=~$-$0.07\,$\pm$\,0.08 and
+$\Delta[Z]$~=~$-$0.016\,$\pm$\,0.026
+which are all consistent with there being no systematic offset between the input and output parameters.
+The uncertainties quoted in figure~\ref{fig:t1} are dominated by the uncertainties in the models.
+Therefore, in order to prevent errors in the models causing unrealistic uncertainties,
+$\sigma$ used in equation~\ref{eq:chisq} is never allowed to be smaller than $\sigma$~=~1/150.
 
 \begin{figure}
  \centering
- \includegraphics[width=0.80\textwidth]{JAnal/Fakespec-t1-v1}
- \caption[Analysis test i: Input Vs Output parameters for models at S/N~=~150 at $R$~10\,000]{
- Analysis test i: Input Vs Output parameters for models at S/N~=~150 at $R$~10\,000. Results using fake spectra generated using the model specetra including random Gaussian noise added of S/N~=~150.
+ \includegraphics[width=0.80\textwidth]{JAnal/Fakespec-t1-v2}
+ \caption[Analysis test i: Input Vs Output parameters for models at S/N~=~150 at $R$~=~10\,000]{
+ Analysis test i: Input Vs Output parameters for models at S/N~=~150 at $R$~10\,000. Results using fake spectra generated using the model spectra including random Gaussian noise added of S/N~=~150.
 \label{fig:t1}
          }
 \end{figure}
 
 
-The results of test ii are displayed in~\ref{fig:t2} where, again, the results compare well with the input parameters.
-The average difference between the input and output parameters for this test are xx.xx xx.xx xx.xx xx.xx which consistent with fully recovering the input parameters.
+The results of test ii are displayed in Figure~\ref{fig:t2} where, again, the results compare well with the input parameters.
+The average difference between the input and output parameters for this test are
+$\Delta\Teff$~=~15.1\,$\pm$\,21.1,  % [INFO] DeltaTeff = 15.1+/-21.1
+$\Delta\log g$~=~$-$0.10\,$\pm$\,0.10, % [INFO] Deltalog g = -0.10+/-0.10
+$\Delta\xi$~=~0.03\,$\pm$\,0.07 and % [INFO] DeltaMicro Turb = 0.03+/-0.07
+$\Delta[Z]$~=~$-$0.05\,$\pm$\,0.04     % [INFO] Delta[Z] = -0.05+/-0.04
+which, again, are consistent with recovering the input parameters.
+However, we note that there appears to be a small, low-significance, systematic offset in the $[Z]$ parameter.
+Important to know though this is, this offset is smaller than the typical error in this parameter.
 To produce this figure the model spectra are degraded to a resolution of $R$~=~3000 where the per pixel is S/N~=~150 for each spectrum.
-This figure shows that in an ideal case, this analysis routine is able to accurately esimate stellar parameters at the typical resolution and S/N of KMOS spectra.
+In addition, from an analysis of Figure~\ref{fig:t2} there appears to be a systematic shift to higher $\log g$ models towards the lower boundary of the model grid, however, this does not appear to be significant.
+Figure~\ref{fig:t2} shows that in an ideal case, this analysis routine is able to accurately estimate stellar parameters at the typical resolution and S/N of KMOS spectra.
 
+% # Test 2
+% In [134]: run par-compare
+% [INFO] Deltalog g = -0.10+/-0.10
+% [INFO] DeltaMicro Turb = 0.03+/-0.07
+% [INFO] Delta[Z] = -0.05+/-0.04
 
 \begin{figure}
  \centering
- \includegraphics[width=0.80\textwidth]{JAnal/Fakespec-t2-v1}
- \caption[Analysis test ii: Input Vs Output parameters for models at S/N~=~150 at $R$~3000]{
-Analysis test ii. Input Vs Output parameters for models at S/N~=~150 at $R$~3000.
+ \includegraphics[width=0.80\textwidth]{JAnal/Fakespec-t2-v2}
+ \caption[Analysis test ii: Input against output parameters for models at S/N~=~150 at $R$~3000]{
+Analysis test ii. Input against output parameters for models at S/N~=~150 at $R$~3000.
 Results using the same set of fake spectra as in Figure~\ref{fig:t1} where, however, all of the spectra have been degraded to a resolution of $R$~3000.
 Gaussian noise is added after the spectra have been degraded.
 This figure shows that the analysis technique presented is (in an ideal case) able to accurately estimate stellar parameters at the typical resolution and S/N of KMOS spectra.
@@ -725,10 +743,11 @@ This figure shows that the analysis technique presented is (in an ideal case) ab
          }
 \end{figure}
 
-In addition, it is useful to characterise how the fit parameters respond to the resolution of the input spectra to asses the limits of this technique, particularly at low spectral resolution.
-Figure~\ref{fig:tres} shows input and outut parameters for one model spectrum which is degraded to have different resolution values in the range 1000~$< R <$~10,000.
+In addition, it is useful to characterise how the fit parameters respond to the resolution and S/N of the input spectra to asses the limits of this technique, particularly at low spectral resolution/S/N case.
+Figure~\ref{fig:tres} shows input and output parameters for one model spectrum which is degraded to have different resolution values in the range 1000~$< R <$~10,000.
 The green dashed line in each panel represents the respective input parameters for this model.
 From this test we scan see that the parameters appear stable to below $R$~=~3000, which significant as the resolution of KMOS in the $YJ$-band is typically 3000~$< R <$~4000.
+
 
 
 \begin{figure}
@@ -741,20 +760,23 @@ The spectra span a wide range of stellar parameters and are degraded to $R~=~300
          }
 \end{figure}
 
+Figure~\ref{fig:snr} shows that best fit parameters for a single fake RSG spectrum degraded to a resolution of $R$~=~3000 (and resampled onto the typical sampling for an KMOS spectrum) at varying S/N ratios.
+This figure shows that at the S/N ratios which is typical of KMOS observations of RSGs this technique is able to accurately estimate fit parameters.
+We note however that with decreasing S/N regime of real spectra, the contribution of residuals from the reduction process becomes increasingly important.
+Therefore for real observed data, we expect this analysis routine to break down at below S/N~=~100 at $R$~=~3000.
+
 \begin{figure}
  \centering
- \includegraphics[width=0.80\textwidth]{JAnal/Fakespec-tres-v1}
+ \includegraphics[width=0.80\textwidth]{JAnal/Fakespec-tsnr-v1}
  \caption[Analysis test S/N]{
-Results of the analysis routine using 21 fake RSG spectra as input.
-The spectra span a wide range of stellar parameters and are degraded to $R~=~3000$ and resampled onto a typical sampling for the real data with random Gaussian noise added of S/N~=~100.
-\textbf{Placeholder}
-\label{fig:tres}
+Best fit parameters using a single fake spectrum degraded to a resolution of $R$~=~3000 (and resampled onto the typical sampling for an KMOS spectrum) at varying S/N ratios in the range 50~$<$~S/N~$<$~150.
+\label{fig:snr}
          }
 \end{figure}
 
 
 As the analysis routine described above has been shown to be internally consistent, the natural next step is to compare the results of this technique with other similar techniques.
-This helps to increase confindence in the accuracy and reliability in applying spectral fitting in the $J$-band to RSGs in general as well as providing a vital test on the effectiveness of the technique described in this thesis.
+This helps to increase confidence in the accuracy and reliability in applying spectral fitting in the $J$-band to RSGs in general as well as providing a vital test on the effectiveness of the technique described in this thesis.
 
 There are currently two other published analyses using medium resolution $J$-band spectra of RSGs to estimate stellar parameters,
 those of~\cite[][DFK10]{2010MNRAS.407.1203D} and
@@ -781,70 +803,69 @@ In Chapter~\ref{ch:6822} the difference between including and excluding these ma
 
 To date there have been several published articles using the DFK10 analysis
 ~\citep{2010MNRAS.407.1203D,2015ApJ...803...14P,2015ApJ...806...21D}.
-This technique has been updated and tested rigourously on VLT-XSHOOTER spectra of RSGs in the Magellanic clouds in
+This technique has been updated and tested rigorously on VLT-XSHOOTER spectra of RSGs in the Magellanic clouds in
 ~\cite{2015ApJ...806...21D} and in~\cite[][which Chapter~\ref{ch:6822} is based upon]{2015ApJ...803...14P} this was applied to KMOS spectra in NGC\,6822.
 
 Here the best fit parameters from~\cite{2015ApJ...803...14P} are compared with the results of the presented technique.
 In addition, results presented in~\citep{2016arXiv160202702P} and Chapter~\ref{ch:n55} are also compared (Davies 2016, Private communication).
 
-Figures~\ref{fig:n6822DFK}--\ref{fig:n55DFK} show the comparison of the output parmaters of the stars in the NGC\,2100, NGC\,6822 and NGC\,55 samples for the two analysis routines.
+Figures~\ref{fig:n6822DFK}--\ref{fig:n55DFK} show the comparison of the output parameters of the stars in the NGC\,2100, NGC\,6822 and NGC\,55 samples for the two analysis routines.
 These figures show that, in general, the agreement between the two routines is acceptable for all stellar parameters.
-The mean of each of the parmeters and average offsets are calculated in Table~\ref{tb:DFK10} and are shown to agree within the errors.
+The mean of each of the parameters and average offsets are calculated in Table~\ref{tb:DFK10} and are shown to agree within the errors.
 
 \textbf{Comment on individual cases?}
 
 We therefore conclude that the presented analysis routine is able to accurately measure stellar parameters of RSGs given a set of synthetic spectra extracted from model atmospheres.
 \begin{figure}
  \centering
- \includegraphics[width=0.80\textwidth]{JAnal/Fakespec-t2-v1}
+ \includegraphics[width=0.80\textwidth]{JAnal/NGC6822-par-compare}
  \caption[NGC\,2100 DFK10 best fit parameter comparison]{
-A comparison between the best fit parameters derived for 11 RSGs in NGC\,2100.
-DFK10 results are those published in~\cite{2015ApJ...803...14P}.
+A comparison between the best fit parameters derived for 14 RSGs in NGC\,2100.
+DFK10 results are those published in~\cite{2016arXiv160202702P}.
+\textbf{Placeholder: Waiting on Ben}
 \label{fig:n2100DFK}
          }
 \end{figure}
 
 \begin{figure}
  \centering
- \includegraphics[width=0.80\textwidth]{JAnal/Fakespec-t2-v1}
+ \includegraphics[width=0.80\textwidth]{JAnal/NGC6822-par-compare}
  \caption[NGC\,6822 DFK10 best fit parameter comparison]{
-A comparison between the best fit parameters derived for 14 RSGs in NGC\,6822.
-DFK10 results are those published in~\cite{2016arXiv160202702P}.
-\textbf{Placeholder until Ben responds with his results}
+A comparison between the best fit parameters derived for 11 RSGs in NGC\,6822.
+DFK10 results are those published in~\cite{2015ApJ...803...14P}.
 \label{fig:n6822DFK}
          }
 \end{figure}
 
 \begin{figure}
  \centering
- \includegraphics[width=0.80\textwidth]{JAnal/Fakespec-t2-v1}
+ \includegraphics[width=0.80\textwidth]{JAnal/NGC6822-par-compare}
  \caption[NGC\,55 DFK10 best fit parameter comparison]{
 A comparison between the best fit parameters derived for xx RSGs in NGC\,55.
-DFK10 results are those published in Chaper~\ref{ch:n55}.
-\textbf{Placeholder.}
+Results persent in this study are expanded upon in Chapter~\ref{ch:n55}.
+\textbf{Placeholder: pending the latest data reduction}
 \label{fig:n55DFK}
          }
 \end{figure}
 
 \begin{sidewaystable}
-\caption[Parameter comparisons DFK10]{Average parameters for RSGs in NGC\,2100, NGC\,6822 amd NGC\,55 using the DFK10 implementation and the implemetation discribed here\label{tb:DFK10}}
+\caption[Parameter comparisons DFK10]{Average parameters for RSGs in NGC\,2100, NGC\,6822 and NGC\,55 using the DFK10 parameter estimation technique and the technique described here\label{tb:DFK10}}
 \scriptsize
 \begin{center}
 \begin{tabular}{c ccc ccc ccc}
  \hline
  \hline
-Parameter & \multicolumn{3}{c}{NGC\,2100} & \multicolumn{2}{c}{NGC\,6822} & \multicolumn{2}{c}{NGC\,55}\\
-          & DFK10 & Current & av. Offset & DFK10 & Current & av. Offset & DFK10 & Current & av. Offset\\
+Parameter & \multicolumn{3}{c}{NGC\,2100} & \multicolumn{3}{c}{NGC\,6822} & \multicolumn{3}{c}{NGC\,55}\\
+          & DFK10 & Current & $\Delta \overline{X}$ & DFK10 & Current & $\Delta \overline{X}$ & DFK10 & Current & $\Delta \overline{X}$\\
  \hline
-\Teff           & DFK & Here & av. Offset & 3887~$\pm$~55      & Here & av. Offset & DFK & Here & av. Offset\\
-$\log g$        & DFK & Here & av. Offset & 0.1~$\pm$~0.3      & Here & av. Offset & DFK & Here & av. Offset\\
-$\xi$           & DFK & Here & av. Offset & 3.9~$\pm$~0.5      & Here & av. Offset & DFK & Here & av. Offset\\
-\lbrack Z\rbrack& DFK & Here & av. Offset & $-$0.52~$\pm$~0.16 & Here & av. Offset & DFK & Here & av. Offset\\
+\Teff           & DFK &  3.9\,$\pm$\,0.8      & av. Offset & 3887~$\pm$~55      & Here & $-$52.3\,$\pm$\,26.9 & DFK & Here & av. Offset\\
+$\log g$        & DFK &  $-$0.38\,$\pm$\,0.20 & av. Offset & 0.1~$\pm$~0.3      & Here & $-$0.33\,$\pm$\,0.09 & DFK & Here & av. Offset\\
+$\xi$           & DFK &  0.28\,$\pm$\,0.18    & av. Offset & 3.9~$\pm$~0.5      & Here & $-$0.16\,$\pm$\,0.10 & DFK & Here & av. Offset\\
+\lbrack Z\rbrack& DFK &  3890\,$\pm$\,85      & av. Offset & $-$0.52~$\pm$~0.16 & Here & 0.02\,$\pm$\,0.05 & DFK & Here & av. Offset\\
  \hline
 \end{tabular}
 \end{center}
 \end{sidewaystable}
-
 
 % The second implementation of the $J$-band analysis technique using $J$-band spectra of RSGs was that presented and rigorously tested in~\cite{2014PhDT.........G}.
 % This implementation was set up to be complementary to that of DFK10 and was tested on high resolution spectra of RSGs in the Perseus OB-1 cluster.
@@ -895,9 +916,9 @@ $\xi$           & DFK & Here & av. Offset & 3.9~$\pm$~0.5      & Here & av. Offs
 \section{Conclusions} % (fold)
 \label{sub:conclusions}
 
-In this chapter I present an analysis routine which uses a grid of spectra extracted from stellar model atmospheres to esimate stellar parameters using medium resolution $J$-band spectroscopy of RSGs.
+In this chapter I present an analysis routine which uses a grid of spectra extracted from stellar model atmospheres to estimate stellar parameters using medium resolution $J$-band spectroscopy of RSGs.
 
-Initially, I give a description of stellar atmospheres focusing on their key assumptions and limitiations.
+Initially, I give a description of stellar atmospheres focusing on their key assumptions and limitations.
 Having described the background, I then detail the model stellar atmospheres used in the present study and describe in detail the steps taken to estimate best fit stellar parameters.
 The $\chi$-squared statistic is used to generate the posterior probability density function which is then sampled using an affine-invariant ensemble sampler.
 

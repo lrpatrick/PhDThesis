@@ -1,20 +1,20 @@
 \chapter{Red Supergiants in NGC\,55}
 
-\textbf{Completeness:} \textbf{30\%} \\
-The observations for this section are complete and the data reduction is
-currently being optimised.
+% \textbf{Completeness:} \textbf{30\%} \\
+% The observations for this section are complete and the data reduction is
+% currently being optimised.
 
-\textbf{Description:} \\
-This chapter will outline KMOS observations of 20 RSGs in NGC\,55.
-I will descibe the work I have done in preperation for these observations.
+% \textbf{Description:} \\
+% This chapter will outline KMOS observations of 20 RSGs in NGC\,55.
+% I will descibe the work I have done in preperation for these observations.
 
-I will discuss the optimisations which have been made for this data set and
-describe the challenges of obtaining the best possible data from a set of
-challenging observations.
+% I will discuss the optimisations which have been made for this data set and
+% describe the challenges of obtaining the best possible data from a set of
+% challenging observations.
 
-I will comment on the spatial distribution of the chemical abundances in this
-galaxy and discuss a potential metallicity gradient previously suggested in
-the literature.
+% I will comment on the spatial distribution of the chemical abundances in this
+% galaxy and discuss a potential metallicity gradient previously suggested in
+% the literature.
 
 \section{Opening remarks} % (fold)
 \label{sec:opening_remarks}
@@ -26,11 +26,82 @@ Owen has kindly helped reconstruct and combine the data sets
 \section{Introduction} % (fold)
 \label{sec:introduction}
 
+\begin{itemize}
+    \item What is NGC\,55?
+    \item Why is it important?
+    \item What other studies of abundances are present in NGC\,55
+    \item Any controvicies? e.g. its distance, association to Sculptor group etc.
+\end{itemize}
 
 % section introduction (end)
 
 \section{Observations} % (fold)
 \label{sec:observations}
+
+The observations for this study were taken using three nights of KMOS guaranteed time observations (GTO) containing xx RSG candidates, the first of which was taken in October 2013 as part of the observations which led to the publication of~\cite{2015ApJ...805..182G}.
+These data consisted of six science exposures (S) of 600\,s with sky offset exposures (S) interleaved in an O, S, O observing pattern.
+Seeing conditions for these data were good at 0\farcs8--1\farcs2 throughout the course of the observing block (OB).
+
+The second data set which is made use of in this chapter comes from two nights in September 2014 where the OB used in 2013 was used as backup observations for a programme which required excellent seeing ($<$\,0\farcs6).
+The seeing limits on our observations are more relaxed ($<$\,1\farcs5) which gave us an opportunity to make use of some slightly poorer quality KMOS data.
+
+On the first in September 2014 where this OB was observed, the seeing conditions varied widly ($>$\,1\farcs6) prompting one observer to comment that ``this is the worst recorded seeing at Paranal!''.
+However, there are 24 science exposures where the seeing conditions were better than 2\farcs2, which are (potentially) useful.
+The final night of observing consisted of 12 exposures with seeing conditions varying between 1\farcs1--1\farcs6.
+
+In addition to the science exposures obtained, on each night a standard set of KMOS calibration files were obtained as well as standard star observations on each night.
+The standard star observing block for each night is slightly different where in October 2013 HIP\,3820~\citep[B8\,V;]{1978mcts.book.....H} was observed using the 24-arm telluric template (KMOS\_spec\_acq\_stdstarscipatt).
+However, in September 2014 only the three-arm telluric template was observed (KMOS\_spec\_cal\_stdstar), this time with HIP\,18926~\citep[B3\,V;]{1988mcts.book.....H} and HIP\,3820 on both nights.
+
+\textbf{interestingly both with radial velocity measurements. Could do some nice calibration of the RV measurements? or update their measurements ... remember, we've chosen them to be featureless in this region}
+
+Table~\ref{tb:55res} shows the mean measured resolution and resolving power, at the appropriate rotator angles, for each night where the NGC\,55 data were taken.
+This table shows that the resolution can vary significant between each night, particularly on detector three where the mean resolving power changes by a factor of 1/5.
+
+\begin{table*}
+\caption[Measured velocity resolution for each night]
+{Measured velocity resolution and resolving power across each detector.\label{tb:55res}}
+\scriptsize
+\begin{center}
+\begin{tabular}{ccrcccc}
+\hline
+\hline
+Date & Det. & IFUs & \multicolumn{2}{c}{Ne\,\lam1.17700\,$\mu$m}
+            & \multicolumn{2}{c}{Ar\,\lam1.21430\,$\mu$m} \\
+& & & FWHM (\kms) & $R$ & FWHM (\kms) & $R$ \\
+  \hline
+  \\
+           & 1 & 1-8 &   95.48\,$\pm$\,2.46 & 3140\,$\pm$\,81 &
+                         90.78\,$\pm$\,2.12 & 3302\,$\pm$\,77 \\
+16-10-2013 & 2 & 9-16 &  88.91\,$\pm$\,1.66 & 3371\,$\pm$\,63 &
+                         86.30\,$\pm$\,1.85 & 3473\,$\pm$\,74 \\
+           & 3 & 17-24 & 82.96\,$\pm$\,2.14 & 3612\,$\pm$\,76 &
+                         80.77\,$\pm$\,2.14 & 3712\,$\pm$\,98 \\
+                         \\
+\hline
+\\
+           & 1 & 1-8 &   84.18\,$\pm$\,1.93 & 3561\,$\pm$\,82 &
+                         90.78\,$\pm$\,2.12 & 3302\,$\pm$\,77 \\
+14-09-2015 & 2 & 9-16 &  87.00\,$\pm$\,1.69 & 3446\,$\pm$\,67 &
+                         84.67\,$\pm$\,1.93 & 3541\,$\pm$\,81 \\
+           & 3 & 17-24 & 97.14\,$\pm$\,1.88 & 3086\,$\pm$\,60 &
+                         94.85\,$\pm$\,2.01 & 3161\,$\pm$\,67 \\
+                         \\
+\hline
+\\
+           & 1 & 1-8 &   82.55\,$\pm$\,1.96 & 3632\,$\pm$\,86 &
+                         80.41\,$\pm$\,2.30 & 3728\,$\pm$\,106\\
+15-09-2014 & 2 & 9-16 &  88.08\,$\pm$\,1.78 & 3404\,$\pm$\,69 &
+                         86.03\,$\pm$\,1.96 & 3485\,$\pm$\,80\o\\
+           & 3 & 17-24 & 98.04\,$\pm$\,1.91 & 3058\,$\pm$\,59 &
+                         96.74\,$\pm$\,2.05 & 3099\,$\pm$\,66\o\\
+                         \\
+\hline
+\end{tabular}
+\end{center}
+\end{table*}
+
+
 
 \subsection{Target Selection} % (fold)
 \label{sub:target_selection}
@@ -38,52 +109,45 @@ Owen has kindly helped reconstruct and combine the data sets
 \begin{itemize}
     \item Why were these targets selected?
     \item Something to do with HST photometry?
-
 \end{itemize}
 % subsection target_selection (end)
-
-\begin{itemize}
-    \item Data taken on three nights
-    \item First night good seeing (0.8-1.0) 16-10-2013
-    \item Second two nights, this programme was a backup target so seeing worse
-    \item 14-09-2014 (1.6+) \& 15-09-2014 (0.8-1.2)
-\end{itemize}
-
-\begin{table*}
-\caption[Measured velocity resolution and resolving power across each detector]
-{Measured velocity resolution and resolving power across each detector.\label{tb:res}}
-\scriptsize
-\begin{center}
-\begin{tabular}{crcccc}
-\hline
-\hline
-Det. & IFUs & \multicolumn{2}{c}{Ne\,\lam1.17700\,$\mu$m}
-            & \multicolumn{2}{c}{Ar\,\lam1.21430\,$\mu$m} \\
- & & FWHM [\kms] & $R$ & FWHM [\kms] & $R$ \\
-  \hline
-1 & 1-8 &   95.48\,$\pm$\,2.46 & 3\,140\,$\pm$\,81 &
-            90.78\,$\pm$\,2.12 & 3\,302\,$\pm$\,77 \\
-2 & 9-16 &  88.91\,$\pm$\,1.66 & 3\,371\,$\pm$\,63 &
-            86.30\,$\pm$\,1.85 & 3\,473\,$\pm$\,74 \\
-3 & 17-24 & 82.96\,$\pm$\,2.14 & 3\,612\,$\pm$\,76 &
-            80.77\,$\pm$\,2.14 & 3\,712\,$\pm$\,98 \\
-\hline
-\end{tabular}
-\end{center}
-\end{table*}
 
 % section observations (end)
 
 \section{Data Reduction} % (fold)
 \label{sec:data_reduction}
+
+The data reduction was performed with the KMOS/esorex pipeline with a several corrections to improve the quality of the reductions which are described fully in~\cite{Turner-prep}.
+
+
+
 \begin{itemize}
     \item Describe the steps Owen has taken ...
-    \item Bin reductions into seeing bins
+    \begin{itemize}
+        \item Compute bias offset between science and associated sky frame
+        \item Split recombined sky frames into seeing bins
+        \item combine by including pixel shifts between reconstructed IFUs to ensure all frames are correctly matched
+    \end{itemize}
     \item Telluric correct etc.
 \end{itemize}
 % section data_reduction (end)
 \section{Results} % (fold)
 \label{sec:results}
+
+\subsection{Radial Velocities} % (fold)
+\label{sub:radial_velocities}
+\begin{itemize}
+\item Association with NGC\,55
+    \item Does this desrve a subsection of its own?
+\end{itemize}
+% subsection radial_velocities (end)
+\subsection{Stellar Parameters} % (fold)
+\label{sub:stellar_parameters}
+\begin{itemize}
+        \item Comparison to previous results
+    \end{itemize}
+
+% subsection stellar_parameters (end)
 
 % section results (end)
 

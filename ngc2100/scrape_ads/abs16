@@ -1,0 +1,20 @@
+Query Results from the ADS Database
+
+
+Retrieved 1 abstracts, starting with number 1.  Total number selected: 1.
+
+@ARTICLE{2005ApJS..161..304M,
+   author = {{McLaughlin}, D.~E. and {van der Marel}, R.~P.},
+    title = "{Resolved Massive Star Clusters in the Milky Way and Its Satellites: Brightness Profiles and a Catalog of Fundamental Parameters}",
+  journal = {\apjs},
+   eprint = {astro-ph/0605132},
+ keywords = {Galaxies: Star Clusters, Galaxy: Globular Clusters: General, Galaxies: Magellanic Clouds},
+     year = 2005,
+    month = dec,
+   volume = 161,
+    pages = {304-360},
+      doi = {10.1086/497429},
+   adsurl = {http://adsabs.harvard.edu/abs/2005ApJS..161..304M},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+

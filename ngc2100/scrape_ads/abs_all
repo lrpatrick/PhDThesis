@@ -1,0 +1,697 @@
+
+@ARTICLE{1995AJ....109..960W,
+   author = {{Whitmore}, B.~C. and {Schweizer}, F.},
+    title = "{Hubble space telescope observations of young star clusters in NGC-4038/4039, 'the antennae' galaxies}",
+  journal = {\aj},
+ keywords = {Blue Stars, Early Stars, H Ii Regions, Interacting Galaxies, Star Clusters, Star Formation, Stellar Luminosity, Visible Spectrum, Astronomical Photometry, Data Reduction, Hubble Space Telescope, Image Analysis, Image Processing, Star Distribution, Stellar Color},
+     year = 1995,
+    month = mar,
+   volume = 109,
+    pages = {960-980},
+      doi = {10.1086/117334},
+   adsurl = {http://adsabs.harvard.edu/abs/1995AJ....109..960W},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{1997AJ....114.2381M,
+   author = {{Miller}, B.~W. and {Whitmore}, B.~C. and {Schweizer}, F. and
+	{Fall}, S.~M.},
+    title = "{The Star Cluster System of the Merger Remnant NGC 7252}",
+  journal = {\aj},
+ keywords = {GALAXIES: STAR CLUSTERS, GALAXIES: SPIRAL, GALAXIES: FORMATION, GALAXIES: INTERACTIONS},
+     year = 1997,
+    month = dec,
+   volume = 114,
+    pages = {2381},
+      doi = {10.1086/118655},
+   adsurl = {http://adsabs.harvard.edu/abs/1997AJ....114.2381M},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2010ARA&A..48..431P,
+   author = {{Portegies Zwart}, S.~F. and {McMillan}, S.~L.~W. and {Gieles}, M.
+	},
+    title = "{Young Massive Star Clusters}",
+  journal = {\araa},
+archivePrefix = "arXiv",
+   eprint = {1002.1961},
+     year = 2010,
+    month = sep,
+   volume = 48,
+    pages = {431-493},
+      doi = {10.1146/annurev-astro-081309-130834},
+   adsurl = {http://adsabs.harvard.edu/abs/2010ARA%26A..48..431P},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2012A&ARv..20...50G,
+   author = {{Gratton}, R.~G. and {Carretta}, E. and {Bragaglia}, A.},
+    title = "{Multiple populations in globular clusters. Lessons learned from the Milky Way globular clusters}",
+  journal = {\aapr},
+archivePrefix = "arXiv",
+   eprint = {1201.6526},
+ primaryClass = "astro-ph.SR",
+ keywords = {Galaxy: general, Globular Clusters, Halo, Stars: abundances, Hertzsprung{\ndash}Russell and C{\ndash}M diagrams, Hertzsprung-Russell and C-M diagrams},
+     year = 2012,
+    month = feb,
+   volume = 20,
+      eid = {50},
+    pages = {50},
+      doi = {10.1007/s00159-012-0050-3},
+   adsurl = {http://adsabs.harvard.edu/abs/2012A%26ARv..20...50G},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2014MNRAS.441.2754C,
+   author = {{Cabrera-Ziri}, I. and {Bastian}, N. and {Davies}, B. and {Magris}, G. and
+	{Bruzual}, G. and {Schweizer}, F.},
+    title = "{Constraining globular cluster formation through studies of young massive clusters - II. A single stellar population young massive cluster in NGC 34}",
+  journal = {\mnras},
+archivePrefix = "arXiv",
+   eprint = {1404.4056},
+ keywords = {globular clusters: general, galaxies: star clusters: general, galaxies: star clusters: individual: NGC 34 Cluster 1},
+     year = 2014,
+    month = jul,
+   volume = 441,
+    pages = {2754-2759},
+      doi = {10.1093/mnras/stu764},
+   adsurl = {http://adsabs.harvard.edu/abs/2014MNRAS.441.2754C},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2003ARA&A..41...57L,
+   author = {{Lada}, C.~J. and {Lada}, E.~A.},
+    title = "{Embedded Clusters in Molecular Clouds}",
+  journal = {\araa},
+   eprint = {astro-ph/0301540},
+     year = 2003,
+   volume = 41,
+    pages = {57-115},
+      doi = {10.1146/annurev.astro.41.011802.094844},
+   adsurl = {http://adsabs.harvard.edu/abs/2003ARA%26A..41...57L},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{1991ApJS...76..185E,
+   author = {{Elson}, R.~A.~W.},
+    title = "{The structure and evolution of rich star clusters in the Large Magellanic Cloud}",
+  journal = {\apjs},
+ keywords = {Galactic Evolution, Magellanic Clouds, Star Clusters, Astronomical Photometry, Color-Magnitude Diagram, Cosmology, Star Distribution, Star Formation, Stellar Mass},
+     year = 1991,
+    month = may,
+   volume = 76,
+    pages = {185-214},
+      doi = {10.1086/191568},
+   adsurl = {http://adsabs.harvard.edu/abs/1991ApJS...76..185E},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2015A&A...575A..62N,
+   author = {{Niederhofer}, F. and {Hilker}, M. and {Bastian}, N. and {Silva-Villa}, E.
+	},
+    title = "{No evidence for significant age spreads in young massive LMC clusters}",
+  journal = {\aap},
+archivePrefix = "arXiv",
+   eprint = {1501.02275},
+ keywords = {galaxies: star clusters: general, Magellanic Clouds, Hertzsprung-Russell and C-M diagrams, stars: evolution},
+     year = 2015,
+    month = mar,
+   volume = 575,
+      eid = {A62},
+    pages = {A62},
+      doi = {10.1051/0004-6361/201424455},
+   adsurl = {http://adsabs.harvard.edu/abs/2015A%26A...575A..62N},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2005ApJS..161..304M,
+   author = {{McLaughlin}, D.~E. and {van der Marel}, R.~P.},
+    title = "{Resolved Massive Star Clusters in the Milky Way and Its Satellites: Brightness Profiles and a Catalog of Fundamental Parameters}",
+  journal = {\apjs},
+   eprint = {astro-ph/0605132},
+ keywords = {Galaxies: Star Clusters, Galaxy: Globular Clusters: General, Galaxies: Magellanic Clouds},
+     year = 2005,
+    month = dec,
+   volume = 161,
+    pages = {304-360},
+      doi = {10.1086/497429},
+   adsurl = {http://adsabs.harvard.edu/abs/2005ApJS..161..304M},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{1966AJ.....71...64K,
+   author = {{King}, I.~R.},
+    title = "{The structure of star clusters. III. Some simple dynamical models}",
+  journal = {\aj},
+     year = 1966,
+    month = feb,
+   volume = 71,
+    pages = {64},
+      doi = {10.1086/109857},
+   adsurl = {http://adsabs.harvard.edu/abs/1966AJ.....71...64K},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{1999ApJ...518..298P,
+   author = {{Points}, S.~D. and {Chu}, Y.~H. and {Kim}, S. and {Smith}, R.~C. and
+	{Snowden}, S.~L. and {Brandner}, W. and {Gruendl}, R.~A.},
+    title = "{The Supergiant Shell LMC 2. I. The Kinematics and Physical Structure}",
+  journal = {\apj},
+ keywords = {ISM: BUBBLES, ISM: INDIVIDUAL (LMC 2), ISM: KINEMATICS AND DYNAMICS, GALAXIES: MAGELLANIC CLOUDS, ISM: Bubbles, ISM: individual (LMC 2), ISM: Kinematics and Dynamics, Galaxies: Magellanic Clouds},
+     year = 1999,
+    month = jun,
+   volume = 518,
+    pages = {298-323},
+      doi = {10.1086/307249},
+   adsurl = {http://adsabs.harvard.edu/abs/1999ApJ...518..298P},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{1974A&AS...15..261R,
+   author = {{Robertson}, J.~W.},
+    title = "{Color-magnitude diagrams for eleven young cluster in the Magellanic Clouds.}",
+  journal = {\aaps},
+     year = 1974,
+   volume = 15,
+    pages = {261-309},
+   adsurl = {http://adsabs.harvard.edu/abs/1974A%26AS...15..261R},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{1995AJ....109..960W,
+   author = {{Whitmore}, B.~C. and {Schweizer}, F.},
+    title = "{Hubble space telescope observations of young star clusters in NGC-4038/4039, 'the antennae' galaxies}",
+  journal = {\aj},
+ keywords = {Blue Stars, Early Stars, H Ii Regions, Interacting Galaxies, Star Clusters, Star Formation, Stellar Luminosity, Visible Spectrum, Astronomical Photometry, Data Reduction, Hubble Space Telescope, Image Analysis, Image Processing, Star Distribution, Stellar Color},
+     year = 1995,
+    month = mar,
+   volume = 109,
+    pages = {960-980},
+      doi = {10.1086/117334},
+   adsurl = {http://adsabs.harvard.edu/abs/1995AJ....109..960W},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{1994A&A...282..717J,
+   author = {{Jasniewicz}, G. and {Thevenin}, F.},
+    title = "{Metal abundances of magellanic cloud clusters}",
+  journal = {\aap},
+ keywords = {Abundance, Globular Clusters, Magellanic Clouds, Metallicity, Stellar Composition, Stellar Evolution, Stellar Spectra, Stellar Spectrophotometry, Atmospheric Models, Binary Stars, Chemical Evolution, Interstellar Extinction, Stellar Atmospheres, Stellar Color, Stellar Models},
+     year = 1994,
+    month = feb,
+   volume = 282,
+    pages = {717-723},
+   adsurl = {http://adsabs.harvard.edu/abs/1994A%26A...282..717J},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{1994A&A...282..717J,
+   author = {{Jasniewicz}, G. and {Thevenin}, F.},
+    title = "{Metal abundances of magellanic cloud clusters}",
+  journal = {\aap},
+ keywords = {Abundance, Globular Clusters, Magellanic Clouds, Metallicity, Stellar Composition, Stellar Evolution, Stellar Spectra, Stellar Spectrophotometry, Atmospheric Models, Binary Stars, Chemical Evolution, Interstellar Extinction, Stellar Atmospheres, Stellar Color, Stellar Models},
+     year = 1994,
+    month = feb,
+   volume = 282,
+    pages = {717-723},
+   adsurl = {http://adsabs.harvard.edu/abs/1994A%26A...282..717J},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{1994A&A...282..717J,
+   author = {{Jasniewicz}, G. and {Thevenin}, F.},
+    title = "{Metal abundances of magellanic cloud clusters}",
+  journal = {\aap},
+ keywords = {Abundance, Globular Clusters, Magellanic Clouds, Metallicity, Stellar Composition, Stellar Evolution, Stellar Spectra, Stellar Spectrophotometry, Atmospheric Models, Binary Stars, Chemical Evolution, Interstellar Extinction, Stellar Atmospheres, Stellar Color, Stellar Models},
+     year = 1994,
+    month = feb,
+   volume = 282,
+    pages = {717-723},
+   adsurl = {http://adsabs.harvard.edu/abs/1994A%26A...282..717J},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{1994A&A...282..717J,
+   author = {{Jasniewicz}, G. and {Thevenin}, F.},
+    title = "{Metal abundances of magellanic cloud clusters}",
+  journal = {\aap},
+ keywords = {Abundance, Globular Clusters, Magellanic Clouds, Metallicity, Stellar Composition, Stellar Evolution, Stellar Spectra, Stellar Spectrophotometry, Atmospheric Models, Binary Stars, Chemical Evolution, Interstellar Extinction, Stellar Atmospheres, Stellar Color, Stellar Models},
+     year = 1994,
+    month = feb,
+   volume = 282,
+    pages = {717-723},
+   adsurl = {http://adsabs.harvard.edu/abs/1994A%26A...282..717J},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{1994A&A...282..717J,
+   author = {{Jasniewicz}, G. and {Thevenin}, F.},
+    title = "{Metal abundances of magellanic cloud clusters}",
+  journal = {\aap},
+ keywords = {Abundance, Globular Clusters, Magellanic Clouds, Metallicity, Stellar Composition, Stellar Evolution, Stellar Spectra, Stellar Spectrophotometry, Atmospheric Models, Binary Stars, Chemical Evolution, Interstellar Extinction, Stellar Atmospheres, Stellar Color, Stellar Models},
+     year = 1994,
+    month = feb,
+   volume = 282,
+    pages = {717-723},
+   adsurl = {http://adsabs.harvard.edu/abs/1994A%26A...282..717J},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{1994A&A...282..717J,
+   author = {{Jasniewicz}, G. and {Thevenin}, F.},
+    title = "{Metal abundances of magellanic cloud clusters}",
+  journal = {\aap},
+ keywords = {Abundance, Globular Clusters, Magellanic Clouds, Metallicity, Stellar Composition, Stellar Evolution, Stellar Spectra, Stellar Spectrophotometry, Atmospheric Models, Binary Stars, Chemical Evolution, Interstellar Extinction, Stellar Atmospheres, Stellar Color, Stellar Models},
+     year = 1994,
+    month = feb,
+   volume = 282,
+    pages = {717-723},
+   adsurl = {http://adsabs.harvard.edu/abs/1994A%26A...282..717J},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{1994A&A...282..717J,
+   author = {{Jasniewicz}, G. and {Thevenin}, F.},
+    title = "{Metal abundances of magellanic cloud clusters}",
+  journal = {\aap},
+ keywords = {Abundance, Globular Clusters, Magellanic Clouds, Metallicity, Stellar Composition, Stellar Evolution, Stellar Spectra, Stellar Spectrophotometry, Atmospheric Models, Binary Stars, Chemical Evolution, Interstellar Extinction, Stellar Atmospheres, Stellar Color, Stellar Models},
+     year = 1994,
+    month = feb,
+   volume = 282,
+    pages = {717-723},
+   adsurl = {http://adsabs.harvard.edu/abs/1994A%26A...282..717J},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2010ARA&A..48..431P,
+   author = {{Portegies Zwart}, S.~F. and {McMillan}, S.~L.~W. and {Gieles}, M.
+	},
+    title = "{Young Massive Star Clusters}",
+  journal = {\araa},
+archivePrefix = "arXiv",
+   eprint = {1002.1961},
+     year = 2010,
+    month = sep,
+   volume = 48,
+    pages = {431-493},
+      doi = {10.1146/annurev-astro-081309-130834},
+   adsurl = {http://adsabs.harvard.edu/abs/2010ARA%26A..48..431P},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2005ApJS..161..304M,
+   author = {{McLaughlin}, D.~E. and {van der Marel}, R.~P.},
+    title = "{Resolved Massive Star Clusters in the Milky Way and Its Satellites: Brightness Profiles and a Catalog of Fundamental Parameters}",
+  journal = {\apjs},
+   eprint = {astro-ph/0605132},
+ keywords = {Galaxies: Star Clusters, Galaxy: Globular Clusters: General, Galaxies: Magellanic Clouds},
+     year = 2005,
+    month = dec,
+   volume = 161,
+    pages = {304-360},
+      doi = {10.1086/497429},
+   adsurl = {http://adsabs.harvard.edu/abs/2005ApJS..161..304M},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2003MNRAS.338...85M,
+   author = {{Mackey}, A.~D. and {Gilmore}, G.~F.},
+    title = "{Surface brightness profiles and structural parameters for 53 rich stellar clusters in the Large Magellanic Cloud}",
+  journal = {\mnras},
+   eprint = {astro-ph/0209031},
+ keywords = {stars: statistics, globular clusters: general, Magellanic Clouds, galaxies: star clusters},
+     year = 2003,
+    month = jan,
+   volume = 338,
+    pages = {85-119},
+      doi = {10.1046/j.1365-8711.2003.06021.x},
+   adsurl = {http://adsabs.harvard.edu/abs/2003MNRAS.338...85M},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{1997AJ....114.2381M,
+   author = {{Miller}, B.~W. and {Whitmore}, B.~C. and {Schweizer}, F. and
+	{Fall}, S.~M.},
+    title = "{The Star Cluster System of the Merger Remnant NGC 7252}",
+  journal = {\aj},
+ keywords = {GALAXIES: STAR CLUSTERS, GALAXIES: SPIRAL, GALAXIES: FORMATION, GALAXIES: INTERACTIONS},
+     year = 1997,
+    month = dec,
+   volume = 114,
+    pages = {2381},
+      doi = {10.1086/118655},
+   adsurl = {http://adsabs.harvard.edu/abs/1997AJ....114.2381M},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2005ApJS..161..304M,
+   author = {{McLaughlin}, D.~E. and {van der Marel}, R.~P.},
+    title = "{Resolved Massive Star Clusters in the Milky Way and Its Satellites: Brightness Profiles and a Catalog of Fundamental Parameters}",
+  journal = {\apjs},
+   eprint = {astro-ph/0605132},
+ keywords = {Galaxies: Star Clusters, Galaxy: Globular Clusters: General, Galaxies: Magellanic Clouds},
+     year = 2005,
+    month = dec,
+   volume = 161,
+    pages = {304-360},
+      doi = {10.1086/497429},
+   adsurl = {http://adsabs.harvard.edu/abs/2005ApJS..161..304M},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2010MNRAS.402.1750G,
+   author = {{Gieles}, M. and {Sana}, H. and {Portegies Zwart}, S.~F.},
+    title = "{On the velocity dispersion of young star clusters: super-virial or binaries?}",
+  journal = {\mnras},
+archivePrefix = "arXiv",
+   eprint = {0911.1557},
+ primaryClass = "astro-ph.SR",
+ keywords = {binaries: general, binaries: spectroscopic, supergiants, globular clusters: general, open clusters and associations: general, galaxies: star clusters},
+     year = 2010,
+    month = mar,
+   volume = 402,
+    pages = {1750-1757},
+      doi = {10.1111/j.1365-2966.2009.15993.x},
+   adsurl = {http://adsabs.harvard.edu/abs/2010MNRAS.402.1750G},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2012A&A...546A..73H,
+   author = {{H{\'e}nault-Brunet}, V. and {Evans}, C.~J. and {Sana}, H. and
+	{Gieles}, M. and {Bastian}, N. and {Ma{\'{\i}}z Apell{\'a}niz}, J. and
+	{Markova}, N. and {Taylor}, W.~D. and {Bressert}, E. and {Crowther}, P.~A. and
+	{van Loon}, J.~T.},
+    title = "{The VLT-FLAMES Tarantula Survey. VII. A low velocity dispersion for the young massive cluster R136}",
+  journal = {\aap},
+archivePrefix = "arXiv",
+   eprint = {1208.0825},
+ keywords = {binaries: spectroscopic, galaxies: star clusters: individual R136, Magellanic Clouds, stars: early-type, stars: kinematics and dynamics},
+     year = 2012,
+    month = oct,
+   volume = 546,
+      eid = {A73},
+    pages = {A73},
+      doi = {10.1051/0004-6361/201219471},
+   adsurl = {http://adsabs.harvard.edu/abs/2012A%26A...546A..73H},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2010MNRAS.402.1750G,
+   author = {{Gieles}, M. and {Sana}, H. and {Portegies Zwart}, S.~F.},
+    title = "{On the velocity dispersion of young star clusters: super-virial or binaries?}",
+  journal = {\mnras},
+archivePrefix = "arXiv",
+   eprint = {0911.1557},
+ primaryClass = "astro-ph.SR",
+ keywords = {binaries: general, binaries: spectroscopic, supergiants, globular clusters: general, open clusters and associations: general, galaxies: star clusters},
+     year = 2010,
+    month = mar,
+   volume = 402,
+    pages = {1750-1757},
+      doi = {10.1111/j.1365-2966.2009.15993.x},
+   adsurl = {http://adsabs.harvard.edu/abs/2010MNRAS.402.1750G},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2008MNRAS.384.1109E,
+   author = {{Eldridge}, J.~J. and {Izzard}, R.~G. and {Tout}, C.~A.},
+    title = "{The effect of massive binaries on stellar populations and supernova progenitors}",
+  journal = {\mnras},
+archivePrefix = "arXiv",
+   eprint = {0711.3079},
+ keywords = {binaries: general , stars: evolution , supergiants , supernovae: general , stars: Wolf-Rayet},
+     year = 2008,
+    month = mar,
+   volume = 384,
+    pages = {1109-1118},
+      doi = {10.1111/j.1365-2966.2007.12738.x},
+   adsurl = {http://adsabs.harvard.edu/abs/2008MNRAS.384.1109E},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2009ApJ...696.2014D,
+   author = {{Davies}, B. and {Origlia}, L. and {Kudritzki}, R.-P. and {Figer}, D.~F. and
+	{Rich}, R.~M. and {Najarro}, F. and {Negueruela}, I. and {Clark}, J.~S.
+	},
+    title = "{Chemical Abundance Patterns in the Inner Galaxy: The Scutum Red Supergiant Clusters}",
+  journal = {\apj},
+archivePrefix = "arXiv",
+   eprint = {0902.2378},
+ primaryClass = "astro-ph.GA",
+ keywords = {Galaxy: abundances, Galaxy: disk, Galaxy: evolution, stars: evolution, stars: late-type, supergiants},
+     year = 2009,
+    month = may,
+   volume = 696,
+    pages = {2014-2025},
+      doi = {10.1088/0004-637X/696/2/2014},
+   adsurl = {http://adsabs.harvard.edu/abs/2009ApJ...696.2014D},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2015A&A...575A..62N,
+   author = {{Niederhofer}, F. and {Hilker}, M. and {Bastian}, N. and {Silva-Villa}, E.
+	},
+    title = "{No evidence for significant age spreads in young massive LMC clusters}",
+  journal = {\aap},
+archivePrefix = "arXiv",
+   eprint = {1501.02275},
+ keywords = {galaxies: star clusters: general, Magellanic Clouds, Hertzsprung-Russell and C-M diagrams, stars: evolution},
+     year = 2015,
+    month = mar,
+   volume = 575,
+      eid = {A62},
+    pages = {A62},
+      doi = {10.1051/0004-6361/201424455},
+   adsurl = {http://adsabs.harvard.edu/abs/2015A%26A...575A..62N},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{1974A&AS...15..261R,
+   author = {{Robertson}, J.~W.},
+    title = "{Color-magnitude diagrams for eleven young cluster in the Magellanic Clouds.}",
+  journal = {\aaps},
+     year = 1974,
+   volume = 15,
+    pages = {261-309},
+   adsurl = {http://adsabs.harvard.edu/abs/1974A%26AS...15..261R},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{1974A&AS...15..261R,
+   author = {{Robertson}, J.~W.},
+    title = "{Color-magnitude diagrams for eleven young cluster in the Magellanic Clouds.}",
+  journal = {\aaps},
+     year = 1974,
+   volume = 15,
+    pages = {261-309},
+   adsurl = {http://adsabs.harvard.edu/abs/1974A%26AS...15..261R},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2015A&A...575A..62N,
+   author = {{Niederhofer}, F. and {Hilker}, M. and {Bastian}, N. and {Silva-Villa}, E.
+	},
+    title = "{No evidence for significant age spreads in young massive LMC clusters}",
+  journal = {\aap},
+archivePrefix = "arXiv",
+   eprint = {1501.02275},
+ keywords = {galaxies: star clusters: general, Magellanic Clouds, Hertzsprung-Russell and C-M diagrams, stars: evolution},
+     year = 2015,
+    month = mar,
+   volume = 575,
+      eid = {A62},
+    pages = {A62},
+      doi = {10.1051/0004-6361/201424455},
+   adsurl = {http://adsabs.harvard.edu/abs/2015A%26A...575A..62N},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{1999AJ....118..752Z,
+   author = {{Zepf}, S.~E. and {Ashman}, K.~M. and {English}, J. and {Freeman}, K.~C. and
+	{Sharples}, R.~M.},
+    title = "{The Formation and Evolution of Candidate Young Globular Clusters in NGC 3256}",
+  journal = {\aj},
+   eprint = {astro-ph/9904247},
+ keywords = {GALAXIES: FORMATION, GALAXIES: INDIVIDUAL: NGC NUMBER: NGC 3256, GALAXIES: INTERACTIONS, GALAXIES: STARBURST, GALAXIES: STAR CLUSTERS},
+     year = 1999,
+    month = aug,
+   volume = 118,
+    pages = {752-764},
+      doi = {10.1086/300961},
+   adsurl = {http://adsabs.harvard.edu/abs/1999AJ....118..752Z},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2010ApJS..186..191C,
+   author = {{Currie}, T. and {Hernandez}, J. and {Irwin}, J. and {Kenyon}, S.~J. and
+	{Tokarz}, S. and {Balog}, Z. and {Bragg}, A. and {Berlind}, P. and
+	{Calkins}, M.},
+    title = "{The Stellar Population of h and {$\chi$} Persei: Cluster Properties, Membership, and the Intrinsic Colors and Temperatures of Stars}",
+  journal = {\apjs},
+archivePrefix = "arXiv",
+   eprint = {0911.5514},
+ primaryClass = "astro-ph.SR",
+ keywords = {open clusters and associations: individual: NGC 869 NGC 884, stars: pre-main sequence},
+     year = 2010,
+    month = feb,
+   volume = 186,
+    pages = {191-221},
+      doi = {10.1088/0067-0049/186/2/191},
+   adsurl = {http://adsabs.harvard.edu/abs/2010ApJS..186..191C},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2007ApJ...671..781D,
+   author = {{Davies}, B. and {Figer}, D.~F. and {Kudritzki}, R.-P. and {MacKenty}, J. and
+	{Najarro}, F. and {Herrero}, A.},
+    title = "{A Massive Cluster of Red Supergiants at the Base of the Scutum-Crux Arm}",
+  journal = {\apj},
+archivePrefix = "arXiv",
+   eprint = {0708.0821},
+ keywords = {Galaxy: Open Clusters and Associations: General, Stars: Evolution, Stars: Late-Type, Stars: Supergiants},
+     year = 2007,
+    month = dec,
+   volume = 671,
+    pages = {781-801},
+      doi = {10.1086/522224},
+   adsurl = {http://adsabs.harvard.edu/abs/2007ApJ...671..781D},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2005ApJS..161..304M,
+   author = {{McLaughlin}, D.~E. and {van der Marel}, R.~P.},
+    title = "{Resolved Massive Star Clusters in the Milky Way and Its Satellites: Brightness Profiles and a Catalog of Fundamental Parameters}",
+  journal = {\apjs},
+   eprint = {astro-ph/0605132},
+ keywords = {Galaxies: Star Clusters, Galaxy: Globular Clusters: General, Galaxies: Magellanic Clouds},
+     year = 2005,
+    month = dec,
+   volume = 161,
+    pages = {304-360},
+      doi = {10.1086/497429},
+   adsurl = {http://adsabs.harvard.edu/abs/2005ApJS..161..304M},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2003ARA&A..41...57L,
+   author = {{Lada}, C.~J. and {Lada}, E.~A.},
+    title = "{Embedded Clusters in Molecular Clouds}",
+  journal = {\araa},
+   eprint = {astro-ph/0301540},
+     year = 2003,
+   volume = 41,
+    pages = {57-115},
+      doi = {10.1146/annurev.astro.41.011802.094844},
+   adsurl = {http://adsabs.harvard.edu/abs/2003ARA%26A..41...57L},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2005A&A...437..247D,
+   author = {{de Wit}, W.~J. and {Testi}, L. and {Palla}, F. and {Zinnecker}, H.
+	},
+    title = "{The origin of massive O-type field stars: II. Field O stars as runaways}",
+  journal = {\aap},
+   eprint = {astro-ph/0503337},
+ keywords = {stars: early-type, stars: formation, Galaxy: stellar content, stars: kinematics},
+     year = 2005,
+    month = jul,
+   volume = 437,
+    pages = {247-255},
+      doi = {10.1051/0004-6361:20042489},
+   adsurl = {http://adsabs.harvard.edu/abs/2005A%26A...437..247D},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2007MNRAS.380.1271P,
+   author = {{Parker}, R.~J. and {Goodwin}, S.~P.},
+    title = "{Do O-stars form in isolation?}",
+  journal = {\mnras},
+archivePrefix = "arXiv",
+   eprint = {0707.0605},
+ keywords = {stars: formation, stars: luminosity function, mass function, open clusters and associations: general},
+     year = 2007,
+    month = sep,
+   volume = 380,
+    pages = {1271-1275},
+      doi = {10.1111/j.1365-2966.2007.12179.x},
+   adsurl = {http://adsabs.harvard.edu/abs/2007MNRAS.380.1271P},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2010MNRAS.408..731C,
+   author = {{Crowther}, P.~A. and {Schnurr}, O. and {Hirschi}, R. and {Yusof}, N. and
+	{Parker}, R.~J. and {Goodwin}, S.~P. and {Kassim}, H.~A.},
+    title = "{The R136 star cluster hosts several stars whose individual masses greatly exceed the accepted 150M$_{solar}$ stellar mass limit}",
+  journal = {\mnras},
+archivePrefix = "arXiv",
+   eprint = {1007.3284},
+ primaryClass = "astro-ph.SR",
+ keywords = {binaries: general, stars: early-type, stars: fundamental parameters, stars: Wolf-Rayet, galaxies: star clusters: individual: R136, galaxies: star clusters: individual: NGC 3603},
+     year = 2010,
+    month = oct,
+   volume = 408,
+    pages = {731-751},
+      doi = {10.1111/j.1365-2966.2010.17167.x},
+   adsurl = {http://adsabs.harvard.edu/abs/2010MNRAS.408..731C},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2010ARA&A..48..431P,
+   author = {{Portegies Zwart}, S.~F. and {McMillan}, S.~L.~W. and {Gieles}, M.
+	},
+    title = "{Young Massive Star Clusters}",
+  journal = {\araa},
+archivePrefix = "arXiv",
+   eprint = {1002.1961},
+     year = 2010,
+    month = sep,
+   volume = 48,
+    pages = {431-493},
+      doi = {10.1146/annurev-astro-081309-130834},
+   adsurl = {http://adsabs.harvard.edu/abs/2010ARA%26A..48..431P},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=1995AJ....109..960W&data_type=BIBTEX&db_key=AST&nocookieset=1
+http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=1997AJ....114.2381M&data_type=BIBTEX&db_key=AST&nocookieset=1
+http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=1995AJ....109..960W&data_type=BIBTEX&db_key=AST&nocookieset=1
+http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=1997AJ....114.2381M&data_type=BIBTEX&db_key=AST&nocookieset=1
+http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=1999AJ....118..752Z&data_type=BIBTEX&db_key=AST&nocookieset=1
+http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2003ARA&A..41...57L&data_type=BIBTEX&db_key=AST&nocookieset=1
+http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2005A&A...437..247D&data_type=BIBTEX&db_key=AST&nocookieset=1
+http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2007MNRAS.380.1271P&data_type=BIBTEX&db_key=AST&nocookieset=1
+http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2010MNRAS.408..731C&data_type=BIBTEX&db_key=AST&nocookieset=1
+http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2010ARA&A..48..431P&data_type=BIBTEX&db_key=AST&nocookieset=1
+http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2010ARA&A..48..431P&data_type=BIBTEX&db_key=AST&nocookieset=1
+http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2012A&ARv..20...50G&data_type=BIBTEX&db_key=AST&nocookieset=1
+http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2014MNRAS.441.2754C&data_type=BIBTEX&db_key=AST&nocookieset=1
+http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2003ARA&A..41...57L&data_type=BIBTEX&db_key=AST&nocookieset=1
+http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=1991ApJS...76..185E&data_type=BIBTEX&db_key=AST&nocookieset=1
+http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2015A&A...575A..62N&data_type=BIBTEX&db_key=AST&nocookieset=1
+http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2005ApJS..161..304M&data_type=BIBTEX&db_key=AST&nocookieset=1
+http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=1966AJ.....71...64K&data_type=BIBTEX&db_key=AST&nocookieset=1
+http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=1999ApJ...518..298P&data_type=BIBTEX&db_key=AST&nocookieset=1
+http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=1974A&AS...15..261R&data_type=BIBTEX&db_key=AST&nocookieset=1
+http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=1994A&A...282..717J&data_type=BIBTEX&db_key=AST&nocookieset=1
+http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=1994A&A...282..717J&data_type=BIBTEX&db_key=AST&nocookieset=1
+http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=1994A&A...282..717J&data_type=BIBTEX&db_key=AST&nocookieset=1
+http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=1994A&A...282..717J&data_type=BIBTEX&db_key=AST&nocookieset=1
+http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=1994A&A...282..717J&data_type=BIBTEX&db_key=AST&nocookieset=1
+http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=1994A&A...282..717J&data_type=BIBTEX&db_key=AST&nocookieset=1
+http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=1994A&A...282..717J&data_type=BIBTEX&db_key=AST&nocookieset=1
+http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2010ARA&A..48..431P&data_type=BIBTEX&db_key=AST&nocookieset=1
+http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2005ApJS..161..304M&data_type=BIBTEX&db_key=AST&nocookieset=1
+http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2003MNRAS.338...85M&data_type=BIBTEX&db_key=AST&nocookieset=1
+http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2005ApJS..161..304M&data_type=BIBTEX&db_key=AST&nocookieset=1
+http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2010MNRAS.402.1750G&data_type=BIBTEX&db_key=AST&nocookieset=1
+http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2012A&A...546A..73H&data_type=BIBTEX&db_key=AST&nocookieset=1
+http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2010MNRAS.402.1750G&data_type=BIBTEX&db_key=AST&nocookieset=1
+http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2008MNRAS.384.1109E&data_type=BIBTEX&db_key=AST&nocookieset=1
+http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2009ApJ...696.2014D&data_type=BIBTEX&db_key=AST&nocookieset=1
+http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2015A&A...575A..62N&data_type=BIBTEX&db_key=AST&nocookieset=1
+http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=1974A&AS...15..261R&data_type=BIBTEX&db_key=AST&nocookieset=1
+http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=1974A&AS...15..261R&data_type=BIBTEX&db_key=AST&nocookieset=1
+http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2015A&A...575A..62N&data_type=BIBTEX&db_key=AST&nocookieset=1
+http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2010ApJS..186..191C&data_type=BIBTEX&db_key=AST&nocookieset=1
+http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2007ApJ...671..781D&data_type=BIBTEX&db_key=AST&nocookieset=1
+http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2005ApJS..161..304M&data_type=BIBTEX&db_key=AST&nocookieset=1

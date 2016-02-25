@@ -1,0 +1,21 @@
+Query Results from the ADS Database
+
+
+Retrieved 1 abstracts, starting with number 1.  Total number selected: 1.
+
+@ARTICLE{2008MNRAS.384.1109E,
+   author = {{Eldridge}, J.~J. and {Izzard}, R.~G. and {Tout}, C.~A.},
+    title = "{The effect of massive binaries on stellar populations and supernova progenitors}",
+  journal = {\mnras},
+archivePrefix = "arXiv",
+   eprint = {0711.3079},
+ keywords = {binaries: general , stars: evolution , supergiants , supernovae: general , stars: Wolf-Rayet},
+     year = 2008,
+    month = mar,
+   volume = 384,
+    pages = {1109-1118},
+      doi = {10.1111/j.1365-2966.2007.12738.x},
+   adsurl = {http://adsabs.harvard.edu/abs/2008MNRAS.384.1109E},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+

@@ -1,0 +1,21 @@
+Query Results from the ADS Database
+
+
+Retrieved 1 abstracts, starting with number 1.  Total number selected: 1.
+
+@ARTICLE{1999AJ....118..752Z,
+   author = {{Zepf}, S.~E. and {Ashman}, K.~M. and {English}, J. and {Freeman}, K.~C. and 
+	{Sharples}, R.~M.},
+    title = "{The Formation and Evolution of Candidate Young Globular Clusters in NGC 3256}",
+  journal = {\aj},
+   eprint = {astro-ph/9904247},
+ keywords = {GALAXIES: FORMATION, GALAXIES: INDIVIDUAL: NGC NUMBER: NGC 3256, GALAXIES: INTERACTIONS, GALAXIES: STARBURST, GALAXIES: STAR CLUSTERS},
+     year = 1999,
+    month = aug,
+   volume = 118,
+    pages = {752-764},
+      doi = {10.1086/300961},
+   adsurl = {http://adsabs.harvard.edu/abs/1999AJ....118..752Z},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+

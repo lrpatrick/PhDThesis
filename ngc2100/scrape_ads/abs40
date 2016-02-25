@@ -1,0 +1,24 @@
+Query Results from the ADS Database
+
+
+Retrieved 1 abstracts, starting with number 1.  Total number selected: 1.
+
+@ARTICLE{2010ApJS..186..191C,
+   author = {{Currie}, T. and {Hernandez}, J. and {Irwin}, J. and {Kenyon}, S.~J. and 
+	{Tokarz}, S. and {Balog}, Z. and {Bragg}, A. and {Berlind}, P. and 
+	{Calkins}, M.},
+    title = "{The Stellar Population of h and {$\chi$} Persei: Cluster Properties, Membership, and the Intrinsic Colors and Temperatures of Stars}",
+  journal = {\apjs},
+archivePrefix = "arXiv",
+   eprint = {0911.5514},
+ primaryClass = "astro-ph.SR",
+ keywords = {open clusters and associations: individual: NGC 869 NGC 884, stars: pre-main sequence},
+     year = 2010,
+    month = feb,
+   volume = 186,
+    pages = {191-221},
+      doi = {10.1088/0067-0049/186/2/191},
+   adsurl = {http://adsabs.harvard.edu/abs/2010ApJS..186..191C},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+

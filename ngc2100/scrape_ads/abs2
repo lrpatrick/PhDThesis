@@ -1,0 +1,19 @@
+Query Results from the ADS Database
+
+
+Retrieved 1 abstracts, starting with number 1.  Total number selected: 1.
+
+@ARTICLE{1995AJ....109..960W,
+   author = {{Whitmore}, B.~C. and {Schweizer}, F.},
+    title = "{Hubble space telescope observations of young star clusters in NGC-4038/4039, 'the antennae' galaxies}",
+  journal = {\aj},
+ keywords = {Blue Stars, Early Stars, H Ii Regions, Interacting Galaxies, Star Clusters, Star Formation, Stellar Luminosity, Visible Spectrum, Astronomical Photometry, Data Reduction, Hubble Space Telescope, Image Analysis, Image Processing, Star Distribution, Stellar Color},
+     year = 1995,
+    month = mar,
+   volume = 109,
+    pages = {960-980},
+      doi = {10.1086/117334},
+   adsurl = {http://adsabs.harvard.edu/abs/1995AJ....109..960W},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
