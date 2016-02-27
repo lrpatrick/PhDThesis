@@ -9,47 +9,49 @@ I was expecting an "="---line 210 of file journals.bib
  :      pages = {115},
 I'm skipping whatever remains of this entry
 Database file #2: books.bib
+Warning--I didn't find a database entry for "."
+Warning--I didn't find a database entry for "Turner-prep"
 Warning--empty publisher in 1978mcts.book.....H
 Warning--empty publisher in 1988mcts.book.....H
-You've used 3 entries,
+You've used 14 entries,
             2938 wiz_defined-function locations,
-            626 strings with 5155 characters,
-and the built_in function-call counts, 1564 in all, are:
-= -- 109
-> -- 154
+            711 strings with 8224 characters,
+and the built_in function-call counts, 8958 in all, are:
+= -- 624
+> -- 1036
 < -- 0
-+ -- 49
-- -- 48
-* -- 115
-:= -- 302
++ -- 329
+- -- 321
+* -- 745
+:= -- 1714
 add.period$ -- 0
-call.type$ -- 3
-change.case$ -- 27
-chr.to.int$ -- 3
-cite$ -- 5
-duplicate$ -- 48
-empty$ -- 89
-format.name$ -- 52
-if$ -- 302
+call.type$ -- 14
+change.case$ -- 159
+chr.to.int$ -- 14
+cite$ -- 16
+duplicate$ -- 234
+empty$ -- 372
+format.name$ -- 345
+if$ -- 1728
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 3
-newline$ -- 13
-num.names$ -- 12
-pop$ -- 28
+missing$ -- 14
+newline$ -- 46
+num.names$ -- 56
+pop$ -- 149
 preamble$ -- 1
-purify$ -- 27
+purify$ -- 159
 quote$ -- 0
-skip$ -- 60
+skip$ -- 278
 stack$ -- 0
-substring$ -- 43
-swap$ -- 3
+substring$ -- 265
+swap$ -- 14
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 21
+type$ -- 120
 warning$ -- 2
-while$ -- 12
+while$ -- 60
 width$ -- 0
-write$ -- 31
+write$ -- 141
 (There was 1 error message)

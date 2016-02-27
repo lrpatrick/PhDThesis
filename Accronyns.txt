@@ -1,5 +1,8 @@
-
 BSG Blue supergiant
+
+CCD Colour-colour diagram (not to be confused with CCD: Charged coupled device; not an accroyn used in this thesis)
+
+CMD Colour-magnitude diagram
 
 ESO European southern observatory
 
@@ -15,9 +18,13 @@ IR Infrared
 
 KMOS {\it K}-band multi-object spectrograph (see chapter~\ref{ch:kmos})
 
+LMC Large Magellanic cloud
+
 LTE Local thermodynamic equilibrium (see Chapter~\ref{ch:janal})
 
 MOSFIRE Multi-object spectrometer for infra-red exploration
+
+NGC New general catalogue
 
 OB Observing block
 
@@ -26,6 +33,8 @@ OSIRIS Optical system for imaging and low-intermediate-resolution integrated spe
 PSF Point spread function
 
 RSG Red supergiant
+
+SMC Small magellanic cloud
 
 SV Science verification
 

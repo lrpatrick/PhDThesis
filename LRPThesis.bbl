@@ -1,10 +1,31 @@
-\begin{thebibliography}{3}
+\begin{thebibliography}{14}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{{Dalcanton} {et~al}\mbox{.}(2009){Dalcanton}, {Williams}, {Seth},
+  {Dolphin}, {Holtzman}, {Rosema}, {Skillman}, {Cole}, {Girardi}, {Gogarten},
+  {Karachentsev}, {Olsen}, {Weisz}, {Christensen}, {Freeman}, {Gilbert},
+  {Gallart}, {Harris}, {Hodge}, {de Jong}, {Karachentseva}, {Mateo}, {Stetson},
+  {Tavarez}, {Zaritsky}, {Governato}, \& {Quinn}}]{2009ApJS..183...67D}
+{Dalcanton} J.~J. {et~al.}, 2009, \apjs, 183, 67
+
+\bibitem[{{de Vaucouleurs}(1961)}]{1961ApJ...133..405D}
+{de Vaucouleurs} G., 1961, \apj, 133, 405
 
 \bibitem[{{Gazak} {et~al}\mbox{.}(2015){Gazak}, {Kudritzki}, {Evans},
   {Patrick}, {Davies}, {Bergemann}, {Plez}, {Bresolin}, {Bender}, {Wegner},
   {Bonanos}, \& {Williams}}]{2015ApJ...805..182G}
 {Gazak} J.~Z. {et~al.}, 2015, \apj, 805, 182
+
+\bibitem[{{Gieren} {et~al}\mbox{.}(2005){Gieren}, {Pietrzynski}, {Bresolin},
+  {Kudritzki}, {Minniti}, {Urbaneja}, {Soszynski}, {Storm}, {Fouque}, {Bono},
+  {Walker}, \& {Garcia}}]{2005Msngr.121...23G}
+{Gieren} W. {et~al.}, 2005, The Messenger, 121, 23
+
+\bibitem[{{Gieren} {et~al}\mbox{.}(2008){Gieren}, {Pietrzy{\'n}ski},
+  {Soszy{\'n}ski}, {Bresolin}, {Kudritzki}, {Storm}, \&
+  {Minniti}}]{2008ApJ...672..266G}
+{Gieren} W., {Pietrzy{\'n}ski} G., {Soszy{\'n}ski} I., {Bresolin} F.,
+  {Kudritzki} R.-P., {Storm} J., {Minniti} D., 2008, \apj, 672, 266
 
 \bibitem[{{Houk}(1978)}]{1978mcts.book.....H}
 {Houk} N., 1978, {Michigan catalogue of two-dimensional spectral types for the
@@ -14,5 +35,37 @@
 {Houk} N., {Smith-Moore} M., 1988, {Michigan Catalogue of Two-dimensional
   Spectral Types for the HD Stars. Volume 4, Declinations -26{\deg}.0 to
   -12{\deg}.0.}
+
+\bibitem[{{Hummel}, {Dettmar} \& {Wielebinski}(1986){Hummel}, {Dettmar}, \&
+  {Wielebinski}}]{1986A&A...166...97H}
+{Hummel} E., {Dettmar} R.-J., {Wielebinski} R., 1986, \aap, 166, 97
+
+\bibitem[{{Karachentsev} {et~al}\mbox{.}(2003){Karachentsev}, {Grebel},
+  {Sharina}, {Dolphin}, {Geisler}, {Guhathakurta}, {Hodge}, {Karachentseva},
+  {Sarajedini}, \& {Seitzer}}]{2003A&A...404...93K}
+{Karachentsev} I.~D. {et~al.}, 2003, \aap, 404, 93
+
+\bibitem[{{Nikolaev} \& {Weinberg}(2000)}]{2000ApJ...542..804N}
+{Nikolaev} S., {Weinberg} M.~D., 2000, ApJ, 542, 804
+
+\bibitem[{{Pietrzy{\'n}ski} {et~al}\mbox{.}(2006){Pietrzy{\'n}ski}, {Gieren},
+  {Soszy{\'n}ski}, {Udalski}, {Bresolin}, {Kudritzki}, {Mennickent}, {Walker},
+  {Garcia}, {Szewczyk}, {Szyma{\'n}ski}, {Kubiak}, \&
+  {Wyrzykowski}}]{2006AJ....132.2556P}
+{Pietrzy{\'n}ski} G. {et~al.}, 2006, \aj, 132, 2556
+
+\bibitem[{{Pritchet} {et~al}\mbox{.}(1987){Pritchet}, {Schade}, {Richer},
+  {Crabtree}, \& {Yee}}]{1987ApJ...323...79P}
+{Pritchet} C.~J., {Schade} D., {Richer} H.~B., {Crabtree} D., {Yee} H.~K.~C.,
+  1987, \apj, 323, 79
+
+\bibitem[{{van de Steene} {et~al}\mbox{.}(2006){van de Steene}, {Jacoby},
+  {Praet}, {Ciardullo}, \& {Dejonghe}}]{2006A&A...455..891V}
+{van de Steene} G.~C., {Jacoby} G.~H., {Praet} C., {Ciardullo} R., {Dejonghe}
+  H., 2006, \aap, 455, 891
+
+\bibitem[{{Westmeier}, {Koribalski} \& {Braun}(2013){Westmeier}, {Koribalski},
+  \& {Braun}}]{2013MNRAS.434.3511W}
+{Westmeier} T., {Koribalski} B.~S., {Braun} R., 2013, \mnras, 434, 3511
 
 \end{thebibliography}
