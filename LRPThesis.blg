@@ -10,48 +10,47 @@ I was expecting an "="---line 210 of file journals.bib
 I'm skipping whatever remains of this entry
 Database file #2: books.bib
 Warning--I didn't find a database entry for "."
-Warning--I didn't find a database entry for "Turner-prep"
 Warning--empty publisher in 1978mcts.book.....H
 Warning--empty publisher in 1988mcts.book.....H
-You've used 14 entries,
+You've used 24 entries,
             2938 wiz_defined-function locations,
-            711 strings with 8224 characters,
-and the built_in function-call counts, 8958 in all, are:
-= -- 624
-> -- 1036
-< -- 0
-+ -- 329
-- -- 321
-* -- 745
-:= -- 1714
+            776 strings with 10915 characters,
+and the built_in function-call counts, 15487 in all, are:
+= -- 1083
+> -- 1785
+< -- 2
++ -- 569
+- -- 555
+* -- 1312
+:= -- 2955
 add.period$ -- 0
-call.type$ -- 14
-change.case$ -- 159
-chr.to.int$ -- 14
-cite$ -- 16
-duplicate$ -- 234
-empty$ -- 372
-format.name$ -- 345
-if$ -- 1728
+call.type$ -- 24
+change.case$ -- 274
+chr.to.int$ -- 24
+cite$ -- 26
+duplicate$ -- 412
+empty$ -- 635
+format.name$ -- 597
+if$ -- 2984
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 14
-newline$ -- 46
-num.names$ -- 56
-pop$ -- 149
+missing$ -- 23
+newline$ -- 76
+num.names$ -- 98
+pop$ -- 256
 preamble$ -- 1
-purify$ -- 159
+purify$ -- 274
 quote$ -- 0
-skip$ -- 278
+skip$ -- 474
 stack$ -- 0
-substring$ -- 265
-swap$ -- 14
-text.length$ -- 0
+substring$ -- 455
+swap$ -- 33
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 120
+type$ -- 210
 warning$ -- 2
-while$ -- 60
+while$ -- 104
 width$ -- 0
-write$ -- 141
+write$ -- 240
 (There was 1 error message)
