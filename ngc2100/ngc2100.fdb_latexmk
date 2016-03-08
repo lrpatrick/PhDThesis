@@ -1,0 +1,14 @@
+# Fdb version 3
+["pdflatex"] 1457257046 "ngc2100.tex" "ngc2100.pdf" "ngc2100" 1457257048
+  "/etc/texmf/web2c/texmf.cnf" 1412757199 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1392645748 31083 1dfd8bf685ce0009c40532fedf8a7c53 ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1392645748 31083 1dfd8bf685ce0009c40532fedf8a7c53 ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1421160323 915069 87212e25b3f54b5f850f74f213863760 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1412757211 722335 73369eb762ec09b39cc3d0344b706328 ""
+  "ngc2100.aux" 1457257026 15917 dea935e6f5a4e119e406bb8e34c85796 ""
+  "ngc2100.tex" 1457257046 41013 82efdc78a0b35ca18b5c6d760824493c ""
+  (generated)
+  "ngc2100.log"
+  "ngc2100.pdf"

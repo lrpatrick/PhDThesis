@@ -10,11 +10,15 @@ FoV Field of view
 
 GTO Guaranteed time observations
 
+HRD Hertzsprung$-$Russell diagram
+
 IFS Integral field spectroscopy
 
 IFU Integral field unit
 
 IR Infrared
+
+ISM Interstellar medium
 
 KMOS {\it K}-band multi-object spectrograph (see chapter~\ref{ch:kmos})
 
@@ -23,6 +27,8 @@ LMC Large Magellanic cloud
 LTE Local thermodynamic equilibrium (see Chapter~\ref{ch:janal})
 
 MOSFIRE Multi-object spectrometer for infra-red exploration
+
+MZR Mass-metallicity relationship
 
 NGC New general catalogue
 
@@ -34,8 +40,12 @@ PSF Point spread function
 
 RSG Red supergiant
 
+RSGC Red supergiant cluster
+
 SMC Small magellanic cloud
 
 SV Science verification
 
-VLT very large telescope
+VLT Very large telescope
+
+YMC Yound massive cluster
