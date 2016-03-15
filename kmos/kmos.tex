@@ -2,7 +2,7 @@
 \label{ch:kmos}
 \section{Opening Remarks} % (fold)
 \label{sec:opening_remarks}
-KMOS warrants an individual chapter in this thesis as all of the spectroscopic observations used in this thesis are from this instrument.
+KMOS warrants an individual chapter in this thesis as all of the spectroscopic observations are from this instrument.
 This chapter initially describes the basic design of a spectrograph and outlines some of the more commonly used spectroscopic techniques in Section~\ref{sec:intro_to_spec}.
 I then move on to describe integral field spectroscopy, a more complex spectroscopic technique, in Section~\ref{sec:IFS}.
 I then go on to describe KMOS in Section~\ref{sec:KMOS} and the KMOS data reduction process in Section~\ref{sec:3Ddata}.
@@ -33,14 +33,14 @@ In Newton's demonstration he used a small hole in his window blinds as a slit an
 The slit in modern spectroscopic observations can take various forms.
 The most widely used type of slit, in modern observations, is long-slit spectroscopy.
 Using a long slit, a spectrum is taken for each spatial pixel along the length of the slit.
-This is demonstrated in Figure~\ref{fig:long-slit}, where the final panel shows that each pixel illuminated by the slit produces a spectrum.
+This is demonstrated in Figure~\ref{fig:long-slit}, where the final panel shows that each pixel illuminated within the slit produces a spectrum.
 This can be thought of a 2-dimensional spectroscopy, which is particularly useful when attempting to take a spectrum of an extended object
 (rather than a point source).
 
 \begin{figure}
  \centering
  \includegraphics[width=0.65\textwidth]{kmos/Lawrence-spectrograph}
- \caption[Simple Spectrograph]{A simple spectrograph detailing the five basic elements a spectrograph must posses: A slit, a collimator, a dispersive element, a camera and a detector.
+ \caption[Simple Spectrograph]{A simple spectrograph detailing the five basic elements a spectrograph posseses: slit, collimator, dispersive element, camera and detector.
  Credit:~\cite{2014amcg.book.....L}.
  \label{fig:spectrograph}}
 \end{figure}
@@ -50,7 +50,7 @@ This can be thought of a 2-dimensional spectroscopy, which is particularly usefu
  \includegraphics[width=0.65\textwidth]{kmos/Lawrence-long-slit}
  \caption[Long-slit Spectroscopy]{Three panels demonstrating long-slit spectroscopy.
  The left panel shows what an image of the FoV would see.
- The central panel illustrates that the long slit selects only slit in the $x$-axis the full $y$-axis range.
+ The central panel illustrates that the long slit selects only the slit width in the $x$-axis, while including the full $y$-axis range.
  The right panel shows that for each pixel in the $y$ direction, a spectrum is obtained.
  Credit:~\cite{2014amcg.book.....L}.
  \label{fig:long-slit}}
@@ -60,7 +60,7 @@ An alternative to using a long-slit to remove contamination from other sources i
 By precisely drilling a hole in a metal plate, a slit is created which can be used to select the target flux.
 One of the advantages of using this method is that more than one object can be selected for a single exposure.
 By creating multiple slits within a single plate, spectroscopy of multiple objects can be obtained where contamination from other sources is minimised.
-An improvement to this method was to use optical-fibres positioned within the holes.
+An improvement to this method was to use optical-fibres positioned within the holes (e.g. Figure~\ref{fig:multi-obj}).
 The fibres could then be led to an instrument which was not directly attached to the telescope, which has the advantage that the instrument will not suffer from the changing gravitational force as the telescope moves.
 In addition, the conditions within the instrument room can be controlled.
 This is particularly important for near-IR spectrographs and detectors.
@@ -88,7 +88,7 @@ For a thorough overview on slitless spectroscopy see~\citet{2014PhDT.........C}.
  The central panel illustrates that each fibre in this simple multi-object spectrograph can be positioned at any point throughout the field of view and is rearranged into a pseudoslit.
  The right panel shows that for each pixel in the $y$ direction, a spectrum is obtained.
  Credit:~\cite{2014amcg.book.....L}.
- \label{fig:long-slit}}
+ \label{fig:multi-obj}}
 \end{figure}
 
 A key element to any spectrograph is the dispersive element.
@@ -141,7 +141,7 @@ By the application of this criterion one can define the spectral resolution in t
     W = \frac{\lambda}{Nd\,cos\,\theta}.\label{eq:e}
 \end{equation}
 
-\noident which does not depend upon the fringe order.
+\noindent which does not depend upon the fringe order.
 Typically, the spectral resolution is quoted in terms of the smallest wavelength which can be separated in the spectrum.
 This is given by converting the angular width into the corresponding wavelength width using $\Delta\lambda = \Delta\theta\,d\lambda/d\theta$ which gives,
 
@@ -158,7 +158,7 @@ This is given by converting the angular width into the corresponding wavelength 
 \noindent where $R$ is typically termed the spectral resolving power (or incorrectly as the resolution).
 
 Separation of the spectral orders is an important consideration in diffraction grating spectroscopy which is usually taken into account using a broadband blocking filter to limit the spectral range to a single order only.
-In principle, higher spectral resolving power can be obtained by viewing higher spectral orders, however, the intensity of the spectra is diminished and the the spectral range is diminished.
+In principle, higher spectral resolving power can be obtained by viewing higher spectral orders, however, both the intensity of the spectra and spectral range are diminished.
 Typically low spectral orders are used in astrophysical observations.
 
 Diffraction gratings have many intrinsic advantages over glass prisms when used for quantitative spectroscopy however they are used in tandem for some applications.
@@ -188,11 +188,11 @@ These advantages include,
     \item accurate target acquisition is not required,
     \item the target position can be recovered from data,
     \item reduced radial velocity errors from positional issues in the slit when comparing target and reference object,
-    \item the velocity field is recovered without biases,
-    \item IFS always optimally samples object point spread function (PSF).
+    \item the velocity field is recovered without biases.
+    % \item IFS always optimally samples object point spread function (PSF).
 \end{enumerate}
 
-In addition, the potentially the most compelling argument is that to perform IFS with a long-slit spectrograph one is required to take $N$ exposures all of length $t_{exp}$, however, using IFS, a spectrum for each spaxel is obtained with a single exposure. Therefore efficiency on-sky is increased.
+In addition, potentially the most compelling argument is that to perform IFS with a long-slit spectrograph one is required to take $N$ exposures all of length $t_{exp}$, however, using IFS, a spectrum for each spaxel is obtained with a single exposure. Therefore efficiency on-sky is increased.
 
 
 \subsection{Techniques of integral field spectroscopy} % (fold)
@@ -204,21 +204,21 @@ Another, conceptually simple, approach is to take photometric data of the same f
 
 
 There are three main techniques which are more commonly used to generate spectra over a 2-dimensional FoV.
-An spectrograph specialised for integral fields adds an additional element to the five basic elements of a spectrograph outlined previously.
+A spectrograph specialised for integral fields adds an additional element to the five basic elements of a spectrograph outlined previously.
 This additional element is an integral field unit (IFU) which acts to split up the image obtained by the telescope into elements or slices which are constructed into a slit and dispersed by the dispersive element.
 The difference between the techniques is in the way in which they split up the image.
-In this section I will detail each of these techniques in turn and conclude by providing a comparison between the techniques.
+In this section I will detail each of these techniques in turn and conclude by providing a comparison between them.
 
 A lenslet array splits the input image using a tight array of small lenses~\citep{1995A&AS..113..347B}.
 The lenses then focus the light of each sub-field separately which are then dispersed.
 This technique limits the length of the spectrum measured on the detector.
 To improve this the spectra are tilted about the optical axis to minimise overlapping of spectra, which leads to inefficient packing of the resulting spectra on the detector (e.g. Figure~\ref{sec:IFS}).
 
-Fibre arrays use a tightly packed bundle of fibre-optic cables to split the telescope image (ref).
-The fibres are then reposition the image onto a linear slit.
+Fibre arrays use a tightly packed bundle of fibre-optic cables to split the telescope image.
+The fibres then reposition the image onto a linear slit.
 Figure~\ref{fig:IFS} shows a cartoon of this process.
-As the fibre cables are intrinsically cylindrical objects, much light is lost between fibres.
-To minimise the light lost this technique can be improved upon by using an array of lenses to focus the light from each element into the fibre, effectively combining this technique with the previous method.
+As the fibre cables are intrinsically cylindrical objects, much light is lost between fibres in the focal plane.
+To minimise the light lost, this technique can be improved upon by using an array of lenses to focus the light from each element into the fibre, effectively combining this technique with the previous method.
 
 The final technique is to use an image slicer to split the image from the telescope~\citep{1997SPIE.2871.1295C}.
 Figure~\ref{fig:image_slicer} shows an image slicer used in the KMOS instrument.
@@ -269,7 +269,7 @@ The final design of KMOS boasts 24 configurable arms, each hosting an IFU with a
 These IFUs anamorphically magnify their individual sub-field onto one of the 24 advanced image slicers which partition each sub-field into 14 slices each with 14 spatial pixels.
 Therefore one KMOS IFU obtains 14$\times$14 contiguous spectra in a single exposure.
 
-The optical design of KMOS includes a three-fold symmetry about the Nasmyth optical-axis (see Figure~\ref{fig:kmoslight}.
+The optical design of KMOS includes a three-fold symmetry about the Nasmyth optical-axis (see Figure~\ref{fig:kmoslight}).
 Each segment is designed to receive the light from 8/24 of the configurable IFUs which is then passed to a cryogenic spectrograph containing five diffraction gratings (IZ, YJ, H, K and HK).
 Therefore, KMOS has three quasi-identical spectrographs which can be independently configured and set up.
 
@@ -289,7 +289,7 @@ Following successful commissioning runs KMOS underwent two science verification 
 Since then KMOS has been used to study many different science goals and has already had an impact in the fields of some of its key science drivers~\citep{2016MNRAS.456.1195H,2016MNRAS.456.4533M} as well as some intriguing results in other areas~\citep{2015A&A...584A...2F,2015MNRAS.453.3875P}
 
 In addition, KMOS has been exploited as a multi-object spectrograph to study the metallicities of star-forming galaxies using RSGs as cosmic abundance probes~\citep{2015ApJ...805..182G,2015ApJ...812..160L,2015ApJ...803...14P}.
-This programme is described in detail~\ref{ch:janal}.
+% This programme is described in detail~\ref{ch:janal}.
 This thesis makes extensive use of KMOS and would not be possible without this state-of-the-art instrument.
 
 
@@ -302,7 +302,7 @@ The nature of IFS is to obtain spatial and spectral information for each pixel o
 The final data product is, therefore, a three dimensional data cube consisting of two spatial and one spectral dimension.
 Therefore, the goal of the data reduction and calibration process is to create this regularly-sampled data cube from (often) several raw detector images.
 
-As mentioned, the KMOS is arranged into three identical segments.
+As mentioned, KMOS is arranged into three identical segments.
 Each segment contains eight IFUs which are arranged to project data onto a single detector.
 Each IFU contains an advanced image slicer which slices the field into 14 slices (see Figure~\ref{fig:image_slicer}) each of which contain 14 spatial pixels.
 Therefore, one IFU produces 196 individual spectra which means a single detector contains information on over 1500 spectra.
@@ -312,7 +312,7 @@ This figure demonstrates how the dispersed spectra are arranged on the detector.
 \begin{figure}
  \centering
  \includegraphics[width=0.65\textwidth]{kmos/kmos-data-Davies13}
- \caption[An example of KMOS raw data] An example of a raw data product form KMOS taken from~\citet{2013A&A...558A..56D}. This figure  illustrates that in one frame, light is dispersed onto one of three detectors.
+ \caption[An example of KMOS raw data]{An example of a raw data product form KMOS taken from~\citet{2013A&A...558A..56D}. This figure  illustrates that in one frame, light is dispersed onto one of three detectors.
  Each detector records light from eight IFUs which is dispersed roughly in alignment with the $y$-axis on the detector.
  Each IFU contains 14 spectra with a width of 14 detector pixels and therefore the $x$-axis roughly corresponds to the spatial axis.\label{fig:kmosdata}}
 \end{figure}
@@ -327,7 +327,7 @@ only information which can be calibrated and reconstructed into a regularly samp
 
 To calibrate KMOS data each value recorded by the detector must be assigned spatial and spectral information.
 To do this one can use the projection of the light onto the detector, and the reliability of this projection, as a detailed diagnostic.
-Slitles are positioned on the detector to $\pm$\,1\,$\mu$m
+Slitlets are positioned on the detector to $\pm$\,1\,$\mu$m
 \citep[roughly 1/18$^{\rm th}$ of a pixel;][]{2013A&A...558A..56D} and
 the mean slit-width across the detector is 13.6\,$\pm$\,0.1\,pixels,
 where the error quoted here is the standard deviation of the mean from all slitlets.
@@ -360,8 +360,8 @@ Calibration of the KMOS data can be split into three distinct processes:
 
 \begin{enumerate}
     \item Flatfielding,
-    \item Mapping data into a regularly-sampled cube,
-    \item Correction for atmospheric and instrument transmission.
+    \item Mapping data onto a regularly-sampled cube,
+    \item Correction for atmospheric emission/absorption and instrument transmission.
 \end{enumerate}
 
 All of these processes are required to calibrate spectroscopic data in general, however, mapping the distortions of an instrument and transforming the data into a regularly sampled cube is necessarily an instrument-dependent approach and,
@@ -373,7 +373,7 @@ This is done directly using exposures from halogen lamps (lamp flats) and can be
 Using the twilight sky is generally (not just for KMOS but within spectroscopy in general) preferred as the light path is identical to that of the science exposures.
 However, observing in twilight conditions is extremely time dependent and in practice is difficult to undertake for an instrument as complex as KMOS.
 
-To create the three dimensional data cube from KMOS raw data a look-up table is created containing information relating each detector value with spatial and spectral locations.
+To create the three dimensional data cube from KMOS raw data, a look-up table is created containing information relating each detector value with spatial and spectral locations.
 This look-up table is implemented by creating three calibration files containing $x, y$ and $\lambda$ information for each pixel.
 These calibration frames are created by making use of the repeatability of the pattern of the slitlets on the detector.
 By fully illuminating the slitlets using the lamp-flat exposures the edge positions can be matched between the calibration and the science frames.
@@ -395,7 +395,7 @@ This is obvious from Figure~\ref{fig:kmosdata} which illustrates that the spectr
 
 There are, in principle, many different methods to create the data cube which affect the spectral and spatial resolution of the final data product.
 The method which typically produces the highest quality data uses two (or three) one dimensional interpolations, the so-called ``cubic spline interpolation'' routine in the pipeline.
-This methods is makes use of two properties of the IFUs:
+This method makes use of two properties of the IFUs:
 
 \begin{enumerate}
     \item each slitlet is a straight line when projected onto the sky,
@@ -418,9 +418,20 @@ Molecules and dust within the Earth's atmosphere scatter, absorb and emit light 
 To account for this one typically attempts to observe a sky spectrum without any signal from the astrophysical source.
 This usually takes the form of observing offset sky positions, where between each target exposure, sky targets are observed which are chosen to minimise contamination.
 This results in an additional set of sky frames which are then used to calibrate the science frames using the same IFU in both science and sky exposures.
+A simple example of the sky subtraction procedure is illustrated in Figure~\ref{fig:skysub}.
+This figure shows that the signal from the sky is significantly larger than the signal from the object.
 These sky frames are dealt with in the same manner as science frames in terms of calibration.
-Before the reconstruction of the three-dimensional data cubes however, the sky frame which is nearest in time to the science frame in question is subtracted.
+Typically, before the reconstruction of the three-dimensional data cubes however, the sky frame which is nearest in time to the science frame in question is subtracted.
 % This correction can be improved upon by making small corrections to the sky cube using a sample of spatial pixels containing a smallest amount of target flux.
+
+\begin{figure}
+ \centering
+ \includegraphics[width=0.85\textwidth]{kmos/NGC55-19-skysub_basic}
+ \caption[Example of the sky subtraction procedure]{An example of the sky subtraction procedure. The top panel shows an object spectrum in black and an associated sky spectrum overlaid in red.
+ The bottom panel shows the sky subtracted spectrum by simply subtracting the two spectra in the top panel.
+ Note the difference in scale between the two panels illustrating that the signal from the sky is significantly larger than that from the object.
+ \label{fig:skysub}}
+\end{figure}
 
 The second correction accounts for the absorption and re-emission of light from the science target by molecules within the Earth's atmosphere.
 As the sophistication of this step is highly dependent upon the science case of the observations, for the general user this is implemented in a simplistic manner.
