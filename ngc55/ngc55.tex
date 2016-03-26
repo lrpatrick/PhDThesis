@@ -48,8 +48,7 @@ In addition, to NGC\,55 being orientated nearly edge on, extending from the disk
  \centering
  \includegraphics[width=0.65\textwidth]{ngc55/eso0914a}
  \caption[Image of NGC\,55]{Image of NGC\,55 where the edge on disk of the galaxy makes up the major axis and the bright central region represents the head of the bar containing intense star forming regions.
- Image from the Wide Field Imager on the 2.2-metre MPG/ESO telescope at ESO La Silla Observatory. Credit: ESO, press release
- \textbf{Should go the whole hog and bootstrap the RSGs and footprints onto this image ...}}
+ Image from the Wide Field Imager on the 2.2-metre MPG/ESO telescope at ESO La Silla Observatory. Credit: ESO, press release.}
  \label{fig:ngc55-wide}
 \end{figure}
 
@@ -150,6 +149,29 @@ Date & Det. & IFUs & \multicolumn{2}{c}{Ne\,\lam1.17700\,$\mu$m}
 
 \subsection{Target Selection} % (fold)
 \label{sub:target_selection}
+
+In order to select RSG candidates in NGC\,55 I compiled optical photometry from two sources: The Araucaria Project~\citep{2005Msngr.121...23G} and the ACS Nearby Galaxy Survey Treasury project~\citep[ANGST][]{2009ApJS..183...67D}.
+Figure~\ref{fig:ngc55-foot} displays the footprints of the two projects.
+
+\begin{itemize}
+  \item Describe the two projects and their limitations:
+  \item Araucaria: Wide field ground-based with the aim of measuring distances using Cephieds and BSGs
+  \item ANGST: deeper HST survey of nearby (<4\,Mpc) galaxies covering some of the disk in NGC\,55.
+  \item Selected based on cuts in the ANGST photometry and then applied to the ground based survey
+\end{itemize}
+
+\begin{figure}
+ \centering
+ \includegraphics[width=\textwidth]{ngc55/ngc55_fields-v3}
+ \caption[DSS image of NGC\,55 with KMOS and photometric footprints highlighted]{
+          DSS image of NGC\,55 with KMOS targets overlaid in green and photometric footprints from the Araucaria Project
+          \protect\citep{2005Msngr.121...23G} in white rectangles
+          and the ANGST project
+          \protect\citep{2009ApJS..183...67D} in the smaller white squares.
+         }
+ \label{fig:ngc55-foot}
+\end{figure}
+
 Targets were selected based on the optical photometry from the Araucaria Project~\citep{2005Msngr.121...23G}.
 The optical CMD which is used to select targets is displayed in Figure~\ref{fig:VI}, where the RSG candidates are within the grey box and the observed targets are highlighted in red.
 This method of target selection was chosen based on the limited extent of near-IR photometry in this area.
@@ -165,71 +187,68 @@ However, as stated in Chapter~\ref{ch:n6822} these stars are known to have lifet
 
 Table~\ref{tb:n55obs-params} shows ground- and space-based optical photometry of the KMOS targets along with their radial velocities (see section~\ref{sub:rvs}).
 
-\begin{figure}
- \centering
- \includegraphics[width=0.65\textwidth]{ngc55/ngc55_V_I}
- \caption[$V-I$ against $V$ colour magnitude diagram for an NGC\,55 field]{
-          Colour magnitude diagram for the NGC\,55 optical photometry from the Araucaria Project~\cite{2005Msngr.121...23G}.
-          \textbf{placeholder! -- currently this is from the ANGST data}
-         }
- \label{fig:VI}
-\end{figure}
-
-\begin{figure}
- \centering
- \includegraphics[width=0.65\textwidth]{ngc55/ngc55_fields-v2}
- \caption[Image of NGC\,55 with KMOS and photometric footprints highlighted]{
-          Image of NGC\,55 with KMOS targets overlaid in green and photometric footprints from the Araucaria Project
-          \protect\citep{2005Msngr.121...23G} in xx
-          and the ANGST project
-          \protect\citep{2009ApJS..183...67D} in white.
-          \textbf{placeholder! Should do this properly and overlay the regions etc on the pretty eso image.}
-         }
- \label{fig:ngc55}
-\end{figure}
+\begin{figure*}
+ \begin{center}$
+  \centering
+  \begin{array}{cc}
+  \includegraphics[width=0.45\textwidth]{ngc55/ngc55-v_i_ara} &
+  \includegraphics[width=0.45\textwidth]{ngc55/ngc55-v_i_angst} \\
+  \end{array}$
+ \end{center}
+ \caption[NGC\,55 ground- and space-based CMDs]{
+  NGC\,55 ground- and space-based $V-I$ against $I$ CMDs. Left hand panel shows data from the ground-based Araucaria Project~\cite{2005Msngr.121...23G}
+  over the entire FoV of the KMOS observations.
+  Right hand panel shows data from the ANGST project~\citep[blue; ANGST][]{2009ApJS..183...67D} where photometry from this project covers only a portion of the KMOS FoV.
+  The black boxes in each panel define candidate RSGs, which are defined as $17 < F814 < 19$ and $1.2 < F606-F814 < 3.5$ in the right hand panel and consequently applied to a larger FoV in the left hand panel assuming a one-to-one relationship between the ground- and space-based filters.
+          }
+ \label{fig:3vs24AT}
+\end{figure*}
 
 \begin{sidewaystable}
 \caption[Summary of VLT-KMOS targets in NGC\,55]{Summary of VLT-KMOS targets in NGC\,55.\label{tb:n55obs-params}}
 \scriptsize
 \begin{threeparttable}
 \centering
-\begin{tabular}{lrcccccccccl}
+\begin{tabular}{lrcccccccccccl}
  \hline
  \hline
-ID & S/N & $\alpha$ (J2000) & $\delta$ (J2000) & $V$ & $I$ & $F606$ & $F814$ & \multicolumn{3}{c}{$rv$} (\kms) & Notes \\
-& &  & & & & & & 16-10-2013 & 14-09-2014 & 15-09-2014\\
+ID & S/N & $\alpha$ (J2000) & $\delta$ (J2000) & $V$\tnote{a} & $I$\tnote{a} & $F606$\tnote{b} & $F814$\tnote{b} & \multicolumn{4}{c}{$rv$ (\kms)} & $\langle rv\rangle$ (\kms) & Notes \\
+\cline{9-12}
+& &  & & & & & & 14-09-2013 & 16-10-2013 & 14-09-2014 & 15-09-2014\\
 
  \hline
-NGC55-RSG19 & xx & 00:15:29.190 & $-$39:14:08.20& V & 17.73 & F606 & F814 & 178\,$\pm$\,7  & 221\,$\pm$\,10 & 195\,$\pm$\,9 & Notes\\
-NGC55-RSG20 & xx & 00:15:29.520 & $-$39:15:13.00& V & 18.95 & F606 & F814 & 195\,$\pm$\,17 & \ldots & \ldots & Notes\\
-NGC55-RSG22 & xx & 00:15:30.520 & $-$39:16:36.70& V & 18.56 & F606 & F814 & -17\,$\pm$\,16 & \ldots & \ldots & Notes\\
-NGC55-RSG24 & xx & 00:15:31.460 & $-$39:14:46.30& V & 18.48 & F606 & F814 & 194\,$\pm$\,6  & 146\,$\pm$\,38 & 206\,$\pm$\,9 & Notes\\
-NGC55-RSG25 & xx & 00:15:31.490 & $-$39:14:32.40& V & 18.39 & F606 & F814 & 217\,$\pm$\,15 & -341\,$\pm$\,29 & 209\,$\pm$\,12 & Notes\\
-NGC55-RSG26 & xx & 00:15:33.160 & $-$39:13:42.00& V & 17.96 & F606 & F814 & 173\,$\pm$\,7  & \ldots & \ldots & Notes\\
-NGC55-RSG28 & xx & 00:15:36.160 & $-$39:15:29.40& V & 18.99 & F606 & F814 & 161\,$\pm$\,19 & \ldots & \ldots & Notes\\
-NGC55-RSG30 & xx & 00:15:38.030 & $-$39:14:50.20& V & 18.73 & F606 & F814 & 215\,$\pm$\,9  & -423\,$\pm$\,21 & 216\,$\pm$\,12 & Notes\\
-NGC55-RSG35 & xx & 00:15:39.260 & $-$39:15:01.70& V & 17.87 & F606 & F814 & 206\,$\pm$\,4  & 223\,$\pm$\,12 & 214\,$\pm$\,3 & Notes\\
-NGC55-RSG36 & xx & 00:15:39.520 & $-$39:16:23.10& V & 18.46 & F606 & F814 &-284\,$\pm$\,15 & -615\,$\pm$\,28 & 194\,$\pm$\,21 & Notes\\
-NGC55-RSG39 & xx & 00:15:40.260 & $-$39:15:01.00& V & 17.97 & F606 & F814 & 192\,$\pm$\,5  & 23\,$\pm$\,23 & 187\,$\pm$\,6 & Notes\\
-NGC55-RSG43 & xx & 00:15:40.700 & $-$39:14:50.20& V & 18.18 & F606 & F814 & 196\,$\pm$\,5  & 172\,$\pm$\,16 & 193\,$\pm$\,7 & Notes\\
-NGC55-RSG46 & xx & 00:15:41.640 & $-$39:14:58.80& V & 18.44 & F606 & F814 & 208\,$\pm$\,12 & -128\,$\pm$\,17 & -119\,$\pm$\,29 & Notes\\
-NGC55-RSG57 & xx & 00:15:45.590 & $-$39:15:16.40& V & 18.22 & F606 & F814 & 197\,$\pm$\,5  & 207\,$\pm$\,13 & 178\,$\pm$\,5 & Notes\\
-NGC55-RSG58 & xx & 00:15:46.270 & $-$39:15:43.20& V & 18.40 & F606 & F814 & 216\,$\pm$\,3  & 214\,$\pm$\,21 & 223\,$\pm$\,12 & Notes\\
-NGC55-RSG60 & xx & 00:15:49.180 & $-$39:17:19.80& V & 18.85 & F606 & F814 & 26 \,$\pm$\,25 & -500\,$\pm$\,30 & 349\,$\pm$\,30 & Notes\\
-NGC55-RSG65 & xx & 00:15:51.250 & $-$39:16:26.40& V & 17.65 & F606 & F814 & 215\,$\pm$\,3  & 217\,$\pm$\,5 & 204\,$\pm$\,6 & Notes\\
-NGC55-RSG67 & xx & 00:15:53.110 & $-$39:14:13.60& V & 18.05 & F606 & F814 & 33 \,$\pm$\,21 & 50\,$\pm$\,25 & 28\,$\pm$\,32 & Notes\\
-NGC55-RSG69 & xx & 00:15:55.280 & $-$39:15:00.10& V & 18.67 & F606 & F814 & 195\,$\pm$\,8  & 129\,$\pm$\,14 & 202\,$\pm$\,36 & Notes\\
-NGC55-RSG70 & xx & 00:15:56.310 & $-$39:16:08.60& V & 18.91 & F606 & F814 & 187\,$\pm$\,8  & 202\,$\pm$\,19 & 184\,$\pm$\,15 & Notes\\
-NGC55-RSG71 & xx & 00:15:56.900 & $-$39:15:27.50& V & 18.56 & F606 & F814 & 214\,$\pm$\,10 & 319\,$\pm$\,15 & 256\,$\pm$\,32 & Notes\\
-NGC55-RSG73 & xx & 00:15:57.710 & $-$39:15:41.50& V & 18.41 & F606 & F814 & 178\,$\pm$\,5  & 106\,$\pm$\,26 & 182\,$\pm$\,11 & Notes\\
+NGC55-RSG19 & xx & 00:15:29.190 & $-$39:14:08.20& 19.914 & 17.731 &19.85 & 17.76 &   205\,$\pm$\,4  &  178\,$\pm$\,7   &    222\,$\pm$\,10 &   191\,$\pm$\,7               & 199\,$\pm$\,14 & Notes\\
+NGC55-RSG20 & xx & 00:15:29.520 & $-$39:15:13.00& 20.832 & 18.952 &20.86 & 19.11 &   194\,$\pm$\,14 &  220\,$\pm$\,5   & -- & --                                           & 217\,$\pm$\,10 & Notes\\
+NGC55-RSG22 & xx & 00:15:30.520 & $-$39:16:36.70& 20.406 & 18.589 & --   & --    &    95\,$\pm$\,14 &$-$41\,$\pm$\,26  & -- & --                                           & --             & Notes\\
+NGC55-RSG24 & xx & 00:15:31.460 & $-$39:14:46.30& 20.612 & 18.475 &20.29 & 18.38 &   186\,$\pm$\,6  &  194\,$\pm$\,7   &    146\,$\pm$\,38 &   237\,$\pm$\,16              & 192\,$\pm$\,16 & Notes\\
+NGC55-RSG25 & xx & 00:15:31.490 & $-$39:14:32.40& 20.316 & 18.394 &20.63 & 18.49 &   204\,$\pm$\,12 &  217\,$\pm$\,16  & $-$376\,$\pm$\,41\tnote{c} & 151\,$\pm$\,23       & 200\,$\pm$\,26 & Notes\\
+NGC55-RSG26 & xx & 00:15:33.160 & $-$39:13:42.00& 20.572 & 17.964 &20.35 & 18.06 &   174\,$\pm$\,9  &  173\,$\pm$\,8   & -- & --                                           & 173\,$\pm$\,1  & Notes\\
+NGC55-RSG28 & xx & 00:15:36.160 & $-$39:15:29.40& 21.001 & 18.892 &20.87 & 18.97 &   233\,$\pm$\,17 &  161\,$\pm$\,20  & -- & --                                           & 203\,$\pm$\,41 & Notes\\
+NGC55-RSG30 & xx & 00:15:38.030 & $-$39:14:50.20& 20.867 & 18.730 &20.79 & 18.75 &   212\,$\pm$\,10 &  215\,$\pm$\,10  & $-$424\,$\pm$\,21\tnote{c} & 212\,$\pm$\,22       & 213\,$\pm$\,2  & Notes\\
+NGC55-RSG35 & xx & 00:15:39.260 & $-$39:15:01.70& 20.007 & 17.872 &19.78 & 17.73 &   202\,$\pm$\,3  &  206\,$\pm$\,4   &    223\,$\pm$\,13 &   200\,$\pm$\,11              & 204\,$\pm$\,5  & Notes\\
+NGC55-RSG36 & xx & 00:15:39.520 & $-$39:16:23.10& 19.915 & 18.462 & --   & --    &$-$188\,$\pm$\,31 &$-$284\,$\pm$\,16 & $-$588\,$\pm$\,35 &   346\,$\pm$\,12              & --             & Notes\\
+NGC55-RSG39 & xx & 00:15:40.260 & $-$39:15:01.00& 19.654 & 17.970 &20.36 & 18.19 &   206\,$\pm$\,11 &  192\,$\pm$\,5&$-$1\,$\pm$\,30\tnote{c}& 126\,$\pm$\,30              & 193\,$\pm$\,14 & Notes\\
+NGC55-RSG43 & xx & 00:15:40.700 & $-$39:14:50.20& 19.957 & 18.183 &20.36 & 18.25 &$-$220\,$\pm$\,20\tnote{c}&196\,$\pm$\,5& 173\,$\pm$\,17 &    31\,$\pm$\,38\tnote{c}     & 194\,$\pm$\,9  & Notes\\
+NGC55-RSG46 & xx & 00:15:41.640 & $-$39:14:58.80& 21.591 & 18.441 &20.85 & 18.52 &   228\,$\pm$\,5  &  195\,$\pm$\,6   &  $-$128\,$\pm$\,18\tnote{c} &   210\,$\pm$\,8     & 214\,$\pm$\,18 & Notes\\
+NGC55-RSG57 & xx & 00:15:45.590 & $-$39:15:16.40& 20.010 & 18.220 & --   & --    &   217\,$\pm$\,10 &  197\,$\pm$\,6   &     207\,$\pm$\,13 &   177\,$\pm$\,6              & 193\,$\pm$\,16 & Notes\\
+NGC55-RSG58 & xx & 00:15:46.270 & $-$39:15:43.20& 20.619 & 18.400 & --   & --    &   236\,$\pm$\,8  &  216\,$\pm$\,3   &     214\,$\pm$\,21 &   210\,$\pm$\,13             & 218\,$\pm$\,8  & Notes\\
+NGC55-RSG60 & xx & 00:15:49.180 & $-$39:17:19.80& 21.393 & 18.847 & --   & --    & $-$73\,$\pm$\,39 &   26\,$\pm$\,26  &  $-$533\,$\pm$\,39 &    94\,$\pm$\,37             & --             & Notes\\
+NGC55-RSG65 & xx & 00:15:51.250 & $-$39:16:26.40& 19.706 & 17.653 & --   & --    &   224\,$\pm$\,5  &  215\,$\pm$\,4   &     217\,$\pm$\,6  &   215\,$\pm$\,6              & 218\,$\pm$\,4  & Notes\\
+NGC55-RSG67 & xx & 00:15:53.110 & $-$39:14:13.60& 19.925 & 18.047 & --   & --    &25\,$\pm$\,24\tnote{c} & 6\,$\pm$\,31\tnote{c}&37\,$\pm$\,14\tnote{c} &175\,$\pm$\,18    & 175\,$\pm$\,18 & Notes\\
+NGC55-RSG69 & xx & 00:15:55.280 & $-$39:15:00.10& 20.470 & 18.666 & --   & --    &   231\,$\pm$\,5  &  195\,$\pm$\,9   &130\,$\pm$\,14\tnote{c}&220\,$\pm$\,23             & 222\,$\pm$\,18 & Notes\\
+NGC55-RSG70 & xx & 00:15:56.310 & $-$39:16:08.60& 22.300 & 18.907 & --   & --    &   155\,$\pm$\,12 &  187\,$\pm$\,9   &     202\,$\pm$\,20 &   205\,$\pm$\,24             & 180\,$\pm$\,20 & Notes\\
+NGC55-RSG71 & xx & 00:15:56.900 & $-$39:15:27.50& 20.401 & 18.559 & --   & --    &   197\,$\pm$\,11 &  214\,$\pm$\,11  &320\,$\pm$\,16\tnote{c}&$-$476\,$\pm$\,42\tnote{c} & 206\,$\pm$\,12 & Notes\\
+NGC55-RSG73 & xx & 00:15:57.710 & $-$39:15:41.50& 20.489 & 18.411 & --   & --    &   161\,$\pm$\,7  &  178\,$\pm$\,6   &     136\,$\pm$\,35 &   176\,$\pm$\,19             & 171\,$\pm$\,11 & Notes\\
+
 
 \hline
 \end{tabular}
 \begin{tablenotes}
-  \item Ground based data from the Araucaria Project
-  \protect\cite{2006AJ....132.2556P}, with typical photometric uncertainty 0.01 and 0.01 in $V$ and $I$ bands respectively.
-  Supplementary ANGST data from
-  \protect\cite{2009ApJS..183...67D}, with typical errors 0.015, 0.010, 0.012, in $J, H$ and $K$ bands respectively.
+  \item [a] Ground based data from the Araucaria Project
+  \protect\cite{2006AJ....132.2556P}, with typical photometric uncertainty 0.075 and 0.016 in $V$ and $I$ bands respectively.
+  \item [b] HST ANGST photometry from
+  \protect\cite{2009ApJS..183...67D}, with typical errors 0.12, 0.13 in $F606$ and $F814$ bands respectively.
+  \item [c] Value excluded from average for target.
 \end{tablenotes}
 \end{threeparttable}
 \end{sidewaystable}
@@ -251,7 +270,7 @@ The data reduction was performed with the KMOS/esorex pipeline with a several co
 
 Would it be useful to use Skycorr to subtract the sky as in Gazak et al. (2015)
 
-Telluric correction has been performed by combining and reconstrucitng the telluric standard exposures using the standard pipeline routines.
+Telluric correction has been performed by combining and reconstructing the telluric standard exposures using the standard pipeline routines.
 To improve the performance of the telluric correction I use the method described in detail in Chapter~\ref{ch:n6822}.
 
 As mentioned above, were multiple standard star OBs for each night of observing.
@@ -264,33 +283,47 @@ The telluric spectrum used to correct each science spectrum is determined on a s
 
 \subsection{Radial Velocities} % (fold)
 \label{sub:rvs}
-Radial velocities are measured using the method described first in Chapter~\ref{ch:n2100}.
-This method is known to work well on KMOS stellar spectra from previous studies~\cite{2015ApJ...798...23L,2015ApJ...803...14P,2016arXiv160202702P}.
-Estimated radial velocities from each KMOS pointing is listed in Table~\ref{tb:n55obs-params}.
+Radial velocities are measured using the method described first in Chapter~\ref{ch:n2100} where radial velocities are measured using several strong spectral features within the 1.16-1.21\,$\mu$m region.
+Each of these spectral features is independently used to measure a radial velocity where the value quoted is the average of these measurements and the uncertainties are defined by the standard deviation of the measurements.
+This method is known to work well on KMOS stellar spectra~\cite{2015ApJ...798...23L,2015ApJ...803...14P,2016arXiv160202702P}.
+
+Estimated radial velocities from each KMOS pointing is listed in Table~\ref{tb:n55obs-params} alongside the average radial velocity for each target, where any significantly discrepant measurement has been excluded (marked by note c in Table~\ref{tb:n55obs-params}).
+Uncertainties quoted on the average are the standard deviation of the measurements on each night.
+
+The average radial velocity of the sample is 199\,$\pm$\,16\,\kms.
+Three targets (NGC55-RSG22, NGC55-RSG36 and NGC55-RSG60) have been excluded from this average based on their unreliable radial velocity estimates.
+Given the significant variability in these measurements on each night, an assessment on membership to NGC\,55 is impossible given the current data.
+
+Comparing the average velocity to the H\,\1 systemic velocity~\citep[$v_{sys}$~=~129.0\,$\pm$\,2.0\,\kms][]{2004AJ....128...16K} of NGC\,55 there appears to be a significant offset.
+However, NGC\,55 is known to contain significant velocity structure~\citep[e.g. Figure 5 in][]{1991AJ....101..447P} and given the location of the observed field with respect to the centre of the galaxy, this average velocity is in agreement with previous measurements.
+
+As the observed data is taken over four different epochs, the variability of each source can crudely be assessed. No clear evidence for variability is found for any target within the observed sample.
+The probability that each measurement is drawn from a Gaussian distribution centred on the average value for each target is computed and no measurement has a probability lower than x.xx per cent of being associated with the corresponding distribution.
+
+The average radial velocities for each target is shown against the projected radial distance from the centre of NGC\,55 in Figure~\ref{fig:RvsRV}.
+
+
 
 Distance modulus~=~26.58\,$\pm$\,0.11~\citep{2011ApJ...738..150T}
 
-\begin{itemize}
-    \item Association with NGC\,55
-    \item Does this desrve a subsection of its own?
-    \item Radial velocity Vs. Radius from galaxy centre
-    \item Comparison with previous estimates for these stars and galaxy wide
-\end{itemize}
 
 \begin{figure}
  \centering
- \includegraphics[width=0.65\textwidth]{ngc55/ngc55-RvsRV-F1}
+ \includegraphics[width=0.65\textwidth]{ngc55/NGC55-RvsRV}
  \caption[Radial velocities for the KMOS RSGs shown against projected radius]{
  Radial velocities for the KMOS RSGs shown against projected radius
          }
 
- \label{fig:ngc55}
+ \label{fig:RvsRV}
 \end{figure}
 % subsection radial_velocities (end)
 \subsection{Stellar Parameters} % (fold)
 \label{sub:stellar_parameters}
+
+
 \begin{itemize}
     \item Comparison to previous results
+    \cite{2012A&A...542A..79C} find average [Z]~=~$-$0.4\,$\pm$\,0.13\,dex
     \item [Z] Vs. Radius from galaxy centre
     \item MCMC parameter estimation for the fit
     \item Extinction values need to be taken into account (especially if I'm estimating luminosities in the I band)
@@ -313,3 +346,4 @@ Distance modulus~=~26.58\,$\pm$\,0.11~\citep{2011ApJ...738..150T}
 
 % section conclusions (end)
 
+\bibliography{../journals,../books}

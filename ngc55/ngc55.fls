@@ -7,3 +7,5 @@ INPUT ngc55.tex
 OUTPUT ngc55.log
 INPUT /usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+OUTPUT ngc55.pdf
+INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map

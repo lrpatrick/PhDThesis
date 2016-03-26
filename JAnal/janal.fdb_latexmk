@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1456245741 "janal.tex" "janal.pdf" "janal" 1456245743
+["pdflatex"] 1458491396 "janal.tex" "janal.pdf" "janal" 1458491398
   "/etc/texmf/web2c/texmf.cnf" 1412757199 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -7,10 +7,10 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1392645748 31083 1dfd8bf685ce0009c40532fedf8a7c53 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1421160323 915069 87212e25b3f54b5f850f74f213863760 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1412757211 722335 73369eb762ec09b39cc3d0344b706328 ""
-  "janal.aux" 1456245713 12261 61a719e0c95587aba5f765f9674d1a4d ""
-  "janal.tex" 1456245742 54829 5b2766df46213019c70ad42bcb53880e ""
+  "janal.aux" 1458490858 13612 3785ad8eec8e6e1215eb1135e4a3eecc ""
+  "janal.tex" 1458491395 59349 d1339780de4ee227e97c872da2ed46db ""
   (generated)
-  "janal.out"
-  "janal.aux"
   "janal.log"
+  "janal.aux"
+  "janal.out"
   "janal.pdf"

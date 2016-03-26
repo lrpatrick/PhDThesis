@@ -1,5 +1,16 @@
 Questions:
 
+# Intro
+
+1. What is optical depth and why is it important?
+
+2. How does measuring the width of the MS put constraints upon convection?
+
 
 How does the rotation impact on the observed KMOS frames?
 
+‘adiabatic temp gradient’ feels a bit dangling (which is fine as you can’t explain *everything*, but this is the sort of thing where you might get a follow-up question of what you mean by this)
+
+Why do I fit the continuum differently to Davies et al. 2015?
+
+Why do I struggle fitting low logg values?

@@ -1,13 +1,14 @@
 # Fdb version 3
-["pdflatex"] 1456407924 "ngc55.tex" "ngc55.pdf" "ngc55" 1456407924
+["pdflatex"] 1458823910 "ngc55.tex" "ngc55.pdf" "ngc55" 1458823910
   "/etc/texmf/web2c/texmf.cnf" 1412757199 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1392645748 31083 1dfd8bf685ce0009c40532fedf8a7c53 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1392645748 31083 1dfd8bf685ce0009c40532fedf8a7c53 ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1421160323 915069 87212e25b3f54b5f850f74f213863760 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1412757211 722335 73369eb762ec09b39cc3d0344b706328 ""
-  "ngc55.aux" 1456407898 3320 1d3b1c7b3fb4a215940055549c6efca5 ""
-  "ngc55.tex" 1456407920 6370 d57168fa6e88c97bffd46638c0292afb ""
+  "ngc55.aux" 1458823065 5876 67ca7330cc98686a4fcaf92885529190 ""
+  "ngc55.tex" 1458823910 21890 23d41eb8be7a2a7041b1cbf880550917 ""
   (generated)
   "ngc55.log"
   "ngc55.pdf"

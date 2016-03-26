@@ -1,63 +1,56 @@
 This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: LRPThesis.aux
-A level-1 auxiliary file: intro/intro.aux
+A level-1 auxiliary file: ngc55/ngc55.aux
 The style file: mn2e.bst
 Database file #1: journals.bib
-I was expecting an "="---line 296 of file journals.bib
+I was expecting an "="---line 358 of file journals.bib
  : `    
  :      pages = {115},
 I'm skipping whatever remains of this entry
-Repeated entry---line 4605 of file journals.bib
- : @article{2007ApJ...671..781D
- :                             ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 4667 of file journals.bib
- : @article{2010MNRAS.408..731C
- :                             ,
-I'm skipping whatever remains of this entry
 Database file #2: books.bib
-Warning--empty publisher in 2013EAS....60.....K
-Warning--empty publisher in 2012sse..book.....K
-You've used 114 entries,
+Warning--I didn't find a database entry for "."
+Warning--empty publisher in 1978mcts.book.....H
+Warning--empty publisher in 1988mcts.book.....H
+You've used 25 entries,
             2938 wiz_defined-function locations,
-            1301 strings with 29926 characters,
-and the built_in function-call counts, 64172 in all, are:
-= -- 4796
-> -- 6419
-< -- 6
-+ -- 2078
-- -- 2022
-* -- 5382
-:= -- 12214
-add.period$ -- 3
-call.type$ -- 114
-change.case$ -- 1096
-chr.to.int$ -- 116
-cite$ -- 116
-duplicate$ -- 1933
-empty$ -- 3014
-format.name$ -- 2203
-if$ -- 12421
-int.to.chr$ -- 2
+            783 strings with 11140 characters,
+and the built_in function-call counts, 16016 in all, are:
+= -- 1124
+> -- 1833
+< -- 2
++ -- 585
+- -- 570
+* -- 1362
+:= -- 3055
+add.period$ -- 0
+call.type$ -- 25
+change.case$ -- 283
+chr.to.int$ -- 25
+cite$ -- 27
+duplicate$ -- 429
+empty$ -- 661
+format.name$ -- 614
+if$ -- 3086
+int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 111
-newline$ -- 346
-num.names$ -- 457
-pop$ -- 994
+missing$ -- 24
+newline$ -- 79
+num.names$ -- 102
+pop$ -- 263
 preamble$ -- 1
-purify$ -- 1094
+purify$ -- 283
 quote$ -- 0
-skip$ -- 2079
+skip$ -- 490
 stack$ -- 0
-substring$ -- 2351
-swap$ -- 142
-text.length$ -- 5
+substring$ -- 476
+swap$ -- 34
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1014
+type$ -- 219
 warning$ -- 2
-while$ -- 506
+while$ -- 108
 width$ -- 0
-write$ -- 1134
-(There were 3 error messages)
+write$ -- 250
+(There was 1 error message)
