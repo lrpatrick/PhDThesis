@@ -17,7 +17,7 @@ Red Supergiants in NGC\,55}\label{ch:ngc55}
 % galaxy and discuss a potential metallicity gradient previously suggested in
 % the literature.
 
-\section{Opening remarks} % (fold)
+\section{Opening Remarks} % (fold)
 \label{sec:opening_remarks}
 
 Owen has kindly helped reconstruct and combine the data sets
@@ -240,7 +240,6 @@ NGC55-RSG70 & xx & 00:15:56.310 & $-$39:16:08.60& 22.300 & 18.907 & --   & --   
 NGC55-RSG71 & xx & 00:15:56.900 & $-$39:15:27.50& 20.401 & 18.559 & --   & --    &   197\,$\pm$\,11 &  214\,$\pm$\,11  &320\,$\pm$\,16\tnote{c}&$-$476\,$\pm$\,42\tnote{c} & 206\,$\pm$\,12 & Notes\\
 NGC55-RSG73 & xx & 00:15:57.710 & $-$39:15:41.50& 20.489 & 18.411 & --   & --    &   161\,$\pm$\,7  &  178\,$\pm$\,6   &     136\,$\pm$\,35 &   176\,$\pm$\,19             & 171\,$\pm$\,11 & Notes\\
 
-
 \hline
 \end{tabular}
 \begin{tablenotes}
@@ -289,33 +288,35 @@ This method is known to work well on KMOS stellar spectra~\cite{2015ApJ...798...
 
 Estimated radial velocities from each KMOS pointing is listed in Table~\ref{tb:n55obs-params} alongside the average radial velocity for each target, where any significantly discrepant measurement has been excluded (marked by note c in Table~\ref{tb:n55obs-params}).
 Uncertainties quoted on the average are the standard deviation of the measurements on each night.
-
-The average radial velocity of the sample is 199\,$\pm$\,16\,\kms.
+% The average radial velocity of the sample is 199\,$\pm$\,16\,\kms.
 Three targets (NGC55-RSG22, NGC55-RSG36 and NGC55-RSG60) have been excluded from this average based on their unreliable radial velocity estimates.
 Given the significant variability in these measurements on each night, an assessment on membership to NGC\,55 is impossible given the current data.
 
-Comparing the average velocity to the H\,\1 systemic velocity~\citep[$v_{sys}$~=~129.0\,$\pm$\,2.0\,\kms][]{2004AJ....128...16K} of NGC\,55 there appears to be a significant offset.
-However, NGC\,55 is known to contain significant velocity structure~\citep[e.g. Figure 5 in][]{1991AJ....101..447P} and given the location of the observed field with respect to the centre of the galaxy, this average velocity is in agreement with previous measurements.
-
-As the observed data is taken over four different epochs, the variability of each source can crudely be assessed. No clear evidence for variability is found for any target within the observed sample.
-The probability that each measurement is drawn from a Gaussian distribution centred on the average value for each target is computed and no measurement has a probability lower than x.xx per cent of being associated with the corresponding distribution.
-
-The average radial velocities for each target is shown against the projected radial distance from the centre of NGC\,55 in Figure~\ref{fig:RvsRV}.
-
-
-
-Distance modulus~=~26.58\,$\pm$\,0.11~\citep{2011ApJ...738..150T}
-
+Comparing the estimated velocities to previous measurements we find good agreement with velocities measured for $\sim$200 BSGs in NGC\,55 in~\citep{2008A&A...485...41C} as well as with measurements of the velocity from the H\,\1 gas~\citep{1991AJ....101..447P}.
+The estimated radial velocities as a function of galactocentric distance is shown in Figure~\ref{fig:RvsRV} where previous measurements are also shown for comparison.
+The radius at which the surface brightness first reach 25\,mag/arcsec$^2$ in the $B$-band~\citep[R$_{25}$ e.g.][]{2015eaci.book.....S} is shown for scale~\citep[$R_{25}$~=~16.2\,$\pm$\,0.4\,arcmin][]{1991rc3..book.....D}
+We find no evidence for a systematic offset between the measurements of~\cite{2008A&A...485...41C} and those measured in this study.
 
 \begin{figure}
  \centering
  \includegraphics[width=0.65\textwidth]{ngc55/NGC55-RvsRV}
- \caption[Radial velocities for the KMOS RSGs shown against projected radius]{
- Radial velocities for the KMOS RSGs shown against projected radius
-         }
-
+ \caption[Radial velocities for KMOS targets shown against projected radius]{
+ Radial velocities for the KMOS RSGs (black points) shown against projected radius from the centre of NGC\,55 as defined by the Two Micron All Sky Survey~\citep[2MASS;][]{2006AJ....131.1163S} scaled by $R_{25}$~=~16.2\,$\pm$\,0.4\,arcmin~\citep{1991rc3..book.....D}.
+Blue points show data for $\sim$200 BSGs in NGC\,55 from~\citep[][; shown with 50\% transparency to highlight densely populated areas]{2008A&A...485...41C} alongside the rotation curve of NGC\,55~\citep[black solid line;][]{1991AJ....101..447P}.}
  \label{fig:RvsRV}
 \end{figure}
+
+As the observed data is taken over four different epochs, the variability of each source can be assessed. No clear evidence for variability is found for any target within the observed sample.
+To assess variability the variability criteria of~\citep{2012A&A...546A..73H} is employed, i.e.
+
+\begin{equation}
+  \left|\frac{RV_i - \mu}{\sigma_i}\right| > 4.0,\label{eq:vary}
+\end{equation}
+
+\noindent where $RV_i$ is the radial velocity with an associated uncertainty  $\sigma_i$ measured on an individual night $i$ and $\mu$ is the average radial velocity for the target.
+Using this criteria on all targets finds that no targets show evidence for variability.
+
+
 % subsection radial_velocities (end)
 \subsection{Stellar Parameters} % (fold)
 \label{sub:stellar_parameters}
@@ -328,6 +329,9 @@ Distance modulus~=~26.58\,$\pm$\,0.11~\citep{2011ApJ...738..150T}
     \item MCMC parameter estimation for the fit
     \item Extinction values need to be taken into account (especially if I'm estimating luminosities in the I band)
     \end{itemize}
+
+Distance modulus~=~26.58\,$\pm$\,0.11~\citep{2011ApJ...738..150T}.
+Distance modulus~=~26.434\,$\pm$\,0.037~\citep{2008ApJ...672..266G}
 
 % subsection stellar_parameters (end)
 

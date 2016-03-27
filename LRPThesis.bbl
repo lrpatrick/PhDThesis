@@ -1,4 +1,4 @@
-\begin{thebibliography}{25}
+\begin{thebibliography}{29}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Castro} {et~al}\mbox{.}(2008){Castro}, {Herrero}, {Garcia},
@@ -23,6 +23,15 @@
 
 \bibitem[{{de Vaucouleurs}(1961)}]{1961ApJ...133..405D}
 {de Vaucouleurs} G., 1961, \apj, 133, 405
+
+\bibitem[{{de Vaucouleurs} {et~al}\mbox{.}(1991){de Vaucouleurs}, {de
+  Vaucouleurs}, {Corwin}, {Buta}, {Paturel}, \&
+  {Fouqu{\'e}}}]{1991rc3..book.....D}
+{de Vaucouleurs} G., {de Vaucouleurs} A., {Corwin}, Jr. H.~G., {Buta} R.~J.,
+  {Paturel} G., {Fouqu{\'e}} P., 1991, {Third Reference Catalogue of Bright
+  Galaxies. Volume I: Explanations and references. Volume II: Data for galaxies
+  between 0$^{h}$ and 12$^{h}$. Volume III: Data for galaxies between 12$^{h}$
+  and 24$^{h}$.}
 
 \bibitem[{{Engelbracht} {et~al}\mbox{.}(2004){Engelbracht}, {Gordon}, {Bendo},
   {P{\'e}rez-Gonz{\'a}lez}, {Misselt}, {Rieke}, {Young}, {Hines}, {Kelly},
@@ -69,6 +78,15 @@
   {Sarajedini}, \& {Seitzer}}]{2003A&A...404...93K}
 {Karachentsev} I.~D. {et~al.}, 2003, \aap, 404, 93
 
+\bibitem[{{Koribalski} {et~al}\mbox{.}(2004){Koribalski}, {Staveley-Smith},
+  {Kilborn}, {Ryder}, {Kraan-Korteweg}, {Ryan-Weber}, {Ekers}, {Jerjen},
+  {Henning}, {Putman}, {Zwaan}, {de Blok}, {Calabretta}, {Disney}, {Minchin},
+  {Bhathal}, {Boyce}, {Drinkwater}, {Freeman}, {Gibson}, {Green}, {Haynes},
+  {Juraszek}, {Kesteven}, {Knezek}, {Mader}, {Marquarding}, {Meyer}, {Mould},
+  {Oosterloo}, {O'Brien}, {Price}, {Sadler}, {Schr{\"o}der}, {Stewart},
+  {Stootman}, {Waugh}, {Warren}, {Webster}, \& {Wright}}]{2004AJ....128...16K}
+{Koribalski} B.~S. {et~al.}, 2004, \aj, 128, 16
+
 \bibitem[{{Lapenna} {et~al}\mbox{.}(2015){Lapenna}, {Origlia}, {Mucciarelli},
   {Lanzoni}, {Ferraro}, {Dalessandro}, {Valenti}, \&
   {Cirasuolo}}]{2015ApJ...798...23L}
@@ -102,9 +120,21 @@
 {Pritchet} C.~J., {Schade} D., {Richer} H.~B., {Crabtree} D., {Yee} H.~K.~C.,
   1987, \apj, 323, 79
 
+\bibitem[{{Puche}, {Carignan} \& {Wainscoat}(1991){Puche}, {Carignan}, \&
+  {Wainscoat}}]{1991AJ....101..447P}
+{Puche} D., {Carignan} C., {Wainscoat} R.~J., 1991, \aj, 101, 447
+
 \bibitem[{{Robinson} \& {van Damme}(1964)}]{1964IAUS...20..276R}
 {Robinson} B.~J., {van Damme} K.~J., 1964, in IAU Symposium, Vol.~20, The
   Galaxy and the Magellanic Clouds, {Kerr} F.~J., ed., p. 276
+
+\bibitem[{{Skrutskie} {et~al}\mbox{.}(2006){Skrutskie}, {Cutri}, {Stiening},
+  {Weinberg}, {Schneider}, {Carpenter}, {Beichman}, {Capps}, {Chester},
+  {Elias}, {Huchra}, {Liebert}, {Lonsdale}, {Monet}, {Price}, {Seitzer},
+  {Jarrett}, {Kirkpatrick}, {Gizis}, {Howard}, {Evans}, {Fowler}, {Fullmer},
+  {Hurt}, {Light}, {Kopan}, {Marsh}, {McCallon}, {Tam}, {Van Dyk}, \&
+  {Wheelock}}]{2006AJ....131.1163S}
+{Skrutskie} M.~F. {et~al.}, 2006, \aj, 131, 1163
 
 \bibitem[{{Tanaka} {et~al}\mbox{.}(2011){Tanaka}, {Chiba}, {Komiyama},
   {Guhathakurta}, \& {Kalirai}}]{2011ApJ...738..150T}
