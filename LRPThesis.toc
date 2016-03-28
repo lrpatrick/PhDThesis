@@ -1,88 +1,78 @@
-\contentsline {chapter}{Contents}{i}{section*.2}
-\contentsline {chapter}{List of Figures}{vi}{section*.4}
-\contentsline {chapter}{List of Tables}{x}{section*.6}
+\contentsline {chapter}{Abstract}{i}{chapter*.2}
+\contentsline {chapter}{Declaration}{iii}{chapter*.3}
+\contentsline {chapter}{Acknowledgements}{iv}{chapter*.4}
+\contentsline {chapter}{Contents}{v}{section*.5}
+\contentsline {chapter}{List of Figures}{ix}{section*.7}
+\contentsline {chapter}{List of Tables}{xii}{section*.9}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Shaping the Universe with Massive Stars}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}The Lives of Massive Stars}{2}{section.1.2}
+\contentsline {section}{\numberline {1.2}The Lives of Massive Stars}{3}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Birth}{3}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}The Circle of Life}{5}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}Death}{10}{subsection.1.2.3}
-\contentsline {section}{\numberline {1.3}Observations of RSGs at Home and Abroad}{13}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Identification and Classification of RSGs}{13}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Galactic and Extragalactic studies}{17}{subsection.1.3.2}
-\contentsline {section}{\numberline {1.4}Chemical Evolution of Galaxies as probed by red supergiant stars}{21}{section.1.4}
-\contentsline {section}{\numberline {1.5}Motivation and Outline}{22}{section.1.5}
-\contentsline {chapter}{\numberline {2}Spectroscopy and the {\it K}-band Multi-Object Spectrograph}{25}{chapter.2}
-\contentsline {section}{\numberline {2.1}Opening Remarks}{25}{section.2.1}
-\contentsline {section}{\numberline {2.2}Introduction to Spectroscopic Techniques}{25}{section.2.2}
-\contentsline {section}{\numberline {2.3}Integral field spectroscopy}{30}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Techniques of integral field spectroscopy}{31}{subsection.2.3.1}
-\contentsline {section}{\numberline {2.4}The {\it K}-band Multi Object Spectrograph}{33}{section.2.4}
-\contentsline {section}{\numberline {2.5}Production of Three-dimensional Data Cubes}{35}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Calibration}{36}{subsection.2.5.1}
-\contentsline {section}{\numberline {2.6}Conclusions}{40}{section.2.6}
-\contentsline {chapter}{\numberline {3}J-band Sythentic Spectral Fitting}{41}{chapter.3}
-\contentsline {section}{\numberline {3.1}Opening Remarks}{41}{section.3.1}
-\contentsline {section}{\numberline {3.2}Introduction to Stellar Model Atmospheres}{42}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Hydrostatic Equilibrium}{43}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Mixing Length Convection}{44}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Local Thermodynamic Equilibrium}{45}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Analysis of Assumptions and Summary}{46}{subsection.3.2.4}
-\contentsline {section}{\numberline {3.3}Measuring Stellar Parameters with Synthetic Spectra}{47}{section.3.3}
-\contentsline {section}{\numberline {3.4}Continuum Fitting}{52}{section.3.4}
-\contentsline {section}{\numberline {3.5}Best Fit Parameters}{56}{section.3.5}
-\contentsline {section}{\numberline {3.6}Calibration}{59}{section.3.6}
-\contentsline {section}{\numberline {3.7}Conclusions}{67}{section.3.7}
-\contentsline {chapter}{\numberline {4}Chemistry and Kinematics of NGC\tmspace +\thinmuskip {.1667em}2100}{68}{chapter.4}
-\contentsline {section}{\numberline {4.1}Opening Remarks}{68}{section.4.1}
-\contentsline {section}{\numberline {4.2}Introduction}{68}{section.4.2}
-\contentsline {section}{\numberline {4.3}Observations and Data Reduction}{70}{section.4.3}
-\contentsline {section}{\numberline {4.4}Results}{71}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Radial velocities and velocity dispersion}{71}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Dynamical mass}{75}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Stellar parameters}{77}{subsection.4.4.3}
-\contentsline {section}{\numberline {4.5}Discussion}{81}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Stellar parameters}{81}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}Simulated cluster spectrum analysis}{82}{subsection.4.5.2}
-\contentsline {subsection}{\numberline {4.5.3}Velocity dispersion and dynamical mass}{83}{subsection.4.5.3}
-\contentsline {section}{\numberline {4.6}Conclusions}{84}{section.4.6}
-\contentsline {chapter}{\numberline {5}KMOS Observations in NGC\tmspace +\thinmuskip {.1667em}6822}{85}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{85}{section.5.1}
-\contentsline {section}{\numberline {5.2}Observations}{87}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Target Selection}{87}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}KMOS Observations}{88}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}Data Reduction}{90}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}KMOS/esorex pipeline}{92}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Sky Subtraction}{92}{subsection.5.3.2}
-\contentsline {subsubsection}{In-house Sky Subtraction}{93}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Telluric Correction}{94}{subsection.5.3.3}
-\contentsline {subsection}{\numberline {5.3.4}Three-arm vs 24 arm Telluric Correction}{95}{subsection.5.3.4}
-\contentsline {subsection}{\numberline {5.3.5}Telluric Correction Implementation}{97}{subsection.5.3.5}
-\contentsline {subsection}{\numberline {5.3.6}MOLECFIT}{97}{subsection.5.3.6}
-\contentsline {subsection}{\numberline {5.3.7}Stellar Radial Velocities}{99}{subsection.5.3.7}
-\contentsline {section}{\numberline {5.4}Results}{101}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Telluric Comparison}{101}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}The Introduction of Magnesium}{104}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Stellar Parameters and Metallicity}{104}{subsection.5.4.3}
-\contentsline {section}{\numberline {5.5}Discussion}{108}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Metallicity Measurements}{108}{subsection.5.5.1}
-\contentsline {subsection}{\numberline {5.5.2}Temperatures of RSGs}{111}{subsection.5.5.2}
-\contentsline {subsection}{\numberline {5.5.3}AGB Contamination}{113}{subsection.5.5.3}
-\contentsline {section}{\numberline {5.6}Conclusions}{113}{section.5.6}
-\contentsline {chapter}{\numberline {6}First steps outside the Local Group of Galaxies:\\ Red Supergiants in NGC\tmspace +\thinmuskip {.1667em}55}{115}{chapter.6}
-\contentsline {section}{\numberline {6.1}Opening remarks}{115}{section.6.1}
-\contentsline {section}{\numberline {6.2}Introduction}{115}{section.6.2}
-\contentsline {section}{\numberline {6.3}Observations}{118}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Target Selection}{119}{subsection.6.3.1}
-\contentsline {section}{\numberline {6.4}Data Reduction}{120}{section.6.4}
-\contentsline {section}{\numberline {6.5}Results}{122}{section.6.5}
-\contentsline {subsection}{\numberline {6.5.1}Radial Velocities}{122}{subsection.6.5.1}
-\contentsline {subsection}{\numberline {6.5.2}Stellar Parameters}{123}{subsection.6.5.2}
-\contentsline {section}{\numberline {6.6}Discussion}{123}{section.6.6}
-\contentsline {section}{\numberline {6.7}Conclusions}{123}{section.6.7}
-\contentsline {chapter}{\numberline {7}Calibrating the Mass-metallicity relation with RSGs}{124}{chapter.7}
-\contentsline {chapter}{\numberline {8}Conclusions}{125}{chapter.8}
-\contentsline {chapter}{\numberline {A}Accronyns}{126}{appendix.A}
+\contentsline {subsection}{\numberline {1.2.3}Death}{11}{subsection.1.2.3}
+\contentsline {section}{\numberline {1.3}Observations of RSGs at Home and Abroad}{12}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Identification and Classification of RSGs}{14}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Galactic and Extragalactic studies}{19}{subsection.1.3.2}
+\contentsline {section}{\numberline {1.4}Chemical Evolution of Galaxies as Probed by Red Supergiant Stars}{23}{section.1.4}
+\contentsline {section}{\numberline {1.5}Motivation and Outline}{25}{section.1.5}
+\contentsline {chapter}{\numberline {2}Spectroscopy and the {\it K}-band Multi-Object Spectrograph}{27}{chapter.2}
+\contentsline {section}{\numberline {2.1}Opening Remarks}{27}{section.2.1}
+\contentsline {section}{\numberline {2.2}Introduction to Spectroscopic Techniques}{27}{section.2.2}
+\contentsline {section}{\numberline {2.3}Integral field spectroscopy}{32}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Techniques of integral field spectroscopy}{33}{subsection.2.3.1}
+\contentsline {section}{\numberline {2.4}The {\it K}-band Multi Object Spectrograph}{35}{section.2.4}
+\contentsline {section}{\numberline {2.5}Production of Three-dimensional Data Cubes}{37}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Calibration}{38}{subsection.2.5.1}
+\contentsline {section}{\numberline {2.6}Conclusions}{43}{section.2.6}
+\contentsline {chapter}{\numberline {3}J-band Spectral Analysis}{44}{chapter.3}
+\contentsline {section}{\numberline {3.1}Opening Remarks}{44}{section.3.1}
+\contentsline {section}{\numberline {3.2}Introduction to Stellar Model Atmospheres}{45}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Hydrostatic Equilibrium}{46}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Mixing Length Convection}{47}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Local Thermodynamic Equilibrium}{48}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Analysis of Assumptions and Summary}{49}{subsection.3.2.4}
+\contentsline {section}{\numberline {3.3}Quantitative Analysis of near-IR Spectroscopic Observations}{50}{section.3.3}
+\contentsline {section}{\numberline {3.4}Continuum Fitting}{57}{section.3.4}
+\contentsline {section}{\numberline {3.5}Best Fit Parameters}{62}{section.3.5}
+\contentsline {section}{\numberline {3.6}Calibration}{65}{section.3.6}
+\contentsline {section}{\numberline {3.7}Conclusions}{72}{section.3.7}
+\contentsline {chapter}{\numberline {4}Chemistry and Kinematics of NGC\tmspace +\thinmuskip {.1667em}2100}{73}{chapter.4}
+\contentsline {section}{\numberline {4.1}Opening Remarks}{73}{section.4.1}
+\contentsline {section}{\numberline {4.2}Introduction}{73}{section.4.2}
+\contentsline {section}{\numberline {4.3}Observations and Data Reduction}{75}{section.4.3}
+\contentsline {section}{\numberline {4.4}Results}{76}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Radial velocities and velocity dispersion}{76}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Dynamical mass}{80}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Stellar parameters}{82}{subsection.4.4.3}
+\contentsline {section}{\numberline {4.5}Discussion}{86}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Stellar parameters}{86}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Simulated cluster spectrum analysis}{87}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Velocity dispersion and dynamical mass}{88}{subsection.4.5.3}
+\contentsline {section}{\numberline {4.6}Conclusions}{89}{section.4.6}
+\contentsline {chapter}{\numberline {5}KMOS Observations in NGC\tmspace +\thinmuskip {.1667em}6822}{90}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{90}{section.5.1}
+\contentsline {section}{\numberline {5.2}Observations}{92}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Target Selection}{92}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}KMOS Observations}{93}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Data Reduction}{95}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}KMOS/esorex pipeline}{97}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Sky Subtraction}{97}{subsection.5.3.2}
+\contentsline {subsubsection}{In-house Sky Subtraction}{98}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Telluric Correction}{99}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Three-arm vs 24 arm Telluric Correction}{100}{subsection.5.3.4}
+\contentsline {subsection}{\numberline {5.3.5}Telluric Correction Implementation}{102}{subsection.5.3.5}
+\contentsline {subsection}{\numberline {5.3.6}MOLECFIT}{102}{subsection.5.3.6}
+\contentsline {subsection}{\numberline {5.3.7}Stellar Radial Velocities}{104}{subsection.5.3.7}
+\contentsline {section}{\numberline {5.4}Results}{106}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Telluric Comparison}{106}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}The Introduction of Magnesium}{109}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Stellar Parameters and Metallicity}{109}{subsection.5.4.3}
+\contentsline {section}{\numberline {5.5}Discussion}{113}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Metallicity Measurements}{113}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Temperatures of RSGs}{116}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {5.5.3}AGB Contamination}{118}{subsection.5.5.3}
+\contentsline {section}{\numberline {5.6}Conclusions}{118}{section.5.6}
+\contentsline {chapter}{\numberline {A}Accronyns}{120}{appendix.A}
 \tocappendix 
-\contentsline {chapter}{Bibliography}{128}{section*.81}
+\contentsline {chapter}{Bibliography}{122}{section*.80}
 \contentsfinish 

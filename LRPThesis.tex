@@ -42,9 +42,9 @@
 
 % \input{thesis-frontmatter/abstract}
 
-\singlespacing
-% Uncomment this line if you need to declare published work which forms part of the thesis
-% \declarationpublications{\cite{Conway2000}}
+% \singlespacing
+% % Uncomment this line if you need to declare published work which forms part of the thesis
+% \declarationpublications{\cite{2015ApJ...803...14P,2016arXiv160202702P}}
 % \makedeclaration
 
 % \input{thesis-frontmatter/acknowledgements}
@@ -121,37 +121,7 @@
 \newcommand{\planss}{Planet.~Space~Sci.}   % Planetary Space Science
 \newcommand{\procspie}{Proc.~SPIE}   % Proceedings of the SPIE
 
-%
-\newcommand{\farcm}{\mbox{\ensuremath{.\mkern-4mu^\prime}}}%    % fractional arcminute symbol: 0.'0
-\newcommand{\farcs}{\mbox{\ensuremath{.\!\!^{\prime\prime}}}}%  % fractional arcsecond symbol: 0.''0
-\newcommand{\fdg}{\mbox{\ensuremath{.\!\!^\circ}}}%             % fractional degree symbol:     0.°0
-\newcommand{\arcdeg}{\ensuremath{^{\circ}}}%                    % degree symbol:  °
-\newcommand{\sun}{\ensuremath{\odot}}%                          % sun symbol
-\newcommand{\Teff}{\ensuremath{T_{\mathrm{eff}}}}%              % T_eff
-\newcommand{\logg}{\ensuremath{\log g}}%                        % log g
-\newcommand{\bv}{\ensuremath{B\!-\!V}}%                         % B-V
-\newcommand{\ub}{\ensuremath{U\!-\!B}}%                         % U-B
-\newcommand{\vr}{\ensuremath{V\!-\!R}}%                         % V-R
-\newcommand{\ur}{\ensuremath{U\!-\!R}}%                         % U-R
-\newcommand\ion[2]{#1$\;${\scshape{#2}}}%                       % ion, i.e., CII = \ion{C}{ii}
-% Other commands & definitions:
-\newcommand{\mdot}{\ensuremath{\dot{M}}}
-\newcommand{\msun}{\ensuremath{M_{\odot}}}
-\newcommand{\vsini}{\ensuremath{v_{\rm R} \sin i}}
-\newcommand{\vrot}{\ensuremath{v_{\rm R}}}
-\def\5{\footnotesize V\normalsize}
-\def\4{\footnotesize IV\normalsize}
-\def\3{\footnotesize III\normalsize}
-\def\2{\footnotesize II\normalsize}
-\def\1{\footnotesize I\normalsize}
-\def\lam{$\lambda$}
-\def\kms{$\mbox{km s}^{-1}$}
-\def\p{$\phantom{:}$}
-\def\a{$\phantom{^\ast}$}
-\def\v{$\phantom{^{l}}$}
-\def\pp{$\phantom{-}$}
-\def\o{$\phantom{0}$}
-\def\vr{$v_{\rm r}$}
+
 
 \renewcommand{\theenumi}{\roman{enumi}}
 % Include main matter here
@@ -160,16 +130,16 @@
 % \include{intro/intro}
 % \include{kmos/kmos}
 % \include{JAnal/janal}
-% % \include{nearIRsel/nearIRsel}
+% % % \include{nearIRsel/nearIRsel}
 % \include{ngc2100/ngc2100}
-% \include{ngc6822/ngc6822}
+\include{ngc6822/ngc6822}
 \include{ngc55/ngc55}
-% \include{mzr/mzr}
-\include{conclusions/conclusions}
+% % \include{mzr/mzr}
+% \include{conclusions/conclusions}
 
 \appendix
 \addtocontents{toc}{\protect\tocappendix}
-% \include{Accronyns}
+\include{Accronyns}
 
 \backmatter
 

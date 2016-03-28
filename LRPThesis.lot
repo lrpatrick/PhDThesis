@@ -1,25 +1,23 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {(3.1)}{\ignorespaces Model grid parameter space\relax }}{51}{table.caption.22}
-\contentsline {table}{\numberline {(3.2)}{\ignorespaces Diagnostic lines}}{58}{table.caption.31}
-\contentsline {table}{\numberline {(3.3)}{\ignorespaces Parameter comparisons DFK10}}{66}{table.caption.39}
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {(4.1)}{\ignorespaces Observed properties of VLT-KMOS targets in NGC\tmspace +\thinmuskip {.1667em}2100. \relax }}{72}{table.caption.41}
-\contentsline {table}{\numberline {(4.2)}{\ignorespaces Literature stellar radial-velocity measurements within NGC\tmspace +\thinmuskip {.1667em}2100. \relax }}{74}{table.caption.44}
-\contentsline {table}{\numberline {(4.3)}{\ignorespaces Model grid used for the spectroscopic analysis. \relax }}{78}{table.caption.50}
-\contentsline {table}{\numberline {(4.4)}{\ignorespaces Physical parameters determined for the KMOS targets in NGC\tmspace +\thinmuskip {.1667em}2100. \relax }}{80}{table.caption.51}
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {(5.1)}{\ignorespaces Measured velocity resolution and resolving power across each detector.\relax }}{90}{table.caption.57}
-\contentsline {table}{\numberline {(5.2)}{\ignorespaces Summary of VLT-KMOS targets in NGC\tmspace +\thinmuskip {.1667em}6822}}{91}{table.caption.58}
-\contentsline {table}{\numberline {(5.3)}{\ignorespaces $c$-values}}{99}{table.caption.63}
-\contentsline {table}{\numberline {(5.4)}{\ignorespaces Model grid used for analysis. \relax }}{101}{table.caption.65}
-\contentsline {table}{\numberline {(5.5)}{\ignorespaces Fit parameters for reductions using the two different telluric methods. \relax }}{103}{table.caption.67}
-\contentsline {table}{\numberline {(5.6)}{\ignorespaces Fit parameters including and excluding Mg\tmspace +\thinmuskip {.1667em}\relax \fontsize {10}{12}\selectfont \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip I\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ lines. \relax }}{106}{table.caption.69}
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {(6.1)}{\ignorespaces Measured velocity resolution for each night}}{119}{table.caption.75}
-\contentsline {table}{\numberline {(6.2)}{\ignorespaces Summary of VLT-KMOS targets in NGC\tmspace +\thinmuskip {.1667em}55}}{121}{table.caption.78}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {(3.1)}{\ignorespaces Model grid parameter space\relax }}{54}{table.caption.28}
+\contentsline {table}{\numberline {(3.2)}{\ignorespaces A list of the diagnostic lines used to estimate stellar parameters}}{63}{table.caption.38}
+\contentsline {table}{\numberline {(3.3)}{\ignorespaces Average best-fit parameters for RSGs in Chapters\nobreakspace {}\ref {ch:ngc2100} and\nobreakspace {}\ref {ch:ngc6822}}}{70}{table.caption.45}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {(4.1)}{\ignorespaces Observed properties of VLT-KMOS targets in NGC\tmspace +\thinmuskip {.1667em}2100. \relax }}{77}{table.caption.47}
+\contentsline {table}{\numberline {(4.2)}{\ignorespaces Literature stellar radial-velocity measurements within NGC\tmspace +\thinmuskip {.1667em}2100. \relax }}{79}{table.caption.50}
+\contentsline {table}{\numberline {(4.3)}{\ignorespaces Model grid used for the spectroscopic analysis. \relax }}{83}{table.caption.56}
+\contentsline {table}{\numberline {(4.4)}{\ignorespaces Physical parameters determined for the KMOS targets in NGC\tmspace +\thinmuskip {.1667em}2100. \relax }}{85}{table.caption.57}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {(5.1)}{\ignorespaces Measured velocity resolution and resolving power across each detector.\relax }}{95}{table.caption.63}
+\contentsline {table}{\numberline {(5.2)}{\ignorespaces Summary of VLT-KMOS targets in NGC\tmspace +\thinmuskip {.1667em}6822}}{96}{table.caption.64}
+\contentsline {table}{\numberline {(5.3)}{\ignorespaces $c$-values}}{104}{table.caption.69}
+\contentsline {table}{\numberline {(5.4)}{\ignorespaces Model grid used for analysis. \relax }}{106}{table.caption.71}
+\contentsline {table}{\numberline {(5.5)}{\ignorespaces Fit parameters for reductions using the two different telluric methods. \relax }}{108}{table.caption.73}
+\contentsline {table}{\numberline {(5.6)}{\ignorespaces Fit parameters including and excluding Mg\tmspace +\thinmuskip {.1667em}\relax \fontsize {10}{12}\selectfont \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip I\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ lines. \relax }}{111}{table.caption.75}
 \addvspace {10\p@ }
 \contentsfinish 

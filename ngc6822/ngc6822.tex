@@ -27,7 +27,7 @@
 
 \section{Introduction}
 
-\label{sec:introduction}
+\label{sec:ngc6822intro}
 A promising new method to directly probe chemical abundances in external galaxies is with $J$-band spectroscopy of red supergiant (RSG) stars.
 With their peak flux at
 $\sim$~1\,$\mu$m and luminosities in excess of
@@ -96,16 +96,16 @@ This includes evidence for recent star formation in the form of a known populati
 \citep{2001ApJ...547..765V,2006AJ....131..343D,2009A&A...505.1027H,2012AJ....144....2L}.
 
 In this chapter I present near-IR KMOS spectroscopy of RSGs in NGC\,6822 to investigate their chemical abundances.
-In Section~\ref{sec:observations} the details of the observations are described.
-Section~\ref{sec:data_reduction} describes the data reduction and
-Section~\ref{sec:results} details the derived stellar parameters and investigates the spatial distribution of the estimated metallicities in NGC\,6822.
-A discussion of the key results is presented in Section~\ref{sec:discussion} and
-Section~\ref{sec:conclusions} concludes the chapter.
+In Section~\ref{sec:ngc6822obs} the details of the observations are described.
+Section~\ref{sec:ngc6822data_red} describes the data reduction and
+Section~\ref{sec:ngc6822results} details the derived stellar parameters and investigates the spatial distribution of the estimated metallicities in NGC\,6822.
+A discussion of the key results is presented in Section~\ref{sec:ngc6822disc} and
+Section~\ref{sec:ngc6822conc} concludes the chapter.
 
 % section introduction (end)
 
 \section{Observations}
-\label{sec:observations}
+\label{sec:ngc6822obs}
 
 \subsection{Target Selection} % (fold)
 \label{sub:target_selection}
@@ -298,7 +298,7 @@ NGC6822-RSG18 & 104 &   19:45:06.98  &  $-$14:50:31.1  &  21.06  &  19.12  &  18
 % section observations (end)
 
 \section{Data Reduction} % (fold)
-\label{sec:data_reduction}
+\label{sec:ngc6822data_red}
 
 The observations were reduced using the recipes provided by the Software Package for Astronomical Reduction with KMOS
 \citep[SPARK;][]{2013A&A...558A..56D}.
@@ -491,7 +491,7 @@ The final set of telluric-standard spectra from the KMOS/esorex reductions were 
  \centering
  %\vspace{302pt}
  \begin{center}
-\includegraphics[width=\textwidth]{ngc6822/N6822_mod_fit.pdf}
+\includegraphics[width=0.9\textwidth]{ngc6822/N6822_mod_fit}
 \caption[Observed and best-fit model spectra]{
 KMOS spectra of the NGC\,6822 RSGs and their associated best-fit model spectra
 (black and red lines, respectively).
@@ -505,7 +505,7 @@ Si\,\1$\lambda\lambda$1.198419,
 Ti\,\1$\lambda\lambda$1.189289,
 1.194954.
 The two strong Mg\,\1 lines are also labelled, but are not used in the fits
-(see Section~\ref{sec:results}).
+(see Section~\ref{sec:ngc6822results}).
          }
 \label{fig:model_fits}
 \end{center}
@@ -611,7 +611,7 @@ The radial velocities of two A-type supergiants from
 
 
 \section{Results} % (fold)
-\label{sec:results}
+\label{sec:ngc6822results}
 
 Stellar parameters
 (metallicity, effective temperature, surface gravity and microturbulence)
@@ -896,7 +896,7 @@ R$_{25}$~=~460\,arcseconds
 }
 \end{figure}
 
-Figure~\ref{fig:6822HRD} shows the location of our sample in the Hertzsprung-Russell (H-R) diagram.
+Figure~\ref{fig:6822HRD} shows the location of our sample in the H--R diagram.
 Bolometric corrections were computed using the calibration in
 \cite{2013ApJ...767....3D}.
 This figure shows that the temperatures estimated using the $J$-band method are systematically cooler than the end of the evolutionary models (which terminate at the end of the carbon-burning phase for massive stars) for
@@ -908,8 +908,8 @@ This result is discussed in Section~\ref{sub:temperatures_of_rsgs}.
 \begin{figure}
  \centering
 \includegraphics[width=0.65\textwidth]{ngc6822/N6822_HRD_thesis}
-\caption[H-R diagram for NGC\,6822]{
-H-R diagram for the 11 RSGs in NGC\,6822.
+\caption[NGC\,6822 H--R diagram forRSGs]{
+H--R diagram for the 11 RSGs in NGC\,6822.
 Evolutionary tracks including rotation
 ($v/v_{c}$~=~0.4) for SMC-like metallicity (Z~=~0.002)
 are shown in grey, along with their zero-age mass
@@ -928,7 +928,7 @@ This is discussed in Section~\ref{sub:temperatures_of_rsgs}.
 
 
 \section{Discussion} % (fold)
-\label{sec:discussion}
+\label{sec:ngc6822disc}
 
 \subsection{Metallicity Measurements} % (fold)
 \label{sub:metallicity_measurements}
@@ -998,10 +998,10 @@ M$_{HI}$~=~1.45$\times$10$^{8}$\,M$_{\odot}$
 M$_{*}$~=~$0.83$~-~$1.70\times$10$^{8}$ M$_{\odot}$
 \citep{2008MNRAS.390.1453W,2013ApJ...779..102K,2014ApJ...789..147W}.
 
-The simple closed-box chemical-evolution model relates the metallicity mass fraction $Z(t)$ at any time to the ratio of stellar to gas mass $M_{*}\over M_{g}$ through
+The simple closed-box chemical-evolution model relates the metallicity mass fraction $Z(t)$ at any time to the ratio of stellar to gas mass $M_{*}/M_{g}$ through
 
 \begin{equation}\label{closed-box}
-Z(t) = {y \over 1-R } \ln \left[ 1 + {M_{*}(t)\over M_{g}(t)}  \right],
+Z(t) = \frac{y}{1-R} \ln \left[ 1 + \frac{M_{*}(t)}{M_{g}(t)}  \right],
 \end{equation}
 
 \noindent where $y$ is the fraction of metals per stellar mass produced through stellar nucleosynthesis
@@ -1048,7 +1048,7 @@ These results range from Z~=~Z$_{\odot}$ in PerOB1 to Z~=~0.3Z$_{\odot}$ in the 
 
 We compare the effective temperatures estimated in this study to those of the previous results in different environments.
 Their distribution is shown as a function of metallicity in Figure~\ref{fig:TvsZ}.
-Additionally, Figure~\ref{fig:HRD} shows the H-R diagram for the four sets of results.
+Additionally, Figure~\ref{fig:HRD} shows the H--R diagram for the four sets of results.
 Bolometric corrections to calculate the luminosities for each sample were computed using the calibration in
 \cite{2013ApJ...767....3D}.
 
@@ -1056,7 +1056,7 @@ Bolometric corrections to calculate the luminosities for each sample were comput
 \begin{figure}
  \centering
 \includegraphics[width=0.65\textwidth]{ngc6822/N6822_TeffvsZ-thesis}
-\caption[Effective temperature as a function of metallicity in different environments]{
+\caption[Effective temperature as a function of metallicity from four different environments]{
 Effective temperatures as a function of metallicity for four different data sets using the $J$-band analysis technique.
 There appears to be no significant variation in the temperatures of RSGs over a range of 0.55 dex.
 These results are compiled from the LMC, SMC
@@ -1070,8 +1070,8 @@ The x-axis is reversed for comparison with Figure~\ref{fig:HRD}.\label{fig:TvsZ}
 \begin{figure}
  \centering
 \includegraphics[width=0.65\textwidth]{ngc6822/N6822_HRD_all_thesis}
-\caption[H-R diagram from four different environments]{
-H-R diagram for RSGs in PerOB1 (cyan), LMC (blue), SMC (red) and NGC\,6822 (green) which have stellar parameters obtained using the $J$-band method.
+\caption[H--R diagram from four different environments]{
+H--R diagram for RSGs in PerOB1 (cyan), LMC (blue), SMC (red) and NGC\,6822 (green) which have stellar parameters obtained using the $J$-band method.
 This figure shows that there appears to be no significant temperature differences between the four samples.
 Solid grey lines show SMC-like metallicity evolutionary models including rotation
 \protect\citep{2013A&A...558A.103G}.
@@ -1129,7 +1129,7 @@ but excluding the results for these does not significantly alter any of our conc
 % section discussion (end)
 
 \section{Conclusions} % (fold)
-\label{sec:conclusions}
+\label{sec:ngc6822conc}
 
 KMOS spectroscopy of red supergiant stars (RSGs) in NGC\,6822 is presented.
 The data were telluric corrected in two different ways and the standard 3 arm telluric method is shown to work as effectively (in most cases) as the more time expensive 24 arm telluric method.

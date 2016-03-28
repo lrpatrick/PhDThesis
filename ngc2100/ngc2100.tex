@@ -3,11 +3,13 @@
 \section{Opening Remarks} % (fold)
 \label{sec:opening_remarks}
 
-The majority of this work is accepted for publication in~\cite{2016arXiv160202702P}.
+This chapter is based on the study which is accepted for publication in~\cite{2016arXiv160202702P} and represents the first application of the analysis technique presented in Chapter~\ref{ch:janal}.
+Although this study was conducted after that of Chapter~\ref{ch:ngc6822}, Chapters 4, 5 and 6 are orderd by their distance from the Milky Way, rather than when they were undertaken.
+
 % section opening_remarks (end)
 
 \section{Introduction} % (fold)
-\label{sec:introduction}
+\label{sec:ngc2100intro}
 
 Young massive clusters (YMCs\footnotemark) are important probes of the early evolution of star clusters and have increasingly been used as tracers of star formation in galaxies~\citep[e.g.][]{1995AJ....109..960W,1997AJ....114.2381M,1999AJ....118..752Z}.
 Known to contain large populations of massive stars, YMCs are also important tracers of massive star formation, which is heavily clustered~\citep{2003ARA&A..41...57L,2005A&A...437..247D,2007MNRAS.380.1271P}.
@@ -53,14 +55,14 @@ At $\sim$\,20\,Myr old, the most massive members of this star cluster will have 
 This should have had a profound effect on the surrounding gas and dust, and has potentially shaped the surrounding LMC\,2 supershell~\citep[see][]{1999ApJ...518..298P}.
 
 In this chapter I estimate stellar parameters from KMOS spectroscopy for 14 RSGs which appear to be associated with NGC\,2100.
-Section~\ref{sec:observations} describes the observations and data reduction, and I detail the results in Section~\ref{sec:results}, focusing on radial velocities of the target stars where I derive the line-of-sight velocity dispersion,
+Section~\ref{sec:ngc2100obs} describes the observations and data reduction, and I detail the results in Section~\ref{sec:ngc2100results}, focusing on radial velocities of the target stars where I derive the line-of-sight velocity dispersion,
 the dynamical mass of NGC\,2100 and stellar parameters.
-The results are discussed in Section~\ref{sec:discussion} and conclusions are presented in Section~\ref{sec:conclusions}.
+The results are discussed in Section~\ref{sec:ngc2100disc} and conclusions are presented in Section~\ref{sec:ngc2100conc}.
 
 % section introduction (end)
 
 \section{Observations and Data Reduction} % (fold)
-\label{sec:observations}
+\label{sec:ngc2100obs}
 These observations were obtained as part of the KMOS Guaranteed Time Observations (PI: Evans 095.B-0022) in March 2015.
 The observations consisted of $8\times10$\,s exposures (seeing conditions $\sim$1\farcs0) taken with the $YJ$ grating with sky offset exposures (S) interleaved between the object exposures (O) in an O,~S,~O observing pattern.
 In addition, a standard set of KMOS calibration frames were obtained as well as observations of HD\,51506 (B5) as the telluric standard star.
@@ -149,7 +151,7 @@ J054212.20$-$691213.3 & 200 & 10.440 &\o9.622 & 9.335 & 260.0\,$\pm$\,4.8 & 34 &
 % section observations (end)
 
 \section{Results} % (fold)
-\label{sec:results}
+\label{sec:ngc2100results}
 
 % section results (end)
 
@@ -211,7 +213,7 @@ This is an additional confirmation that absolute radial velocities can be precis
 \begin{figure}
  \centering
  \includegraphics[width=9.0cm]{ngc2100/NGC2100-rv-v10}
- \caption{Radial velocities of KMOS targets (black points) shown as a function of distance from the cluster centre.
+ \caption[KMOS radial velocites in NGC\,2100]{Radial velocities of KMOS targets (black points) shown as a function of distance from the cluster centre.
 The green dashed line shows the LMC systemic velocity of $\sim$200 massive stars from
  {\protect\citep[274.1\,$\pm$\,16.4\,\kms;][]{2015A&A...584A...5E}}.
  The solid black line shows the mean cluster velocity ($v_0$~=~251.6\,$\pm$\,1.1\,\kms) and the shaded blue region shows $v_0\,\pm\sigma_{1D}$.
@@ -262,7 +264,7 @@ Figure~\ref{fig:sig1dbins} demonstrates that there is no evidence for spatial va
 \begin{figure}
 \centering
  \includegraphics[width=0.65\textwidth]{ngc2100/NGC2100-sigRV-triangle}
- \caption{One- and two-dimensional projections of the posterior probability distributions of the line-of-sight velocity dispersion ($\sigma_{1D}$) and systemic velocity ($v_{0}$) for NGC\,2100 assuming the dispersion is Gaussian and constant over the range measured using.
+ \caption[One- and two-dimensional projections of $\sigma_{1D}$ and $v_{0}$]{One- and two-dimensional projections of the posterior probability distributions of the line-of-sight velocity dispersion ($\sigma_{1D}$) and systemic velocity ($v_{0}$) for NGC\,2100 assuming the dispersion is Gaussian and constant over the range measured using.
  Using this method the velocity of NGC\,2100 is 251.6\,$\pm$\,1.1\,\kms.
  This figure also demonstrates that the velocity dispersion for the sample is unresolved and therefore an upper limit is placed on $\sigma_{1D} <$~3.9\,\kms~at the 95\% confidence level.
 \label{fig:sig1d}
@@ -272,7 +274,7 @@ Figure~\ref{fig:sig1dbins} demonstrates that there is no evidence for spatial va
 \begin{figure}
 \centering
  \includegraphics[width=0.65\textwidth]{ngc2100/NGC2100-sig1d-bins}
- \caption{Upper limits to the line-of-sight velocity dispersion for the NGC\,2100 RSGs in three radial bins as a function of the distance from the centre of NGC\,2100.
+ \caption[$\sigma_{1D}$ as a function of radial distance from the cluster centre]{Upper limits to the line-of-sight velocity dispersion for the NGC\,2100 RSGs in three radial bins as a function of the distance from the centre of NGC\,2100.
  This figure demonstrates that there is no evidence for spatial variations in $\sigma_{1D}$.
  However, it is noted that in each radial bin the underlying dispersion is unresolved (see Figure~\ref{fig:sig1d}).
 \label{fig:sig1dbins}
@@ -358,7 +360,7 @@ The range in [Z] from the LMC population is slightly larger than that of the NGC
  \begin{center}
  \centering
 \includegraphics[width=0.75\textwidth]{ngc2100/NGC2100-model-fits}
-\caption{KMOS spectra of RSGs in NGC\,2100 and their associated best-fit models
+\caption[KMOS spectra and best-fit model spectra in NGC\,2100]{KMOS spectra of RSGs in NGC\,2100 and their associated best-fit models
 (black and red lines, respectively).
 The upper panel shows the simulated integrated-light cluster spectrum;
 the lower panel shows spectra for the individual RSGs.
@@ -379,7 +381,7 @@ Ti\,{\scriptsize I}$\,\lambda\lambda$1.189289,
 \begin{figure}
 \centering
  \includegraphics[width=0.65\textwidth]{ngc2100/NGC2100-TeffvsZ-2100-LMC}
- \caption{Estimated metallicities for NGC\,2100 RSGs in this study shown against effective temperature (black points).
+ \caption[Effective temperature as a function of metallicity for NGC\,2100]{Estimated metallicities for NGC\,2100 RSGs in this study shown against effective temperature (black points).
         For comparison the distribution of LMC RSGs from~\citet[][blue triangles]{2015ApJ...806...21D} is shown with good agreement between the means of the two samples.
 \label{fig:TeffvsZ}
           }
@@ -450,7 +452,7 @@ Integrated-light spectrum\tnote{c}             & & 4.6\,$\pm$\,0.3 & $-$0.42\,$\
 % section stellar_parameters (end)
 
 \section{Discussion} % (fold)
-\label{sec:discussion}
+\label{sec:ngc2100disc}
 
 \subsection{Stellar parameters} % (fold)
 \label{sub:stellar_parameters_disc}
@@ -469,7 +471,7 @@ The Solar-like models (dashed) demonstrate that, when compared with the SMC-like
 \begin{figure}
 \centering
  \includegraphics[width=0.65\textwidth]{ngc2100/NGC2100-HRD-perOB1}
- \caption{H--R diagram for 14 RSGs in NGC\,2100 (black points).
+ \caption[NGC\,2100 H--R diagram for RSGs]{H--R diagram for 14 RSGs in NGC\,2100 (black points).
   % Bolometric corrections computed using~\citet{2013ApJ...767....3D}.
   Isochrones for solar~\citep[dashed grey lines;][]{2012A&A...537A.146E} and SMC-like~\citep[solid black lines;][]{2013A&A...558A.103G} metal abundances,
   in which stellar rotation is 40\% of the break-up velocity, are shown for ages of 10-32\,Myr. For comparison, 11 RSGs from the Galactic YMC Perseus OB-1 are overlaid with cyan stars~\citep{2014ApJ...788...58G}.
@@ -531,7 +533,7 @@ The likely value of the $\eta$ parameter is discussed in Section~\ref{sub:dynami
 % section discussion (end)
 
 \section{Conclusions} % (fold)
-\label{sec:conclusions}
+\label{sec:ngc2100conc}
 
 Using KMOS spectra of 14 RSGs in NGC\,2100 for the first time the dynamical properties of this cluster have been estimated.
 Radial velocities have been estimated using KMOS, to a precision of $<~5$\,\kms, demonstrating that this instrument can be used to study the dynamical properties of star clusters in external galaxies.

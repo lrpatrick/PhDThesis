@@ -1,13 +1,35 @@
-\BOOKMARK [0][-]{chapter.1}{First steps outside the Local Group of Galaxies: Red Supergiants in NGC55}{}% 1
-\BOOKMARK [1][-]{section.1.1}{Opening remarks}{chapter.1}% 2
-\BOOKMARK [1][-]{section.1.2}{Introduction}{chapter.1}% 3
-\BOOKMARK [1][-]{section.1.3}{Observations}{chapter.1}% 4
-\BOOKMARK [2][-]{subsection.1.3.1}{Target Selection}{section.1.3}% 5
-\BOOKMARK [1][-]{section.1.4}{Data Reduction}{chapter.1}% 6
-\BOOKMARK [1][-]{section.1.5}{Results}{chapter.1}% 7
-\BOOKMARK [2][-]{subsection.1.5.1}{Radial Velocities}{section.1.5}% 8
-\BOOKMARK [2][-]{subsection.1.5.2}{Stellar Parameters}{section.1.5}% 9
-\BOOKMARK [1][-]{section.1.6}{Discussion}{chapter.1}% 10
-\BOOKMARK [1][-]{section.1.7}{Conclusions}{chapter.1}% 11
-\BOOKMARK [0][-]{chapter.2}{Conclusions and Future Work}{}% 12
-\BOOKMARK [0][-]{section*.10}{Bibliography}{}% 13
+\BOOKMARK [0][-]{chapter.1}{KMOS Observations in NGC6822}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Introduction}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Observations}{chapter.1}% 3
+\BOOKMARK [2][-]{subsection.1.2.1}{Target Selection}{section.1.2}% 4
+\BOOKMARK [2][-]{subsection.1.2.2}{KMOS Observations}{section.1.2}% 5
+\BOOKMARK [1][-]{section.1.3}{Data Reduction}{chapter.1}% 6
+\BOOKMARK [2][-]{subsection.1.3.1}{KMOS/esorex pipeline}{section.1.3}% 7
+\BOOKMARK [2][-]{subsection.1.3.2}{Sky Subtraction}{section.1.3}% 8
+\BOOKMARK [2][-]{subsection.1.3.3}{Telluric Correction}{section.1.3}% 9
+\BOOKMARK [2][-]{subsection.1.3.4}{Three-arm vs 24 arm Telluric Correction}{section.1.3}% 10
+\BOOKMARK [2][-]{subsection.1.3.5}{Telluric Correction Implementation}{section.1.3}% 11
+\BOOKMARK [2][-]{subsection.1.3.6}{MOLECFIT}{section.1.3}% 12
+\BOOKMARK [2][-]{subsection.1.3.7}{Stellar Radial Velocities}{section.1.3}% 13
+\BOOKMARK [1][-]{section.1.4}{Results}{chapter.1}% 14
+\BOOKMARK [2][-]{subsection.1.4.1}{Telluric Comparison}{section.1.4}% 15
+\BOOKMARK [2][-]{subsection.1.4.2}{The Introduction of Magnesium}{section.1.4}% 16
+\BOOKMARK [2][-]{subsection.1.4.3}{Stellar Parameters and Metallicity}{section.1.4}% 17
+\BOOKMARK [1][-]{section.1.5}{Discussion}{chapter.1}% 18
+\BOOKMARK [2][-]{subsection.1.5.1}{Metallicity Measurements}{section.1.5}% 19
+\BOOKMARK [2][-]{subsection.1.5.2}{Temperatures of RSGs}{section.1.5}% 20
+\BOOKMARK [2][-]{subsection.1.5.3}{AGB Contamination}{section.1.5}% 21
+\BOOKMARK [1][-]{section.1.6}{Conclusions}{chapter.1}% 22
+\BOOKMARK [0][-]{chapter.2}{First steps outside the Local Group of Galaxies:Red Supergiants in NGC55}{}% 23
+\BOOKMARK [1][-]{section.2.1}{Opening Remarks}{chapter.2}% 24
+\BOOKMARK [1][-]{section.2.2}{Introduction}{chapter.2}% 25
+\BOOKMARK [1][-]{section.2.3}{Observations}{chapter.2}% 26
+\BOOKMARK [2][-]{subsection.2.3.1}{Target Selection}{section.2.3}% 27
+\BOOKMARK [1][-]{section.2.4}{Observations and Data Reduction}{chapter.2}% 28
+\BOOKMARK [1][-]{section.2.5}{Results}{chapter.2}% 29
+\BOOKMARK [2][-]{subsection.2.5.1}{Radial Velocities}{section.2.5}% 30
+\BOOKMARK [2][-]{subsection.2.5.2}{Stellar Parameters}{section.2.5}% 31
+\BOOKMARK [1][-]{section.2.6}{Discussion}{chapter.2}% 32
+\BOOKMARK [1][-]{section.2.7}{Conclusions}{chapter.2}% 33
+\BOOKMARK [0][-]{appendix.A}{Accronyns}{}% 34
+\BOOKMARK [0][-]{section*.31}{Bibliography}{}% 35

@@ -262,7 +262,7 @@ However, if one observes above the Earth's atmosphere, these lines - and many ot
 \begin{figure}
  \centering
 \includegraphics[width=\textwidth]{JAnal/tell-correction}
-\caption{
+\caption[Three panels showing the effect of telluric absorption on spectral lines]{
 Three panels showing the effect of telluric absorption on spectral lines.
 The top panel shows a synthetic RSG spectrum within the wavelength of interest.
 The middle panel shows a spectrum of the Earth's atmosphere and
@@ -331,7 +331,7 @@ Microturbulence & $\xi$ & 1.0~--~5.0 & 0.2\,$km\,s^{-1}$ \\
 \begin{figure}
  \centering
 \includegraphics[width=\textwidth]{JAnal/varyZv2}
-\caption{
+\caption[An example of the effect of metallicity on the appearance of the model gird spectra]{
 Three example models where only the metallicity is varied, the remaining stellar parameters are fixed at \Teff = 3900\,K, $\log g$ = 0.0 and $\xi$~=~3.0\kms.
 Five diagnostic lines are shown in the two panels.
 Left: Fe\,I $\lambda$1.188285 and Ti\,I $\lambda$ 1.189289.
@@ -341,7 +341,7 @@ Right: Fe\,I $\lambda$1.197305 and Si\,I $\lambda\lambda$ 1.198419, 1.199157.\la
 \begin{figure}
  \centering
 \includegraphics[width=\textwidth]{JAnal/varygv2}
-\caption{
+\caption[An example of the effect of surface gravity on the appearance of the model gird spectra]{
 As in Figure~\ref{fig:mod-z} where surface gravity is varied and the remaining parameters are fixed at [Z] = $-$0.5, \Teff = 3900\,K and $\xi$~=~3.0\kms.\label{fig:mod-g}
          }
 \end{figure}
@@ -376,14 +376,14 @@ In addition, the relative strengths of the two silicon lines
 \begin{figure}
  \centering
 \includegraphics[width=\textwidth]{JAnal/varyTv2}
-\caption{
+\caption[An example of the effect of effective temperature on the appearance of the model gird spectra]{
 As in Figure~\ref{fig:mod-z} where effective temperature is varied and the remaining parameters are fixed at [Z] = $-$0.5, $\log g$ = 0.0 and $\xi$~=~3.0\kms.\label{fig:mod-t}
          }
 \end{figure}
 \begin{figure}
  \centering
 \includegraphics[width=\textwidth]{JAnal/varymicrov2}
-\caption{
+\caption[An example of the effect of microturbulence on the appearance of the model gird spectra]{
 As in Figure~\ref{fig:mod-z} where microturbulence is varied and the remaining parameters are fixed at [Z] = $-$0.5, \Teff = 3900\,K and $\log g$ = 0.0.\label{fig:mod-micro}
          }
 \end{figure}
@@ -424,7 +424,7 @@ Figures~\ref{fig:mod-z}--\ref{fig:mod-micro} show that varying each of the stell
 \begin{figure}
  \centering
 \includegraphics[width=0.65\textwidth]{JAnal/Resolution}
-\caption{
+\caption[An example of the effect of the spectral resoltuion on the appearance of the model gird spectra]{
 One model degraded to four different resolution values.
 This figure demonstrates the how the continuum level changes depending upon
 the resolution of the spectrum.
@@ -487,7 +487,7 @@ In this figure blue points represent the boundaries between the slices of width 
 \begin{figure}
  \centering
 \includegraphics[width=0.65\textwidth]{JAnal/cw}
-\caption[Illustration of continuum width slices and maxima]{
+\caption[Illustration of continuum width slices and maxima on an individual diagnostic lines]{
 Illustration of the continuum width ($cw$) and slicing the model spectrum into regions of $cw\mu$m is able to remove structure in order to fit the continuum.
 The solid black line shows an example of a model spectrum degraded to a resolution of 3000,
 blue points show the boundaries between the slices and red points show the maximum of each slice.\label{fig:cw}
@@ -498,7 +498,7 @@ blue points show the boundaries between the slices and red points show the maxim
 \begin{figure}
  \centering
 \includegraphics[width=\textwidth]{JAnal/cw-3panels}
-\caption[Continuum fitting procedure]{
+\caption[Three panels demonstrating the continuum fitting procedure]{
 Three panels showing an example of how the continuum fitting works using a model spectrum as an example observed spectrum (black solid line) and a separate model spectrum to match the level of the continuum (red solid line).
 The top panel shows the observed spectrum (black solid line) compared with the unscaled model spectrum (red solid line).
 The middle panel overlays continuum points in the observed ($F_{obs}(P_{cont})$; black points) and model spectra ($F_{mod}(P_{cont})$; red points) and displays the final continuum function ($cf_{fin}$; blue dashed line) which is defined from the ratio of these points (equation~\ref{eq:cf_init}).
@@ -509,7 +509,7 @@ The bottom panel shows the observed spectrum (black solid line) with the correct
 \begin{figure}
  \centering
 \includegraphics[width=0.65\textwidth]{JAnal/cftaction}
-\caption[Example of continuum fitting]{
+\caption[An Example of continuum fitting procedure on individual diagnostic lines]{
 An example of the continuum fitting procedure using a model spectrum as an example observed spectrum (black solid line) and a separate model spectrum to match the level of the continuum.
 The dashed blue spectrum denotes the model spectrum before any scaling has taken place.
 The dot-dashed red spectrum denotes the model spectrum after the continuum fitting scaling has been applied.
@@ -589,14 +589,14 @@ or the Fe\,\1$\lambda$1.197305 and Si\,\1$\lambda\lambda$1.198419, 1.199157 line
 \begin{figure}
  \centering
  \includegraphics[width=\textwidth]{JAnal/Diag-lines}
- \caption[Diagnostic lines]{
+ \caption[A model spectum highlighting the diagnostic lines used in the analysis routines]{
 An example of a model spectrum, degraded and resampled to that of a typical observed spectrum, where the regions used to compute the $\chi^{2}$ calculation are highlighted in red.
 \label{fig:lines}
          }
 \end{figure}
 
 \begin{table}
-\caption[Diagnostic lines]{Diagnostic lines used to estimate stellar parameters ordered by wavelength, by species.\label{tb:lines}}
+\caption[A list of the diagnostic lines used to estimate stellar parameters]{Diagnostic lines used to estimate stellar parameters ordered by wavelength, by species.\label{tb:lines}}
 \scriptsize
 \begin{center}
 \begin{tabular}{cc}
@@ -763,7 +763,7 @@ Note that the uncertainties on the parameters in Figure~\ref{fig:tres} are stabl
 \begin{figure}
  \centering
  \includegraphics[width=0.80\textwidth]{JAnal/Fakespec-tres-v1}
- \caption[Analysis test resolution]{
+ \caption[A test to measure the effects of varying the resolution on the best-fit parameters]{
 Best fit parameters using a single fake RSG spectrum generated from a model spectrum by including random Gaussian noise (S/N~=~150) degraded to various resolution values in the range  to a resolution of $R$~=~3000 (and resampled onto the typical sampling for an KMOS spectrum) at varying S/N ratios in the range 50~$<$~S/N~$<$~150.
 \label{fig:tres}
          }
@@ -777,7 +777,7 @@ Therefore for real observed data, we expect this analysis routine to break down 
 \begin{figure}
  \centering
  \includegraphics[width=0.80\textwidth]{JAnal/Fakespec-tsnr-v1}
- \caption[Analysis test S/N]{
+ \caption[A test to measure the effects of varying the S/N on the best-fit parameters]{
 Best fit parameters using a single fake spectrum degraded to a resolution of $R$~=~3000 (and resampled onto the typical sampling for an KMOS spectrum) at varying S/N ratios in the range 50~$<$~S/N~$<$~150.
 \label{fig:snr}
          }
@@ -830,7 +830,7 @@ This could be the result of an underestimate of the uncertainties in the current
 \begin{figure}
  \centering
  \includegraphics[width=0.80\textwidth]{JAnal/NGC2100-par-compare}
- \caption[NGC\,2100 DFK10 best fit parameter comparison]{
+ \caption[The best-fit parameter comparison between the results presented Chapter~\ref{ch:ngc2100} and those of DFK10]{
 A comparison between the best-fit parameters derived for 14 RSGs in NGC\,2100.
 DFK10 results are those published in~\cite{2016arXiv160202702P}.
 \label{fig:n2100DFK}
@@ -840,7 +840,7 @@ DFK10 results are those published in~\cite{2016arXiv160202702P}.
 \begin{figure}
  \centering
  \includegraphics[width=0.80\textwidth]{JAnal/NGC6822-par-compare}
- \caption[NGC\,6822 DFK10 best-fit parameter comparison]{
+ \caption[The best-fit parameter comparison between the results presented Chapter~\ref{ch:ngc6822} and those of DFK10]{
 A comparison between the best fit parameters derived for 11 RSGs in NGC\,6822.
 DFK10 results are those published in~\cite{2015ApJ...803...14P}.
 \label{fig:n6822DFK}
@@ -848,7 +848,7 @@ DFK10 results are those published in~\cite{2015ApJ...803...14P}.
 \end{figure}
 
 \begin{table}
-\caption[Parameter comparisons DFK10]{Average parameters for RSGs in NGC\,2100 and NGC\,6822 using the DFK10 parameter estimation technique and the technique described here\label{tb:DFK10}}
+\caption[Average best-fit parameters for RSGs in Chapters~\ref{ch:ngc2100} and~\ref{ch:ngc6822}]{Average parameters for RSGs in NGC\,2100 and NGC\,6822 using the DFK10 parameter estimation technique and the technique described here\label{tb:DFK10}}
 \scriptsize
 \begin{center}
 \begin{tabular}{c ccc c ccc}

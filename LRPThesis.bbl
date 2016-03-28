@@ -1,4 +1,4 @@
-\begin{thebibliography}{29}
+\begin{thebibliography}{30}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Castro} {et~al}\mbox{.}(2008){Castro}, {Herrero}, {Garcia},
@@ -60,6 +60,11 @@
 {Gieren} W., {Pietrzy{\'n}ski} G., {Soszy{\'n}ski} I., {Bresolin} F.,
   {Kudritzki} R.-P., {Storm} J., {Minniti} D., 2008, \apj, 672, 266
 
+\bibitem[{{H{\'e}nault-Brunet} {et~al}\mbox{.}(2012){H{\'e}nault-Brunet},
+  {Evans}, {Sana}, {Gieles}, {Bastian}, {Ma{\'{\i}}z Apell{\'a}niz}, {Markova},
+  {Taylor}, {Bressert}, {Crowther}, \& {van Loon}}]{2012A&A...546A..73H}
+{H{\'e}nault-Brunet} V. {et~al.}, 2012, \aap, 546, A73
+
 \bibitem[{{Houk}(1978)}]{1978mcts.book.....H}
 {Houk} N., 1978, {Michigan catalogue of two-dimensional spectral types for the
   HD stars}
@@ -77,15 +82,6 @@
   {Sharina}, {Dolphin}, {Geisler}, {Guhathakurta}, {Hodge}, {Karachentseva},
   {Sarajedini}, \& {Seitzer}}]{2003A&A...404...93K}
 {Karachentsev} I.~D. {et~al.}, 2003, \aap, 404, 93
-
-\bibitem[{{Koribalski} {et~al}\mbox{.}(2004){Koribalski}, {Staveley-Smith},
-  {Kilborn}, {Ryder}, {Kraan-Korteweg}, {Ryan-Weber}, {Ekers}, {Jerjen},
-  {Henning}, {Putman}, {Zwaan}, {de Blok}, {Calabretta}, {Disney}, {Minchin},
-  {Bhathal}, {Boyce}, {Drinkwater}, {Freeman}, {Gibson}, {Green}, {Haynes},
-  {Juraszek}, {Kesteven}, {Knezek}, {Mader}, {Marquarding}, {Meyer}, {Mould},
-  {Oosterloo}, {O'Brien}, {Price}, {Sadler}, {Schr{\"o}der}, {Stewart},
-  {Stootman}, {Waugh}, {Warren}, {Webster}, \& {Wright}}]{2004AJ....128...16K}
-{Koribalski} B.~S. {et~al.}, 2004, \aj, 128, 16
 
 \bibitem[{{Lapenna} {et~al}\mbox{.}(2015){Lapenna}, {Origlia}, {Mucciarelli},
   {Lanzoni}, {Ferraro}, {Dalessandro}, {Valenti}, \&
@@ -127,6 +123,9 @@
 \bibitem[{{Robinson} \& {van Damme}(1964)}]{1964IAUS...20..276R}
 {Robinson} B.~J., {van Damme} K.~J., 1964, in IAU Symposium, Vol.~20, The
   Galaxy and the Magellanic Clouds, {Kerr} F.~J., ed., p. 276
+
+\bibitem[{{Schneider}(2015)}]{2015eaci.book.....S}
+{Schneider} P., 2015, {Extragalactic Astronomy and Cosmology: An Introduction}
 
 \bibitem[{{Skrutskie} {et~al}\mbox{.}(2006){Skrutskie}, {Cutri}, {Stiening},
   {Weinberg}, {Schneider}, {Carpenter}, {Beichman}, {Capps}, {Chester},
