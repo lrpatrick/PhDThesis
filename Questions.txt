@@ -2,12 +2,17 @@ Questions:
 
 # Intro
 
-1. What is optical depth and why is it important?
+-- What is re-ionisation of the Universe?
 
-2. How does measuring the width of the MS put constraints upon convection?
+-- What is optical depth and why is it important?
 
+-- How does measuring the width of the MS put constraints upon convection?
 
-How does the rotation impact on the observed KMOS frames?
+-- What has changed in Fig 1.2 since Smartt 2009?
+    -- e.g./i.e. role of binaries in influencing Ibc channels etc
+    -- LBVs
+
+-- How does the rotation impact on the observed KMOS frames?
 
 ‘adiabatic temp gradient’ feels a bit dangling (which is fine as you can’t explain *everything*, but this is the sort of thing where you might get a follow-up question of what you mean by this)
 

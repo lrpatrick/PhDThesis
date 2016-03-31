@@ -1,5 +1,24 @@
-\begin{thebibliography}{30}
+\begin{thebibliography}{43}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{{Asplund} {et~al}\mbox{.}(2009){Asplund}, {Grevesse}, {Sauval}, \&
+  {Scott}}]{2009ARA&A..47..481A}
+{Asplund} M., {Grevesse} N., {Sauval} A.~J., {Scott} P., 2009, \araa, 47, 481
+
+\bibitem[{{Bergemann} {et~al}\mbox{.}(2015){Bergemann}, {Kudritzki}, {Gazak},
+  {Davies}, \& {Plez}}]{2015ApJ...804..113B}
+{Bergemann} M., {Kudritzki} R.-P., {Gazak} Z., {Davies} B., {Plez} B., 2015,
+  \apj, 804, 113
+
+\bibitem[{{Bergemann} {et~al}\mbox{.}(2012){Bergemann}, {Kudritzki}, {Plez},
+  {Davies}, {Lind}, \& {Gazak}}]{2012ApJ...751..156B}
+{Bergemann} M., {Kudritzki} R.-P., {Plez} B., {Davies} B., {Lind} K., {Gazak}
+  Z., 2012, \apj, 751, 156
+
+\bibitem[{{Bergemann} {et~al}\mbox{.}(2013){Bergemann}, {Kudritzki},
+  {W{\"u}rl}, {Plez}, {Davies}, \& {Gazak}}]{2013ApJ...764..115B}
+{Bergemann} M., {Kudritzki} R.-P., {W{\"u}rl} M., {Plez} B., {Davies} B.,
+  {Gazak} Z., 2013, \apj, 764, 115
 
 \bibitem[{{Castro} {et~al}\mbox{.}(2008){Castro}, {Herrero}, {Garcia},
   {Trundle}, {Bresolin}, {Gieren}, {Pietrzy{\'n}ski}, {Kudritzki}, \&
@@ -20,6 +39,21 @@
 
 \bibitem[{{Davidge}(2005)}]{2005ApJ...622..279D}
 {Davidge} T.~J., 2005, \apj, 622, 279
+
+\bibitem[{{Davies} {et~al}\mbox{.}(2015){Davies}, {Kudritzki}, {Gazak}, {Plez},
+  {Bergemann}, {Evans}, \& {Patrick}}]{2015ApJ...806...21D}
+{Davies} B., {Kudritzki} R.-P., {Gazak} Z., {Plez} B., {Bergemann} M., {Evans}
+  C., {Patrick} L., 2015, \apj, 806, 21
+
+\bibitem[{{Davies, B.} {et~al}\mbox{.}(2013){Davies, B.},
+  {\noopsort{b}}{Kudritzki}, {Plez}, {Trager}, {Lan{\c c}on}, {Gazak},
+  {Bergemann}, {Evans}, \& {Chiavassa}}]{2013ApJ...767....3D}
+{Davies, B.} {et~al.}, 2013, ApJ, 767, 3
+
+\bibitem[{{Davies, R.~I.} {et~al}\mbox{.}(2013){Davies, R.~I.}, {Agudo Berbel},
+  {Wiezorrek}, {Cirasuolo}, {F{\"o}rster Schreiber}, {Jung}, {Muschielok},
+  {Ott}, {Ramsay}, {Schlichter}, {Sharples}, \& {Wegner}}]{2013A&A...558A..56D}
+{Davies, R.~I.} {et~al.}, 2013, \aap, 558, A56
 
 \bibitem[{{de Vaucouleurs}(1961)}]{1961ApJ...133..405D}
 {de Vaucouleurs} G., 1961, \apj, 133, 405
@@ -44,10 +78,25 @@
   {Gallagher}}]{1996AJ....112.2567F}
 {Ferguson} A.~M.~N., {Wyse} R.~F.~G., {Gallagher} J.~S., 1996, \aj, 112, 2567
 
+\bibitem[{{Fossati} {et~al}\mbox{.}(2016){Fossati}, {Fumagalli}, {Boselli},
+  {Gavazzi}, {Sun}, \& {Wilman}}]{2016MNRAS.455.2028F}
+{Fossati} M., {Fumagalli} M., {Boselli} A., {Gavazzi} G., {Sun} M., {Wilman}
+  D.~J., 2016, \mnras, 455, 2028
+
+\bibitem[{{Gazak} {et~al}\mbox{.}(2014){Gazak}, {Davies}, {Kudritzki},
+  {Bergemann}, \& {Plez}}]{2014ApJ...788...58G}
+{Gazak} J.~Z., {Davies} B., {Kudritzki} R., {Bergemann} M., {Plez} B., 2014,
+  \apj, 788, 58
+
 \bibitem[{{Gazak} {et~al}\mbox{.}(2015){Gazak}, {Kudritzki}, {Evans},
   {Patrick}, {Davies}, {Bergemann}, {Plez}, {Bresolin}, {Bender}, {Wegner},
   {Bonanos}, \& {Williams}}]{2015ApJ...805..182G}
 {Gazak} J.~Z. {et~al.}, 2015, \apj, 805, 182
+
+\bibitem[{{Georgy} {et~al}\mbox{.}(2013){Georgy}, {Ekstr{\"o}m}, {Eggenberger},
+  {Meynet}, {Haemmerl{\'e}}, {Maeder}, {Granada}, {Groh}, {Hirschi}, {Mowlavi},
+  {Yusof}, {Charbonnel}, {Decressin}, \& {Barblan}}]{2013A&A...558A.103G}
+{Georgy} C. {et~al.}, 2013, \aap, 558, A103
 
 \bibitem[{{Gieren} {et~al}\mbox{.}(2005){Gieren}, {Pietrzynski}, {Bresolin},
   {Kudritzki}, {Minniti}, {Urbaneja}, {Soszynski}, {Storm}, {Fouque}, {Bono},
@@ -59,6 +108,11 @@
   {Minniti}}]{2008ApJ...672..266G}
 {Gieren} W., {Pietrzy{\'n}ski} G., {Soszy{\'n}ski} I., {Bresolin} F.,
   {Kudritzki} R.-P., {Storm} J., {Minniti} D., 2008, \apj, 672, 266
+
+\bibitem[{{Gustafsson} {et~al}\mbox{.}(2008){Gustafsson}, {Edvardsson},
+  {Eriksson}, {J{\o}rgensen}, {Nordlund}, \& {Plez}}]{2008A&A...486..951G}
+{Gustafsson} B., {Edvardsson} B., {Eriksson} K., {J{\o}rgensen} U.~G.,
+  {Nordlund} {\AA}., {Plez} B., 2008, \aap, 486, 951
 
 \bibitem[{{H{\'e}nault-Brunet} {et~al}\mbox{.}(2012){H{\'e}nault-Brunet},
   {Evans}, {Sana}, {Gieles}, {Bastian}, {Ma{\'{\i}}z Apell{\'a}niz}, {Markova},
@@ -83,6 +137,13 @@
   {Sarajedini}, \& {Seitzer}}]{2003A&A...404...93K}
 {Karachentsev} I.~D. {et~al.}, 2003, \aap, 404, 93
 
+\bibitem[{{La Barbera} {et~al}\mbox{.}(2016){La Barbera}, {Vazdekis},
+  {Ferreras}, {Pasquali}, {Cappellari}, {Mart{\'{\i}}n-Navarro},
+  {Sch{\"o}nebeck}, \& {Falc{\'o}n-Barroso}}]{2016MNRAS.457.1468L}
+{La Barbera} F., {Vazdekis} A., {Ferreras} I., {Pasquali} A., {Cappellari} M.,
+  {Mart{\'{\i}}n-Navarro} I., {Sch{\"o}nebeck} F., {Falc{\'o}n-Barroso} J.,
+  2016, \mnras, 457, 1468
+
 \bibitem[{{Lapenna} {et~al}\mbox{.}(2015){Lapenna}, {Origlia}, {Mucciarelli},
   {Lanzoni}, {Ferraro}, {Dalessandro}, {Valenti}, \&
   {Cirasuolo}}]{2015ApJ...798...23L}
@@ -91,6 +152,12 @@
 
 \bibitem[{{Nikolaev} \& {Weinberg}(2000)}]{2000ApJ...542..804N}
 {Nikolaev} S., {Weinberg} M.~D., 2000, ApJ, 542, 804
+
+\bibitem[{{Noll} {et~al}\mbox{.}(2014){Noll}, {Kausch}, {Kimeswenger},
+  {Barden}, {Jones}, {Modigliani}, {Szyszka}, \&
+  {Taylor}}]{2014A&A...567A..25N}
+{Noll} S., {Kausch} W., {Kimeswenger} S., {Barden} M., {Jones} A.~M.,
+  {Modigliani} A., {Szyszka} C., {Taylor} J., 2014, \aap, 567, A25
 
 \bibitem[{{Patrick} {et~al}\mbox{.}(2016){Patrick}, {Evans}, {Davies},
   {Kudritzki}, {H{\'e}nault-Brunet}, {Bastian}, {Lapenna}, \&
@@ -135,10 +202,10 @@
   {Wheelock}}]{2006AJ....131.1163S}
 {Skrutskie} M.~F. {et~al.}, 2006, \aj, 131, 1163
 
-\bibitem[{{Tanaka} {et~al}\mbox{.}(2011){Tanaka}, {Chiba}, {Komiyama},
-  {Guhathakurta}, \& {Kalirai}}]{2011ApJ...738..150T}
-{Tanaka} M., {Chiba} M., {Komiyama} Y., {Guhathakurta} P., {Kalirai} J.~S.,
-  2011, \apj, 738, 150
+\bibitem[{{Tremonti} {et~al}\mbox{.}(2004){Tremonti}, {Heckman}, {Kauffmann},
+  {Brinchmann}, {Charlot}, {White}, {Seibert}, {Peng}, {Schlegel}, {Uomoto},
+  {Fukugita}, \& {Brinkmann}}]{Tremonti04}
+{Tremonti} C.~A. {et~al.}, 2004, ApJ, 613, 898
 
 \bibitem[{{van de Steene} {et~al}\mbox{.}(2006){van de Steene}, {Jacoby},
   {Praet}, {Ciardullo}, \& {Dejonghe}}]{2006A&A...455..891V}

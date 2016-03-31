@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.8)  28 MAR 2016 18:16
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.8)  30 MAR 2016 19:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -490,105 +490,7 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 Package: threeparttable 2003/06/13  v 3.0
 \@tempboxb=\box32
 )
-(./LRPThesis.aux (./ngc6822/ngc6822.aux) (./ngc55/ngc55.aux
-
-LaTeX Warning: Label `sub:target_selection' multiply defined.
-
-
-LaTeX Warning: Label `fig:RvsRV' multiply defined.
-
-) (./Accronyns.aux)
-
-Package natbib Warning: Citation `2008A&A...485...41C' multiply defined.
-
-
-Package natbib Warning: Citation `2012A&A...542A..79C' multiply defined.
-
-
-Package natbib Warning: Citation `2009ApJS..183...67D' multiply defined.
-
-
-Package natbib Warning: Citation `2005ApJ...622..279D' multiply defined.
-
-
-Package natbib Warning: Citation `1961ApJ...133..405D' multiply defined.
-
-
-Package natbib Warning: Citation `1991rc3..book.....D' multiply defined.
-
-
-Package natbib Warning: Citation `2004ApJS..154..248E' multiply defined.
-
-
-Package natbib Warning: Citation `1996AJ....112.2567F' multiply defined.
-
-
-Package natbib Warning: Citation `2015ApJ...805..182G' multiply defined.
-
-
-Package natbib Warning: Citation `2005Msngr.121...23G' multiply defined.
-
-
-Package natbib Warning: Citation `2008ApJ...672..266G' multiply defined.
-
-
-Package natbib Warning: Citation `2012A&A...546A..73H' multiply defined.
-
-
-Package natbib Warning: Citation `1978mcts.book.....H' multiply defined.
-
-
-Package natbib Warning: Citation `1988mcts.book.....H' multiply defined.
-
-
-Package natbib Warning: Citation `1986A&A...166...97H' multiply defined.
-
-
-Package natbib Warning: Citation `2003A&A...404...93K' multiply defined.
-
-
-Package natbib Warning: Citation `2015ApJ...798...23L' multiply defined.
-
-
-Package natbib Warning: Citation `2000ApJ...542..804N' multiply defined.
-
-
-Package natbib Warning: Citation `2016arXiv160202702P' multiply defined.
-
-
-Package natbib Warning: Citation `2015ApJ...803...14P' multiply defined.
-
-
-Package natbib Warning: Citation `2006AJ....132.2556P' multiply defined.
-
-
-Package natbib Warning: Citation `1987ApJ...323...79P' multiply defined.
-
-
-Package natbib Warning: Citation `1991AJ....101..447P' multiply defined.
-
-
-Package natbib Warning: Citation `1964IAUS...20..276R' multiply defined.
-
-
-Package natbib Warning: Citation `2015eaci.book.....S' multiply defined.
-
-
-Package natbib Warning: Citation `2006AJ....131.1163S' multiply defined.
-
-
-Package natbib Warning: Citation `2011ApJ...738..150T' multiply defined.
-
-
-Package natbib Warning: Citation `2006A&A...455..891V' multiply defined.
-
-
-Package natbib Warning: Citation `1983MNRAS.204..743W' multiply defined.
-
-
-Package natbib Warning: Citation `2013MNRAS.434.3511W' multiply defined.
-
-)
+(./LRPThesis.aux (./ngc55/ngc55.aux) (./conclusions/conclusions.aux))
 \openout1 = `LRPThesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
@@ -607,7 +509,8 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
 LaTeX Font Info:    ... okay on input line 31.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 31.
- (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 31.
@@ -702,7 +605,7 @@ LaTeX Info: Redefining \nameref on input line 31.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \c@lstlisting=\count146
-<thesis-frontmatter/crest.pdf, id=144, 614.295pt x 794.97pt>
+<thesis-frontmatter/crest.pdf, id=64, 614.295pt x 794.97pt>
 File: thesis-frontmatter/crest.pdf Graphic file (type pdf)
 
 <use thesis-frontmatter/crest.pdf>
@@ -713,765 +616,44 @@ Package pdftex.def Info: thesis-frontmatter/crest.pdf used on input line 37.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./thesis-frontmatter/crest
 .pdf>]
-\openout2 = `ngc6822/ngc6822.aux'.
+\openout2 = `ngc55/ngc55.aux'.
 
- (./ngc6822/ngc6822.tex
+ (./ngc55/ngc55.tex
 Chapter 1.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern 1.95872pt
 (hyperref)                removed on input line 1.
 
-
-Package natbib Warning: Citation `2010MNRAS.407.1203D' on page 1 undefined on i
-nput line 37.
-
-
-Package natbib Warning: Citation `2015ApJ...806...21D' on page 1 undefined on i
-nput line 40.
-
-
-Package natbib Warning: Citation `2014ApJ...788...58G' on page 1 undefined on i
-nput line 41.
-
-
-Package natbib Warning: Citation `2013Msngr.151...21S' on page 1 undefined on i
-nput line 51.
-
-
-Package natbib Warning: Citation `2011A&A...527A..50E' on page 1 undefined on i
-nput line 56.
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.57 
+l.37 
       [1
 
 
 
 
-]
-
-Package natbib Warning: Citation `2012AJ....144....4M' on page 2 undefined on i
-nput line 60.
-
-
-Package natbib Warning: Citation `2001MNRAS.327..918T' on page 2 undefined on i
-nput line 62.
-
-
-Package natbib Warning: Citation `2013ApJ...779..102K' on page 2 undefined on i
-nput line 62.
-
-
-Package natbib Warning: Citation `2001ApJ...547..765V' on page 2 undefined on i
-nput line 66.
-
-
-Package natbib Warning: Citation `2002PhDT.........3P' on page 2 undefined on i
-nput line 72.
-
-
-Package natbib Warning: Citation `2009ARA&A..47..481A' on page 2 undefined on i
-nput line 74.
-
-
-Package natbib Warning: Citation `2006ApJ...642..813L' on page 2 undefined on i
-nput line 77.
-
-
-Package natbib Warning: Citation `2002AJ....123..832L' on page 2 undefined on i
-nput line 81.
-
-
-Package natbib Warning: Citation `2014ApJ...783...49H' on page 2 undefined on i
-nput line 81.
-
-
-Package natbib Warning: Citation `2000ApJ...537L..95D' on page 2 undefined on i
-nput line 83.
-
-
-Package natbib Warning: Citation `2003MNRAS.341L..39D' on page 2 undefined on i
-nput line 85.
-
-
-Package natbib Warning: Citation `2003ApJ...590L..17K' on page 2 undefined on i
-nput line 85.
-
-
-Package natbib Warning: Citation `2006ApJ...636L..85D' on page 2 undefined on i
-nput line 86.
-
-
-Package natbib Warning: Citation `2011ApJ...738...58H' on page 2 undefined on i
-nput line 88.
-
-
-Package natbib Warning: Citation `2013MNRAS.429.1039H' on page 2 undefined on i
-nput line 88.
-
-
-Package natbib Warning: Citation `2014ApJ...789..147W' on page 2 undefined on i
-nput line 92.
-
-
-Package natbib Warning: Citation `2006A&A...451...99B' on page 2 undefined on i
-nput line 94.
-
-
-Package natbib Warning: Citation `2012A&A...540A.135S' on page 2 undefined on i
-nput line 94.
-
-
-Package natbib Warning: Citation `2001ApJ...547..765V' on page 2 undefined on i
-nput line 96.
-
-
-Package natbib Warning: Citation `2006AJ....131..343D' on page 2 undefined on i
-nput line 96.
-
-
-Package natbib Warning: Citation `2009A&A...505.1027H' on page 2 undefined on i
-nput line 96.
-
-
-Package natbib Warning: Citation `2012AJ....144....2L' on page 2 undefined on i
-nput line 96.
-
-[2]
-
-Package natbib Warning: Citation `2007AJ....134.2474M' on page 3 undefined on i
-nput line 114.
-
-
-Package natbib Warning: Citation `2012A&A...540A.135S' on page 3 undefined on i
-nput line 115.
-
-
-Package natbib Warning: Citation `1998ApJ...501..153M' on page 3 undefined on i
-nput line 119.
-
-
-Package natbib Warning: Citation `2012AJ....144....2L' on page 3 undefined on i
-nput line 120.
-
-
-Package natbib Warning: Citation `2014A&A...562A..32C' on page 3 undefined on i
-nput line 134.
-
-
-Package natbib Warning: Citation `2008SPIE.7019E..0TW' on page 3 undefined on i
-nput line 141.
-
-
-Package natbib Warning: Citation `2012AJ....144....2L' on page 3 undefined on i
-nput line 145.
-
-<ngc6822/N6822_bvr.png, id=181, 578.16pt x 433.62pt>
-File: ngc6822/N6822_bvr.png Graphic file (type png)
-
-<use ngc6822/N6822_bvr.png>
-Package pdftex.def Info: ngc6822/N6822_bvr.png used on input line 150.
-(pdftex.def)             Requested size: 268.1647pt x 201.12173pt.
-
-
-Package natbib Warning: Citation `2012AJ....144....2L' on page 3 undefined on i
-nput line 160.
-
-
-Package natbib Warning: Citation `1998ApJ...500..525S' on page 3 undefined on i
-nput line 160.
-
-
-Package natbib Warning: Citation `2012AJ....144....2L' on page 3 undefined on i
-nput line 160.
-
-
-Package natbib Warning: Citation `1998ApJ...500..525S' on page 3 undefined on i
-nput line 160.
-
-<ngc6822/N6822_jk.png, id=183, 578.16pt x 433.62pt>
-File: ngc6822/N6822_jk.png Graphic file (type png)
- <use ngc6822/N6822_jk.png>
-Package pdftex.def Info: ngc6822/N6822_jk.png used on input line 166.
-(pdftex.def)             Requested size: 268.1647pt x 201.12173pt.
-
-
-Package natbib Warning: Citation `1998ApJ...500..525S' on page 3 undefined on i
-nput line 174.
-
-
-Package natbib Warning: Citation `1998ApJ...500..525S' on page 3 undefined on i
-nput line 174.
-
-<ngc6822/N6822_RSGs_thesis.png, id=186, 722.7pt x 650.43pt>
-File: ngc6822/N6822_RSGs_thesis.png Graphic file (type png)
-
-<use ngc6822/N6822_RSGs_thesis.png>
-Package pdftex.def Info: ngc6822/N6822_RSGs_thesis.png used on input line 181.
-(pdftex.def)             Requested size: 268.1647pt x 241.35005pt.
- [3] [4 <./ngc6822/N6822_bvr.png> <./ngc6822/N6822_jk.png>] [5 <./ngc6822/N6822
-_RSGs_thesis.png>]
-
-Package natbib Warning: Citation `2014ApJ...788...58G' on page 6 undefined on i
-nput line 219.
-
-
-Package natbib Warning: Citation `2007AJ....134.2474M' on page 6 undefined on i
-nput line 282.
-
-
-Package natbib Warning: Citation `2012A&A...540A.135S' on page 6 undefined on i
-nput line 284.
-
-
-Package natbib Warning: Citation `2012AJ....144....2L' on page 6 undefined on i
-nput line 286.
-
-
-Package natbib Warning: Citation `2013A&A...558A..56D' on page 6 undefined on i
-nput line 304.
-
-
-Package natbib Warning: Citation `2013A&A...558A..56D' on page 6 undefined on i
-nput line 306.
-
-[6] [7]
-
-Package natbib Warning: Citation `2014ApJ...788...58G' on page 8 undefined on i
-nput line 337.
-
-
-Package natbib Warning: Citation `2015ApJ...806...21D' on page 8 undefined on i
-nput line 337.
-
-[8] <ngc6822/N6822_RSG17-snapshot.png, id=247, 787.94376pt x 786.94pt>
-File: ngc6822/N6822_RSG17-snapshot.png Graphic file (type png)
-
-<use ngc6822/N6822_RSG17-snapshot.png>
-Package pdftex.def Info: ngc6822/N6822_RSG17-snapshot.png used on input line 36
-8.
-(pdftex.def)             Requested size: 226.91199pt x 226.62173pt.
- [9]
-
-Package natbib Warning: Citation `2015A&A...576A..77S' on page 10 undefined on 
-input line 399.
-
-
-Package natbib Warning: Citation `2015A&A...576A..77S' on page 10 undefined on 
-input line 402.
-
-[10 <./ngc6822/N6822_RSG17-snapshot.png>]
-
-Package natbib Warning: Citation `2013A&A...558A..56D' on page 11 undefined on 
-input line 415.
-
-
-Package natbib Warning: Citation `2013A&A...558A..56D' on page 11 undefined on 
-input line 425.
-
-<ngc6822/N6822_t_compare.png, id=260, 578.16pt x 621.522pt>
-File: ngc6822/N6822_t_compare.png Graphic file (type png)
-
-<use ngc6822/N6822_t_compare.png>
-Package pdftex.def Info: ngc6822/N6822_t_compare.png used on input line 432.
-(pdftex.def)             Requested size: 341.43306pt x 367.03622pt.
- [11] [12 <./ngc6822/N6822_t_compare.png>]
-<ngc6822/N6822_mod_fit.png, id=274, 722.7pt x 1011.78pt>
-File: ngc6822/N6822_mod_fit.png Graphic file (type png)
-
-<use ngc6822/N6822_mod_fit.png>
-Package pdftex.def Info: ngc6822/N6822_mod_fit.png used on input line 494.
-(pdftex.def)             Requested size: 371.30595pt x 519.82973pt.
-
-Underfull \hbox (badness 2600) in paragraph at lines 509--509
-[][]|\OT1/cmr/m/it/10.95 KMOS spec-tra of the NGC6822 RSGs and their as-so-ci-a
-ted
- []
-
-
-Underfull \hbox (badness 2237) in paragraph at lines 509--509
-\OT1/cmr/m/it/10.95 lines used for the anal-y-sis from left-to-right by species
- are:
- []
-
-[13] [14 <./ngc6822/N6822_mod_fit.png>]
-
-Package natbib Warning: Citation `2015A&A...576A..77S' on page 15 undefined on 
-input line 561.
-
-
-Package natbib Warning: Citation `2015A&A...576A..78K' on page 15 undefined on 
-input line 562.
-
-[15]
-
-Package natbib Warning: Citation `2004AJ....128...16K' on page 16 undefined on 
-input line 590.
-
-
-Package natbib Warning: Citation `2001ApJ...547..765V' on page 16 undefined on 
-input line 592.
-
-<ngc6822/N6822_RvsRV-v2.png, id=296, 578.16pt x 433.62pt>
-File: ngc6822/N6822_RvsRV-v2.png Graphic file (type png)
-
-<use ngc6822/N6822_RvsRV-v2.png>
-Package pdftex.def Info: ngc6822/N6822_RvsRV-v2.png used on input line 597.
-(pdftex.def)             Requested size: 268.1647pt x 201.12173pt.
-
-
-Package natbib Warning: Citation `2004AJ....128...16K' on page 16 undefined on 
-input line 605.
-
-
-Package natbib Warning: Citation `2001ApJ...547..765V' on page 16 undefined on 
-input line 605.
-
-
-Package natbib Warning: Citation `2004AJ....128...16K' on page 16 undefined on 
-input line 605.
-
-
-Package natbib Warning: Citation `2001ApJ...547..765V' on page 16 undefined on 
-input line 605.
-
-
-Package natbib Warning: Citation `2010MNRAS.407.1203D' on page 16 undefined on 
-input line 619.
-
-
-Package natbib Warning: Citation `2014ApJ...788...58G' on page 16 undefined on 
-input line 620.
-
-
-Package natbib Warning: Citation `2015ApJ...806...21D' on page 16 undefined on 
-input line 621.
-
-
-Package natbib Warning: Citation `2008A&A...486..951G' on page 16 undefined on 
-input line 626.
-
-
-Package natbib Warning: Citation `2012ApJ...751..156B' on page 16 undefined on 
-input line 629.
-
-
-Package natbib Warning: Citation `2013ApJ...764..115B' on page 16 undefined on 
-input line 629.
-
-[16 <./ngc6822/N6822_RvsRV-v2.png>]
-<ngc6822/N6822_24vs3AT_Z.png, id=310, 578.16pt x 433.62pt>
-File: ngc6822/N6822_24vs3AT_Z.png Graphic file (type png)
-
-<use ngc6822/N6822_24vs3AT_Z.png>
-Package pdftex.def Info: ngc6822/N6822_24vs3AT_Z.png used on input line 677.
-(pdftex.def)             Requested size: 206.28249pt x 154.707pt.
-
-<ngc6822/N6822_24vs3AT_Teff.png, id=311, 578.16pt x 433.62pt>
-File: ngc6822/N6822_24vs3AT_Teff.png Graphic file (type png)
-
-<use ngc6822/N6822_24vs3AT_Teff.png>
-Package pdftex.def Info: ngc6822/N6822_24vs3AT_Teff.png used on input line 678.
-
-(pdftex.def)             Requested size: 206.28249pt x 154.707pt.
-
-<ngc6822/N6822_24vs3AT_logg.png, id=312, 578.16pt x 433.62pt>
-File: ngc6822/N6822_24vs3AT_logg.png Graphic file (type png)
-
-<use ngc6822/N6822_24vs3AT_logg.png>
-Package pdftex.def Info: ngc6822/N6822_24vs3AT_logg.png used on input line 679.
-
-(pdftex.def)             Requested size: 206.28249pt x 154.707pt.
-
-<ngc6822/N6822_24vs3AT_Xi.png, id=313, 578.16pt x 433.62pt>
-File: ngc6822/N6822_24vs3AT_Xi.png Graphic file (type png)
-
-<use ngc6822/N6822_24vs3AT_Xi.png>
-Package pdftex.def Info: ngc6822/N6822_24vs3AT_Xi.png used on input line 680.
-(pdftex.def)             Requested size: 206.28249pt x 154.707pt.
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 674--682
- []$ 
- []
-
-
-Package natbib Warning: Citation `2015ApJ...804..113B' on page 17 undefined on 
-input line 746.
-
-
-Package natbib Warning: Citation `2015ApJ...804..113B' on page 17 undefined on 
-input line 748.
-
-[17] [18 <./ngc6822/N6822_24vs3AT_Z.png> <./ngc6822/N6822_24vs3AT_Teff.png> <./
-ngc6822/N6822_24vs3AT_logg.png> <./ngc6822/N6822_24vs3AT_Xi.png>] [19]
-<ngc6822/N6822-Mg-compare.png, id=341, 1156.32pt x 867.24pt>
-File: ngc6822/N6822-Mg-compare.png Graphic file (type png)
-
-<use ngc6822/N6822-Mg-compare.png>
-Package pdftex.def Info: ngc6822/N6822-Mg-compare.png used on input line 764.
-(pdftex.def)             Requested size: 412.56497pt x 309.414pt.
-
-Underfull \hbox (badness 1675) in paragraph at lines 780--780
-[][]|\OT1/cmr/m/it/10.95 Com-par-i-son of the model pa-ram-e-ters in-clud-ing a
-nd ex-clud-ing
- []
-
-
-Underfull \hbox (badness 1881) in paragraph at lines 780--780
-\OT1/cmr/m/it/10.95 Mg\OT1/cmr/m/it/10 I \OT1/cmr/m/it/12 lines. In each panel,
- the x-axis rep-re-sents stel-lar
- []
-
-
-Package natbib Warning: Citation `1999A&A...352L..40M' on page 20 undefined on 
-input line 841.
-
-
-Package natbib Warning: Citation `2001ApJ...547..765V' on page 20 undefined on 
-input line 841.
-
-
-Package natbib Warning: Citation `2001ApJ...547..765V' on page 20 undefined on 
-input line 845.
-
-
-Package natbib Warning: Citation `2009ARA&A..47..481A' on page 20 undefined on 
-input line 851.
-
-
-Package natbib Warning: Citation `2001ApJ...547..765V' on page 20 undefined on 
-input line 864.
-
-
-Package natbib Warning: Citation `1999A&A...352L..40M' on page 20 undefined on 
-input line 865.
-
-[20] [21 <./ngc6822/N6822-Mg-compare.png>] [22]
-<ngc6822/N6822_ZvsR-thesis.png, id=366, 578.16pt x 433.62pt>
-File: ngc6822/N6822_ZvsR-thesis.png Graphic file (type png)
-
-<use ngc6822/N6822_ZvsR-thesis.png>
-Package pdftex.def Info: ngc6822/N6822_ZvsR-thesis.png used on input line 878.
-(pdftex.def)             Requested size: 206.28249pt x 154.707pt.
-
-<ngc6822/N6822_ZvsR_BSG.png, id=367, 578.16pt x 433.62pt>
-File: ngc6822/N6822_ZvsR_BSG.png Graphic file (type png)
-
-<use ngc6822/N6822_ZvsR_BSG.png>
-Package pdftex.def Info: ngc6822/N6822_ZvsR_BSG.png used on input line 879.
-(pdftex.def)             Requested size: 206.28249pt x 154.707pt.
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 875--881
- []$ 
- []
-
-
-Package natbib Warning: Citation `2001ApJ...547..765V' on page 23 undefined on 
-input line 896.
-
-
-Package natbib Warning: Citation `1999A&A...352L..40M' on page 23 undefined on 
-input line 896.
-
-
-Package natbib Warning: Citation `2012AJ....144....4M' on page 23 undefined on 
-input line 896.
-
-
-Package natbib Warning: Citation `2001ApJ...547..765V' on page 23 undefined on 
-input line 896.
-
-
-Package natbib Warning: Citation `1999A&A...352L..40M' on page 23 undefined on 
-input line 896.
-
-
-Package natbib Warning: Citation `2012AJ....144....4M' on page 23 undefined on 
-input line 896.
-
-
-Package natbib Warning: Citation `2013ApJ...767....3D' on page 23 undefined on 
-input line 901.
-
-
-Package natbib Warning: Citation `2013A&A...558A.103G' on page 23 undefined on 
-input line 904.
-
-<ngc6822/N6822_HRD_thesis.png, id=370, 578.16pt x 433.62pt>
-File: ngc6822/N6822_HRD_thesis.png Graphic file (type png)
-
-<use ngc6822/N6822_HRD_thesis.png>
-Package pdftex.def Info: ngc6822/N6822_HRD_thesis.png used on input line 910.
-(pdftex.def)             Requested size: 268.1647pt x 201.12173pt.
-
-
-Package natbib Warning: Citation `2013A&A...558A.103G' on page 23 undefined on 
-input line 922.
-
-
-Package natbib Warning: Citation `2013ApJ...767....3D' on page 23 undefined on 
-input line 922.
-
-
-Package natbib Warning: Citation `2013A&A...558A.103G' on page 23 undefined on 
-input line 922.
-
-
-Package natbib Warning: Citation `2013ApJ...767....3D' on page 23 undefined on 
-input line 922.
-
-
-Package natbib Warning: Citation `1999A&A...352L..40M' on page 23 undefined on 
-input line 938.
-
-
-Package natbib Warning: Citation `2001ApJ...547..765V' on page 23 undefined on 
-input line 938.
-
-
-Package natbib Warning: Citation `2002PhDT.........3P' on page 23 undefined on 
-input line 938.
-
-
-Package natbib Warning: Citation `2006ApJ...642..813L' on page 23 undefined on 
-input line 939.
-
-[23 <./ngc6822/N6822_ZvsR-thesis.png> <./ngc6822/N6822_ZvsR_BSG.png>]
-
-Package natbib Warning: Citation `2001ApJ...547..765V' on page 24 undefined on 
-input line 946.
-
-
-Package natbib Warning: Citation `1980MNRAS.193..219P' on page 24 undefined on 
-input line 948.
-
-
-Package natbib Warning: Citation `1995ApJ...445..642R' on page 24 undefined on 
-input line 949.
-
-
-Package natbib Warning: Citation `2015MNRAS.448.2030H' on page 24 undefined on 
-input line 951.
-
-
-Package natbib Warning: Citation `2001ApJ...547..765V' on page 24 undefined on 
-input line 953.
-
-
-Package natbib Warning: Citation `1999A&A...352L..40M' on page 24 undefined on 
-input line 960.
-
-
-Package natbib Warning: Citation `2006ApJ...642..813L' on page 24 undefined on 
-input line 965.
-
-[24 <./ngc6822/N6822_HRD_thesis.png>]
-
-Package natbib Warning: Citation `2001MNRAS.327..918T' on page 25 undefined on 
-input line 980.
-
-
-Package natbib Warning: Citation `2012A&A...540A.135S' on page 25 undefined on 
-input line 983.
-
-
-Package natbib Warning: Citation `2013ApJ...779..102K' on page 25 undefined on 
-input line 986.
-
-
-Package natbib Warning: Citation `2004AJ....128...16K' on page 25 undefined on 
-input line 997.
-
-
-Package natbib Warning: Citation `2008MNRAS.390.1453W' on page 25 undefined on 
-input line 999.
-
-
-Package natbib Warning: Citation `2013ApJ...779..102K' on page 25 undefined on 
-input line 999.
-
-
-Package natbib Warning: Citation `2014ApJ...789..147W' on page 25 undefined on 
-input line 999.
-
-[25]
-
-Package natbib Warning: Citation `2015MNRAS.450..342K' on page 26 undefined on 
-input line 1011.
-
-
-Package natbib Warning: Citation `2012A&A...539A.143N' on page 26 undefined on 
-input line 1012.
-
-
-Package natbib Warning: Citation `2003ApJ...587..278W' on page 26 undefined on 
-input line 1014.
-
-
-Package natbib Warning: Citation `2013ApJ...779..115B' on page 26 undefined on 
-input line 1014.
-
-
-Package natbib Warning: Citation `2010A&A...512A..68G' on page 26 undefined on 
-input line 1026.
-
-
-Package natbib Warning: Citation `2011ApJ...730...88E' on page 26 undefined on 
-input line 1026.
-
-
-Package natbib Warning: Citation `2011ApJ...730...88E' on page 26 undefined on 
-input line 1030.
-
-
-Package natbib Warning: Citation `2014ApJ...789..147W' on page 26 undefined on 
-input line 1030.
-
-
-Package natbib Warning: Citation `2014ApJ...788...58G' on page 26 undefined on 
-input line 1045.
-
-
-Package natbib Warning: Citation `2015ApJ...806...21D' on page 26 undefined on 
-input line 1046.
-
-[26]
-
-Package natbib Warning: Citation `2013ApJ...767....3D' on page 27 undefined on 
-input line 1053.
-
-<ngc6822/N6822_TeffvsZ-thesis.png, id=401, 578.16pt x 433.62pt>
-File: ngc6822/N6822_TeffvsZ-thesis.png Graphic file (type png)
-
-<use ngc6822/N6822_TeffvsZ-thesis.png>
-Package pdftex.def Info: ngc6822/N6822_TeffvsZ-thesis.png used on input line 10
-58.
-(pdftex.def)             Requested size: 268.1647pt x 201.12173pt.
-
-
-Package natbib Warning: Citation `2015ApJ...806...21D' on page 27 undefined on 
-input line 1067.
-
-
-Package natbib Warning: Citation `2014ApJ...788...58G' on page 27 undefined on 
-input line 1067.
-
-
-Package natbib Warning: Citation `2015ApJ...806...21D' on page 27 undefined on 
-input line 1067.
-
-
-Package natbib Warning: Citation `2014ApJ...788...58G' on page 27 undefined on 
-input line 1067.
-
-<ngc6822/N6822_HRD_all_thesis.png, id=404, 578.16pt x 433.62pt>
-File: ngc6822/N6822_HRD_all_thesis.png Graphic file (type png)
-
-<use ngc6822/N6822_HRD_all_thesis.png>
-Package pdftex.def Info: ngc6822/N6822_HRD_all_thesis.png used on input line 10
-72.
-(pdftex.def)             Requested size: 268.1647pt x 201.12173pt.
-
-
-Package natbib Warning: Citation `2013A&A...558A.103G' on page 27 undefined on 
-input line 1080.
-
-
-Package natbib Warning: Citation `2012A&A...537A.146E' on page 27 undefined on 
-input line 1080.
-
-
-Package natbib Warning: Citation `2013A&A...558A.103G' on page 27 undefined on 
-input line 1080.
-
-
-Package natbib Warning: Citation `2012A&A...537A.146E' on page 27 undefined on 
-input line 1080.
-
-
-Package natbib Warning: Citation `2012A&A...537A.146E' on page 27 undefined on 
-input line 1087.
-
-
-Package natbib Warning: Citation `2013A&A...558A.103G' on page 27 undefined on 
-input line 1087.
-
-
-Package natbib Warning: Citation `2014ApJ...788...58G' on page 27 undefined on 
-input line 1090.
-
-
-Package natbib Warning: Citation `1992A&AS...96..269S' on page 27 undefined on 
-input line 1093.
-
-[27 <./ngc6822/N6822_TeffvsZ-thesis.png>]
-
-Package natbib Warning: Citation `1979ApJ...231..384H' on page 28 undefined on 
-input line 1097.
-
-
-Package natbib Warning: Citation `2012AJ....144....2L' on page 28 undefined on 
-input line 1097.
-
-
-Package natbib Warning: Citation `1979ApJ...231..384H' on page 28 undefined on 
-input line 1098.
-
-
-Package natbib Warning: Citation `2013ApJ...767....3D' on page 28 undefined on 
-input line 1105.
-
-
-Package natbib Warning: Citation `2005ARA&A..43..435H' on page 28 undefined on 
-input line 1117.
-
-
-Package natbib Warning: Citation `2010MNRAS.401.1453D' on page 28 undefined on 
-input line 1119.
-
-
-Package natbib Warning: Citation `1983ApJ...272...99W' on page 28 undefined on 
-input line 1120.
-
-[28 <./ngc6822/N6822_HRD_all_thesis.png>]
-
-Package natbib Warning: Citation `2010MNRAS.407.1203D' on page 29 undefined on 
-input line 1139.
-
-) [29]
-\openout2 = `ngc55/ngc55.aux'.
-
- (./ngc55/ngc55.tex
-Chapter 2.
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                \kern 1.95872pt
-(hyperref)                removed on input line 1.
-
-[30
-
-
-
-] <ngc55/eso0914a.png, id=458, 4015.0pt x 3660.67625pt>
+] <ngc55/eso0914a.png, id=114, 4015.0pt x 3660.67625pt>
 File: ngc55/eso0914a.png Graphic file (type png)
 
 <use ngc55/eso0914a.png>
 Package pdftex.def Info: ngc55/eso0914a.png used on input line 49.
 (pdftex.def)             Requested size: 268.1647pt x 244.48763pt.
- [31]
+ [2]
 
-LaTeX Warning: Reference `sec:ngc55data_red' on page 32 undefined on input line
- 67.
+LaTeX Warning: Reference `sec:ngc55data_red' on page 3 undefined on input line 
+67.
 
 
-LaTeX Warning: Reference `ch:janal' on page 32 undefined on input line 68.
+LaTeX Warning: Reference `ch:janal' on page 3 undefined on input line 68.
 
-[32 <./ngc55/eso0914a.png>]
-<ngc55/ngc55_fields-v3.png, id=504, 1156.32pt x 622.9674pt>
+
+LaTeX Warning: Reference `sec:ngc55disc' on page 3 undefined on input line 69.
+
+[3 <./ngc55/eso0914a.png>]
+<ngc55/ngc55_fields-v3.png, id=163, 1156.32pt x 622.9674pt>
 File: ngc55/ngc55_fields-v3.png Graphic file (type png)
 
 <use ngc55/ngc55_fields-v3.png>
@@ -1479,238 +661,289 @@ Package pdftex.def Info: ngc55/ngc55_fields-v3.png used on input line 98.
 (pdftex.def)             Requested size: 412.56497pt x 222.26239pt.
 
 
-LaTeX Warning: Reference `ch:n6822' on page 33 undefined on input line 113.
+LaTeX Warning: Reference `ch:n6822' on page 4 undefined on input line 113.
 
-[33 <./ngc55/ngc55_fields-v3.png>]
-<ngc55/ngc55-v_i_angst.png, id=528, 433.62pt x 578.16pt>
+<ngc55/ngc55-v_i_angst.png, id=180, 433.62pt x 578.16pt>
 File: ngc55/ngc55-v_i_angst.png Graphic file (type png)
 
 <use ngc55/ngc55-v_i_angst.png>
 Package pdftex.def Info: ngc55/ngc55-v_i_angst.png used on input line 117.
 (pdftex.def)             Requested size: 185.65297pt x 247.53648pt.
- [34 <./ngc55/ngc55-v_i_angst.png>] [35]
-[36]
+ [4] [5 <./ngc55/ngc55_fields-v3.png> <./ngc55/ngc55-v_i_angst.png>]
 
-LaTeX Warning: Reference `ch:janal' on page 37 undefined on input line 244.
+LaTeX Warning: Reference `ch:janal' on page 6 undefined on input line 245.
 
+[6] [7] [8]
 
-Package natbib Warning: Citation `2013A&A...558A..56D' on page 37 undefined on 
-input line 307.
+LaTeX Warning: Reference `ch:n6822' on page 9 undefined on input line 312.
 
+[9]
 
-Package natbib Warning: Citation `2013A&A...558A..56D' on page 37 undefined on 
-input line 309.
+LaTeX Warning: Reference `ch:n2100' on page 10 undefined on input line 342.
 
-
-Package natbib Warning: Citation `2014A&A...567A..25N' on page 37 undefined on 
-input line 310.
-
-
-Package natbib Warning: Citation `2014A&A...567A..25N' on page 37 undefined on 
-input line 312.
-
-
-Package natbib Warning: Citation `2016MNRAS.455.2028F' on page 37 undefined on 
-input line 312.
-
-
-Package natbib Warning: Citation `2016MNRAS.457.1468L' on page 37 undefined on 
-input line 312.
-
-[37]
-
-LaTeX Warning: Reference `ch:n6822' on page 38 undefined on input line 329.
-
-
-LaTeX Warning: Reference `ch:n2100' on page 38 undefined on input line 356.
-
-[38] <ngc55/NGC55-RvsRV.png, id=593, 578.16pt x 433.62pt>
+[10] <ngc55/NGC55-RvsRV.png, id=289, 578.16pt x 433.62pt>
 File: ngc55/NGC55-RvsRV.png Graphic file (type png)
 
 <use ngc55/NGC55-RvsRV.png>
-Package pdftex.def Info: ngc55/NGC55-RvsRV.png used on input line 375.
+Package pdftex.def Info: ngc55/NGC55-RvsRV.png used on input line 362.
 (pdftex.def)             Requested size: 268.1647pt x 201.12173pt.
- [39]
+ [11 <./ngc55/NGC55-RvsRV.png>]
 
-LaTeX Warning: Reference `ch:ngc2100' on page 40 undefined on input line 391.
+LaTeX Warning: Reference `ch:ngc2100' on page 12 undefined on input line 378.
 
 
-Overfull \hbox (44.11232pt too wide) in paragraph at lines 400--402
-[]\OT1/cmr/m/n/12 Comparison to pre-vi-ous re-sults []Cas-tro et al[][] ([]2012
-[]) find av-er-age [Z] = $\OMS/cmsy/m/n/12 ^^@$\OT1/cmr/m/n/12 0.4$\OMS/cmsy/m/
-n/12 ^^F$\OT1/cmr/m/n/12 0.13dex 
+LaTeX Warning: Reference `ch:janal' on page 12 undefined on input line 385.
+
+
+LaTeX Warning: Reference `ch:janal' on page 12 undefined on input line 387.
+
+
+LaTeX Warning: Reference `tb:mod_range' on page 12 undefined on input line 387.
+
+
+
+LaTeX Warning: Reference `fig:ngc55spec' on page 12 undefined on input line 394
+.
+
+[12]
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.429 \end{tablenotes}
+                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<ngc55/NGC55-model-fits.png, id=343, 578.16pt x 622.9674pt>
+File: ngc55/NGC55-model-fits.png Graphic file (type png)
+
+<use ngc55/NGC55-model-fits.png>
+Package pdftex.def Info: ngc55/NGC55-model-fits.png used on input line 438.
+(pdftex.def)             Requested size: 309.42372pt x 333.40309pt.
+
+Underfull \hbox (badness 4673) in paragraph at lines 450--450
+\OT1/cmr/m/it/10.95 from left-to-right by species, are Fe\OT1/cmr/m/it/8 I$ \OM
+L/cmm/m/it/10.95 ^^U^^U$\OT1/cmr/m/it/10.95 1.188285, 1.197305;
  []
 
-[40 <./ngc55/NGC55-RvsRV.png>] (./LRPThesis.bbl [41]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.74 ... HD Stars. Volume 4, Declinations -26{\deg
-                                                  }.0 to
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+<ngc55/NGC55-ZvsR.png, id=344, 578.16pt x 433.62pt>
+File: ngc55/NGC55-ZvsR.png Graphic file (type png)
+ <use ngc55/NGC55-ZvsR.png>
+Package pdftex.def Info: ngc55/NGC55-ZvsR.png used on input line 457.
+(pdftex.def)             Requested size: 268.1647pt x 201.12173pt.
 
-! Extra }, or forgotten $.
-<recently read> }
-                 
-l.74 ...HD Stars. Volume 4, Declinations -26{\deg}
-                                                  .0 to
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+Underfull \hbox (badness 3396) in paragraph at lines 459--459
+\OT1/cmr/m/it/10.95 All Sky Sur-vey (2MASS; []Skrut-skie et al[][], []2006[]) s
+caled by
+ []
 
-! Extra }, or forgotten $.
-l.75   -12{\deg}.0.}
-                    
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+<ngc55/NGC55-HRD.png, id=363, 578.16pt x 433.62pt>
+File: ngc55/NGC55-HRD.png Graphic file (type png)
+ <use ngc55/NGC55-HRD.png>
+Package pdftex.def Info: ngc55/NGC55-HRD.png used on input line 471.
+(pdftex.def)             Requested size: 268.1647pt x 201.12173pt.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.76 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
-! Missing } inserted.
-<inserted text> 
-                }
-l.76 
-     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+LaTeX Warning: Reference `ch:janal' on page 13 undefined on input line 519.
 
-[42
+[13] [14 <./ngc55/NGC55-model-fits.png>] [15 <./ngc55/NGC55-ZvsR.png> <./ngc55/
+NGC55-HRD.png>]) [16]
+\openout2 = `conclusions/conclusions.aux'.
+
+ (./conclusions/conclusions.tex
+Chapter 2.
+
+LaTeX Warning: Reference `ch:ngc2100' on page 17 undefined on input line 13.
+
+[17
+
+
 
 ]
-! Missing } inserted.
-<inserted text> 
-                }
-l.155 \end{thebibliography}
-                           
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
 
-)) [43]
-\openout2 = `Accronyns.aux'.
+LaTeX Warning: Reference `ch:ngc6822' on page 18 undefined on input line 26.
 
- (./Accronyns.tex
-Appendix A.
+[18] <conclusions/MZR-RSGs.png, id=409, 578.16pt x 433.62pt>
+File: conclusions/MZR-RSGs.png Graphic file (type png)
 
-LaTeX Warning: Reference `ch:kmos' on page 44 undefined on input line 18.
+<use conclusions/MZR-RSGs.png>
+Package pdftex.def Info: conclusions/MZR-RSGs.png used on input line 63.
+(pdftex.def)             Requested size: 412.56497pt x 309.42061pt.
 
 
-LaTeX Warning: Reference `ch:janal' on page 44 undefined on input line 21.
+LaTeX Warning: Reference `ch:ngc2100' on page 19 undefined on input line 77.
 
-)
-Underfull \hbox (badness 10000) in paragraph at lines 2--142
 
+LaTeX Warning: Reference `ch:ngc6822' on page 19 undefined on input line 77.
+
+
+LaTeX Warning: Reference `ch:ngc2100' on page 19 undefined on input line 77.
+
+
+LaTeX Warning: Reference `ch:ngc6822' on page 19 undefined on input line 77.
+
+
+Underfull \hbox (badness 1701) in paragraph at lines 77--77
+[][]|\OT1/cmr/m/it/10.95 The mass-metallicity re-la-tion (MZR) for red su-per-g
+iant stars
  []
 
-[44
+[19] [20 <./conclusions/MZR-RSGs.png>]
+<conclusions/RSGTeffvsZ-all.png, id=454, 578.16pt x 433.62pt>
+File: conclusions/RSGTeffvsZ-all.png Graphic file (type png)
+
+<use conclusions/RSGTeffvsZ-all.png>
+Package pdftex.def Info: conclusions/RSGTeffvsZ-all.png used on input line 104.
+
+(pdftex.def)             Requested size: 412.56497pt x 309.42061pt.
 
 
+LaTeX Warning: Reference `ch:ngc2100' on page 21 undefined on input line 116.
 
-] [45] (./LRPThesis.bblpdfTeX warning (ext4): destination with the same identif
-ier (name{cite.2008A&A...485...41C}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.6   {Demarco}}]{2008A&A...485...41C}
-                                      pdfTeX warning (ext4): destination with t
-he same identifier (name{cite.2012A&A...542A..79C}) has been already used, dupl
-icate ignored
-<to be read again> 
-                   \relax 
-l.11 ...itzki}, \& {Gieren}}]{2012A&A...542A..79C}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2009ApJS..183...67D}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.18 ...ernato}, \& {Quinn}}]{2009ApJS..183...67D}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2005ApJ...622..279D}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.21 ...em[{{Davidge}(2005)}]{2005ApJ...622..279D}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.1961ApJ...133..405D}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.24 ... Vaucouleurs}(1961)}]{1961ApJ...133..405D}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.1991rc3..book.....D}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.29   {Fouqu{\'e}}}]{1991rc3..book.....D}
-                                          pdfTeX warning (ext4): destination wi
-th the same identifier (name{cite.2004ApJS..154..248E}) has been already used, 
-duplicate ignored
-<to be read again> 
-                   \relax 
-l.40 ...ayer}, \& {Wachter}}]{2004ApJS..154..248E}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.1996AJ....112.2567F}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.44   {Gallagher}}]{1996AJ....112.2567F}
-                                         pdfTeX warning (ext4): destination wit
-h the same identifier (name{cite.2015ApJ...805..182G}) has been already used, d
-uplicate ignored
-<to be read again> 
-                   \relax 
-l.49 ...nos}, \& {Williams}}]{2015ApJ...805..182G}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2005Msngr.121...23G}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.54 ...alker}, \& {Garcia}}]{2005Msngr.121...23G}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2008ApJ...672..266G}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.59   {Minniti}}]{2008ApJ...672..266G}
-                                       pdfTeX warning (ext4): destination with 
-the same identifier (name{cite.2012A&A...546A..73H}) has been already used, dup
-licate ignored
-<to be read again> 
-                   \relax 
-l.65 ...her}, \& {van Loon}}]{2012A&A...546A..73H}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.1978mcts.book.....H}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.68 \bibitem[{{Houk}(1978)}]{1978mcts.book.....H}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.1988mcts.book.....H}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.72 ...{Smith-Moore}(1988)}]{1988mcts.book.....H}
+
+LaTeX Warning: Reference `ch:ngc6822' on page 21 undefined on input line 116.
+
+
+LaTeX Warning: Reference `ch:ngc2100' on page 21 undefined on input line 116.
+
+
+LaTeX Warning: Reference `ch:ngc6822' on page 21 undefined on input line 116.
+
+[21] [22 <./conclusions/RSGTeffvsZ-all.png>]
+
+LaTeX Warning: Reference `ch:ngc6822' on page 23 undefined on input line 127.
+
+
+LaTeX Warning: Reference `ch:ngc6822' on page 23 undefined on input line 128.
+
+
+LaTeX Warning: Reference `fig:N6822' on page 23 undefined on input line 128.
+
+
+LaTeX Warning: Reference `ch:ngc2100' on page 23 undefined on input line 136.
+
+
+LaTeX Warning: Reference `ch:ngc2100' on page 23 undefined on input line 138.
+
+[23]
+
+LaTeX Warning: Reference `ch:janal' on page 24 undefined on input line 142.
+
+) [24] (./LRPThesis.bbl
+! Undefined control sequence.
+<write> ...}\mbox {.}}}{{{Davies, B.}, {\noopsort 
+                                                  {b}}{Kudritzki}, {Plez}, {...
+l.50 ...ns}, \& {Chiavassa}}]{2013ApJ...767....3D}
                                                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[25
+
+
+
+]
+! Incomplete \iffalse; all text was ignored after line 113.
+<inserted text> 
+                \fi 
+l.113 ...rdlund}, \& {Plez}}]{2008A&A...486..951G}
+                                                  
+A forbidden control sequence occurred in skipped text.
+This kind of error happens when you say `\if...' and forget
+the matching `\fi'. I've inserted a `\fi'; this might work.
+
+! Incomplete \iffalse; all text was ignored after line 113.
+<inserted text> 
+                \fi 
+l.113 ...rdlund}, \& {Plez}}]{2008A&A...486..951G}
+                                                  
+A forbidden control sequence occurred in skipped text.
+This kind of error happens when you say `\if...' and forget
+the matching `\fi'. I've inserted a `\fi'; this might work.
+
+Runaway text?
+\bibcite{2008A&A...486..951G}{{22}{2008}{{{Gustafsson} {et~al}\unhbox \ETC.
+! Forbidden control sequence found while scanning text of \write.
+<inserted text> 
+                }
+l.113 ...rdlund}, \& {Plez}}]{2008A&A...486..951G}
+                                                  
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+Runaway text?
+\bibcite{2008A&A...486..951G}{{22}{2008}{{{Gustafsson} {et~al}\unhbox \ETC.
+! Forbidden control sequence found while scanning text of \write.
+<inserted text> 
+                }
+l.113 ...rdlund}, \& {Plez}}]{2008A&A...486..951G}
+                                                  
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+Runaway text?
+\bibcite{2008A&A...486..951G}{{22}{2008}{{{Gustafsson} {et~al}\unhbox \ETC.
+! Forbidden control sequence found while scanning text of \write.
+<inserted text> 
+                }
+l.113 ...rdlund}, \& {Plez}}]{2008A&A...486..951G}
+                                                  
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+Runaway text?
+\bibcite{2008A&A...486..951G}{{22}{2008}{{{Gustafsson} {et~al}\unhbox \ETC.
+! Forbidden control sequence found while scanning text of \write.
+<inserted text> 
+                }
+l.113 ...rdlund}, \& {Plez}}]{2008A&A...486..951G}
+                                                  
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+Runaway text?
+\bibcite{2008A&A...486..951G}{{22}{2008}{{{Gustafsson} {et~al}\unhbox \ETC.
+! Forbidden control sequence found while scanning text of \write.
+<inserted text> 
+                }
+l.113 ...rdlund}, \& {Plez}}]{2008A&A...486..951G}
+                                                  
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+Runaway text?
+\bibcite{2008A&A...486..951G}{{22}{2008}{{{Gustafsson} {et~al}\unhbox \ETC.
+! Forbidden control sequence found while scanning text of \write.
+<inserted text> 
+                }
+l.113 ...rdlund}, \& {Plez}}]{2008A&A...486..951G}
+                                                  
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.74 ... HD Stars. Volume 4, Declinations -26{\deg
+l.128 ...HD Stars. Volume 4, Declinations -26{\deg
                                                   }.0 to
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1718,7 +951,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <recently read> }
                  
-l.74 ...HD Stars. Volume 4, Declinations -26{\deg}
+l.128 ...D Stars. Volume 4, Declinations -26{\deg}
                                                   .0 to
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1727,8 +960,8 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Extra }, or forgotten $.
-l.75   -12{\deg}.0.}
-                    
+l.129   -12{\deg}.0.}
+                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -1738,125 +971,27 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.76 
-     
+l.130 
+      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.76 
-     
+l.130 
+      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-pdfTeX warning (ext4): destination with the same identifier (name{cite.1986A&A.
-..166...97H}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.78   {Wielebinski}}]{1986A&A...166...97H}
-                                           pdfTeX warning (ext4): destination w
-ith the same identifier (name{cite.2003A&A...404...93K}) has been already used,
- duplicate ignored
-<to be read again> 
-                   \relax 
-l.83 ...dini}, \& {Seitzer}}]{2003A&A...404...93K}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2015ApJ...798...23L}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.88   {Cirasuolo}}]{2015ApJ...798...23L}
-                                         pdfTeX warning (ext4): destination wit
-h the same identifier (name{cite.2000ApJ...542..804N}) has been already used, d
-uplicate ignored
-<to be read again> 
-                   \relax 
-l.92 ...\& {Weinberg}(2000)}]{2000ApJ...542..804N}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2016arXiv160202702P}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.97   {Bergemann}}]{2016arXiv160202702P}
-                                          [46
-
-
-
-]pdfTeX warning (ext4): destination with the same identifier (name{cite.2015ApJ
-...803...14P}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.104   {Ferguson}}]{2015ApJ...803...14P}
-                                         pdfTeX warning (ext4): destination wit
-h the same identifier (name{cite.2006AJ....132.2556P}) has been already used, d
-uplicate ignored
-<to be read again> 
-                   \relax 
-l.111   {Wyrzykowski}}]{2006AJ....132.2556P}
-                                            pdfTeX warning (ext4): destination 
-with the same identifier (name{cite.1987ApJ...323...79P}) has been already used
-, duplicate ignored
-<to be read again> 
-                   \relax 
-l.115 ...rabtree}, \& {Yee}}]{1987ApJ...323...79P}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.1991AJ....101..447P}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.120   {Wainscoat}}]{1991AJ....101..447P}
-                                          pdfTeX warning (ext4): destination wi
-th the same identifier (name{cite.1964IAUS...20..276R}) has been already used, 
-duplicate ignored
-<to be read again> 
-                   \relax 
-l.123 ... {van Damme}(1964)}]{1964IAUS...20..276R}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2015eaci.book.....S}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.127 ...{{Schneider}(2015)}]{2015eaci.book.....S}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2006AJ....131.1163S}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.135   {Wheelock}}]{2006AJ....131.1163S}
-                                         pdfTeX warning (ext4): destination wit
-h the same identifier (name{cite.2011ApJ...738..150T}) has been already used, d
-uplicate ignored
-<to be read again> 
-                   \relax 
-l.139 ...rta}, \& {Kalirai}}]{2011ApJ...738..150T}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2006A&A...455..891V}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.144 ...lo}, \& {Dejonghe}}]{2006A&A...455..891V}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.1983MNRAS.204..743W}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.148 ...} \& {Smith}(1983)}]{1983MNRAS.204..743W}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.2013MNRAS.434.3511W}) has been alread
-y used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.152   \& {Braun}}]{2013MNRAS.434.3511W}
-                                         
+[26]
 ! Missing } inserted.
 <inserted text> 
                 }
-l.155 \end{thebibliography}
+l.222 \end{thebibliography}
                            
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1865,61 +1000,49 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 )
-
-Package natbib Warning: There were undefined citations.
-
-
-Package natbib Warning: There were multiply defined citations.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 155.
-[47]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 155.
- (./LRPThesis.aux (./ngc6822/ngc6822.aux) (./ngc55/ngc55.aux)
-(./Accronyns.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 155.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 155.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 153.
+ [27]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 153.
+ (./LRPThesis.aux (./ngc55/ngc55.aux) (./conclusions/conclusions.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 153.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 153.
 Package rerunfilecheck Info: File `LRPThesis.out' has not changed.
-(rerunfilecheck)             Checksum: AA46A337DC2921247A7A04D1D1E162E2;2393.
+(rerunfilecheck)             Checksum: 3940FD5CAA3BE41003C6904944C06BE5;972.
 
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 155.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 153.
  ) 
 Here is how much of TeX's memory you used:
- 10832 strings out of 495028
- 163487 string characters out of 6181497
- 275372 words of memory out of 5000000
- 13732 multiletter control sequences out of 15000+600000
- 13405 words of font info for 47 fonts, out of 8000000 for 9000
+ 10650 strings out of 495028
+ 160068 string characters out of 6181497
+ 278372 words of memory out of 5000000
+ 13605 multiletter control sequences out of 15000+600000
+ 12755 words of font info for 45 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 43i,17n,46p,1162b,557s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,17n,45p,477b,525s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/lee/.texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmti12.pfb>
-Output written on LRPThesis.pdf (48 pages, 27485435 bytes).
+mf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmti8.pfb>
+Output written on LRPThesis.pdf (28 pages, 26314012 bytes).
 PDF statistics:
- 772 PDF objects out of 1000 (max. 8388607)
- 633 compressed objects within 7 object streams
- 149 named destinations out of 1000 (max. 500000)
- 391 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 581 PDF objects out of 1000 (max. 8388607)
+ 471 compressed objects within 5 object streams
+ 104 named destinations out of 1000 (max. 500000)
+ 171 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -20,8 +20,8 @@
 \section{Opening Remarks} % (fold)
 \label{sec:ngc55open}
 
-Owen has kindly helped reconstruct and combine the data sets
-
+To improve the quality of the data reduction I enlisted the help of a fellow student, Owen Turner, who has provided some additional corrections to the standard KMOS/esorex pipeline to correct for the readout bias and to improve the pipeline's bad pixel map.
+Details of this procedure are given in the text and the reader is referred to Turner et al. (in prep) for a more in depth discussion of the steps taken.
 % section opening_remarks (end)
 
 \section{Introduction} % (fold)
@@ -142,7 +142,8 @@ However, as stated in Chapter~\ref{ch:n6822} these stars are known to have lifet
 % \end{figure}
 
 
-Table~\ref{tb:n55obs-params} shows ground- and space-based optical photometry of the KMOS targets along with their radial velocities which confirm many of these targets as NGC\,55 RSGs (see section~\ref{sub:rvs}).
+Table~\ref{tb:n55obs-params} shows ground- and space-based optical photometry of the KMOS targets along with their radial velocities which confirm many of these targets as NGC\,55 RSGs
+(see Section~\ref{sub:rvs}).
 
 
 
@@ -159,28 +160,28 @@ ID & S/N & $\alpha$ (J2000) & $\delta$ (J2000) & $V$\tnote{a} & $I$\tnote{a} & $
 & &  & & & & & & 14-09-2013 & 16-10-2013 & 14-09-2014 & 15-09-2014\\
 
  \hline
-NGC55-RSG19 & xx & 00:15:29.190 & $-$39:14:08.20& 19.914 & 17.731 &19.85 & 17.76 &   205\,$\pm$\,4  &  178\,$\pm$\,7   &    222\,$\pm$\,10 &   191\,$\pm$\,7               & 199\,$\pm$\,14 & Notes\\
-NGC55-RSG20 & xx & 00:15:29.520 & $-$39:15:13.00& 20.832 & 18.952 &20.86 & 19.11 &   194\,$\pm$\,14 &  220\,$\pm$\,5   & -- & --                                           & 217\,$\pm$\,10 & Notes\\
-NGC55-RSG22 & xx & 00:15:30.520 & $-$39:16:36.70& 20.406 & 18.589 & --   & --    &    95\,$\pm$\,14 &$-$41\,$\pm$\,26  & -- & --                                           & --             & Notes\\
-NGC55-RSG24 & xx & 00:15:31.460 & $-$39:14:46.30& 20.612 & 18.475 &20.29 & 18.38 &   186\,$\pm$\,6  &  194\,$\pm$\,7   &    146\,$\pm$\,38 &   237\,$\pm$\,16              & 192\,$\pm$\,16 & Notes\\
-NGC55-RSG25 & xx & 00:15:31.490 & $-$39:14:32.40& 20.316 & 18.394 &20.63 & 18.49 &   204\,$\pm$\,12 &  217\,$\pm$\,16  & $-$376\,$\pm$\,41\tnote{c} & 151\,$\pm$\,23       & 200\,$\pm$\,26 & Notes\\
-NGC55-RSG26 & xx & 00:15:33.160 & $-$39:13:42.00& 20.572 & 17.964 &20.35 & 18.06 &   174\,$\pm$\,9  &  173\,$\pm$\,8   & -- & --                                           & 173\,$\pm$\,1  & Notes\\
-NGC55-RSG28 & xx & 00:15:36.160 & $-$39:15:29.40& 21.001 & 18.892 &20.87 & 18.97 &   233\,$\pm$\,17 &  161\,$\pm$\,20  & -- & --                                           & 203\,$\pm$\,41 & Notes\\
-NGC55-RSG30 & xx & 00:15:38.030 & $-$39:14:50.20& 20.867 & 18.730 &20.79 & 18.75 &   212\,$\pm$\,10 &  215\,$\pm$\,10  & $-$424\,$\pm$\,21\tnote{c} & 212\,$\pm$\,22       & 213\,$\pm$\,2  & Notes\\
-NGC55-RSG35 & xx & 00:15:39.260 & $-$39:15:01.70& 20.007 & 17.872 &19.78 & 17.73 &   202\,$\pm$\,3  &  206\,$\pm$\,4   &    223\,$\pm$\,13 &   200\,$\pm$\,11              & 204\,$\pm$\,5  & Notes\\
-NGC55-RSG36 & xx & 00:15:39.520 & $-$39:16:23.10& 19.915 & 18.462 & --   & --    &$-$188\,$\pm$\,31 &$-$284\,$\pm$\,16 & $-$588\,$\pm$\,35 &   346\,$\pm$\,12              & --             & Notes\\
-NGC55-RSG39 & xx & 00:15:40.260 & $-$39:15:01.00& 19.654 & 17.970 &20.36 & 18.19 &   206\,$\pm$\,11 &  192\,$\pm$\,5&$-$1\,$\pm$\,30\tnote{c}& 126\,$\pm$\,30              & 193\,$\pm$\,14 & Notes\\
-NGC55-RSG43 & xx & 00:15:40.700 & $-$39:14:50.20& 19.957 & 18.183 &20.36 & 18.25 &$-$220\,$\pm$\,20\tnote{c}&196\,$\pm$\,5& 173\,$\pm$\,17 &    31\,$\pm$\,38\tnote{c}     & 194\,$\pm$\,9  & Notes\\
-NGC55-RSG46 & xx & 00:15:41.640 & $-$39:14:58.80& 21.591 & 18.441 &20.85 & 18.52 &   228\,$\pm$\,5  &  195\,$\pm$\,6   &  $-$128\,$\pm$\,18\tnote{c} &   210\,$\pm$\,8     & 214\,$\pm$\,18 & Notes\\
-NGC55-RSG57 & xx & 00:15:45.590 & $-$39:15:16.40& 20.010 & 18.220 & --   & --    &   217\,$\pm$\,10 &  197\,$\pm$\,6   &     207\,$\pm$\,13 &   177\,$\pm$\,6              & 193\,$\pm$\,16 & Notes\\
-NGC55-RSG58 & xx & 00:15:46.270 & $-$39:15:43.20& 20.619 & 18.400 & --   & --    &   236\,$\pm$\,8  &  216\,$\pm$\,3   &     214\,$\pm$\,21 &   210\,$\pm$\,13             & 218\,$\pm$\,8  & Notes\\
-NGC55-RSG60 & xx & 00:15:49.180 & $-$39:17:19.80& 21.393 & 18.847 & --   & --    & $-$73\,$\pm$\,39 &   26\,$\pm$\,26  &  $-$533\,$\pm$\,39 &    94\,$\pm$\,37             & --             & Notes\\
-NGC55-RSG65 & xx & 00:15:51.250 & $-$39:16:26.40& 19.706 & 17.653 & --   & --    &   224\,$\pm$\,5  &  215\,$\pm$\,4   &     217\,$\pm$\,6  &   215\,$\pm$\,6              & 218\,$\pm$\,4  & Notes\\
-NGC55-RSG67 & xx & 00:15:53.110 & $-$39:14:13.60& 19.925 & 18.047 & --   & --    &25\,$\pm$\,24\tnote{c} & 6\,$\pm$\,31\tnote{c}&37\,$\pm$\,14\tnote{c} &175\,$\pm$\,18    & 175\,$\pm$\,18 & Notes\\
-NGC55-RSG69 & xx & 00:15:55.280 & $-$39:15:00.10& 20.470 & 18.666 & --   & --    &   231\,$\pm$\,5  &  195\,$\pm$\,9   &130\,$\pm$\,14\tnote{c}&220\,$\pm$\,23             & 222\,$\pm$\,18 & Notes\\
-NGC55-RSG70 & xx & 00:15:56.310 & $-$39:16:08.60& 22.300 & 18.907 & --   & --    &   155\,$\pm$\,12 &  187\,$\pm$\,9   &     202\,$\pm$\,20 &   205\,$\pm$\,24             & 180\,$\pm$\,20 & Notes\\
-NGC55-RSG71 & xx & 00:15:56.900 & $-$39:15:27.50& 20.401 & 18.559 & --   & --    &   197\,$\pm$\,11 &  214\,$\pm$\,11  &320\,$\pm$\,16\tnote{c}&$-$476\,$\pm$\,42\tnote{c} & 206\,$\pm$\,12 & Notes\\
-NGC55-RSG73 & xx & 00:15:57.710 & $-$39:15:41.50& 20.489 & 18.411 & --   & --    &   161\,$\pm$\,7  &  178\,$\pm$\,6   &     136\,$\pm$\,35 &   176\,$\pm$\,19             & 171\,$\pm$\,11 & Notes\\
+NGC55-RSG19 & xx & 00:15:29.190 & $-$39:14:08.20& 19.914 & 17.731 &19.85 & 17.76 &   205\,$\pm$\,4  &  178\,$\pm$\,7   &    222\,$\pm$\,10 &   191\,$\pm$\,7               & 199\,$\pm$\,14 & \\
+NGC55-RSG20 & xx & 00:15:29.520 & $-$39:15:13.00& 20.832 & 18.952 &20.86 & 19.11 &   194\,$\pm$\,14 &  220\,$\pm$\,5   & -- & --                                           & 217\,$\pm$\,10 & \\
+NGC55-RSG22 & xx & 00:15:30.520 & $-$39:16:36.70& 20.406 & 18.589 & --   & --    &    95\,$\pm$\,14 &$-$41\,$\pm$\,26  & -- & --                                           & --             & \\
+NGC55-RSG24 & xx & 00:15:31.460 & $-$39:14:46.30& 20.612 & 18.475 &20.29 & 18.38 &   186\,$\pm$\,6  &  194\,$\pm$\,7   &    146\,$\pm$\,38 &   237\,$\pm$\,16              & 192\,$\pm$\,16 & \\
+NGC55-RSG25 & xx & 00:15:31.490 & $-$39:14:32.40& 20.316 & 18.394 &20.63 & 18.49 &   204\,$\pm$\,12 &  217\,$\pm$\,16  & $-$376\,$\pm$\,41\tnote{c} & 151\,$\pm$\,23       & 200\,$\pm$\,26 & \\
+NGC55-RSG26 & xx & 00:15:33.160 & $-$39:13:42.00& 20.572 & 17.964 &20.35 & 18.06 &   174\,$\pm$\,9  &  173\,$\pm$\,8   & -- & --                                           & 173\,$\pm$\,1  & \\
+NGC55-RSG28 & xx & 00:15:36.160 & $-$39:15:29.40& 21.001 & 18.892 &20.87 & 18.97 &   233\,$\pm$\,17 &  161\,$\pm$\,20  & -- & --                                           & 203\,$\pm$\,41 & \\
+NGC55-RSG30 & xx & 00:15:38.030 & $-$39:14:50.20& 20.867 & 18.730 &20.79 & 18.75 &   212\,$\pm$\,10 &  215\,$\pm$\,10  & $-$424\,$\pm$\,21\tnote{c} & 212\,$\pm$\,22       & 213\,$\pm$\,2  & \\
+NGC55-RSG35 & xx & 00:15:39.260 & $-$39:15:01.70& 20.007 & 17.872 &19.78 & 17.73 &   202\,$\pm$\,3  &  206\,$\pm$\,4   &    223\,$\pm$\,13 &   200\,$\pm$\,11              & 204\,$\pm$\,5  & \\
+NGC55-RSG36 & xx & 00:15:39.520 & $-$39:16:23.10& 19.915 & 18.462 & --   & --    &$-$188\,$\pm$\,31 &$-$284\,$\pm$\,16 & $-$588\,$\pm$\,35 &   346\,$\pm$\,12              & --             & \\
+NGC55-RSG39 & xx & 00:15:40.260 & $-$39:15:01.00& 19.654 & 17.970 &20.36 & 18.19 &   206\,$\pm$\,11 &  192\,$\pm$\,5&$-$1\,$\pm$\,30\tnote{c}& 126\,$\pm$\,30              & 193\,$\pm$\,14 & \\
+NGC55-RSG43 & xx & 00:15:40.700 & $-$39:14:50.20& 19.957 & 18.183 &20.36 & 18.25 &$-$220\,$\pm$\,20\tnote{c}&196\,$\pm$\,5& 173\,$\pm$\,17 &    31\,$\pm$\,38\tnote{c}     & 194\,$\pm$\,9  & \\
+NGC55-RSG46 & xx & 00:15:41.640 & $-$39:14:58.80& 21.591 & 18.441 &20.85 & 18.52 &   228\,$\pm$\,5  &  195\,$\pm$\,6   &  $-$128\,$\pm$\,18\tnote{c} &   210\,$\pm$\,8     & 214\,$\pm$\,18 & \\
+NGC55-RSG57 & xx & 00:15:45.590 & $-$39:15:16.40& 20.010 & 18.220 & --   & --    &   217\,$\pm$\,10 &  197\,$\pm$\,6   &     207\,$\pm$\,13 &   177\,$\pm$\,6              & 193\,$\pm$\,16 & \\
+NGC55-RSG58 & xx & 00:15:46.270 & $-$39:15:43.20& 20.619 & 18.400 & --   & --    &   236\,$\pm$\,8  &  216\,$\pm$\,3   &     214\,$\pm$\,21 &   210\,$\pm$\,13             & 218\,$\pm$\,8  & \\
+NGC55-RSG60 & xx & 00:15:49.180 & $-$39:17:19.80& 21.393 & 18.847 & --   & --    & $-$73\,$\pm$\,39 &   26\,$\pm$\,26  &  $-$533\,$\pm$\,39 &    94\,$\pm$\,37             & --             & \\
+NGC55-RSG65 & xx & 00:15:51.250 & $-$39:16:26.40& 19.706 & 17.653 & --   & --    &   224\,$\pm$\,5  &  215\,$\pm$\,4   &     217\,$\pm$\,6  &   215\,$\pm$\,6              & 218\,$\pm$\,4  & \\
+NGC55-RSG67 & xx & 00:15:53.110 & $-$39:14:13.60& 19.925 & 18.047 & --   & --    &25\,$\pm$\,24\tnote{c} & 6\,$\pm$\,31\tnote{c}&37\,$\pm$\,14\tnote{c} &175\,$\pm$\,18    & 175\,$\pm$\,18 & \\
+NGC55-RSG69 & xx & 00:15:55.280 & $-$39:15:00.10& 20.470 & 18.666 & --   & --    &   231\,$\pm$\,5  &  195\,$\pm$\,9   &130\,$\pm$\,14\tnote{c}&220\,$\pm$\,23             & 222\,$\pm$\,18 & \\
+NGC55-RSG70 & xx & 00:15:56.310 & $-$39:16:08.60& 22.300 & 18.907 & --   & --    &   155\,$\pm$\,12 &  187\,$\pm$\,9   &     202\,$\pm$\,20 &   205\,$\pm$\,24             & 180\,$\pm$\,20 & \\
+NGC55-RSG71 & xx & 00:15:56.900 & $-$39:15:27.50& 20.401 & 18.559 & --   & --    &   197\,$\pm$\,11 &  214\,$\pm$\,11  &320\,$\pm$\,16\tnote{c}&$-$476\,$\pm$\,42\tnote{c} & 206\,$\pm$\,12 & cep014\\
+NGC55-RSG73 & xx & 00:15:57.710 & $-$39:15:41.50& 20.489 & 18.411 & --   & --    &   161\,$\pm$\,7  &  178\,$\pm$\,6   &     136\,$\pm$\,35 &   176\,$\pm$\,19             & 171\,$\pm$\,11 & \\
 
 \hline
 \end{tabular}
@@ -205,10 +206,10 @@ In order to supplement this partially completed OB, the proposal was re-submitte
 
 As back-up observations, this OB was observed on two nights in August 2014.
 Therefore, this OB was observed on four different nights: 14-10-2013, 16-10-2013, 14-09-2014 and 15-10-2014 as detailed by Table~\ref{tb:55obs}.
-The observations on each night consisted of science exposures (S) with sky offset exposures (S) interveaved in an O, S, O observing pattern, where each exposure is 600\,s.
+The observations on each night consisted of science exposures (O) with sky offset exposures (S) interveaved in an O, S, O observing pattern, where each exposure is 600\,s.
 
 \begin{table}
-\caption[NGC\,55 observing log]{NGC\,55 observing log.\label{tb:55obs}}
+\caption[NGC\,55 observing log]{NGC\,55 observing log\label{tb:55obs}}
 \scriptsize
 \begin{center}
 \begin{tabular}{ccccc}
@@ -242,7 +243,7 @@ Table~\ref{tb:55res} shows the mean measured resolution and resolving power, at 
 This table shows that the resolution can vary significant between each night, particularly on detector three where the mean resolving power changes by a factor of 1/5.
 Therefore, this must be taking into consideration when combining exposures on different nights.
 This is solved by using a simple Gaussian filter (as first described in Chapter~\ref{ch:janal}) to degrade the resolution of the spectra to that of the lowest resolution spectrum within the data set.
-For example, all spectra for a star in IFU 1 would be degraded to a resolution of 3302 before being combined into a master spectrum for the four nights.
+For example, all spectra for a star in IFU 1 would be degraded to a resolution of 3302 (see Table~\ref{tb:55res}) before being combined into a master spectrum for the four nights.
 
 \begin{table*}
 \caption[Measured velocity resolution for each night]
@@ -297,8 +298,6 @@ Date & Det. & IFUs & \multicolumn{2}{c}{Ne\,\lam1.17700\,$\mu$m}
 \end{center}
 \end{table*}
 
-\textbf{Data recuction isn't finalised but the basic steps are not going to change}
-
 The observations were reduced using the recipes provided by the Software Package for Astronomical Reduction with KMOS
 \citep[SPARK;][]{2013A&A...558A..56D}.
 The standard KMOS/esorex routines were used to calibrate and reconstruct the science and standard-star data cubes as outlined by
@@ -310,45 +309,41 @@ Sky subtraction was performed using the ESO {\sc skycorr} package~\citep{2014A&A
 This works by adapting the reference sky spectrum to correct for differences as a result of temporal and spatial airglow variability
 This software is specifically designed for observations at Cerro Paranal and has been shown to be an effective tool for various different science goals~\citep[e.g.][]{2014A&A...567A..25N,2015ApJ...805..182G,2016MNRAS.455.2028F,2016MNRAS.457.1468L}.
 
+Telluric correction is performed on each sky subtracted spectrum (before combination) using the method described in full in Chapter~\ref{ch:n6822}.
+Briefly, additional corrections are made to the stardard KMOS/esorex method of telluric correction by correcting for potential offsets between the wavelength solutions of the science and telluric spectra using a iterative cross-correlation approach.
+In addition, a simple scaling is applied to the telluric spectrum in order to more accurately match the telluric absorption in the science spectrum.
+Once these addition corrections have been implemented, I divide the science spectrum by the telluric using only the 1.16--1.21\,$\mu$m region.
 
 
-\begin{itemize}
-    \item Telluric correction ...
-\end{itemize}
+As mentioned above, during each night of observing at least one telluric standard-star was observed.
+Where multiple telluric spectra were available for a single science spectrum, all appropriate telluric spectra were used to apply the telluric correction.
+The spectra resulting from these corrections are then compared visually and the spectrum producing the fewest residuals is selected.
+There were instances where multiple spectra were of equal quality, in these cases both spectra were used in the combination process.
 
+To combine the fully calibrated and corrected spectra on each night, I first degrade the spectral resolution of all spectra to the lowest resolution of the set as defined by Table~\ref{tb:55res}.
+Once all spectra are at a constant resolution I correct for any differences in the wavelength solution by using an iterative cross-correlation approach, where the spectra are all corrected to the rest frame of a single ``reference'' spectrum.
+The choice of the reference spectrum is important as if one selected a poor quality reference spectrum with strong sky- or telluric-correction residuals, this could result in an alignment of the residuals which would amplify these features when finally combined.
+To avoid this, the highest-quality spectrum for each target is selected as the reference spectrum.
+In practise, this was typically frame four of the night of 16-09-2013.
 
-Telluric correction has been performed by combining and reconstructing the telluric standard exposures using the standard pipeline routines.
-To improve the performance of the telluric correction I use the method described in detail in Chapter~\ref{ch:n6822}.
+This procedure mainly corrects for differences in the wavelength solution from difference nights, typically on an individual night (particularly in the case of 14-09-2013 and 16-09-2013) there are not significant differenes in the wavelength solution.
+Once this correction is implemented all spectra are combined using a simple median combine.
+This simple method is preferred to something more sophisticated as there were significant sky- and telluric-correction residuals present in many of these spectra which are found to be most effectively extinguished using a median combination.
 
-As mentioned above, were multiple standard star OBs for each night of observing.
-The telluric spectrum used to correct each science spectrum is determined on a star-by-star basis depending upon a visual inspection of the results of the correction.
-
-% The observations for this study were taken using four nights of KMOS guaranteed time observations (GTO) containing xx RSG candidates, the first of which was taken in October 2013 as part of the observations which led to the publication of~\cite{2015ApJ...805..182G}.
-% These data consisted of six science exposures (S) of 600\,s with sky offset exposures (S) interleaved in an O, S, O observing pattern.
-% Seeing conditions for these data were good at 0\farcs8--1\farcs2 throughout the course of the observing block (OB).
-
-% The second data set which is made use of in this chapter comes from two nights in September 2014 where the OB used in 2013 was used as backup observations for a programme which required excellent seeing ($<$\,0\farcs6).
-% The seeing limits on our observations are more relaxed ($<$\,1\farcs5) which gave us an opportunity to make use of some slightly poorer quality KMOS data.
-% On the first night in September 2014 where this OB was observed, the seeing conditions varied widly ($>$\,1\farcs6) prompting one observer to comment that ``this is the worst recorded seeing at Paranal!''.
-% However, there are 24 science exposures where the seeing conditions were better than 2\farcs2, which are (potentially) useful.
-% The final night of observing consisted of 12 exposures with seeing conditions varying between 1\farcs1--1\farcs6.
-
-% In addition to the science exposures obtained, on each night a standard set of KMOS calibration files were obtained as well as standard star observations on each night.
-% The standard star observing block for each night is slightly different where in October 2013 HIP\,3820~\citep[B8\,V;][]{1978mcts.book.....H} was observed using the 24-arm telluric template (KMOS\_spec\_acq\_stdstarscipatt).
-% However, in September 2014 only the three-arm telluric template was observed (KMOS\_spec\_cal\_stdstar), this time with HIP\,18926~\citep[B3\,V;][]{1988mcts.book.....H} and HIP\,3820 on both nights.
 
 % section observations_and_data_reduction (end)
 % section observations (end)
 
-\section{Results} % (fold)
+\section{Results and Discussion} % (fold)
 \label{sec:ngc55results}
 
 \subsection{Radial Velocities} % (fold)
 \label{sub:rvs}
-Radial velocities are measured using the method described first in Chapter~\ref{ch:n2100} where radial velocities are measured using several strong spectral features within the 1.16-1.21\,$\mu$m region.
+Radial velocities are measured using the method described first in Chapter~\ref{ch:n2100} where radial velocities are measured using several strong spectral features within the 1.16--1.21\,$\mu$m region.
 Each of these spectral features is independently used to measure a radial velocity where the value quoted is the average of these measurements and the uncertainties are defined by the standard deviation of the measurements.
 This method is known to work well on KMOS stellar spectra~\cite{2015ApJ...798...23L,2015ApJ...803...14P,2016arXiv160202702P}.
 
+Velocities are measured by combining frames from each night individually using the standard KMOS/esorex routines, rather than the method described above.
 Estimated radial velocities from each KMOS pointing is listed in Table~\ref{tb:n55obs-params} alongside the average radial velocity for each target, where any significantly discrepant measurement has been excluded as a result of residuals in the spectrum perturbing the fit (marked by note c in Table~\ref{tb:n55obs-params}).
 This is a particular problem on the night of 14-09-2014 where 7/20 velocity measurements were excluded.
 Uncertainties quoted on the average are the standard deviation of the measurements on each night.
@@ -387,33 +382,146 @@ This adds strength to the suggestion that observed RSGs are intrinsically single
 \subsection{Stellar Parameters} % (fold)
 \label{sub:stellar_parameters}
 
+Stellar parameters are estimated for each target using the $J$-band analysis technique detailed in Chapter~\ref{ch:janal}.
+This analyis is used to measure stellar parameters, including overall metallicity -- to a precision of $\pm$\,0.15\,dex at the resolution of KMOS observations with S/N~$\ge~100$.
+The parameter ranges are given shown in Chapter~\ref{ch:janal}, Table~\ref{tb:mod_range}.
 
-\begin{itemize}
-    \item Comparison to previous results
-    \cite{2012A&A...542A..79C} find average [Z]~=~$-$0.4\,$\pm$\,0.13\,dex
-    \item [Z] Vs. Radius from galaxy centre
-    \item MCMC parameter estimation for the fit
-    \item Extinction values need to be taken into account (especially if I'm estimating luminosities in the I band)
-    \end{itemize}
+The analysis uses synthetic RSG spectra, extracted from {\sc marcs} model atmospheres~\citep{2008A&A...486..951G},
+computed with corrections for non-local thermodynamic equilibrium for lines from titanium, iron, silicon and magnesium
+\citep{2012ApJ...751..156B,2013ApJ...764..115B,2015ApJ...804..113B}.
+The synthetic spectra are compared with observations using the $\chi$-squared statistic and the synthetic spectra are degraded to the resolution and sampling of the observations.
 
-Distance modulus~=~26.58\,$\pm$\,0.11~\citep{2011ApJ...738..150T}.
-Distance modulus~=~26.434\,$\pm$\,0.037~\citep{2008ApJ...672..266G}
+Estimated stellar parameters are listed in Table~\ref{tb:ngc55fit-pars} and the best-fit model spectra are shown with the final reduced science spectra in Figure~\ref{fig:ngc55spec}.
+Assuming no spatial variations in metallicity the average metallicity of of the sample is $-$0.36\,$\pm$\,0.25\,dex.
+This average value compares well to the average metallicity measured using 12 BSGs in NGC\,55 from~\citep[$-$0.4\,$\pm$\,0.13]{2012A&A...542A..79C}.
+These authors find no evidence for spatial variations in metallicity in NGC\,55, however, recently, Kudritzki et al. (in prep) measure metallicities for $\sim$60 BSGs in NGC\,55 covering a larger spatial extent and find evidence for a metallicity gradient of xx.xx\,dex/kpc: the first detected in this galaxy.
+Using a maximum likelihood MCMC parameter estimation for a linear fit to the metallicities measured for RSGs in NGC\,55 I find (thus far) no evidence for spatial variations in metallicity, however, this is unsurprising given the spatial coverage and uncertainties associted with the measurements.
+In order to more accurately assess spatial variations in metallicity one would require a larger sample covering the full spatial profile of NGC\,55.
+
+
+\begin{table*}
+\begin{center}
+\caption{Physical parameters determined for the KMOS targets in NGC\,55.\label{tb:ngc55fit-pars}}
+\scriptsize
+\begin{threeparttable}
+\begin{tabular}{lr ccccl}
+ \hline
+ \hline
+  Target  & IFU & $\xi$ (\kms) & [Z] & log\,$g$ & T$_{\rm eff}$ (K) & Notes\\
+  \hline
+
+NGC55-RSG19 & 6 & 4.0\,$\pm$\,0.4 & $-$0.10\,$\pm$\,0.09 &\pp0.12\,$\pm$\,0.10 & 4260\,$\pm$\,80\o\\
+NGC55-RSG24 &10 & 4.2\,$\pm$\,0.6 & $-$0.43\,$\pm$\,0.24 &$-$0.37\,$\pm$\,0.75 & 4180\,$\pm$\,330\\
+NGC55-RSG25 & 8 & 3.2\,$\pm$\,0.9 & $-$0.53\,$\pm$\,0.33 &\pp0.12\,$\pm$\,0.36 & 3460\,$\pm$\,250\\
+NGC55-RSG26 & 4 & 3.2\,$\pm$\,0.7 & $-$0.64\,$\pm$\,0.34 &\pp0.12\,$\pm$\,0.25 & 3560\,$\pm$\,280\\
+NGC55-RSG35 &12 & 4.0\,$\pm$\,0.6 & $-$0.35\,$\pm$\,0.26 &$-$0.13\,$\pm$\,0.24 & 3750\,$\pm$\,120\\
+NGC55-RSG39 &14 & 3.3\,$\pm$\,0.7 & $-$0.28\,$\pm$\,0.28 &$-$0.13\,$\pm$\,0.25 & 3700\,$\pm$\,100\\
+NGC55-RSG43 &24 & 3.7\,$\pm$\,0.8 & $-$0.27\,$\pm$\,0.26 &\pp0.12\,$\pm$\,0.98 & 3960\,$\pm$\,250\\
+NGC55-RSG57 & 1 & 4.0\,$\pm$\,0.7 & $-$0.39\,$\pm$\,0.28 &\pp0.10\,$\pm$\,0.24 & 3550\,$\pm$\,270\\
+NGC55-RSG58 &15 & 3.5\,$\pm$\,0.7 & $-$0.38\,$\pm$\,0.27 &\pp0.12\,$\pm$\,0.96 & 3750\,$\pm$\,140\\
+NGC55-RSG65 &17 & 4.2\,$\pm$\,0.5 & $-$0.25\,$\pm$\,0.19 &\pp0.11\,$\pm$\,0.97 & 3750\,$\pm$\,180\\
+NGC55-RSG73 &19 & 3.2\,$\pm$\,0.5 & $-$0.26\,$\pm$\,0.15 &$-$0.86\,$\pm$\,0.50 & 3830\,$\pm$\,300\\
+
+  \hline
+  \end{tabular}
+\begin{tablenotes}
+
+\end{tablenotes}
+  \end{threeparttable}
+  \end{center}
+\end{table*}
+
+\begin{figure*}
+ %\vspace{302pt}
+ \begin{center}
+ \centering
+\includegraphics[width=0.75\textwidth]{ngc55/NGC55-model-fits}
+\caption[Observed and best-fit model spectra of RSGs in NGC\,55]{Observed and best-fit model spectra of RSGs in NGC\,55 (black and red lines, respectively).
+The lines used for the analysis, from left-to-right by species, are
+Fe\,{\scriptsize I}$\,\lambda\lambda$1.188285,
+1.197305;
+Mg\,{\scriptsize I}$\,\lambda\lambda$1.182819,
+1.208335;
+Si\,{\scriptsize I}$\,\lambda\lambda$1.198419,
+1.199157,
+1.203151,
+1.210353;
+Ti\,{\scriptsize I}$\,\lambda\lambda$1.189289,
+1.194954.\label{fig:model_fits}}
+\end{center}
+\end{figure*}
+
+
+\begin{figure}
+ \centering
+ \includegraphics[width=0.65\textwidth]{ngc55/NGC55-ZvsR-BSG}
+ \caption[Metallicities for KMOS targets shown against projected radius]{
+ Metallicities for KMOS RSGs (black points) shown against projected radius from the centre of NGC\,55 as defined by the Two Micron All Sky Survey~\citep[2MASS;][]{2006AJ....131.1163S} scaled by $R_{25}$~=~16.2\,$\pm$\,0.4\,arcmin~\citep{1991rc3..book.....D}.}
+ \label{fig:ngc55ZvsR}
+\end{figure}
+
+Luminosities have been calculated for the targets using the bolometric corrections of~\citep{2013ApJ...767....3D} where the $F808$ HST bandpass where available,
+otherwise the ground-based $I$-band filter has been used.
+Figure~\ref{fig:ngc55-HRD} shows a H-R diagram for these targets using the temperatures estimated in Section~\ref{sec:ngc55results} along with SMC-like evolutionary tracks~\citep{2013A&A...558A.103G}.
+Results for 15 RSGs in NGC\,300 (a fellow Sculptor galaxy also at $\sim$1.9\,Mpc) are shown in green on this figure for comparison~\citep{2015ApJ...805..182G}.
+This appears so show a difference in the temperatures of the RSGs in the sample, however, we caution that the uncertainties on the temperatures presented in this study are significantly larger than those in~\citep{2015ApJ...805..182G}.
+
+\begin{figure}
+ \centering
+ \includegraphics[width=0.65\textwidth]{ngc55/NGC55-HRD}
+ \caption[Hertzsprung--Russell diagram for NGC\,55]{Hertzsprung--Russell diagram for NGC\,55.
+Solid grey lines show SMC-like metallicity evolutionary models including rotation
+\protect\citep{2013A&A...558A.103G}.
+Results from~\cite{2015ApJ...805..182G} in NGC\,300 are shown in green for comparison.}
+ \label{fig:ngc55-HRD}
+\end{figure}
 
 % subsection stellar_parameters (end)
 
 % section results (end)
 
-\section{Discussion} % (fold)
-\label{sec:ngc55disc}
+% \section{Discussion} % (fold)
+% \label{sec:ngc55disc}
 
-\begin{itemize}
-    \item Orientation of NGC\,55
-\end{itemize}
+% \subsection{Orientation of NGC\,55} % (fold)
+% \label{sub:orientation_of_ngc55}
+
+% % subsection orientation_of_ngc55 (end)
+
+% \subsection{Stellar Evolution} % (fold)
+% \label{sub:stellar_evolution}
+
+% Luminosities have been calculated for the targets using the bolometric corrections of~\citep{2013ApJ...767....3D} where the $F808$ HST bandpass where available,
+% otherwise the ground-based $I$-band filter has been used.
+% Figure~\ref{fig:ngc55-HRD} shows a H-R diagram for these targets using the temperatures estiamted in Section~\ref{sec:ngc55results} along with SMC-like evolutionary tracks~\citep{2013A&A...558A.103G}.
+
+
+% \begin{figure}
+%  \centering
+%  \includegraphics[width=0.65\textwidth]{ngc55/NGC55-HRD}
+%  \caption[Hertzsprung--Russell diagram for NGC\,55]{Hertzsprung--Russell diagram for NGC\,55.
+% Solid grey lines show SMC-like metallicity evolutionary models including rotation
+% \protect\citep{2013A&A...558A.103G}.}
+%  \label{fig:ngc55-HRD}
+% \end{figure}
+
+% subsection stellar_evolution (end)
+
 % section discussion (end)
 
 \section{Conclusions} % (fold)
 \label{sec:ngc55conc}
 
+I have presented multi-epoch near-IR spectroscopic observations of 22 RSGs in the Sculptor Group galaxy NGC\,55.
+Radial velocities are presented and are shown to agree well with previous measurements in this galaxy, where all targets with reliable radial velocity measurements are consistent with membership to NGC\,55: confirming their nature as supergiants.
+Variability is assessed for each target and I find no evidence for variability. A lack of variability is what one would expect from a sample consisting of single stars.
+
+Stellar parameters are estimated for 11 of the highest S/N targets in the sample using the $J$-band analysis method described in Chapter~\ref{ch:janal}.
+The average metallicity of the sample is $-$0.36\,$\pm$\,0.25, in good agreement with previous results.
+No evidence is found for spatial variations in metallicity given the present sample, however, we note that this is expected as a result of the combination of the spatial coverage of the sample and the uncertainties in the metallicity parameter.
+Luminosities are calculated and are compared with RSGs in NGC\,300 (a fellow Sculptor galaxy at $\sim$1.9\,Mpc) where there appears to be slight differences in the average effective temperatures of the two samples.
+
+
 % section conclusions (end)
 
-\bibliography{../journals,../books}
+% \bibliography{../journals,../books}

@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: LRPThesis.aux
 A level-1 auxiliary file: ngc55/ngc55.aux
-A level-1 auxiliary file: Accronyns.aux
+A level-1 auxiliary file: conclusions/conclusions.aux
 The style file: mn2e.bst
 Database file #1: journals.bib
 I was expecting an "="---line 358 of file journals.bib
@@ -10,50 +10,57 @@ I was expecting an "="---line 358 of file journals.bib
  :      pages = {115},
 I'm skipping whatever remains of this entry
 Database file #2: books.bib
-Warning--I didn't find a database entry for "."
+Name 1 in "{Davies, R.~I.}, and {Agudo Berbel}, A. and {Wiezorrek}, E. and {Cirasuolo}, M. and {F{\"o}rster Schreiber}, N.~M. and {Jung}, Y. and {Muschielok}, B. and {Ott}, T. and {Ramsay}, S. and {Schlichter}, J. and {Sharples}, R. and {Wegner}, M." has a comma at the end for entry 2013A&A...558A..56D
+while executing---line 1492 of file mn2e.bst
+Name 1 in "{Davies, R.~I.}, and {Agudo Berbel}, A. and {Wiezorrek}, E. and {Cirasuolo}, M. and {F{\"o}rster Schreiber}, N.~M. and {Jung}, Y. and {Muschielok}, B. and {Ott}, T. and {Ramsay}, S. and {Schlichter}, J. and {Sharples}, R. and {Wegner}, M." has a comma at the end for entry 2013A&A...558A..56D
+while executing---line 1492 of file mn2e.bst
+Name 1 in "{Davies, R.~I.}, and {Agudo Berbel}, A. and {Wiezorrek}, E. and {Cirasuolo}, M. and {F{\"o}rster Schreiber}, N.~M. and {Jung}, Y. and {Muschielok}, B. and {Ott}, T. and {Ramsay}, S. and {Schlichter}, J. and {Sharples}, R. and {Wegner}, M." has a comma at the end for entry 2013A&A...558A..56D
+while executing---line 1575 of file mn2e.bst
+Name 1 in "{Davies, R.~I.}, and {Agudo Berbel}, A. and {Wiezorrek}, E. and {Cirasuolo}, M. and {F{\"o}rster Schreiber}, N.~M. and {Jung}, Y. and {Muschielok}, B. and {Ott}, T. and {Ramsay}, S. and {Schlichter}, J. and {Sharples}, R. and {Wegner}, M." has a comma at the end for entry 2013A&A...558A..56D
+while executing---line 1575 of file mn2e.bst
 Warning--empty publisher in 1991rc3..book.....D
 Warning--empty publisher in 1978mcts.book.....H
 Warning--empty publisher in 1988mcts.book.....H
 Warning--empty publisher in 2015eaci.book.....S
-You've used 30 entries,
+You've used 43 entries,
             2938 wiz_defined-function locations,
-            813 strings with 13469 characters,
-and the built_in function-call counts, 19900 in all, are:
-= -- 1370
-> -- 2354
+            888 strings with 17067 characters,
+and the built_in function-call counts, 28529 in all, are:
+= -- 1974
+> -- 3355
 < -- 2
-+ -- 748
-- -- 730
-* -- 1684
-:= -- 3795
++ -- 1070
+- -- 1039
+* -- 2475
+:= -- 5436
 add.period$ -- 0
-call.type$ -- 30
-change.case$ -- 355
-chr.to.int$ -- 30
-cite$ -- 34
-duplicate$ -- 511
-empty$ -- 802
-format.name$ -- 782
-if$ -- 3837
+call.type$ -- 43
+change.case$ -- 510
+chr.to.int$ -- 43
+cite$ -- 47
+duplicate$ -- 732
+empty$ -- 1139
+format.name$ -- 1117
+if$ -- 5495
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 29
-newline$ -- 94
-num.names$ -- 122
-pop$ -- 333
+missing$ -- 42
+newline$ -- 133
+num.names$ -- 174
+pop$ -- 467
 preamble$ -- 1
-purify$ -- 355
+purify$ -- 510
 quote$ -- 0
-skip$ -- 607
+skip$ -- 848
 stack$ -- 0
-substring$ -- 564
-swap$ -- 39
+substring$ -- 834
+swap$ -- 52
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 258
+type$ -- 375
 warning$ -- 4
-while$ -- 128
+while$ -- 180
 width$ -- 0
-write$ -- 298
-(There was 1 error message)
+write$ -- 428
+(There were 5 error messages)
