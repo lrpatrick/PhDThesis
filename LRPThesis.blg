@@ -1,66 +1,64 @@
 This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: LRPThesis.aux
-A level-1 auxiliary file: ngc55/ngc55.aux
-A level-1 auxiliary file: conclusions/conclusions.aux
+A level-1 auxiliary file: intro/intro.aux
+A level-1 auxiliary file: Acronyms.aux
 The style file: mn2e.bst
 Database file #1: journals.bib
 I was expecting an "="---line 358 of file journals.bib
  : `    
  :      pages = {115},
 I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1452 of file journals.bib
+ :      year = 2011
+ :                 a,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4933 of file journals.bib
+ : @article{2007ApJ...671..781D
+ :                             ,
+I'm skipping whatever remains of this entry
 Database file #2: books.bib
-Name 1 in "{Davies, R.~I.}, and {Agudo Berbel}, A. and {Wiezorrek}, E. and {Cirasuolo}, M. and {F{\"o}rster Schreiber}, N.~M. and {Jung}, Y. and {Muschielok}, B. and {Ott}, T. and {Ramsay}, S. and {Schlichter}, J. and {Sharples}, R. and {Wegner}, M." has a comma at the end for entry 2013A&A...558A..56D
-while executing---line 1492 of file mn2e.bst
-Name 1 in "{Davies, R.~I.}, and {Agudo Berbel}, A. and {Wiezorrek}, E. and {Cirasuolo}, M. and {F{\"o}rster Schreiber}, N.~M. and {Jung}, Y. and {Muschielok}, B. and {Ott}, T. and {Ramsay}, S. and {Schlichter}, J. and {Sharples}, R. and {Wegner}, M." has a comma at the end for entry 2013A&A...558A..56D
-while executing---line 1492 of file mn2e.bst
-Name 1 in "{Davies, R.~I.}, and {Agudo Berbel}, A. and {Wiezorrek}, E. and {Cirasuolo}, M. and {F{\"o}rster Schreiber}, N.~M. and {Jung}, Y. and {Muschielok}, B. and {Ott}, T. and {Ramsay}, S. and {Schlichter}, J. and {Sharples}, R. and {Wegner}, M." has a comma at the end for entry 2013A&A...558A..56D
-while executing---line 1575 of file mn2e.bst
-Name 1 in "{Davies, R.~I.}, and {Agudo Berbel}, A. and {Wiezorrek}, E. and {Cirasuolo}, M. and {F{\"o}rster Schreiber}, N.~M. and {Jung}, Y. and {Muschielok}, B. and {Ott}, T. and {Ramsay}, S. and {Schlichter}, J. and {Sharples}, R. and {Wegner}, M." has a comma at the end for entry 2013A&A...558A..56D
-while executing---line 1575 of file mn2e.bst
-Warning--empty publisher in 1991rc3..book.....D
-Warning--empty publisher in 1978mcts.book.....H
-Warning--empty publisher in 1988mcts.book.....H
-Warning--empty publisher in 2015eaci.book.....S
-You've used 43 entries,
+Warning--empty publisher in 2013EAS....60.....K
+Warning--empty publisher in 2012sse..book.....K
+You've used 129 entries,
             2938 wiz_defined-function locations,
-            888 strings with 17067 characters,
-and the built_in function-call counts, 28529 in all, are:
-= -- 1974
-> -- 3355
-< -- 2
-+ -- 1070
-- -- 1039
-* -- 2475
-:= -- 5436
-add.period$ -- 0
-call.type$ -- 43
-change.case$ -- 510
-chr.to.int$ -- 43
-cite$ -- 47
-duplicate$ -- 732
-empty$ -- 1139
-format.name$ -- 1117
-if$ -- 5495
-int.to.chr$ -- 1
+            1394 strings with 32658 characters,
+and the built_in function-call counts, 71600 in all, are:
+= -- 5397
+> -- 7059
+< -- 6
++ -- 2291
+- -- 2231
+* -- 5993
+:= -- 13630
+add.period$ -- 3
+call.type$ -- 129
+change.case$ -- 1217
+chr.to.int$ -- 131
+cite$ -- 131
+duplicate$ -- 2186
+empty$ -- 3394
+format.name$ -- 2442
+if$ -- 13855
+int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 42
-newline$ -- 133
-num.names$ -- 174
-pop$ -- 467
+missing$ -- 126
+newline$ -- 391
+num.names$ -- 517
+pop$ -- 1106
 preamble$ -- 1
-purify$ -- 510
+purify$ -- 1215
 quote$ -- 0
-skip$ -- 848
+skip$ -- 2330
 stack$ -- 0
-substring$ -- 834
-swap$ -- 52
-text.length$ -- 2
+substring$ -- 2646
+swap$ -- 157
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 375
-warning$ -- 4
-while$ -- 180
+type$ -- 1149
+warning$ -- 2
+while$ -- 575
 width$ -- 0
-write$ -- 428
-(There were 5 error messages)
+write$ -- 1282
+(There were 3 error messages)
