@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.8)  1 APR 2016 08:56
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.8)  6 APR 2016 11:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -490,30 +490,30 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 Package: threeparttable 2003/06/13  v 3.0
 \@tempboxb=\box32
 )
-(./LRPThesis.aux (./intro/intro.aux) (./Acronyms.aux))
+(./LRPThesis.aux (./Acronyms.aux))
 \openout1 = `LRPThesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 31.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 32.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    ... okay on input line 32.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
@@ -551,7 +551,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box34
-Package hyperref Info: Link coloring OFF on input line 31.
+Package hyperref Info: Link coloring OFF on input line 32.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -561,9 +561,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count145
 )
-LaTeX Info: Redefining \ref on input line 31.
-LaTeX Info: Redefining \pageref on input line 31.
-LaTeX Info: Redefining \nameref on input line 31.
+LaTeX Info: Redefining \ref on input line 32.
+LaTeX Info: Redefining \pageref on input line 32.
+LaTeX Info: Redefining \nameref on input line 32.
 
 (./LRPThesis.out) (./LRPThesis.out)
 \@outlinefile=\write3
@@ -577,7 +577,7 @@ LaTeX Info: Redefining \nameref on input line 31.
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
+* modes: twoside 
 * h-part:(L,W,R)=(113.81102pt, 412.56497pt, 71.13188pt)
 * v-part:(T,H,B)=(56.9055pt, 674.33032pt, 113.81102pt)
 * \paperwidth=597.50787pt
@@ -585,13 +585,13 @@ LaTeX Info: Redefining \nameref on input line 31.
 * \textwidth=412.56497pt
 * \textheight=674.33032pt
 * \oddsidemargin=41.54103pt
-* \evensidemargin=41.54103pt
+* \evensidemargin=-1.1381pt
 * \topmargin=-47.23828pt
 * \headheight=12.0pt
 * \headsep=19.8738pt
 * \topskip=12.0pt
 * \footskip=30.0pt
-* \marginparwidth=38.0pt
+* \marginparwidth=88.0pt
 * \marginparsep=7.0pt
 * \columnsep=10.0pt
 * \skip\footins=10.8pt plus 4.0pt minus 2.0pt
@@ -599,251 +599,155 @@ LaTeX Info: Redefining \nameref on input line 31.
 * \voffset=0.0pt
 * \mag=1000
 * \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
+* \@twosidetrue
+* \@mparswitchtrue
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \c@lstlisting=\count146
-<thesis-frontmatter/crest.pdf, id=56, 614.295pt x 794.97pt>
+<thesis-frontmatter/crest.pdf, id=40, 614.295pt x 794.97pt>
 File: thesis-frontmatter/crest.pdf Graphic file (type pdf)
 
 <use thesis-frontmatter/crest.pdf>
-Package pdftex.def Info: thesis-frontmatter/crest.pdf used on input line 37.
+Package pdftex.def Info: thesis-frontmatter/crest.pdf used on input line 38.
 (pdftex.def)             Requested size: 206.28249pt x 266.95041pt.
  [1
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./thesis-frontmatter/crest
-.pdf>]
-\openout2 = `intro/intro.aux'.
+.pdf>] [2
 
- (./intro/intro.tex
-Chapter 1.
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.16 
-      [1
+]
+(./thesis-frontmatter/laysum.tex) (./thesis-frontmatter/abstract.tex [1
 
+]
+[2
 
+]
+
+LaTeX Warning: Reference `ch:janal' on page iii undefined on input line 22.
 
 
-
-] [2] [3] [4] [5] <intro/HRD-geneva.png, id=240, 578.16pt x 722.7pt>
-File: intro/HRD-geneva.png Graphic file (type png)
-
-<use intro/HRD-geneva.png>
-Package pdftex.def Info: intro/HRD-geneva.png used on input line 119.
-(pdftex.def)             Requested size: 309.42372pt x 386.77852pt.
- [6] [7 <./intro/HRD-geneva.png>] [8] [9] [10]
-[11] <intro/Smartt09fig12.png, id=427, 907.39pt x 934.49126pt>
-File: intro/Smartt09fig12.png Graphic file (type png)
-
-<use intro/Smartt09fig12.png>
-Package pdftex.def Info: intro/Smartt09fig12.png used on input line 273.
-(pdftex.def)             Requested size: 412.56497pt x 424.8805pt.
- [12] [13 <./intro/Smartt09fig12.png>]
-
-LaTeX Warning: Reference `ch:janal' on page 14 undefined on input line 303.
-
-[14] <intro/Levesque_Fig1.png, id=482, 1389.19pt x 1003.75pt>
-File: intro/Levesque_Fig1.png Graphic file (type png)
-
-<use intro/Levesque_Fig1.png>
-Package pdftex.def Info: intro/Levesque_Fig1.png used on input line 338.
-(pdftex.def)             Requested size: 412.56497pt x 298.09476pt.
+LaTeX Warning: Reference `ch:ngc2100' on page iii undefined on input line 22.
 
 
-LaTeX Warning: Reference `ch:ngc6822' on page 15 undefined on input line 347.
+LaTeX Warning: Reference `ch:ngc6822' on page iii undefined on input line 29.
 
 
-LaTeX Warning: Reference `ch:ngc6822' on page 15 undefined on input line 347.
+LaTeX Warning: Reference `ch:janal' on page iii undefined on input line 32.
 
 
-Underfull \hbox (badness 1292) in paragraph at lines 347--347
-\OT1/cmr/m/it/10.95 spec-tra are dom-i-nated by the broad ab-sorp-tion from the
- TiO
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[15] [16 <./intro/Levesque_Fig1.png>]
+ [3]
 
-LaTeX Warning: Reference `ch:ngc6822' on page 17 undefined on input line 361.
+LaTeX Warning: Reference `ch:ngc55' on page iv undefined on input line 37.
 
-<intro/NGC6822_bv_CMD.png, id=502, 578.16pt x 433.62pt>
-File: intro/NGC6822_bv_CMD.png Graphic file (type png)
+) [4] (./thesis-frontmatter/acknowledgements.tex [5
 
-<use intro/NGC6822_bv_CMD.png>
-Package pdftex.def Info: intro/NGC6822_bv_CMD.png used on input line 369.
-(pdftex.def)             Requested size: 268.1647pt x 201.12173pt.
- [17 <./intro/NGC6822_bv_CMD.png>]
-<intro/N6822_bvr.png, id=512, 578.16pt x 433.62pt>
-File: intro/N6822_bvr.png Graphic file (type png)
- <use intro/N6822_bvr.png>
-Package pdftex.def Info: intro/N6822_bvr.png used on input line 384.
-(pdftex.def)             Requested size: 268.1647pt x 201.12173pt.
+] [6
 
-[18 <./intro/N6822_bvr.png>]
+]) [7] [8
 
-LaTeX Warning: Reference `ch:ngc55' on page 19 undefined on input line 411.
+]
+(./LRPThesis.toc)
+\tf@toc=\write4
+\openout4 = `LRPThesis.toc'.
 
-[19] [20] [21]
+ [9
 
-LaTeX Warning: Reference `ch:ngc6822' on page 22 undefined on input line 473.
+] [10
 
-[22] [23] <intro/MZR.png, id=737, 648.4225pt x 577.15625pt>
-File: intro/MZR.png Graphic file (type png)
+] (./LRPThesis.lof)
+\tf@lof=\write5
+\openout5 = `LRPThesis.lof'.
 
-<use intro/MZR.png>
-Package pdftex.def Info: intro/MZR.png used on input line 514.
-(pdftex.def)             Requested size: 268.1647pt x 238.69635pt.
- [24 <./intro/MZR.png>] [25]
+ [11
 
-LaTeX Warning: Reference `ch:kmos' on page 26 undefined on input line 548.
+] [12
+
+] (./LRPThesis.lot)
+\tf@lot=\write6
+\openout6 = `LRPThesis.lot'.
 
 
-LaTeX Warning: Reference `ch:janal' on page 26 undefined on input line 550.
+[13
 
+] [14
 
-LaTeX Warning: Reference `ch:ngc2100' on page 26 undefined on input line 553.
-
-
-LaTeX Warning: Reference `ch:janal' on page 26 undefined on input line 554.
-
-
-LaTeX Warning: Reference `ch:ngc6822' on page 26 undefined on input line 557.
-
-
-LaTeX Warning: Reference `ch:ngc55' on page 26 undefined on input line 562.
-
-
-LaTeX Warning: Reference `ch:janal' on page 26 undefined on input line 563.
-
-
-LaTeX Warning: Reference `ch:conclusions' on page 26 undefined on input line 56
-9.
-
-) [26] [27]
+]
 \openout2 = `Acronyms.aux'.
 
  (./Acronyms.tex
 Appendix A.
 
-LaTeX Warning: Reference `ch:kmos' on page 28 undefined on input line 19.
+LaTeX Warning: Reference `ch:kmos' on page 1 undefined on input line 25.
 
 
-LaTeX Warning: Reference `ch:janal' on page 28 undefined on input line 22.
+LaTeX Warning: Reference `ch:janal' on page 1 undefined on input line 28.
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 2--142
+Underfull \hbox (badness 10000) in paragraph at lines 6--141
 
  []
 
-[28
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.141 \include{Acronyms}
+                         [1
 
 
 
-] [29] (./LRPThesis.bbl [30
+]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.141 \include{Acronyms}
+                         [2] (./LRPThesis.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 159.
+ [3
 
 
 
 ]
-! Undefined control sequence.
-<write> ...}\mbox {.}}}{{{Davies, B.}, {\noopsort 
-                                                  {b}}{Kudritzki}, {Plez}, {...
-l.170 ...s}, \& {Chiavassa}}]{2013ApJ...767....3D}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[31]
-! Undefined control sequence.
-l.232 {Foglizzo} T. {et~al.}, 2015, \pasa
-                                         , 32, e009
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[32]
-Underfull \hbox (badness 1127) in paragraph at lines 318--320
-[]\OT1/cmr/m/n/12 Kudritzki R.-P., Ur-baneja M. A., Bresolin F., Przy-billa N.,
- Gieren W.,
- []
-
-[33]
-! Undefined control sequence.
-l.484   \pasa
-             , 26, 203
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[34])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 155.
- [35]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 155.
- (./LRPThesis.aux (./intro/intro.aux) (./Acronyms.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 155.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 155.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 159.
+ (./LRPThesis.aux
+(./Acronyms.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 159.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 159.
 Package rerunfilecheck Info: File `LRPThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 0F0D55B2575A277EA6355DCDF5223D1B;916.
+(rerunfilecheck)             Checksum: A1AAA727D69FC811B02E695618F8B70A;425.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 155.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 159.
  ) 
 Here is how much of TeX's memory you used:
- 10963 strings out of 495028
- 165984 string characters out of 6181497
- 262169 words of memory out of 5000000
- 13827 multiletter control sequences out of 15000+600000
- 12720 words of font info for 45 fonts, out of 8000000 for 9000
+ 10354 strings out of 495028
+ 153466 string characters out of 6181497
+ 258327 words of memory out of 5000000
+ 13371 multiletter control sequences out of 15000+600000
+ 9503 words of font info for 34 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 43i,12n,45p,678b,657s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
-, replaced by a fixed one
-
- </home/lee/.texmf-var/fonts/pk/ljfour/jknappen/ec/tcti1095.600pk></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on LRPThesis.pdf (36 pages, 1059508 bytes).
+ 43i,11n,45p,397b,498s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmti12.pfb>
+Output written on LRPThesis.pdf (19 pages, 111501 bytes).
 PDF statistics:
- 929 PDF objects out of 1000 (max. 8388607)
- 844 compressed objects within 9 object streams
- 197 named destinations out of 1000 (max. 500000)
- 140 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 203 PDF objects out of 1000 (max. 8388607)
+ 161 compressed objects within 2 object streams
+ 36 named destinations out of 1000 (max. 500000)
+ 78 words of extra memory for PDF output out of 10000 (max. 10000000)
 

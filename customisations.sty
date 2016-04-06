@@ -37,6 +37,7 @@
 %% Colour!
 \usepackage{color}
 
+
 %% More control of appendices
 \usepackage{appendix}
 \newcommand{\tocappendix}{}
@@ -57,22 +58,27 @@
 
 %% Rejig page footers.
 \usepackage{fancyhdr}
+\fancyheadoffset{0cm}
 \fancypagestyle{plain}{%
 \fancyhead{}                    % No page headers
 \fancyfoot{}                    % No page footers
 \if@twoside % page number set at outside bottom margin
   \fancyfoot[RO,LE]{\thepage}
+  % \fancyhead[RO, LE]{\leftmark}                    % No page headers
 \else
   \fancyfoot[RO]{\thepage}
 \fi
 
-\renewcommand{\headrulewidth}{0pt} % No horizontal lines
+\renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}}
-\fancypagestyle{empty}{%
+
+% \renewcommand{\sectionmark}[1]{\markright{\thesection.\ #1}}
+\fancypagestyle{plain}{%
 \fancyhead{}                    % No page headers
 \fancyfoot{}                    % No page footers
 \if@twoside % page number set at outside bottom margin
-  \fancyfoot[RO,LE]{\thepage}
+  \fancyfoot[RO,LE]{\thepage} % Right odd, left even
+  % \fancyhead[RO, LE]{\chaptername}
 \else
   \fancyfoot[RO]{\thepage}
 \fi

@@ -1,73 +1,49 @@
 \chapter{Abstract}
 
-Red Supergiant stars represent the most luminous stars in the infrared sky.
+Red Supergiant (RSG) stars are the most luminous stars in the infrared sky.
 Their intrinsic luminosities combined with the low dust extinction observed
-in this regime makes these objects very attractive to study in the near-IR.
-Added to this is the fact that RSGs are necessarily young objects,
-therefore these stars are tracers of recent star formation in extra-galactic
+in this regime makes these objects very attractive to study in the near-infrared (IR).
+In addition, RSGs are necessarily young objects,
+as, they are tracers of recent star formation in extra-galactic
 systems.
 As the next generation of telescopes will be optimised for study in the near-IR,
-it is clear that in the coming years RSGs will play a prominent role in the way
-which astronomers probe the local universe and out to larger distances with
+it is clear that, in the coming years, RSGs will play a prominent role in the way that astronomers probe the local Universe and out to larger distances with
 space-based observations.
-Therefore, bettering our understanding of these objects now and developing the
-tools which will allow us to take full advantage of the suite of instrumentation
-which will become available in the near future is vital.
-This thesis aims to further the understanding of RSGs by focusing on photometry
-and spectroscopy at near-IR wavelengths.
+Therefore, it is vital to better our understanding of these objects now and develop the
+tools that will allow us to take full advantage of the suite of instrumentation
+that will become available in the near future.
+This thesis aims to further the understanding of RSGs by focusing on quantitative studies of near-IR spectroscopic observations.
 
-% I develop a more robust criteria for selecting RSGs using near-IR photometry alone.
-% This has the advantage of decreasing the dependence of optical colours which are
-% known to select only a sub-sample of RSGs.
-% This selection criteria is tested on data for $>$300 red stars in M33 and the
-% efficiency of this technique is detailed.
+To this end, I develop an analysis technique that uses spectroscopic and photometric observations to estimate stellar parameters of RSGs.
+The observations are compared with synthetic spectra extracted from stellar model atmospheres, where departures from local thermodynamic equilibrium have been calculated for the diagnostic spectral lines.
+This technique is tested thoroughly on synthetic and real observations and is shown to reliably estimate stellar parameters in both regimes when compared with input parameters and previous studies respectively.
 
-I describe the implementation of the J-band analysis technique which is used to
-derive stellar parameters using near-IR spectra of RSGs.
-This implementation is tested on a variety of synthetic and real spectra and
-is shown to work well across a broad range of input spectra.
 
-Using this implementation of the analysis routines I esimate stellar parameters
-for 14 RSGs in NGC\,2100, a young massive star cluster in the Large Magellanic Cloud.
-I estimate the chemical and dynamical properties of this star cluster and find
-that this cluster has must have expanded owing to stellar evolution on a slow
-timescale.
+Using the analysis routines developed in Chapter~\ref{ch:janal}, in Chapter~\ref{ch:ngc2100} I measure the chemistry and kinematics of NGC\,2100, a young massive cluster (YMC) of stars in the Large Magellanic Cloud, using near-IR spectroscopic observations of 14 RSGs taken with the new $K$-band multi-object spectrograph (KMOS).
+I estimate the average metallicity to be $-$0.43\,$\pm$\,0.10\,dex, which is in good agreement with previous studies.
+I compare the observed location of the target RSGs on the Hertzsprung--Russell diagram with that of a Solar-like metallicity YMC and show that there appears to be no significant difference in the appearance of the RSGs in these two clusters.
+By combining the individual RSG spectra, I create an integrated-light cluster spectrum and show that the stellar parameters estimated, using the same technique as for individual RSGs, are in good agreement with the average properties of the cluster.
+In addition, I measure -- for the first time -- an upper limit of the dynamical mass of NGC\,2100 to be 15.2~$\times$~10$^4$\,M$_{\odot}$, which is consistent with the literature measurement of the photometric mass of the cluster.
 
-Using the analysis routines described,
-11 RSGs in NGC\,6822 are observed with the new K-band multi-object spectrograph
-(KMOS) and have stellar parameters estimated.
+
+In Chapter~\ref{ch:ngc6822}, I present observations of RSGs in NGC\,6822, a dwarf irregular with a turbulent history, observed with KMOS.
 The data reduction process with KMOS is described in detail, in particular
-where the reduction has been optimised for our data.
-The metallicity of these stars is compared to previous estimates and is shown
-to be in good agreement.
+where the reduction has been optimised for the data.
+Stellar parameters are estimated using the technique presented in Chapter~\ref{ch:janal} and an average metallicity in NGC\,6822 of $-$0.55\,$\pm$\,0.13\,dex is found, consistent with previous measurements of young stars in this galaxy.
+The spatial distribution of metallicity is estimated and weak evidence is found for a radial metallicity gradient, which will require follow-up observations.
+In addition, I show that the metallicities of the young and old populations of NGC\,6822 are well explained using a simple closed-box chemical evolution model, an interesting result, as NGC\,6822 is expected to have undergone significant recent interactions.
 
 
-KMOS spectra of RSGs in NGC\,55 is presented and stellar parameters
-are derived for these stars.
-These results are compared to previous estimates in this galaxy and the spatial
-distribution of the chemical abundances is assessed.
+In Chapter~\ref{ch:ngc55}, I present multi-epoch KMOS observations of 22 RSGs in the Sculptor Group galaxy NGC\,55.
+Radial velocities are measured for the sample and are shown to be in good agreement with previous studies. Using the multi-epoch data, I find no evidence for radial velocity variables within the sample.
+Stellar parameters are estimated for 10 targets and are shown to be in good agreement with previous estimates.
 
-Using the metallicity measurements made within these three galaxies I estiamte
-the local mass-metallicity relationship using RSGs.
-I compare this relationship to other estiamtes from within the local group and
-comment on the calibration of the high-redshift mass-metallicity relationship.
+I conclude this thesis by summarising the main results and present a first-look calibration of the relationship between galaxy mass and metallicity using RSGs.
+By comparing the RSG metallicity estimates to metallicities estimated from $\sim$50\,000 Sloan digital sky survey galaxies, I show that the absolute metallicities of the two samples disagree. A more quantitative analysis requires additional RSG observations.
 
-% By developing a more robust selection criteria using near-IR colours we
-% decrease our dependence on optical surveys where RSGs can be
+In addition, using $\sim$80 RSGs, with stellar parameters estimated in a consistent way, I show that there appears to be no dependence of the temperature of RSGs upon metallicity.
+This is in disagreement with current evolutionary models, which display a temperature change of $\sim$450\,K over the studied range in metallicity.
 
-% Using a new spectroscopic techinique to derive stellar parameters from Red Supergiants we derive stellar parameters for RSGs in NGC6822.
-% With current state of the art KMOS instrument on the VLT, Chile, stellar paramaters from red Supergiants can be probed at distances of up to $\sim$5Mpc.
-% With a similar instrument operating on the E-ELT, this technique is feasible out to the Virgo cluster.
+Finally, I outline potential areas for future work, focusing on follow-up studies that have been identified as a result of the work done in this thesis.
 
-% A new implementation of this technique is presented and tested on galaxies within the local group.
-
-% Using KMOS stellar parameters have been derived in NGC6822 at 0.5Mpc which represents the lowest metallicitiy environment this technique has been used on to date.
-% These results agree well with previous estimates of metallicitiy using the young stellar population of this galaxy.
-% There appears to be no significant metallicitiy gradient within this galaxy and the idea that Red Supergiant temperatures do not vary with metallicity is introduced.
-
-% At a greater distance, 20 RSGs in NGC\,55 (2.2Mpc) are studied.
-% This new technique is implemented and tested on Red supergiants at further distances in the galaxy NGC55.
-% This represents the largest distance at which individual Red Supergiant stars have been studied in this great detail.
-
-
-% The selection of Red Supergiants using near-infrared photometry is investigated and developed by studying a large data set of red stars in the local grouo galaxy M33.
+% \bibliography{../journals,../books}

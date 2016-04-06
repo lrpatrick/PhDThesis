@@ -1,5 +1,5 @@
 % Remove the oneside option below for double sided printing (e.g. for final (post-viva) submission)
-\documentclass[a4paper,12pt,oneside,openright]{book}
+\documentclass[a4paper,12pt,twoside,openright]{book}
 
 % Preamble commands go here
 \renewcommand{\labelenumi}{\theenumi}
@@ -14,6 +14,7 @@
 
 \usepackage{textcomp} % textcomp provides extra text symbols (like a degrees celsius symbol)
 \usepackage[flushleft]{threeparttable}
+
 % \usepackage{tikz} % tikz is a package for drawing diagrams and adding annotations to figures
 % \usepackage{threeparttable} % threeparttable allows for adding notes to tables
 % \usepackage{eps2pdf} % eps2pdf allows background transformation of eps files to pdfs so they
@@ -24,7 +25,7 @@
 % End preamble
 
 % REPLACE THESE with your thesis title, your name and the date of submission of the thesis
-\title{Red Supergiant Stars within the Local Group}
+\title{Red Supergiant Stars in the Local Group and Beyond}
 \author{Lee R. Patrick}
 \date{March 2016} % of submission
 
@@ -38,33 +39,32 @@
 \frontmatter
 \eighteenptleading
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Re include for the final thing!
 
-% \input{thesis-frontmatter/laysum}
-% \input{thesis-frontmatter/abstract}
+\input{thesis-frontmatter/laysum}
+\input{thesis-frontmatter/abstract}
 
-% \singlespacing
-% % Uncomment this line if you need to declare published work which forms part of the thesis
-% \declarationpublications{\cite{2015ApJ...803...14P,2016arXiv160202702P}}
-% \makedeclaration
+\singlespacing
+% Uncomment this line if you need to declare published work which forms part of the thesis
+\declarationpublications{\cite{2015ApJ...803...14P,2016arXiv160202702P}}
+\makedeclaration
 
-% \input{thesis-frontmatter/acknowledgements}
+\input{thesis-frontmatter/acknowledgements}
 
-% \cleardoublepage
-% \phantomsection
-% \addcontentsline{toc}{chapter}{\contentsname}
-% \setcounter{tocdepth}{2}
-% \tableofcontents
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{\contentsname}
+\setcounter{tocdepth}{2}
+\tableofcontents
 
-% \cleardoublepage
-% \phantomsection
-% \addcontentsline{toc}{chapter}{\listfigurename}
-% \listoffigures
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{\listfigurename}
+\listoffigures
 
-% \cleardoublepage
-% \phantomsection
-% \addcontentsline{toc}{chapter}{\listtablename}
-% \listoftables
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{\listtablename}
+\listoftables
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % John's hack for the MNRAS biblography
 \setlength{\bibhang}{2.0em}
@@ -117,6 +117,7 @@
 \newcommand{\jcp}{J.~Chem.~Phys.}   % Journal of Chemical Physics
 \newcommand{\jgr}{J.~Geophys.~Res.} % Journal of Geophysics Research
 \newcommand{\nphysa}{Nucl.~Phys.~A}   % Nuclear Physics A
+\newcommand{\pasa}{Publications of the Astron.~Soc.~of Austrailia}   % Physics Reports
 \newcommand{\physrep}{Phys.~Rep.}   % Physics Reports
 \newcommand{\physscr}{Phys.~Scr}   % Physica Scripta
 \newcommand{\planss}{Planet.~Space~Sci.}   % Planetary Space Science
@@ -127,14 +128,12 @@
 \mainmatter
 \eighteenptleading
 \cleardoublepage
-\include{intro/intro}
+% \include{intro/intro}
 % \include{kmos/kmos}
 % \include{JAnal/janal}
-% % % \include{nearIRsel/nearIRsel}
 % \include{ngc2100/ngc2100}
 % \include{ngc6822/ngc6822}
 % \include{ngc55/ngc55}
-% \include{mzr/mzr}
 % \include{conclusions/conclusions}
 
 \appendix
@@ -149,7 +148,12 @@
 \addcontentsline{toc}{chapter}{\bibname}
 % Choose a bibliography style to suit your taste here
 % This one was downloaded from http://web.reed.edu/cis/help/latex/bibtexstyles.html (June 2012)
+\begingroup
+\renewcommand{\headrulewidth}{1pt}
+\fancyhead[RO]{\textit{Bibliography}}
+\fancyhead[LE]{\textit{Red Supergiant Stars in the Local Group and Beyond}}
+
 \bibliographystyle{mn2e}
 \bibliography{journals,books}
-
+\endgroup
 \end{document}
